@@ -16,4 +16,8 @@ Regras para agentes:
 
 ## Documentação
 - [README](README.md): visão geral, uso, licenças
+- [AGENTS.md](AGENTS.md): regras para agentes trabalhando neste repo
+- [Modelo de dados](docs/modelo-de-dados.md): entidades, códigos e relações
+- [Metodologia](docs/metodologia.md): cadeia de confiança e verificação
+- [Versionamento](docs/versionamento.md): data-versions e vigência
 - [DECISOES.md](DECISOES.md): decisões de interpretação sobre inconsistências das fontes oficiais

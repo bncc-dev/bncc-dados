@@ -103,10 +103,10 @@ check('6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula
 
 # ------------------------------------------------------------- 7. verificação
 DIVERGENCIAS_CONHECIDAS = {
-    'EM13LP35': 'planilha omite "de" ("a quantidade [de] texto e imagem") — PDF prevalece',
-    'EF03MA05': 'planilha omite ", inclusive os convencionais," — PDF prevalece',
-    'EF02MA06': 'camada de texto do PDF perde glifos na pág. 285 (dígitos e trecho final) — planilha prevalece, conferência visual feita',
-    'EF07MA33': 'glifo π ausente da camada de texto do PDF — planilha prevalece',
+    'EM13LP35': 'planilha omite "de" ("a quantidade [de] texto e imagem") · PDF prevalece',
+    'EF03MA05': 'planilha omite ", inclusive os convencionais," · PDF prevalece',
+    'EF02MA06': 'camada de texto do PDF perde glifos na pág. 285 (dígitos e trecho final) · planilha prevalece, conferência visual feita',
+    'EF07MA33': 'glifo π ausente da camada de texto do PDF · planilha prevalece',
 }
 vf = Counter(v['status'] for v in verif.values())
 ruins = {k for k, v in verif.items() if v['status'] != 'ok'}
@@ -167,7 +167,7 @@ alvo = next(h for h in H_EF if h['codigo'] == 'EF06MA07')
 rel = [h['codigo'] for h in H_EF if set(h['objetos_conhecimento']) & set(alvo['objetos_conhecimento'])
        and max(h['anos']) < min(alvo['anos'])]
 consultas.append(('C7: progressão de EF06MA07 via objetos em anos anteriores',
-                  ', '.join(rel) or 'nenhuma por igualdade de slug — dedução exige curadoria (decisão nº 2 do schema)'))
+                  ', '.join(rel) or 'nenhuma por igualdade de slug · dedução exige curadoria (decisão nº 2 do schema)'))
 al = next(a for a in ei['alinhamentos'] if a['id'] == 'ei-align-ts-01')
 consultas.append(('C8: progressão EI entre faixas (campo TS)', ' → '.join(al['objetivos'])))
 em_ex = next(h for h in H_EM if h['codigo'] == 'EM13LGG103')
@@ -177,28 +177,28 @@ consultas.append(('C9: EM com competência (área e LP)',
 eja = est['modalidades'][0]['segmentos']
 consultas.append(('C10: EJA segmento → recorte', ' · '.join(f"{s['id']}→{s['corresponde_a']}" for s in eja)))
 ma4 = [h['codigo'] for h in H_EF if h['componente'] == 'ef-comp-ma' and h['anos'] == [4]]
-consultas.append(('C11: cobertura — habilidades de MA do 4º ano', f'{len(ma4)} habilidades'))
+consultas.append(('C11: cobertura · habilidades de MA do 4º ano', f'{len(ma4)} habilidades'))
 com_fonte = sum(1 for h in H_EF + H_EM if 'localizador_pdf' in h['fonte'])
 consultas.append(('C12: fonte oficial citável', f'{com_fonte}/{len(H_EF) + len(H_EM)} com página do PDF homologado'))
 vigentes = sum(1 for h in H_EF + H_EM if h['vigencia']['status'] == 'vigente')
 consultas.append(('C13: filtro de vigência', f'{vigentes} vigentes; filtro operacional (nenhuma revogada no dado atual)'))
-consultas.append(('C14: sugerir adaptação da habilidade', 'fora do dado de referência (inteligência do produto) — por desenho'))
+consultas.append(('C14: sugerir adaptação da habilidade', 'fora do dado de referência (inteligência do produto) · por desenho'))
 
 # ------------------------------------------------------------- DECISOES.md
-decisoes_md = ['# DECISOES.md — decisões de interpretação (rascunho do protótipo)', '',
+decisoes_md = ['# DECISOES.md · decisões de interpretação (rascunho do protótipo)', '',
                'Formato: contexto → decisão → fonte. Migram para o repositório de dados com a v1.0.', '']
 entradas = [
     ('Rotação de linhas entre abas na planilha oficial do EM',
      'EM13CNT310 (aba Linguagens), EM13CHS606 (aba CNT) e EM13LGG105 (aba CHS) estão em abas trocadas. '
      'Realocados pela decodificação do código. A área/componente canônico é sempre o do código, nunca a aba.',
      'BNCC_Ensino_Medio.xlsx (23/06/2023) × decodificador'),
-    ('EM13LP35 — divergência entre fontes oficiais',
+    ('EM13LP35 · divergência entre fontes oficiais',
      'Planilha omite "de" em "a quantidade de texto e imagem". Prevalece o PDF homologado (pág. PDF 520).',
      'planilha × Base-Nacional-Comum-Curricular-BNCC.pdf'),
-    ('EF03MA05 — divergência entre fontes oficiais',
+    ('EF03MA05 · divergência entre fontes oficiais',
      'Planilha omite ", inclusive os convencionais,". Prevalece o PDF homologado (pág. PDF 289).',
      'planilha × PDF homologado'),
-    ('EF02MA06 e EF07MA33 — limitações da camada de texto do PDF',
+    ('EF02MA06 e EF07MA33 · limitações da camada de texto do PDF',
      'pdftotext perde glifos (dígitos/π) nas págs. 285 e 311. Prevalece a planilha; conferência visual registrada.',
      'PDF homologado (extração de texto)'),
     ('Alinhamento horizontal da EI reconstruído por posição sequencial',
@@ -211,7 +211,7 @@ entradas = [
      'consulta C7 do caso âncora'),
     ('Competências gerais idênticas nas planilhas de EF e EM',
      'Extraídas uma vez (cg-01..cg-10)' if 'Competências gerais divergem' not in ' '.join(dec_extracao)
-     else 'DIVERGEM entre planilhas — decidir fonte', 'planilhas EF × EM'),
+     else 'DIVERGEM entre planilhas · decidir fonte', 'planilhas EF × EM'),
     ('Ano/Faixa da planilha vs código',
      'Quando divergem, prevalece o código (nenhum caso encontrado na extração atual).', 'extração'),
 ]
@@ -220,14 +220,14 @@ for titulo, corpo, fonte in entradas:
 (SAIDA / 'DECISOES.md').write_text('\n'.join(decisoes_md))
 
 # --------------------------------------------------------------- relatório
-linhas = ['# Relatório de validação — dataset completo (bncc.dev, protótipo)', '',
+linhas = ['# Relatório de validação · dataset completo (bncc.dev, protótipo)', '',
           f'EF {len(H_EF)} + EM {len(H_EM)} + EI {len(ei["objetivos"])} = **{len(todos)} aprendizagens** · '
           f'{len(est["competencias_gerais"])} competências gerais · {len(est["competencias_especificas"])} específicas · '
           f'{len(ef["contextos_organizacao"]) + len(em["contextos_organizacao"])} contextos de organização', '',
           '## Contratos', '']
-linhas += [f"- {'✅' if ok else '❌'} {nome}" + (f' — {det}' if det and not ok else '') for nome, ok, det in checks]
+linhas += [f"- {'✅' if ok else '❌'} {nome}" + (f' · {det}' if det and not ok else '') for nome, ok, det in checks]
 linhas += ['', '## Verificação contra o PDF homologado', '',
-           f'- `{dict(vf)}` — {vf["ok"]}/{len(verif)} com página registrada em `fonte.localizador_pdf`',
+           f'- `{dict(vf)}` · {vf["ok"]}/{len(verif)} com página registrada em `fonte.localizador_pdf`',
            '- Fila de divergências conhecidas (4):'] + \
           [f'  - **{k}**: {v}' for k, v in DIVERGENCIAS_CONHECIDAS.items()]
 linhas += ['', '## Completude (varredura de códigos no PDF inteiro)', '',
@@ -235,7 +235,7 @@ linhas += ['', '## Completude (varredura de códigos no PDF inteiro)', '',
            '', '## Diff Profy PEI (EF + EM completos)', '',
            f'- Faltam no PEI: {pei_faltando or "nenhum"}',
            f'- Extras no PEI: {pei_extra or "nenhum"}',
-           f'- Textos divergentes: {len(pei_texto_dif)}' + (f' — {pei_texto_dif[:6]}' if pei_texto_dif else ''),
+           f'- Textos divergentes: {len(pei_texto_dif)}' + (f' · {pei_texto_dif[:6]}' if pei_texto_dif else ''),
            '', '## As 14 consultas do caso âncora', '']
 linhas += [f'- **{n}** → {r}' for n, r in consultas]
 linhas += ['', '## Decisões de interpretação', '', f'Consolidadas em `saida/DECISOES.md` '

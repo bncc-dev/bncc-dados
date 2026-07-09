@@ -1,4 +1,4 @@
-# Relatório de validação — dataset completo (bncc.dev, protótipo)
+# Relatório de validação · dataset completo (bncc.dev, protótipo)
 
 EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 885 contextos de organização
 
@@ -25,12 +25,12 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 ## Verificação contra o PDF homologado
 
-- `{'ok': 1576, 'divergente': 4}` — 1576/1580 com página registrada em `fonte.localizador_pdf`
+- `{'ok': 1576, 'divergente': 4}` · 1576/1580 com página registrada em `fonte.localizador_pdf`
 - Fila de divergências conhecidas (4):
-  - **EM13LP35**: planilha omite "de" ("a quantidade [de] texto e imagem") — PDF prevalece
-  - **EF03MA05**: planilha omite ", inclusive os convencionais," — PDF prevalece
-  - **EF02MA06**: camada de texto do PDF perde glifos na pág. 285 (dígitos e trecho final) — planilha prevalece, conferência visual feita
-  - **EF07MA33**: glifo π ausente da camada de texto do PDF — planilha prevalece
+  - **EM13LP35**: planilha omite "de" ("a quantidade [de] texto e imagem") · PDF prevalece
+  - **EF03MA05**: planilha omite ", inclusive os convencionais," · PDF prevalece
+  - **EF02MA06**: camada de texto do PDF perde glifos na pág. 285 (dígitos e trecho final) · planilha prevalece, conferência visual feita
+  - **EF07MA33**: glifo π ausente da camada de texto do PDF · planilha prevalece
 
 ## Completude (varredura de códigos no PDF inteiro)
 
@@ -50,14 +50,14 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - **C4: registro completo de EF67LP08** → anos [6, 7], campos ['Campo jornalístico/midiático'], prática Leitura, 1 objetos, fonte: Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167
 - **C5: decodificar código colado ("em13lgg103")** → {"codigo": "EM13LGG103", "etapa": "EM", "seriacao": null, "area": "LGG", "area_nome": "Linguagens e suas Tecnologias", "competencia_especifica": 1, "sequencia": 3}
 - **C6: busca textual "frações" em Matemática** → 9: EF04MA09, EF04MA26, EF05MA03, EF05MA04, EF06MA07, EF06MA09, EF07MA08, EF07MA09…
-- **C7: progressão de EF06MA07 via objetos em anos anteriores** → nenhuma por igualdade de slug — dedução exige curadoria (decisão nº 2 do schema)
+- **C7: progressão de EF06MA07 via objetos em anos anteriores** → nenhuma por igualdade de slug · dedução exige curadoria (decisão nº 2 do schema)
 - **C8: progressão EI entre faixas (campo TS)** → EI01TS01 → EI02TS01 → EI03TS01
 - **C9: EM com competência (área e LP)** → LGG103 → ['em-area-lgg-ce-01']; LP02 → ['em-area-lgg-ce-01']
 - **C10: EJA segmento → recorte** → eja-1→EF anos iniciais · eja-2→EF anos finais · eja-3→EM
-- **C11: cobertura — habilidades de MA do 4º ano** → 28 habilidades
+- **C11: cobertura · habilidades de MA do 4º ano** → 28 habilidades
 - **C12: fonte oficial citável** → 1483/1487 com página do PDF homologado
 - **C13: filtro de vigência** → 1487 vigentes; filtro operacional (nenhuma revogada no dado atual)
-- **C14: sugerir adaptação da habilidade** → fora do dado de referência (inteligência do produto) — por desenho
+- **C14: sugerir adaptação da habilidade** → fora do dado de referência (inteligência do produto) · por desenho
 
 ## Decisões de interpretação
 

@@ -87,6 +87,19 @@ python3 validar.py      # 18 contratos + completude (falha se algo divergir)
 
 Dependências: Python 3 e `pdftotext` (poppler). Sem bibliotecas externas.
 
+## Documentação
+
+| Documento | Para quê |
+|---|---|
+| [docs/modelo-de-dados.md](docs/modelo-de-dados.md) | Como a BNCC está modelada: entidades, códigos, relações e o que o modelo não inventa |
+| [docs/metodologia.md](docs/metodologia.md) | A cadeia de confiança: das fontes oficiais ao CI, com os números da verificação |
+| [docs/versionamento.md](docs/versionamento.md) | Data-versions, vigência dos registros e o que consumidores podem assumir |
+| [DECISOES.md](DECISOES.md) | Toda decisão de interpretação sobre as fontes, documentada |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Como propor correções (regra: fonte oficial no PR) |
+| [CHANGELOG.md](CHANGELOG.md) | Histórico por categoria (normativa, correção, schema, editorial) |
+| [AGENTS.md](AGENTS.md) | Guia para agentes de IA (também: [llms.txt](llms.txt)) |
+| [docs/relatorio-validacao.md](docs/relatorio-validacao.md) | Snapshot do relatório de validação da versão atual |
+
 ## Licenças
 
 - **Dados** (`dados/`): [CC BY 4.0](dados/LICENSE.md). Os textos normativos da BNCC são atos oficiais, não protegidos por direito autoral (art. 8º da Lei 9.610/98); a licença cobre a compilação, estruturação e curadoria.
