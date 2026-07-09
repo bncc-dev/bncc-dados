@@ -18,5 +18,8 @@ Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso
 - Documentação: modelo de dados, metodologia, versionamento, contribuição.
 
 ### Pendente para `dados-v1.0.0`
+- Complemento de Computação (Parecer CNE/CEB 2/2022) como módulo versionado à parte (aguarda documento-fonte).
+- Marcos legais mínimos (LDB, DCNs, resoluções: id, ementa, link, relações).
+- Vocabulário de perfis (professor, aluno, gestor, responsável, coordenador).
 - Registro da revisão pedagógica (Equipe Pedagógica Profy).
 - Publicação do repositório e primeira tag.
