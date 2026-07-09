@@ -26,10 +26,10 @@ Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumid
 ## Uso rápido
 
 ```bash
-git clone https://github.com/bncc-dev/bncc-aberta.git
+git clone https://github.com/bncc-dev/bncc-dados.git
 python3 -c "
 import json
-ef = json.load(open('bncc-aberta/dados/bncc-2018/ensino-fundamental.json'))
+ef = json.load(open('bncc-dados/dados/bncc-2018/ensino-fundamental.json'))
 h = next(x for x in ef['habilidades'] if x['codigo'] == 'EF67LP08')
 print(h['texto'])
 print(h['fonte']['localizador_pdf'])
