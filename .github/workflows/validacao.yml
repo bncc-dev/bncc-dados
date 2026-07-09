@@ -12,7 +12,7 @@ jobs:
       - name: Instalar dependências (poppler + jsonschema)
         run: |
           sudo apt-get update && sudo apt-get install -y poppler-utils
-          python3 -m pip install jsonschema
+          python3 -m pip install --upgrade 'jsonschema>=4.18'
       - name: Guardar derivados commitados (para comparação)
         run: cp derivados/bncc.sql /tmp/bncc-commitado.sql
       - name: Extrair das fontes oficiais

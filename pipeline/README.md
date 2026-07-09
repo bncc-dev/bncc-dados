@@ -12,8 +12,8 @@ python3 derivar.py      # gera derivados/ (SQLite + CSVs) a partir dos JSONs
 ```
 
 Dependências: Python 3 e `pdftotext` (poppler). A extração é stdlib puro; a única
-biblioteca externa é `jsonschema`, usada apenas por `validar_schema.py`
-(`pip install jsonschema`).
+biblioteca externa é `jsonschema>=4.18`, usada apenas por `validar_schema.py`
+(`pip install --upgrade jsonschema`).
 
 | Script | Papel |
 |---|---|

@@ -14,8 +14,8 @@ from pathlib import Path
 try:
     from jsonschema import Draft202012Validator
     from referencing import Registry, Resource
-except ImportError:
-    sys.exit('erro: instale a dependência de validação com `pip install jsonschema`')
+except ImportError as e:
+    sys.exit(f'erro ({e}): requer jsonschema>=4.18 — instale com `pip install --upgrade jsonschema`')
 
 AQUI = Path(__file__).parent
 SCHEMAS = AQUI.parent / 'schema'
