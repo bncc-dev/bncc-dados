@@ -1,0 +1,22 @@
+id,etapa,nome,sigla_codigo,area,tem_aprendizagens_proprias,presenca_anos,destaque_legal
+ef-comp-ar,EF,Arte,AR,ef-area-linguagens,1,,
+ef-comp-ci,EF,Ciências,CI,ef-area-ciencias-da-natureza,1,,
+ef-comp-ef,EF,Educação Física,EF,ef-area-linguagens,1,,
+ef-comp-er,EF,Ensino Religioso,ER,ef-area-ensino-religioso,1,,
+ef-comp-ge,EF,Geografia,GE,ef-area-ciencias-humanas,1,,
+ef-comp-hi,EF,História,HI,ef-area-ciencias-humanas,1,,
+ef-comp-li,EF,Língua Inglesa,LI,ef-area-linguagens,1,6 | 7 | 8 | 9,
+ef-comp-lp,EF,Língua Portuguesa,LP,ef-area-linguagens,1,,
+ef-comp-ma,EF,Matemática,MA,ef-area-matematica,1,,
+em-comp-arte,EM,Arte,,em-area-lgg,0,,
+em-comp-biologia,EM,Biologia,,em-area-cnt,0,,
+em-comp-educacao-fisica,EM,Educação Física,,em-area-lgg,0,,
+em-comp-filosofia,EM,Filosofia,,em-area-chs,0,,
+em-comp-fisica,EM,Física,,em-area-cnt,0,,
+em-comp-geografia,EM,Geografia,,em-area-chs,0,,
+em-comp-historia,EM,História,,em-area-chs,0,,
+em-comp-lingua-inglesa,EM,Língua Inglesa,,em-area-lgg,0,,
+em-comp-lp,EM,Língua Portuguesa,LP,em-area-lgg,1,,Lei nº 13.415/2017
+em-comp-mat,EM,Matemática,,em-area-mat,1,,Lei nº 13.415/2017
+em-comp-quimica,EM,Química,,em-area-cnt,0,,
+em-comp-sociologia,EM,Sociologia,,em-area-chs,0,,

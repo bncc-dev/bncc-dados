@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/ensino-medio.schema.json",
+  "title": "Ensino Médio (dados/bncc-2018/ensino-medio.json)",
+  "type": "object",
+  "properties": {
+    "habilidades": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "codigo": { "$ref": "definicoes.json#/$defs/codigo_em" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "area": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "componente": {
+            "oneOf": [{ "type": "null" }, { "$ref": "definicoes.json#/$defs/id_slug" }],
+            "description": "em-comp-lp para habilidades EM13LP; null para habilidades de área"
+          },
+          "competencias_especificas": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "definicoes.json#/$defs/id_slug" },
+            "description": "Habilidades de área: exatamente 1 (decodificada do código). LP: 1..n (da planilha oficial)"
+          },
+          "campos_atuacao_social": {
+            "oneOf": [
+              { "type": "null" },
+              { "type": "array", "minItems": 1, "items": { "$ref": "definicoes.json#/$defs/id_slug" } }
+            ],
+            "description": "Somente para LP (coluna da planilha oficial); null nas habilidades de área"
+          },
+          "seriacao": {
+            "const": null,
+            "description": "Sem seriação: progressão definida pelos currículos (BNCC p. 32 e 34)"
+          },
+          "vigencia": { "$ref": "definicoes.json#/$defs/vigencia" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["codigo", "documento", "texto", "area", "componente", "competencias_especificas", "campos_atuacao_social", "seriacao", "vigencia", "fonte"],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": { "properties": { "componente": { "const": null } } },
+            "then": {
+              "properties": {
+                "competencias_especificas": { "maxItems": 1 },
+                "campos_atuacao_social": { "const": null }
+              }
+            }
+          },
+          {
+            "if": { "properties": { "codigo": { "pattern": "^EM13LP" } } },
+            "then": { "properties": { "componente": { "const": "em-comp-lp" } } }
+          }
+        ]
+      }
+    },
+    "contextos_organizacao": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "tipo": { "const": "catu" },
+          "nome": { "type": "string" },
+          "componente": { "const": "em-comp-lp" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["id", "tipo", "nome", "componente", "fonte"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["habilidades", "contextos_organizacao"],
+  "additionalProperties": false
+}

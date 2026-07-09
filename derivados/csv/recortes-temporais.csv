@@ -1,0 +1,14 @@
+id,etapa,tipo,nome,faixa,numero,segmento
+ef-ano-01,EF,ano,,,1,anos_iniciais
+ef-ano-02,EF,ano,,,2,anos_iniciais
+ef-ano-03,EF,ano,,,3,anos_iniciais
+ef-ano-04,EF,ano,,,4,anos_iniciais
+ef-ano-05,EF,ano,,,5,anos_iniciais
+ef-ano-06,EF,ano,,,6,anos_finais
+ef-ano-07,EF,ano,,,7,anos_finais
+ef-ano-08,EF,ano,,,8,anos_finais
+ef-ano-09,EF,ano,,,9,anos_finais
+ei-grupo-01,EI,grupo_etario,Bebês,0–1a6m,,
+ei-grupo-02,EI,grupo_etario,Crianças bem pequenas,1a7m–3a11m,,
+ei-grupo-03,EI,grupo_etario,Crianças pequenas,4a–5a11m,,
+em-sem-seriacao,EM,sem_seriacao,,,,

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/definicoes.json",
+  "title": "Definições compartilhadas do dataset bncc.dev",
+  "description": "Tipos reutilizados pelos schemas das etapas. As expressões regulares de código espelham as gramáticas oficiais implementadas em pipeline/codigos.py.",
+  "$defs": {
+    "codigo_ei": {
+      "type": "string",
+      "pattern": "^EI0[123](EO|CG|TS|EF|ET)[0-9]{2}$",
+      "description": "Código de objetivo de aprendizagem da Educação Infantil, ex.: EI02TS01"
+    },
+    "codigo_ef": {
+      "type": "string",
+      "pattern": "^EF(0[1-9]|15|69|12|35|67|89)(AR|CI|EF|ER|GE|HI|LI|LP|MA)[0-9]{2}$",
+      "description": "Código de habilidade do Ensino Fundamental, ex.: EF67LP08"
+    },
+    "codigo_em": {
+      "type": "string",
+      "pattern": "^EM13((LGG|MAT|CNT|CHS)[0-9]{3}|LP[0-9]{2})$",
+      "description": "Código de habilidade do Ensino Médio, ex.: EM13LGG103 ou EM13LP02"
+    },
+    "id_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Identificador cunhado pelo projeto para entidades sem código oficial"
+    },
+    "documento_ref": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Referência a um documento_curricular, ex.: bncc-2018"
+    },
+    "fonte": {
+      "type": "object",
+      "description": "Proveniência do registro: documento oficial e localizadores",
+      "properties": {
+        "documento": { "$ref": "#/$defs/documento_ref" },
+        "arquivo": { "type": "string" },
+        "proveniencia": { "type": "string" },
+        "localizador": { "type": "string" },
+        "localizador_pdf": { "type": "string" },
+        "url_oficial": { "type": "string" }
+      },
+      "required": ["documento"],
+      "additionalProperties": false
+    },
+    "vigencia": {
+      "type": "object",
+      "description": "Ciclo de vida normativo do registro (schema doc §10)",
+      "properties": {
+        "status": { "enum": ["vigente", "alterado", "revogado"] },
+        "desde": { "type": "string" },
+        "ate": { "type": ["string", "null"] }
+      },
+      "required": ["status", "desde", "ate"],
+      "additionalProperties": false
+    },
+    "texto_normativo": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Enunciado oficial; nunca vazio, nunca inventado"
+    }
+  }
+}

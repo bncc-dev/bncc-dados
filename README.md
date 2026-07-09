@@ -12,6 +12,8 @@ Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumid
 |---|---|
 | `dados/bncc-2018/` | O dataset em JSON: estrutura do sistema, 93 objetivos da EI (com alinhamentos entre faixas etárias), 1.304 habilidades do EF (com unidades temáticas, objetos de conhecimento, campos de atuação e práticas de linguagem), 183 habilidades do EM (com competências vinculadas) |
 | `fontes/` | Os documentos oficiais do MEC dos quais tudo é extraído, com checksums |
+| `schema/` | JSON Schemas (draft 2020-12) que definem e validam o formato de cada arquivo de dados |
+| `derivados/` | O mesmo dado em SQLite e CSV, gerados dos JSONs (para SQL e planilhas) |
 | `pipeline/` | Scripts de extração, verificação e validação: qualquer pessoa reproduz o dataset a partir das fontes |
 | `DECISOES.md` | Toda decisão de interpretação sobre inconsistências das fontes, documentada |
 | `docs/` | Divisão aberto/comercial, relatório de validação |
@@ -57,6 +59,21 @@ Exemplo de registro (Ensino Fundamental):
   }
 }
 ```
+
+## Outros formatos
+
+O mesmo dado, além do JSON:
+
+```bash
+# SQL: habilidades de LP do 6º ano com sua prática de linguagem
+sqlite3 derivados/bncc.sqlite "
+SELECT h.codigo, c.nome FROM habilidade_ef h
+JOIN contexto_organizacao c ON c.id = h.pratica_linguagem
+JOIN habilidade_ef_ano a ON a.codigo = h.codigo
+WHERE h.componente = 'ef-comp-lp' AND a.ano = 6 LIMIT 5;"
+```
+
+E `derivados/csv/` traz uma planilha por entidade, pronta para Excel/Sheets. Os JSONs continuam sendo a fonte canônica; os formatos derivados são gerados e conferidos no CI. O formato dos dados é definido pelos JSON Schemas em `schema/`, validados a cada mudança.
 
 ## Reproduzir a extração
 

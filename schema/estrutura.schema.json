@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/estrutura.schema.json",
+  "title": "Espinha estrutural do dataset (dados/bncc-2018/estrutura.json)",
+  "type": "object",
+  "properties": {
+    "documento_curricular": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "nome": { "type": "string" },
+          "tipo": { "enum": ["base_nacional", "complemento", "curriculo_estadual", "curriculo_municipal"] },
+          "esfera": { "enum": ["federal", "estadual", "municipal"] },
+          "derivado_de": { "oneOf": [{ "$ref": "definicoes.json#/$defs/id_slug" }, { "type": "null" }] }
+        },
+        "required": ["id", "nome", "tipo", "esfera", "derivado_de"],
+        "additionalProperties": false
+      }
+    },
+    "etapas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "enum": ["EI", "EF", "EM"] },
+          "nome": { "type": "string" }
+        },
+        "required": ["id", "nome"],
+        "additionalProperties": false
+      }
+    },
+    "modalidades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "nome": { "type": "string" },
+          "transversal_a": { "type": "array", "items": { "enum": ["EI", "EF", "EM"] } },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+                "corresponde_a": { "type": "string" }
+              },
+              "required": ["id", "corresponde_a"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["id", "nome", "transversal_a", "segmentos"],
+        "additionalProperties": false
+      }
+    },
+    "areas_conhecimento": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "etapa": { "enum": ["EI", "EF", "EM"] },
+          "nome": { "type": "string" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" }
+        },
+        "required": ["id", "etapa", "nome", "documento"],
+        "additionalProperties": false
+      }
+    },
+    "componentes_curriculares": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "etapa": { "enum": ["EF", "EM"] },
+          "nome": { "type": "string" },
+          "sigla_codigo": { "type": ["string", "null"] },
+          "area": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "tem_aprendizagens_proprias": { "type": "boolean" },
+          "presenca": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "properties": { "anos": { "type": "array", "items": { "type": "integer", "minimum": 1, "maximum": 9 } } },
+                "required": ["anos"],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "destaque_legal": { "type": "string" },
+          "nota": { "type": "string" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["id", "etapa", "nome", "area", "tem_aprendizagens_proprias"],
+        "additionalProperties": false
+      }
+    },
+    "recortes_temporais": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "etapa": { "const": "EI" },
+              "tipo": { "const": "grupo_etario" },
+              "nome": { "type": "string" },
+              "faixa": { "type": "string" }
+            },
+            "required": ["id", "etapa", "tipo", "nome", "faixa"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "etapa": { "const": "EF" },
+              "tipo": { "const": "ano" },
+              "numero": { "type": "integer", "minimum": 1, "maximum": 9 },
+              "segmento": { "enum": ["anos_iniciais", "anos_finais"] }
+            },
+            "required": ["id", "etapa", "tipo", "numero", "segmento"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "etapa": { "const": "EM" },
+              "tipo": { "const": "sem_seriacao" },
+              "nota": { "type": "string" }
+            },
+            "required": ["id", "etapa", "tipo"],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "campos_experiencias": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "nome": { "type": "string" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" }
+        },
+        "required": ["id", "nome", "documento"],
+        "additionalProperties": false
+      }
+    },
+    "direitos_aprendizagem": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "nome": { "type": "string" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" }
+        },
+        "required": ["id", "nome", "documento"],
+        "additionalProperties": false
+      }
+    },
+    "competencias_gerais": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" },
+          "tipo": { "const": "geral" },
+          "numero": { "type": "integer", "minimum": 1, "maximum": 10 },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["id", "documento", "tipo", "numero", "texto", "fonte"],
+        "additionalProperties": false
+      }
+    },
+    "competencias_especificas": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "documento": { "$ref": "definicoes.json#/$defs/documento_ref" },
+              "tipo": { "const": "especifica_de_area" },
+              "area": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "numero": { "type": "integer", "minimum": 1 },
+              "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+              "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+            },
+            "required": ["id", "documento", "tipo", "area", "numero", "texto", "fonte"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "documento": { "$ref": "definicoes.json#/$defs/documento_ref" },
+              "tipo": { "const": "especifica_de_componente" },
+              "componente": { "$ref": "definicoes.json#/$defs/id_slug" },
+              "numero": { "type": "integer", "minimum": 1 },
+              "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+              "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+            },
+            "required": ["id", "documento", "tipo", "componente", "numero", "texto", "fonte"],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": ["documento_curricular", "etapas", "modalidades", "areas_conhecimento", "componentes_curriculares", "recortes_temporais", "campos_experiencias", "direitos_aprendizagem", "competencias_gerais", "competencias_especificas"],
+  "additionalProperties": false
+}

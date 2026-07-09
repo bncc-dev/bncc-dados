@@ -1,0 +1,886 @@
+id,etapa,tipo,nome,componente
+ef-comp-ar-oc-arte-e-tecnologia,EF,oc,Arte e tecnologia,ef-comp-ar
+ef-comp-ar-oc-contextos-e-praticas,EF,oc,Contextos e práticas,ef-comp-ar
+ef-comp-ar-oc-elementos-da-linguagem,EF,oc,Elementos da linguagem,ef-comp-ar
+ef-comp-ar-oc-materialidades,EF,oc,Materialidades,ef-comp-ar
+ef-comp-ar-oc-matrizes-esteticas-e-culturais,EF,oc,Matrizes estéticas e culturais,ef-comp-ar
+ef-comp-ar-oc-notacao-e-registro-musical,EF,oc,Notação e registro musical,ef-comp-ar
+ef-comp-ar-oc-patrimonio-cultural,EF,oc,Patrimônio cultural,ef-comp-ar
+ef-comp-ar-oc-processos-de-criacao,EF,oc,Processos de criação,ef-comp-ar
+ef-comp-ar-oc-sistemas-da-linguagem,EF,oc,Sistemas da linguagem,ef-comp-ar
+ef-comp-ar-ut-artes-integradas,EF,ut,Artes integradas,ef-comp-ar
+ef-comp-ar-ut-artes-visuais,EF,ut,Artes visuais,ef-comp-ar
+ef-comp-ar-ut-danca,EF,ut,Dança,ef-comp-ar
+ef-comp-ar-ut-musica,EF,ut,Música,ef-comp-ar
+ef-comp-ar-ut-teatro,EF,ut,Teatro,ef-comp-ar
+ef-comp-ci-oc-aspectos-quantitativos-das-transformacoes-quimicas,EF,oc,Aspectos quantitativos das transformações químicas,ef-comp-ci
+ef-comp-ci-oc-astronomia-e-cultura,EF,oc,Astronomia e cultura,ef-comp-ci
+ef-comp-ci-oc-cadeias-alimentares-simples,EF,oc,Cadeias alimentares simples,ef-comp-ci
+ef-comp-ci-oc-calculo-de-consumo-de-energia-eletrica,EF,oc,Cálculo de consumo de energia elétrica,ef-comp-ci
+ef-comp-ci-oc-calendarios-fenomenos-ciclicos-e-cultura,EF,oc,"Calendários, fenômenos cíclicos e cultura",ef-comp-ci
+ef-comp-ci-oc-camada-de-ozonio,EF,oc,Camada de ozônio,ef-comp-ci
+ef-comp-ci-oc-caracteristicas-da-terra,EF,oc,Características da Terra,ef-comp-ci
+ef-comp-ci-oc-caracteristicas-dos-materiais,EF,oc,Características dos materiais,ef-comp-ci
+ef-comp-ci-oc-caracteristicas-e-desenvolvimento-dos-animais,EF,oc,Características e desenvolvimento dos animais,ef-comp-ci
+ef-comp-ci-oc-celula-como-unidade-da-vida,EF,oc,Célula como unidade da vida,ef-comp-ci
+ef-comp-ci-oc-ciclo-hidrologico,EF,oc,Ciclo hidrológico,ef-comp-ci
+ef-comp-ci-oc-circuitos-eletricos,EF,oc,Circuitos elétricos,ef-comp-ci
+ef-comp-ci-oc-clima,EF,oc,Clima,ef-comp-ci
+ef-comp-ci-oc-composicao-do-ar,EF,oc,Composição do ar,ef-comp-ci
+ef-comp-ci-oc-composicao-estrutura-e-localizacao-do-sistema-solar-no-universo,EF,oc,"Composição, estrutura e localização do Sistema Solar no Universo",ef-comp-ci
+ef-comp-ci-oc-constelacoes-e-mapas-celestes,EF,oc,Constelações e mapas celestes,ef-comp-ci
+ef-comp-ci-oc-consumo-consciente,EF,oc,Consumo consciente,ef-comp-ci
+ef-comp-ci-oc-corpo-humano,EF,oc,Corpo humano,ef-comp-ci
+ef-comp-ci-oc-diversidade-de-ecossistemas,EF,oc,Diversidade de ecossistemas,ef-comp-ci
+ef-comp-ci-oc-efeito-estufa,EF,oc,Efeito estufa,ef-comp-ci
+ef-comp-ci-oc-efeitos-da-luz-nos-materiais,EF,oc,Efeitos da luz nos materiais,ef-comp-ci
+ef-comp-ci-oc-equilibrio-termodinamico-e-vida-na-terra,EF,oc,Equilíbrio termodinâmico e vida na Terra,ef-comp-ci
+ef-comp-ci-oc-escalas-de-tempo,EF,oc,Escalas de tempo,ef-comp-ci
+ef-comp-ci-oc-estrutura-da-materia,EF,oc,Estrutura da matéria,ef-comp-ci
+ef-comp-ci-oc-evolucao-estelar,EF,oc,Evolução estelar,ef-comp-ci
+ef-comp-ci-oc-fenomenos-naturais-e-impactos-ambientais,EF,oc,Fenômenos naturais e impactos ambientais,ef-comp-ci
+ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e,EF,oc,"Fenômenos naturais (vulcões, terremotos e",ef-comp-ci
+ef-comp-ci-oc-fontes-e-tipos-de-energia,EF,oc,Fontes e tipos de energia,ef-comp-ci
+ef-comp-ci-oc-forma-estrutura-e-movimentos-da-terra,EF,oc,"Forma, estrutura e movimentos da Terra",ef-comp-ci
+ef-comp-ci-oc-formas-de-propagacao-do-calor,EF,oc,Formas de propagação do calor,ef-comp-ci
+ef-comp-ci-oc-habitos-alimentares,EF,oc,Hábitos alimentares,ef-comp-ci
+ef-comp-ci-oc-hereditariedade,EF,oc,Hereditariedade,ef-comp-ci
+ef-comp-ci-oc-historia-dos-combustiveis-e-das-maquinas-termicas,EF,oc,História dos combustíveis e das máquinas térmicas,ef-comp-ci
+ef-comp-ci-oc-ideias-evolucionistas,EF,oc,Ideias evolucionistas,ef-comp-ci
+ef-comp-ci-oc-instrumentos-oticos,EF,oc,Instrumentos óticos,ef-comp-ci
+ef-comp-ci-oc-integracao-entre-os-sistemas-digestorio-respiratorio-e-circulatorio,EF,oc,"Integração entre os sistemas digestório, respiratório e circulatório",ef-comp-ci
+ef-comp-ci-oc-interacao-entre-os-sistemas-locomotor-e-nervoso,EF,oc,Interação entre os sistemas locomotor e nervoso,ef-comp-ci
+ef-comp-ci-oc-lentes-corretivas,EF,oc,Lentes corretivas,ef-comp-ci
+ef-comp-ci-oc-maquinas-simples,EF,oc,Máquinas simples,ef-comp-ci
+ef-comp-ci-oc-materiais-sinteticos,EF,oc,Materiais sintéticos,ef-comp-ci
+ef-comp-ci-oc-mecanismos-reprodutivos,EF,oc,Mecanismos reprodutivos,ef-comp-ci
+ef-comp-ci-oc-microrganismos,EF,oc,Microrganismos,ef-comp-ci
+ef-comp-ci-oc-misturas,EF,oc,Misturas,ef-comp-ci
+ef-comp-ci-oc-misturas-homogeneas-e-heterogeneas,EF,oc,Misturas homogêneas e heterogêneas,ef-comp-ci
+ef-comp-ci-oc-movimento-aparente-do-sol-no-ceu,EF,oc,Movimento aparente do Sol no céu,ef-comp-ci
+ef-comp-ci-oc-movimento-de-rotacao-da-terra,EF,oc,Movimento de rotação da Terra,ef-comp-ci
+ef-comp-ci-oc-nutricao-do-organismo,EF,oc,Nutrição do organismo,ef-comp-ci
+ef-comp-ci-oc-o-sol-como-fonte-de-luz-e-calor,EF,oc,O Sol como fonte de luz e calor,ef-comp-ci
+ef-comp-ci-oc-observacao-do-ceu,EF,oc,Observação do céu,ef-comp-ci
+ef-comp-ci-oc-ordem-de-grandeza-astronomica,EF,oc,Ordem de grandeza astronômica,ef-comp-ci
+ef-comp-ci-oc-periodicidade-das-fases-da-lua,EF,oc,Periodicidade das fases da Lua,ef-comp-ci
+ef-comp-ci-oc-placas-tectonicas-e-deriva-continental,EF,oc,Placas tectônicas e deriva continental,ef-comp-ci
+ef-comp-ci-oc-plantas,EF,oc,Plantas,ef-comp-ci
+ef-comp-ci-oc-pontos-cardeais,EF,oc,Pontos cardeais,ef-comp-ci
+ef-comp-ci-oc-preservacao-da-biodiversidade,EF,oc,Preservação da biodiversidade,ef-comp-ci
+ef-comp-ci-oc-prevencao-de-acidentes-domesticos,EF,oc,Prevenção de acidentes domésticos,ef-comp-ci
+ef-comp-ci-oc-producao-de-som,EF,oc,Produção de som,ef-comp-ci
+ef-comp-ci-oc-programas-e-indicadores-de-saude-publica,EF,oc,Programas e indicadores de saúde pública,ef-comp-ci
+ef-comp-ci-oc-propriedades-e-usos-dos-materiais,EF,oc,Propriedades e usos dos materiais,ef-comp-ci
+ef-comp-ci-oc-propriedades-fisicas-dos-materiais,EF,oc,Propriedades físicas dos materiais,ef-comp-ci
+ef-comp-ci-oc-radiacoes-e-suas-aplicacoes-na-saude,EF,oc,Radiações e suas aplicações na saúde,ef-comp-ci
+ef-comp-ci-oc-reciclagem,EF,oc,Reciclagem,ef-comp-ci
+ef-comp-ci-oc-respeito-a-diversidade,EF,oc,Respeito à diversidade,ef-comp-ci
+ef-comp-ci-oc-saude-auditiva-e-visual,EF,oc,Saúde auditiva e visual,ef-comp-ci
+ef-comp-ci-oc-separacao-de-materiais,EF,oc,Separação de materiais,ef-comp-ci
+ef-comp-ci-oc-seres-vivos-no-ambiente,EF,oc,Seres vivos no ambiente,ef-comp-ci
+ef-comp-ci-oc-sexualidade,EF,oc,Sexualidade,ef-comp-ci
+ef-comp-ci-oc-sistema-sol-terra-e-lua,EF,oc,"Sistema Sol, Terra e Lua",ef-comp-ci
+ef-comp-ci-oc-transformacao-de-energia,EF,oc,Transformação de energia,ef-comp-ci
+ef-comp-ci-oc-transformacoes-quimicas,EF,oc,Transformações químicas,ef-comp-ci
+ef-comp-ci-oc-transformacoes-reversiveis-e-nao-reversiveis,EF,oc,Transformações reversíveis e não reversíveis,ef-comp-ci
+ef-comp-ci-oc-tsunamis,EF,oc,tsunamis),ef-comp-ci
+ef-comp-ci-oc-uso-consciente-de-energia-eletrica,EF,oc,Uso consciente de energia elétrica,ef-comp-ci
+ef-comp-ci-oc-usos-do-solo,EF,oc,Usos do solo,ef-comp-ci
+ef-comp-ci-oc-vida-humana-fora-da-terra,EF,oc,Vida humana fora da Terra,ef-comp-ci
+ef-comp-ci-ut-materia-e-energia,EF,ut,Matéria e energia,ef-comp-ci
+ef-comp-ci-ut-terra-e-universo,EF,ut,Terra e Universo,ef-comp-ci
+ef-comp-ci-ut-vida-e-evolucao,EF,ut,Vida e evolução,ef-comp-ci
+ef-comp-ef-oc-brincadeiras-e-jogos-da-cultura-popular-presentes-no-contexto-comunitario-e-regional,EF,oc,Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional,ef-comp-ef
+ef-comp-ef-oc-brincadeiras-e-jogos-de-matriz-indigena-e-africana,EF,oc,Brincadeiras e jogos de matriz indígena e africana,ef-comp-ef
+ef-comp-ef-oc-brincadeiras-e-jogos-populares-do-brasil-e-do-mundo,EF,oc,Brincadeiras e jogos populares do Brasil e do mundo,ef-comp-ef
+ef-comp-ef-oc-dancas-de-matriz-indigena-e-africana,EF,oc,Danças de matriz indígena e africana,ef-comp-ef
+ef-comp-ef-oc-dancas-de-salao,EF,oc,Danças de salão,ef-comp-ef
+ef-comp-ef-oc-dancas-do-brasil-e-do-mundo,EF,oc,Danças do Brasil e do mundo,ef-comp-ef
+ef-comp-ef-oc-dancas-do-contexto-comunitario-e-regional,EF,oc,Danças do contexto comunitário e regional,ef-comp-ef
+ef-comp-ef-oc-dancas-urbanas,EF,oc,Danças urbanas,ef-comp-ef
+ef-comp-ef-oc-esportes-de-campo-e-taco,EF,oc,Esportes de campo e taco,ef-comp-ef
+ef-comp-ef-oc-esportes-de-campo-e-taco-esportes-de-rede-parede-esportes-de-invasao,EF,oc,Esportes de campo e taco Esportes de rede/parede Esportes de invasão,ef-comp-ef
+ef-comp-ef-oc-esportes-de-combate,EF,oc,Esportes de combate,ef-comp-ef
+ef-comp-ef-oc-esportes-de-invasao,EF,oc,Esportes de invasão,ef-comp-ef
+ef-comp-ef-oc-esportes-de-marca,EF,oc,Esportes de marca,ef-comp-ef
+ef-comp-ef-oc-esportes-de-marca-esportes-de-precisao,EF,oc,Esportes de marca Esportes de precisão,ef-comp-ef
+ef-comp-ef-oc-esportes-de-precisao,EF,oc,Esportes de precisão,ef-comp-ef
+ef-comp-ef-oc-esportes-de-rede-parede,EF,oc,Esportes de rede/parede,ef-comp-ef
+ef-comp-ef-oc-esportes-tecnico-combinatorios,EF,oc,Esportes técnico-combinatórios,ef-comp-ef
+ef-comp-ef-oc-ginastica-de-condicionamento-fisico,EF,oc,Ginástica de condicionamento físico,ef-comp-ef
+ef-comp-ef-oc-ginastica-de-conscientizacao-corporal,EF,oc,Ginástica de conscientização corporal,ef-comp-ef
+ef-comp-ef-oc-ginastica-geral,EF,oc,Ginástica geral,ef-comp-ef
+ef-comp-ef-oc-jogos-eletronicos,EF,oc,Jogos eletrônicos,ef-comp-ef
+ef-comp-ef-oc-lutas-de-matriz-indigena-e-africana,EF,oc,Lutas de matriz indígena e africana,ef-comp-ef
+ef-comp-ef-oc-lutas-do-brasil,EF,oc,Lutas do Brasil,ef-comp-ef
+ef-comp-ef-oc-lutas-do-contexto-comunitario-e-regional,EF,oc,Lutas do contexto comunitário e regional,ef-comp-ef
+ef-comp-ef-oc-lutas-do-mundo,EF,oc,Lutas do mundo,ef-comp-ef
+ef-comp-ef-oc-praticas-corporais-de-aventura-na-natureza,EF,oc,Práticas corporais de aventura na natureza,ef-comp-ef
+ef-comp-ef-oc-praticas-corporais-de-aventura-urbanas,EF,oc,Práticas corporais de aventura urbanas,ef-comp-ef
+ef-comp-ef-ut-brincadeiras-e-jogos,EF,ut,Brincadeiras e jogos,ef-comp-ef
+ef-comp-ef-ut-dancas,EF,ut,Danças,ef-comp-ef
+ef-comp-ef-ut-esportes,EF,ut,Esportes,ef-comp-ef
+ef-comp-ef-ut-ginasticas,EF,ut,Ginásticas,ef-comp-ef
+ef-comp-ef-ut-lutas,EF,ut,Lutas,ef-comp-ef
+ef-comp-ef-ut-praticas-corporais-de-aventura,EF,ut,Práticas corporais de aventura,ef-comp-ef
+ef-comp-er-oc-alimentos-sagrados,EF,oc,Alimentos sagrados,ef-comp-er
+ef-comp-er-oc-ancestralidade-e-tradicao-oral,EF,oc,Ancestralidade e tradição oral,ef-comp-er
+ef-comp-er-oc-crencas-conviccoes-e-atitudes,EF,oc,"Crenças, convicções e atitudes",ef-comp-er
+ef-comp-er-oc-crencas-filosofias-de-vida-e-esfera-publica,EF,oc,"Crenças, filosofias de vida e esfera pública",ef-comp-er
+ef-comp-er-oc-doutrinas-religiosas,EF,oc,Doutrinas religiosas,ef-comp-er
+ef-comp-er-oc-ensinamentos-da-tradicao-escrita,EF,oc,Ensinamentos da tradição escrita,ef-comp-er
+ef-comp-er-oc-espacos-e-territorios-religiosos,EF,oc,Espaços e territórios religiosos,ef-comp-er
+ef-comp-er-oc-ideia-s-de-divindade-s,EF,oc,Ideia(s) de divindade(s),ef-comp-er
+ef-comp-er-oc-imanencia-e-transcendencia,EF,oc,Imanência e transcendência,ef-comp-er
+ef-comp-er-oc-indumentarias-religiosas,EF,oc,Indumentárias religiosas,ef-comp-er
+ef-comp-er-oc-lideranca-e-direitos-humanos,EF,oc,Liderança e direitos humanos,ef-comp-er
+ef-comp-er-oc-liderancas-religiosas,EF,oc,Lideranças religiosas,ef-comp-er
+ef-comp-er-oc-memorias-e-simbolos,EF,oc,Memórias e símbolos,ef-comp-er
+ef-comp-er-oc-misticas-e-espiritualidades,EF,oc,Místicas e espiritualidades,ef-comp-er
+ef-comp-er-oc-mitos-nas-tradicoes-religiosas,EF,oc,Mitos nas tradições religiosas,ef-comp-er
+ef-comp-er-oc-narrativas-religiosas,EF,oc,Narrativas religiosas,ef-comp-er
+ef-comp-er-oc-o-eu-a-familia-e-o-ambiente-de-convivencia,EF,oc,"O eu, a família e o ambiente de convivência",ef-comp-er
+ef-comp-er-oc-o-eu-o-outro-e-o-nos,EF,oc,"O eu, o outro e o nós",ef-comp-er
+ef-comp-er-oc-praticas-celebrativas,EF,oc,Práticas celebrativas,ef-comp-er
+ef-comp-er-oc-principios-e-valores-eticos,EF,oc,Princípios e valores éticos,ef-comp-er
+ef-comp-er-oc-principios-eticos-e-valores-religiosos,EF,oc,Princípios éticos e valores religiosos,ef-comp-er
+ef-comp-er-oc-representacoes-religiosas-na-arte,EF,oc,Representações religiosas na arte,ef-comp-er
+ef-comp-er-oc-ritos-religiosos,EF,oc,Ritos religiosos,ef-comp-er
+ef-comp-er-oc-sentimentos-lembrancas-memorias-e-saberes,EF,oc,"Sentimentos, lembranças, memórias e saberes",ef-comp-er
+ef-comp-er-oc-simbolos-religiosos,EF,oc,Símbolos religiosos,ef-comp-er
+ef-comp-er-oc-simbolos-ritos-e-mitos-religiosos,EF,oc,"Símbolos, ritos e mitos religiosos",ef-comp-er
+ef-comp-er-oc-tradicao-escrita-registro-dos-ensinamentos-sagrados,EF,oc,Tradição escrita: registro dos ensinamentos sagrados,ef-comp-er
+ef-comp-er-oc-tradicoes-religiosas-midias-e-tecnologias,EF,oc,"Tradições religiosas, mídias e tecnologias",ef-comp-er
+ef-comp-er-oc-vida-e-morte,EF,oc,Vida e morte,ef-comp-er
+ef-comp-er-ut-crencas-religiosas-e-filosofias-de-vida,EF,ut,Crenças religiosas e filosofias de vida,ef-comp-er
+ef-comp-er-ut-identidades-e-alteridades,EF,ut,Identidades e alteridades,ef-comp-er
+ef-comp-er-ut-manifestacoes-religiosas,EF,ut,Manifestações religiosas,ef-comp-er
+ef-comp-ge-oc-a-cidade-e-o-campo-aproximacoes-e-diferencas,EF,oc,A cidade e o campo: aproximações e diferenças,ef-comp-ge
+ef-comp-ge-oc-a-divisao-do-mundo-em-ocidente-e-oriente,EF,oc,A divisão do mundo em Ocidente e Oriente,ef-comp-ge
+ef-comp-ge-oc-a-hegemonia-europeia-na-economia-na-politica-e-na-cultura,EF,oc,"A hegemonia europeia na economia, na política e na cultura",ef-comp-ge
+ef-comp-ge-oc-as-manifestacoes-culturais-na-formacao-populacional,EF,oc,As manifestações culturais na formação populacional,ef-comp-ge
+ef-comp-ge-oc-atividades-humanas-e-dinamica-climatica,EF,oc,Atividades humanas e dinâmica climática,ef-comp-ge
+ef-comp-ge-oc-biodiversidade-brasileira,EF,oc,Biodiversidade brasileira,ef-comp-ge
+ef-comp-ge-oc-biodiversidade-e-ciclo-hidrologico,EF,oc,Biodiversidade e ciclo hidrológico,ef-comp-ge
+ef-comp-ge-oc-cadeias-industriais-e-inovacao-no-uso-dos-recursos-naturais-e-materias-primas,EF,oc,Cadeias industriais e inovação no uso dos recursos naturais e matérias-primas,ef-comp-ge
+ef-comp-ge-oc-caracteristicas-da-populacao-brasileira,EF,oc,Características da população brasileira,ef-comp-ge
+ef-comp-ge-oc-cartografia-anamorfose-croquis-e-mapas-tematicos-da-america-e-africa,EF,oc,"Cartografia: anamorfose, croquis e mapas temáticos da América e África",ef-comp-ge
+ef-comp-ge-oc-ciclos-naturais-e-a-vida-cotidiana,EF,oc,Ciclos naturais e a vida cotidiana,ef-comp-ge
+ef-comp-ge-oc-condicoes-de-vida-nos-lugares-de-vivencia,EF,oc,Condições de vida nos lugares de vivência,ef-comp-ge
+ef-comp-ge-oc-conservacao-e-degradacao-da-natureza,EF,oc,Conservação e degradação da natureza,ef-comp-ge
+ef-comp-ge-oc-convivencia-e-interacoes-entre-pessoas-na-comunidade,EF,oc,Convivência e interações entre pessoas na comunidade,ef-comp-ge
+ef-comp-ge-oc-corporacoes-e-organismos-internacionais,EF,oc,Corporações e organismos internacionais,ef-comp-ge
+ef-comp-ge-oc-corporacoes-e-organismos-internacionais-e-do-brasil-na-ordem-economica-mundial,EF,oc,Corporações e organismos internacionais e do Brasil na ordem econômica mundial,ef-comp-ge
+ef-comp-ge-oc-desigualdade-social-e-o-trabalho,EF,oc,Desigualdade social e o trabalho,ef-comp-ge
+ef-comp-ge-oc-diferencas-etnico-raciais-e-etnico-culturais-e-desigualdades-sociais,EF,oc,Diferenças étnico-raciais e étnico-culturais e desigualdades sociais,ef-comp-ge
+ef-comp-ge-oc-diferentes-tipos-de-poluicao,EF,oc,Diferentes tipos de poluição,ef-comp-ge
+ef-comp-ge-oc-diferentes-tipos-de-trabalho-existentes-no-seu-dia-a-dia,EF,oc,Diferentes tipos de trabalho existentes no seu dia a dia,ef-comp-ge
+ef-comp-ge-oc-dinamica-populacional,EF,oc,Dinâmica populacional,ef-comp-ge
+ef-comp-ge-oc-distribuicao-da-populacao-mundial-e-deslocamentos-populacionais,EF,oc,Distribuição da população mundial e deslocamentos populacionais,ef-comp-ge
+ef-comp-ge-oc-diversidade-ambiental-e-as-transformacoes-nas-paisagens-na-america-latina,EF,oc,Diversidade ambiental e as transformações nas paisagens na América Latina,ef-comp-ge
+ef-comp-ge-oc-diversidade-ambiental-e-as-transformacoes-nas-paisagens-na-europa-na-asia-e-na-oceania,EF,oc,"Diversidade ambiental e as transformações nas paisagens na Europa, na Ásia e na Oceania",ef-comp-ge
+ef-comp-ge-oc-diversidade-e-dinamica-da-populacao-mundial-e-local,EF,oc,Diversidade e dinâmica da população mundial e local,ef-comp-ge
+ef-comp-ge-oc-elementos-constitutivos-dos-mapas,EF,oc,Elementos constitutivos dos mapas,ef-comp-ge
+ef-comp-ge-oc-experiencias-da-comunidade-no-tempo-e-no-espaco,EF,oc,Experiências da comunidade no tempo e no espaço,ef-comp-ge
+ef-comp-ge-oc-fenomenos-naturais-e-sociais-representados-de-diferentes-maneiras,EF,oc,Fenômenos naturais e sociais representados de diferentes maneiras,ef-comp-ge
+ef-comp-ge-oc-formacao-territorial-do-brasil,EF,oc,Formação territorial do Brasil,ef-comp-ge
+ef-comp-ge-oc-gestao-publica-da-qualidade-de-vida,EF,oc,Gestão pública da qualidade de vida,ef-comp-ge
+ef-comp-ge-oc-ideias-e-concepcoes-sobre-a-formacao-territorial-do-brasil,EF,oc,Ideias e concepções sobre a formação territorial do Brasil,ef-comp-ge
+ef-comp-ge-oc-identidade-sociocultural,EF,oc,Identidade sociocultural,ef-comp-ge
+ef-comp-ge-oc-identidades-e-interculturalidades-regionais-estados-unidos-da-america-america-espanhola-e-portuguesa-e-africa,EF,oc,"Identidades e interculturalidades regionais: Estados Unidos da América, América espanhola e portuguesa e África",ef-comp-ge
+ef-comp-ge-oc-impactos-das-atividades-humanas,EF,oc,Impactos das atividades humanas,ef-comp-ge
+ef-comp-ge-oc-instancias-do-poder-publico-e-canais-de-participacao-social,EF,oc,Instâncias do poder público e canais de participação social,ef-comp-ge
+ef-comp-ge-oc-integracao-mundial-e-suas-interpretacoes-globalizacao-e-mundializacao,EF,oc,Integração mundial e suas interpretações: globalização e mundialização,ef-comp-ge
+ef-comp-ge-oc-intercambios-historicos-e-culturais-entre-europa-asia-e-oceania,EF,oc,"Intercâmbios históricos e culturais entre Europa, Ásia e Oceania",ef-comp-ge
+ef-comp-ge-oc-leitura-e-elaboracao-de-mapas-tematicos-croquis-e-outras-formas-de-representacao-para-analisar-informacoes-geograficas,EF,oc,"Leitura e elaboração de mapas temáticos, croquis e outras formas de representação para analisar informações geográficas",ef-comp-ge
+ef-comp-ge-oc-localizacao-orientacao-e-representacao-espacial,EF,oc,"Localização, orientação e representação espacial",ef-comp-ge
+ef-comp-ge-oc-mapas-e-imagens-de-satelite,EF,oc,Mapas e imagens de satélite,ef-comp-ge
+ef-comp-ge-oc-mapas-tematicos-do-brasil,EF,oc,Mapas temáticos do Brasil,ef-comp-ge
+ef-comp-ge-oc-materia-prima-e-industria,EF,oc,Matéria-prima e indústria,ef-comp-ge
+ef-comp-ge-oc-mudancas-e-permanencias,EF,oc,Mudanças e permanências,ef-comp-ge
+ef-comp-ge-oc-o-modo-de-vida-das-criancas-em-diferentes-lugares,EF,oc,O modo de vida das crianças em diferentes lugares,ef-comp-ge
+ef-comp-ge-oc-os-diferentes-contextos-e-os-meios-tecnico-e-tecnologico-na-producao,EF,oc,Os diferentes contextos e os meios técnico e tecnológico na produção,ef-comp-ge
+ef-comp-ge-oc-os-usos-dos-recursos-naturais-solo-e-agua-no-campo-e-na-cidade,EF,oc,Os usos dos recursos naturais: solo e água no campo e na cidade,ef-comp-ge
+ef-comp-ge-oc-paisagens-naturais-e-antropicas-em-transformacao,EF,oc,Paisagens naturais e antrópicas em transformação,ef-comp-ge
+ef-comp-ge-oc-pontos-de-referencia,EF,oc,Pontos de referência,ef-comp-ge
+ef-comp-ge-oc-processos-migratorios-no-brasil,EF,oc,Processos migratórios no Brasil,ef-comp-ge
+ef-comp-ge-oc-producao-circulacao-e-consumo,EF,oc,"Produção, circulação e consumo",ef-comp-ge
+ef-comp-ge-oc-producao-circulacao-e-consumo-de-mercadorias,EF,oc,"Produção, circulação e consumo de mercadorias",ef-comp-ge
+ef-comp-ge-oc-qualidade-ambiental,EF,oc,Qualidade ambiental,ef-comp-ge
+ef-comp-ge-oc-relacao-campo-e-cidade,EF,oc,Relação campo e cidade,ef-comp-ge
+ef-comp-ge-oc-relacoes-entre-os-componentes-fisico-naturais,EF,oc,Relações entre os componentes físico-naturais,ef-comp-ge
+ef-comp-ge-oc-representacao-das-cidades-e-do-espaco-urbano,EF,oc,Representação das cidades e do espaço urbano,ef-comp-ge
+ef-comp-ge-oc-representacoes-cartograficas,EF,oc,Representações cartográficas,ef-comp-ge
+ef-comp-ge-oc-riscos-e-cuidados-nos-meios-de-transporte-e-de-comunicacao,EF,oc,Riscos e cuidados nos meios de transporte e de comunicação,ef-comp-ge
+ef-comp-ge-oc-sistema-de-orientacao,EF,oc,Sistema de orientação,ef-comp-ge
+ef-comp-ge-oc-situacoes-de-convivio-em-diferentes-lugares,EF,oc,Situações de convívio em diferentes lugares,ef-comp-ge
+ef-comp-ge-oc-territorio-e-diversidade-cultural,EF,oc,Território e diversidade cultural,ef-comp-ge
+ef-comp-ge-oc-territorio-redes-e-urbanizacao,EF,oc,"Território, redes e urbanização",ef-comp-ge
+ef-comp-ge-oc-territorios-etnico-culturais,EF,oc,Territórios étnico-culturais,ef-comp-ge
+ef-comp-ge-oc-tipos-de-trabalho-em-lugares-e-tempos-diferentes,EF,oc,Tipos de trabalho em lugares e tempos diferentes,ef-comp-ge
+ef-comp-ge-oc-trabalho-e-inovacao-tecnologica,EF,oc,Trabalho e inovação tecnológica,ef-comp-ge
+ef-comp-ge-oc-trabalho-no-campo-e-na-cidade,EF,oc,Trabalho no campo e na cidade,ef-comp-ge
+ef-comp-ge-oc-transformacao-das-paisagens-naturais-e-antropicas,EF,oc,Transformação das paisagens naturais e antrópicas,ef-comp-ge
+ef-comp-ge-oc-transformacoes-do-espaco-na-sociedade-urbano-industrial,EF,oc,Transformações do espaço na sociedade urbano-industrial,ef-comp-ge
+ef-comp-ge-oc-transformacoes-do-espaco-na-sociedade-urbano-industrial-na-america-latina,EF,oc,Transformações do espaço na sociedade urbano-industrial na América Latina,ef-comp-ge
+ef-comp-ge-oc-unidades-politico-administrativas-do-brasil,EF,oc,Unidades político-administrativas do Brasil,ef-comp-ge
+ef-comp-ge-ut-conexoes-e-escalas,EF,ut,Conexões e escalas,ef-comp-ge
+ef-comp-ge-ut-formas-de-representacao-e-pensamento-espacial,EF,ut,Formas de representação e pensamento espacial,ef-comp-ge
+ef-comp-ge-ut-mundo-do-trabalho,EF,ut,Mundo do trabalho,ef-comp-ge
+ef-comp-ge-ut-natureza-ambientes-e-qualidade-de-vida,EF,ut,"Natureza, ambientes e qualidade de vida",ef-comp-ge
+ef-comp-ge-ut-o-sujeito-e-seu-lugar-no-mundo,EF,ut,O sujeito e seu lugar no mundo,ef-comp-ge
+ef-comp-hi-oc-a-acao-das-pessoas-grupos-sociais-e-comunidades-no-tempo-e-no-espaco-nomadismo-agricultura-escrita-navegacoes-industria-entre-outras,EF,oc,"A ação das pessoas, grupos sociais e comunidades no tempo e no espaço: nomadismo, agricultura, escrita, navegações, indústria, entre outras",ef-comp-hi
+ef-comp-hi-oc-a-cidade-e-suas-atividades-trabalho-cultura-e-lazer,EF,oc,"A cidade e suas atividades: trabalho, cultura e lazer",ef-comp-hi
+ef-comp-hi-oc-a-cidade-seus-espacos-publicos-e-privados-e-suas-areas-de-conservacao-ambiental,EF,oc,"A cidade, seus espaços públicos e privados e suas áreas de conservação ambiental",ef-comp-hi
+ef-comp-hi-oc-a-circulacao-de-pessoas-e-as-transformacoes-no-meio-natural,EF,oc,A circulação de pessoas e as transformações no meio natural,ef-comp-hi
+ef-comp-hi-oc-a-conquista-da-america-e-as-formas-de-organizacao-politica-dos-indigenas-e-europeus-conflitos-dominacao-e-conciliacao,EF,oc,"A conquista da América e as formas de organização política dos indígenas e europeus: conflitos, dominação e conciliação",ef-comp-hi
+ef-comp-hi-oc-a-constituicao-de-1988-e-a-emancipacao-das-cidadanias-analfabetos-indigenas-negros-jovens-etc,EF,oc,"A Constituição de 1988 e a emancipação das cidadanias (analfabetos, indígenas, negros, jovens etc.)",ef-comp-hi
+ef-comp-hi-oc-a-construcao-da-ideia-de-modernidade-e-seus-impactos-na-concepcao-de-historia,EF,oc,A construção da ideia de modernidade e seus impactos na concepção de História,ef-comp-hi
+ef-comp-hi-oc-a-crise-capitalista-de-1929,EF,oc,A crise capitalista de 1929,ef-comp-hi
+ef-comp-hi-oc-a-ditadura-civil-militar-e-os-processos-de-resistencia,EF,oc,A ditadura civil-militar e os processos de resistência,ef-comp-hi
+ef-comp-hi-oc-a-emergencia-da-vida-urbana-e-a-segregacao-espacial,EF,oc,A emergência da vida urbana e a segregação espacial,ef-comp-hi
+ef-comp-hi-oc-a-emergencia-do-capitalismo,EF,oc,A emergência do capitalismo,ef-comp-hi
+ef-comp-hi-oc-a-emergencia-do-fascismo-e-do-nazismo,EF,oc,A emergência do fascismo e do nazismo,ef-comp-hi
+ef-comp-hi-oc-a-escola-e-a-diversidade-do-grupo-social-envolvido,EF,oc,A escola e a diversidade do grupo social envolvido,ef-comp-hi
+ef-comp-hi-oc-a-escola-sua-representacao-espacial-sua-historia-e-seu-papel-na-comunidade,EF,oc,"A escola, sua representação espacial, sua história e seu papel na comunidade",ef-comp-hi
+ef-comp-hi-oc-a-escravidao-moderna-e-o-trafico-de-escravizados,EF,oc,A escravidão moderna e o tráfico de escravizados,ef-comp-hi
+ef-comp-hi-oc-a-estruturacao-dos-vice-reinos-nas-americas,EF,oc,A estruturação dos vice-reinos nas Américas,ef-comp-hi
+ef-comp-hi-oc-a-formacao-e-o-funcionamento-das-monarquias-europeias-a-logica-da-centralizacao-politica-e-os-conflitos-na-europa,EF,oc,A formação e o funcionamento das monarquias europeias: a lógica da centralização política e os conflitos na Europa,ef-comp-hi
+ef-comp-hi-oc-a-fragmentacao-do-poder-politico-na-idade-media,EF,oc,A fragmentação do poder político na Idade Média,ef-comp-hi
+ef-comp-hi-oc-a-guerra-fria-confrontos-de-dois-modelos-politicos,EF,oc,A Guerra Fria: confrontos de dois modelos políticos,ef-comp-hi
+ef-comp-hi-oc-a-historia-recente-do-brasil-transformacoes-politicas-economicas-sociais-e-culturais-de-1989-aos-dias-atuais,EF,oc,"A história recente do Brasil: transformações políticas, econômicas, sociais e culturais de 1989 aos dias atuais",ef-comp-hi
+ef-comp-hi-oc-a-ideia-de-novo-mundo-ante-o-mundo-antigo-permanencias-e-rupturas-de-saberes-e-praticas-na-emergencia-do-mundo-moderno,EF,oc,A ideia de “Novo Mundo” ante o Mundo Antigo: permanências e rupturas de saberes e práticas na emergência do mundo moderno,ef-comp-hi
+ef-comp-hi-oc-a-invencao-do-comercio-e-a-circulacao-de-produtos,EF,oc,A invenção do comércio e a circulação de produtos,ef-comp-hi
+ef-comp-hi-oc-a-lei-de-terras-e-seus-desdobramentos-na-politica-do-segundo-reinado,EF,oc,• A Lei de Terras e seus desdobramentos na política do Segundo Reinado,ef-comp-hi
+ef-comp-hi-oc-a-nocao-do-eu-e-do-outro-comunidade-convivencias-e-interacoes-entre-pessoas,EF,oc,"A noção do “Eu” e do “Outro”: comunidade, convivências e interações entre pessoas",ef-comp-hi
+ef-comp-hi-oc-a-nocao-do-eu-e-do-outro-registros-de-experiencias-pessoais-e-da-comunidade-no-tempo-e-no-espaco,EF,oc,A noção do “Eu” e do “Outro”: registros de experiências pessoais e da comunidade no tempo e no espaço,ef-comp-hi
+ef-comp-hi-oc-a-organizacao-das-nacoes-unidas-onu-e-a-questao-dos-direitos-humanos,EF,oc,A Organização das Nações Unidas (ONU) e a questão dos Direitos Humanos,ef-comp-hi
+ef-comp-hi-oc-a-passagem-do-mundo-antigo-para-o-mundo-medieval,EF,oc,A passagem do mundo antigo para o mundo medieval,ef-comp-hi
+ef-comp-hi-oc-a-proclamacao-da-republica-e-seus-primeiros-desdobramentos,EF,oc,A proclamação da República e seus primeiros desdobramentos,ef-comp-hi
+ef-comp-hi-oc-a-producao-do-imaginario-nacional-brasileiro-cultura-popular-representacoes-visuais-letras-e-o-romantismo-no-brasil,EF,oc,"A produção do imaginário nacional brasileiro: cultura popular, representações visuais, letras e o Romantismo no Brasil",ef-comp-hi
+ef-comp-hi-oc-a-producao-dos-marcos-da-memoria-a-cidade-e-o-campo-aproximacoes-e-diferencas,EF,oc,"A produção dos marcos da memória: a cidade e o campo, aproximações e diferenças",ef-comp-hi
+ef-comp-hi-oc-a-producao-dos-marcos-da-memoria-formacao-cultural-da-populacao,EF,oc,A produção dos marcos da memória: formação cultural da população,ef-comp-hi
+ef-comp-hi-oc-a-producao-dos-marcos-da-memoria-os-lugares-de-memoria-ruas-pracas-escolas-monumentos-museus-etc,EF,oc,"A produção dos marcos da memória: os lugares de memória (ruas, praças, escolas, monumentos, museus etc.)",ef-comp-hi
+ef-comp-hi-oc-a-questao-da-insercao-dos-negros-no-periodo-republicano-do-pos-abolicao,EF,oc,A questão da inserção dos negros no período republicano do pós-abolição,ef-comp-hi
+ef-comp-hi-oc-a-questao-da-violencia-contra-populacoes-marginalizadas,EF,oc,A questão da violência contra populações marginalizadas,ef-comp-hi
+ef-comp-hi-oc-a-questao-do-iluminismo-e-da-ilustracao,EF,oc,A questão do iluminismo e da ilustração,ef-comp-hi
+ef-comp-hi-oc-a-questao-do-tempo-sincronias-e-diacronias-reflexoes-sobre-o-sentido-das-cronologias,EF,oc,"A questão do tempo, sincronias e diacronias: reflexões sobre o sentido das cronologias",ef-comp-hi
+ef-comp-hi-oc-a-questao-indigena-durante-a-republica-ate-1964,EF,oc,A questão indígena durante a República (até 1964),ef-comp-hi
+ef-comp-hi-oc-a-resistencia-dos-povos-e-comunidades-indigenas-diante-da-ofensiva-civilizatoria,EF,oc,A resistência dos povos e comunidades indígenas diante da ofensiva civilizatória,ef-comp-hi
+ef-comp-hi-oc-a-revolucao-chinesa-e-as-tensoes-entre-china-e-russia,EF,oc,A Revolução Chinesa e as tensões entre China e Rússia,ef-comp-hi
+ef-comp-hi-oc-a-revolucao-cubana-e-as-tensoes-entre-estados-unidos-da-america-e-cuba,EF,oc,A Revolução Cubana e as tensões entre Estados Unidos da América e Cuba,ef-comp-hi
+ef-comp-hi-oc-a-revolucao-dos-escravizados-em-sao-domingo-e-seus-multiplos-significados-e-desdobramentos-o-caso-do-haiti,EF,oc,• A revolução dos escravizados em São Domingo e seus múltiplos significados e desdobramentos: o caso do Haiti,ef-comp-hi
+ef-comp-hi-oc-a-revolucao-russa,EF,oc,A Revolução Russa,ef-comp-hi
+ef-comp-hi-oc-a-segunda-guerra-mundial,EF,oc,A Segunda Guerra Mundial,ef-comp-hi
+ef-comp-hi-oc-a-sobrevivencia-e-a-relacao-com-a-natureza,EF,oc,A sobrevivência e a relação com a natureza,ef-comp-hi
+ef-comp-hi-oc-a-tutela-da-populacao-indigena-a-escravidao-dos-negros-e-a-tutela-dos-egressos-da-escravidao,EF,oc,"A tutela da população indígena, a escravidão dos negros e a tutela dos egressos da escravidão",ef-comp-hi
+ef-comp-hi-oc-a-vida-em-casa-a-vida-na-escola-e-formas-de-representacao-social-e-espacial-os-jogos-e-brincadeiras-como-forma-de-interacao-social-e-espacial,EF,oc,"A vida em casa, a vida na escola e formas de representação social e espacial: os jogos e brincadeiras como forma de interação social e espacial",ef-comp-hi
+ef-comp-hi-oc-a-vida-em-familia-diferentes-configuracoes-e-vinculos,EF,oc,A vida em família: diferentes configurações e vínculos,ef-comp-hi
+ef-comp-hi-oc-anarquismo-e-protagonismo-feminino,EF,oc,Anarquismo e protagonismo feminino,ef-comp-hi
+ef-comp-hi-oc-as-descobertas-cientificas-e-a-expansao-maritima,EF,oc,As descobertas científicas e a expansão marítima,ef-comp-hi
+ef-comp-hi-oc-as-diferentes-formas-de-organizacao-da-familia-e-da-comunidade-os-vinculos-pessoais-e-as-relacoes-de-amizade,EF,oc,As diferentes formas de organização da família e da comunidade: os vínculos pessoais e as relações de amizade,ef-comp-hi
+ef-comp-hi-oc-as-diferentes-formas-de-organizacao-politica-na-africa-reinos-imperios-cidades-estados-e-sociedades-linhageiras-ou-aldeias,EF,oc,"As diferentes formas de organização política na África: reinos, impérios, cidades-estados e sociedades linhageiras ou aldeias",ef-comp-hi
+ef-comp-hi-oc-as-dinamicas-internas-de-migracao-no-brasil-a-partir-dos-anos-1960,EF,oc,As dinâmicas internas de migração no Brasil a partir dos anos 1960,ef-comp-hi
+ef-comp-hi-oc-as-experiencias-ditatoriais-na-america-latina,EF,oc,As experiências ditatoriais na América Latina,ef-comp-hi
+ef-comp-hi-oc-as-fases-da-vida-e-a-ideia-de-temporalidade-passado-presente-futuro,EF,oc,"As fases da vida e a ideia de temporalidade (passado, presente, futuro)",ef-comp-hi
+ef-comp-hi-oc-as-fontes-relatos-orais-objetos-imagens-pinturas-fotografias-videos-musicas-escrita-tecnologias-digitais-de-informacao-e-comunicacao-e-inscricoes-nas-paredes-ruas-e-espacos-sociais,EF,oc,"As fontes: relatos orais, objetos, imagens (pinturas, fotografias, vídeos), músicas, escrita, tecnologias digitais de informação e comunicação e inscrições nas paredes, ruas e espaços sociais",ef-comp-hi
+ef-comp-hi-oc-as-formas-de-organizacao-das-sociedades-amerindias,EF,oc,As formas de organização das sociedades ameríndias,ef-comp-hi
+ef-comp-hi-oc-as-formas-de-organizacao-social-e-politica-a-nocao-de-estado,EF,oc,As formas de organização social e política: a noção de Estado,ef-comp-hi
+ef-comp-hi-oc-as-guerras-mundiais-a-crise-do-colonialismo-e-o-advento-dos-nacionalismos-africanos-e-asiaticos,EF,oc,"As guerras mundiais, a crise do colonialismo e o advento dos nacionalismos africanos e asiáticos",ef-comp-hi
+ef-comp-hi-oc-as-logicas-internas-das-sociedades-africanas,EF,oc,As lógicas internas das sociedades africanas,ef-comp-hi
+ef-comp-hi-oc-as-logicas-mercantis-e-o-dominio-europeu-sobre-os-mares-e-o-contraponto-oriental,EF,oc,As lógicas mercantis e o domínio europeu sobre os mares e o contraponto Oriental,ef-comp-hi
+ef-comp-hi-oc-as-nocoes-de-cidadania-e-politica-na-grecia-e-em-roma,EF,oc,As noções de cidadania e política na Grécia e em Roma,ef-comp-hi
+ef-comp-hi-oc-as-origens-da-humanidade-seus-deslocamentos-e-os-processos-de-sedentarizacao,EF,oc,"As origens da humanidade, seus deslocamentos e os processos de sedentarização",ef-comp-hi
+ef-comp-hi-oc-as-pautas-dos-povos-indigenas-no-seculo-xxi-e-suas-formas-de-insercao-no-debate-local-regional-nacional-e-internacional,EF,oc,"As pautas dos povos indígenas no século XXI e suas formas de inserção no debate local, regional, nacional e internacional",ef-comp-hi
+ef-comp-hi-oc-as-questoes-indigena-e-negra-e-a-ditadura,EF,oc,As questões indígena e negra e a ditadura,ef-comp-hi
+ef-comp-hi-oc-as-revolucoes-inglesas-e-os-principios-do-liberalismo,EF,oc,As revoluções inglesas e os princípios do liberalismo,ef-comp-hi
+ef-comp-hi-oc-as-rotas-terrestres-fluviais-e-maritimas-e-seus-impactos-para-a-formacao-de-cidades-e-as-transformacoes-do-meio-natural,EF,oc,"As rotas terrestres, fluviais e marítimas e seus impactos para a formação de cidades e as transformações do meio natural",ef-comp-hi
+ef-comp-hi-oc-as-tradicoes-orais-e-a-valorizacao-da-memoria,EF,oc,As tradições orais e a valorização da memória,ef-comp-hi
+ef-comp-hi-oc-brasil-primeiro-reinado,EF,oc,Brasil: Primeiro Reinado,ef-comp-hi
+ef-comp-hi-oc-cidadania-diversidade-cultural-e-respeito-as-diferencas-sociais-culturais-e-historicas,EF,oc,"Cidadania, diversidade cultural e respeito às diferenças sociais, culturais e históricas",ef-comp-hi
+ef-comp-hi-oc-contestacoes-e-dinamicas-da-vida-cultural-no-brasil-entre-1900-e-1930,EF,oc,Contestações e dinâmicas da vida cultural no Brasil entre 1900 e 1930,ef-comp-hi
+ef-comp-hi-oc-dominios-e-expansao-das-culturas-grega-e-romana,EF,oc,• Domínios e expansão das culturas grega e romana,ef-comp-hi
+ef-comp-hi-oc-escravidao-e-trabalho-livre-em-diferentes-temporalidades-e-espacos-roma-antiga-europa-medieval-e-africa,EF,oc,"Escravidão e trabalho livre em diferentes temporalidades e espaços (Roma Antiga, Europa medieval e África)",ef-comp-hi
+ef-comp-hi-oc-experiencias-republicanas-e-praticas-autoritarias-as-tensoes-e-disputas-do-mundo-contemporaneo,EF,oc,Experiências republicanas e práticas autoritárias: as tensões e disputas do mundo contemporâneo,ef-comp-hi
+ef-comp-hi-oc-formas-de-registrar-e-narrar-historias-marcos-de-memoria-materiais-e-imateriais,EF,oc,Formas de registrar e narrar histórias (marcos de memória materiais e imateriais),ef-comp-hi
+ef-comp-hi-oc-formas-de-registro-da-historia-e-da-producao-do-conhecimento-historico,EF,oc,Formas de registro da história e da produção do conhecimento histórico,ef-comp-hi
+ef-comp-hi-oc-humanismos-uma-nova-visao-de-ser-humano-e-de-mundo,EF,oc,Humanismos: uma nova visão de ser humano e de mundo,ef-comp-hi
+ef-comp-hi-oc-independencia-dos-estados-unidos-da-america,EF,oc,Independência dos Estados Unidos da América,ef-comp-hi
+ef-comp-hi-oc-independencias-na-america-espanhola,EF,oc,Independências na América espanhola,ef-comp-hi
+ef-comp-hi-oc-judeus-e-outras-vitimas-do-holocausto,EF,oc,Judeus e outras vítimas do holocausto,ef-comp-hi
+ef-comp-hi-oc-logicas-comerciais-na-antiguidade-romana-e-no-mundo-medieval,EF,oc,Lógicas comerciais na Antiguidade romana e no mundo medieval,ef-comp-hi
+ef-comp-hi-oc-nacionalismo-revolucoes-e-as-novas-nacoes-europeias,EF,oc,"Nacionalismo, revoluções e as novas nações europeias",ef-comp-hi
+ef-comp-hi-oc-o-brasil-da-era-jk-e-o-ideal-de-uma-nacao-moderna-a-urbanizacao-e-seus-desdobramentos-em-um-pais-em-transformacao,EF,oc,O Brasil da era JK e o ideal de uma nação moderna: a urbanização e seus desdobramentos em um país em transformação,ef-comp-hi
+ef-comp-hi-oc-o-brasil-do-segundo-reinado-politica-e-economia,EF,oc,O Brasil do Segundo Reinado: política e economia,ef-comp-hi
+ef-comp-hi-oc-o-brasil-e-suas-relacoes-internacionais-na-era-da-globalizacao,EF,oc,O Brasil e suas relações internacionais na era da globalização,ef-comp-hi
+ef-comp-hi-oc-o-colonialismo-na-africa,EF,oc,O colonialismo na África,ef-comp-hi
+ef-comp-hi-oc-o-discurso-civilizatorio-nas-americas-o-silenciamento-dos-saberes-indigenas-e-as-formas-de-integracao-e-destruicao-de-comunidades-e-povos-indigenas,EF,oc,"O discurso civilizatório nas Américas, o silenciamento dos saberes indígenas e as formas de integração e destruição de comunidades e povos indígenas",ef-comp-hi
+ef-comp-hi-oc-o-escravismo-no-brasil-do-seculo-xix-plantations-e-revoltas-de-escravizados-abolicionismo-e-politicas-migratorias-no-brasil-imperial,EF,oc,"O escravismo no Brasil do século XIX: plantations e revoltas de escravizados, abolicionismo e políticas migratórias no Brasil Imperial",ef-comp-hi
+ef-comp-hi-oc-o-eu-o-outro-e-os-diferentes-grupos-sociais-e-etnicos-que-compoem-a-cidade-e-os-municipios-os-desafios-sociais-culturais-e-ambientais-do-lugar-onde-vive,EF,oc,"O “Eu”, o “Outro” e os diferentes grupos sociais e étnicos que compõem a cidade e os municípios: os desafios sociais, culturais e ambientais do lugar onde vive",ef-comp-hi
+ef-comp-hi-oc-o-fim-da-guerra-fria-e-o-processo-de-globalizacao,EF,oc,O fim da Guerra Fria e o processo de globalização,ef-comp-hi
+ef-comp-hi-oc-o-imperialismo-europeu-e-a-partilha-da-africa-e-da-asia,EF,oc,O imperialismo europeu e a partilha da África e da Ásia,ef-comp-hi
+ef-comp-hi-oc-o-mediterraneo-como-espaco-de-interacao-entre-as-sociedades-da-europa-da-africa-e-do-oriente-medio,EF,oc,"O Mediterrâneo como espaço de interação entre as sociedades da Europa, da África e do Oriente Médio",ef-comp-hi
+ef-comp-hi-oc-o-mundo-da-tecnologia-a-integracao-de-pessoas-e-as-exclusoes-sociais-e-culturais,EF,oc,O mundo da tecnologia: a integração de pessoas e as exclusões sociais e culturais,ef-comp-hi
+ef-comp-hi-oc-o-mundo-em-conflito-a-primeira-guerra-mundial-a-questao-da-palestina,EF,oc,O mundo em conflito: a Primeira Guerra Mundial A questão da Palestina,ef-comp-hi
+ef-comp-hi-oc-o-ocidente-classico-aspectos-da-cultura-na-grecia-e-em-roma,EF,oc,O Ocidente Clássico: aspectos da cultura na Grécia e em Roma,ef-comp-hi
+ef-comp-hi-oc-o-papel-da-mulher-na-grecia-e-em-roma-e-no-periodo-medieval,EF,oc,"O papel da mulher na Grécia e em Roma, e no período medieval",ef-comp-hi
+ef-comp-hi-oc-o-papel-da-religiao-crista-dos-mosteiros-e-da-cultura-na-idade-media,EF,oc,"O papel da religião cristã, dos mosteiros e da cultura na Idade Média",ef-comp-hi
+ef-comp-hi-oc-o-papel-das-religioes-e-da-cultura-para-a-formacao-dos-povos-antigos,EF,oc,O papel das religiões e da cultura para a formação dos povos antigos,ef-comp-hi
+ef-comp-hi-oc-o-passado-e-o-presente-a-nocao-de-permanencia-e-as-lentas-transformacoes-sociais-e-culturais,EF,oc,O passado e o presente: a noção de permanência e as lentas transformações sociais e culturais,ef-comp-hi
+ef-comp-hi-oc-o-periodo-regencial-e-as-contestacoes-ao-poder-central,EF,oc,O Período Regencial e as contestações ao poder central,ef-comp-hi
+ef-comp-hi-oc-o-periodo-varguista-e-suas-contradicoes,EF,oc,O período varguista e suas contradições,ef-comp-hi
+ef-comp-hi-oc-o-processo-de-redemocratizacao,EF,oc,O processo de redemocratização,ef-comp-hi
+ef-comp-hi-oc-o-que-forma-um-povo-do-nomadismo-aos-primeiros-povos-sedentarizados,EF,oc,O que forma um povo: do nomadismo aos primeiros povos sedentarizados,ef-comp-hi
+ef-comp-hi-oc-o-surgimento-da-escrita-e-a-nocao-de-fonte-para-a-transmissao-de-saberes-culturas-e-historias,EF,oc,"O surgimento da escrita e a noção de fonte para a transmissão de saberes, culturas e histórias",ef-comp-hi
+ef-comp-hi-oc-o-surgimento-da-especie-humana-no-continente-africano-e-sua-expansao-pelo-mundo,EF,oc,O surgimento da espécie humana no continente africano e sua expansão pelo mundo,ef-comp-hi
+ef-comp-hi-oc-o-tempo-como-medida,EF,oc,O tempo como medida,ef-comp-hi
+ef-comp-hi-oc-o-trabalhismo-e-seu-protagonismo-politico,EF,oc,O trabalhismo e seu protagonismo político,ef-comp-hi
+ef-comp-hi-oc-os-anos-1960-revolucao-cultural,EF,oc,Os anos 1960: revolução cultural?,ef-comp-hi
+ef-comp-hi-oc-os-caminhos-ate-a-independencia-do-brasil,EF,oc,Os caminhos até a independência do Brasil,ef-comp-hi
+ef-comp-hi-oc-os-conflitos-do-seculo-xxi-e-a-questao-do-terrorismo,EF,oc,Os conflitos do século XXI e a questão do terrorismo,ef-comp-hi
+ef-comp-hi-oc-os-estados-unidos-da-america-e-a-america-latina-no-seculo-xix,EF,oc,Os Estados Unidos da América e a América Latina no século XIX,ef-comp-hi
+ef-comp-hi-oc-os-movimentos-sociais-e-a-imprensa-negra-a-cultura-afro-brasileira-como-elemento-de-resistencia-e-superacao-das-discriminacoes,EF,oc,Os movimentos sociais e a imprensa negra; a cultura afro-brasileira como elemento de resistência e superação das discriminações,ef-comp-hi
+ef-comp-hi-oc-os-patrimonios-historicos-e-culturais-da-cidade-e-ou-do-municipio-em-que-vive,EF,oc,Os patrimônios históricos e culturais da cidade e/ou do município em que vive,ef-comp-hi
+ef-comp-hi-oc-os-patrimonios-materiais-e-imateriais-da-humanidade,EF,oc,Os patrimônios materiais e imateriais da humanidade,ef-comp-hi
+ef-comp-hi-oc-os-povos-indigenas-originarios-do-atual-territorio-brasileiro-e-seus-habitos-culturais-e-sociais,EF,oc,Os povos indígenas originários do atual território brasileiro e seus hábitos culturais e sociais,ef-comp-hi
+ef-comp-hi-oc-os-processos-de-descolonizacao-na-africa-e-na-asia,EF,oc,Os processos de descolonização na África e na Ásia,ef-comp-hi
+ef-comp-hi-oc-os-processos-migratorios-do-final-do-seculo-xix-e-inicio-do-seculo-xx-no-brasil,EF,oc,Os processos migratórios do final do século XIX e início do século XX no Brasil,ef-comp-hi
+ef-comp-hi-oc-os-processos-migratorios-para-a-formacao-do-brasil-os-grupos-indigenas-a-presenca-portuguesa-e-a-diaspora-forcada-dos-africanos,EF,oc,"Os processos migratórios para a formação do Brasil: os grupos indígenas, a presença portuguesa e a diáspora forçada dos africanos",ef-comp-hi
+ef-comp-hi-oc-os-protagonismos-da-sociedade-civil-e-as-alteracoes-da-sociedade-brasileira,EF,oc,Os protagonismos da sociedade civil e as alterações da sociedade brasileira,ef-comp-hi
+ef-comp-hi-oc-pensamento-e-cultura-no-seculo-xix-darwinismo-e-racismo,EF,oc,Pensamento e cultura no século XIX: darwinismo e racismo,ef-comp-hi
+ef-comp-hi-oc-pluralidades-e-diversidades-identitarias-na-atualidade,EF,oc,Pluralidades e diversidades identitárias na atualidade,ef-comp-hi
+ef-comp-hi-oc-politicas-de-exterminio-do-indigena-durante-o-imperio,EF,oc,Políticas de extermínio do indígena durante o Império,ef-comp-hi
+ef-comp-hi-oc-politicas-economicas-na-america-latina,EF,oc,Políticas econômicas na América Latina,ef-comp-hi
+ef-comp-hi-oc-povos-da-antiguidade-na-africa-egipcios-no-oriente-medio-mesopotamicos-e-nas-americas-pre-colombianos,EF,oc,"Povos da Antiguidade na África (egípcios), no Oriente Médio (mesopotâmicos) e nas Américas (pré-colombianos)",ef-comp-hi
+ef-comp-hi-oc-primeira-republica-e-suas-caracteristicas,EF,oc,Primeira República e suas características,ef-comp-hi
+ef-comp-hi-oc-rebelioes-na-america-portuguesa-as-conjuracoes-mineira-e-baiana,EF,oc,Rebeliões na América portuguesa: as conjurações mineira e baiana,ef-comp-hi
+ef-comp-hi-oc-reformas-religiosas-a-cristandade-fragmentada,EF,oc,Reformas religiosas: a cristandade fragmentada,ef-comp-hi
+ef-comp-hi-oc-renascimentos-artisticos-e-culturais,EF,oc,Renascimentos artísticos e culturais,ef-comp-hi
+ef-comp-hi-oc-resistencias-indigenas-invasoes-e-expansao-na-america-portuguesa,EF,oc,"Resistências indígenas, invasões e expansão na América portuguesa",ef-comp-hi
+ef-comp-hi-oc-revolucao-francesa-e-seus-desdobramentos,EF,oc,Revolução Francesa e seus desdobramentos,ef-comp-hi
+ef-comp-hi-oc-revolucao-industrial-e-seus-impactos-na-producao-e-circulacao-de-povos-produtos-e-culturas,EF,oc,"Revolução Industrial e seus impactos na produção e circulação de povos, produtos e culturas",ef-comp-hi
+ef-comp-hi-oc-saberes-dos-povos-africanos-e-pre-colombianos-expressos-na-cultura-material-e-imaterial,EF,oc,Saberes dos povos africanos e pré-colombianos expressos na cultura material e imaterial,ef-comp-hi
+ef-comp-hi-oc-senhores-e-servos-no-mundo-antigo-e-no-medieval,EF,oc,Senhores e servos no mundo antigo e no medieval,ef-comp-hi
+ef-comp-hi-oc-significados-do-conceito-de-imperio-e-as-logicas-de-conquista-conflito-e-negociacao-dessa-forma-de-organizacao-politica,EF,oc,"• Significados do conceito de “império” e as lógicas de conquista, conflito e negociação dessa forma de organização política",ef-comp-hi
+ef-comp-hi-oc-territorios-e-fronteiras-a-guerra-do-paraguai,EF,oc,• Territórios e fronteiras: a Guerra do Paraguai,ef-comp-hi
+ef-comp-hi-oc-uma-nova-ordem-economica-as-demandas-do-capitalismo-industrial-e-o-lugar-das-economias-africanas-e-asiaticas-nas-dinamicas-globais,EF,oc,Uma nova ordem econômica: as demandas do capitalismo industrial e o lugar das economias africanas e asiáticas nas dinâmicas globais,ef-comp-hi
+ef-comp-hi-ut-a-comunidade-e-seus-registros,EF,ut,A comunidade e seus registros,ef-comp-hi
+ef-comp-hi-ut-a-historia-recente,EF,ut,A história recente,ef-comp-hi
+ef-comp-hi-ut-a-invencao-do-mundo-classico-e-o-contraponto-com-outras-sociedades,EF,ut,A invenção do mundo clássico e o contraponto com outras sociedades,ef-comp-hi
+ef-comp-hi-ut-a-nocao-de-espaco-publico-e-privado,EF,ut,A noção de espaço público e privado,ef-comp-hi
+ef-comp-hi-ut-a-organizacao-do-poder-e-as-dinamicas-do-mundo-colonial-americano,EF,ut,A organização do poder e as dinâmicas do mundo colonial americano,ef-comp-hi
+ef-comp-hi-ut-as-formas-de-registrar-as-experiencias-da-comunidade,EF,ut,As formas de registrar as experiências da comunidade,ef-comp-hi
+ef-comp-hi-ut-as-pessoas-e-os-grupos-que-compoem-a-cidade-e-o-municipio,EF,ut,As pessoas e os grupos que compõem a cidade e o município,ef-comp-hi
+ef-comp-hi-ut-as-questoes-historicas-relativas-as-migracoes,EF,ut,As questões históricas relativas às migrações,ef-comp-hi
+ef-comp-hi-ut-circulacao-de-pessoas-produtos-e-culturas,EF,ut,"Circulação de pessoas, produtos e culturas",ef-comp-hi
+ef-comp-hi-ut-configuracoes-do-mundo-no-seculo-xix,EF,ut,Configurações do mundo no século XIX,ef-comp-hi
+ef-comp-hi-ut-historia-tempo-espaco-e-formas-de-registros,EF,ut,"História: tempo, espaço e formas de registros",ef-comp-hi
+ef-comp-hi-ut-humanismos-renascimentos-e-o-novo-mundo,EF,ut,"Humanismos, Renascimentos e o Novo Mundo",ef-comp-hi
+ef-comp-hi-ut-logicas-comerciais-e-mercantis-da-modernidade,EF,ut,Lógicas comerciais e mercantis da modernidade,ef-comp-hi
+ef-comp-hi-ut-logicas-de-organizacao-politica,EF,ut,Lógicas de organização política,ef-comp-hi
+ef-comp-hi-ut-modernizacao-ditadura-civil-militar-e-redemocratizacao-o-brasil-apos-1946,EF,ut,"Modernização, ditadura civil-militar e redemocratização: o Brasil após 1946",ef-comp-hi
+ef-comp-hi-ut-mundo-pessoal-eu-meu-grupo-social-e-meu-tempo,EF,ut,"Mundo pessoal: eu, meu grupo social e meu tempo",ef-comp-hi
+ef-comp-hi-ut-mundo-pessoal-meu-lugar-no-mundo,EF,ut,Mundo pessoal: meu lugar no mundo,ef-comp-hi
+ef-comp-hi-ut-o-brasil-no-seculo-xix,EF,ut,O Brasil no século XIX,ef-comp-hi
+ef-comp-hi-ut-o-lugar-em-que-vive,EF,ut,O lugar em que vive,ef-comp-hi
+ef-comp-hi-ut-o-mundo-contemporaneo-o-antigo-regime-em-crise,EF,ut,O mundo contemporâneo: o Antigo Regime em crise,ef-comp-hi
+ef-comp-hi-ut-o-mundo-moderno-e-a-conexao-entre-sociedades-africanas-americanas-e-europeias,EF,ut,"O mundo moderno e a conexão entre sociedades africanas, americanas e europeias",ef-comp-hi
+ef-comp-hi-ut-o-nascimento-da-republica-no-brasil-e-os-processos-historicos-ate-a-metade-do-seculo-xx,EF,ut,O nascimento da República no Brasil e os processos históricos até a metade do século XX,ef-comp-hi
+ef-comp-hi-ut-o-trabalho-e-a-sustentabilidade-na-comunidade,EF,ut,O trabalho e a sustentabilidade na comunidade,ef-comp-hi
+ef-comp-hi-ut-os-processos-de-independencia-nas-americas,EF,ut,Os processos de independência nas Américas,ef-comp-hi
+ef-comp-hi-ut-povos-e-culturas-meu-lugar-no-mundo-e-meu-grupo-social,EF,ut,Povos e culturas: meu lugar no mundo e meu grupo social,ef-comp-hi
+ef-comp-hi-ut-registros-da-historia-linguagens-e-culturas,EF,ut,Registros da história: linguagens e culturas,ef-comp-hi
+ef-comp-hi-ut-totalitarismos-e-conflitos-mundiais,EF,ut,Totalitarismos e conflitos mundiais,ef-comp-hi
+ef-comp-hi-ut-trabalho-e-formas-de-organizacao-social-e-cultural,EF,ut,Trabalho e formas de organização social e cultural,ef-comp-hi
+ef-comp-hi-ut-transformacoes-e-permanencias-nas-trajetorias-dos-grupos-humanos,EF,ut,Transformações e permanências nas trajetórias dos grupos humanos,ef-comp-hi
+ef-comp-li-eixo-eixo-conhecimentos-linguisticos,EF,eixo,Eixo conhecimentos linguísticos,ef-comp-li
+ef-comp-li-eixo-eixo-dimensao-intercultural,EF,eixo,Eixo dimensão intercultural,ef-comp-li
+ef-comp-li-eixo-eixo-escrita,EF,eixo,Eixo escrita,ef-comp-li
+ef-comp-li-eixo-eixo-leitura,EF,eixo,Eixo leitura,ef-comp-li
+ef-comp-li-eixo-eixo-oralidade,EF,eixo,Eixo oralidade,ef-comp-li
+ef-comp-li-oc-a-lingua-inglesa-como-lingua-global-na-sociedade-contemporanea,EF,oc,A língua inglesa como língua global na sociedade contemporânea,ef-comp-li
+ef-comp-li-oc-a-lingua-inglesa-e-seu-papel-no-intercambio-cientifico-economico-e-politico,EF,oc,"A língua inglesa e seu papel no intercâmbio científico, econômico e político",ef-comp-li
+ef-comp-li-oc-adjetivos-possessivos,EF,oc,Adjetivos possessivos,ef-comp-li
+ef-comp-li-oc-caso-genitivo-s,EF,oc,Caso genitivo (‘s),ef-comp-li
+ef-comp-li-oc-comparativos-e-superlativos,EF,oc,Comparativos e superlativos,ef-comp-li
+ef-comp-li-oc-compreensao-de-textos-orais-de-cunho-descritivo-ou-narrativo,EF,oc,Compreensão de textos orais de cunho descritivo ou narrativo,ef-comp-li
+ef-comp-li-oc-compreensao-de-textos-orais-multimodais-de-cunho-argumentativo,EF,oc,"Compreensão de textos orais, multimodais, de cunho argumentativo",ef-comp-li
+ef-comp-li-oc-compreensao-de-textos-orais-multimodais-de-cunho-informativo-jornalistico,EF,oc,"Compreensão de textos orais, multimodais, de cunho informativo/jornalístico",ef-comp-li
+ef-comp-li-oc-compreensao-geral-e-especifica-leitura-rapida-skimming-scanning,EF,oc,"Compreensão geral e específica: leitura rápida (skimming, scanning)",ef-comp-li
+ef-comp-li-oc-conectores-linking-words,EF,oc,Conectores (linking words),ef-comp-li
+ef-comp-li-oc-construcao-de-identidades-no-mundo-globalizado,EF,oc,Construção de identidades no mundo globalizado,ef-comp-li
+ef-comp-li-oc-construcao-de-lacos-afetivos-e-convivio-social,EF,oc,Construção de laços afetivos e convívio social,ef-comp-li
+ef-comp-li-oc-construcao-de-repertorio-artistico-cultural,EF,oc,Construção de repertório artístico-cultural,ef-comp-li
+ef-comp-li-oc-construcao-de-repertorio-lexical,EF,oc,Construção de repertório lexical,ef-comp-li
+ef-comp-li-oc-construcao-de-repertorio-lexical-e-autonomia-leitora,EF,oc,Construção de repertório lexical e autonomia leitora,ef-comp-li
+ef-comp-li-oc-construcao-de-sentidos-por-meio-de-inferencias-e-reconhecimento-de-implicitos,EF,oc,Construção de sentidos por meio de inferências e reconhecimento de implícitos,ef-comp-li
+ef-comp-li-oc-construcao-do-sentido-global-do-texto,EF,oc,Construção do sentido global do texto,ef-comp-li
+ef-comp-li-oc-escrita-construcao-da-argumentacao,EF,oc,Escrita: construção da argumentação,ef-comp-li
+ef-comp-li-oc-escrita-construcao-da-persuasao,EF,oc,Escrita: construção da persuasão,ef-comp-li
+ef-comp-li-oc-escrita-organizacao-em-paragrafos-ou-topicos-com-mediacao-do-professor,EF,oc,"Escrita: organização em parágrafos ou tópicos, com mediação do professor",ef-comp-li
+ef-comp-li-oc-estrategias-de-compreensao-de-textos-orais-conhecimentos-previos,EF,oc,Estratégias de compreensão de textos orais: conhecimentos prévios,ef-comp-li
+ef-comp-li-oc-estrategias-de-compreensao-de-textos-orais-palavras-cognatas-e-pistas-do-contexto-discursivo,EF,oc,Estratégias de compreensão de textos orais: palavras cognatas e pistas do contexto discursivo,ef-comp-li
+ef-comp-li-oc-expansao-da-lingua-inglesa-contexto-historico,EF,oc,Expansão da língua inglesa: contexto histórico,ef-comp-li
+ef-comp-li-oc-formacao-de-palavras-prefixos-e-sufixos,EF,oc,Formação de palavras: prefixos e sufixos,ef-comp-li
+ef-comp-li-oc-funcoes-e-usos-da-lingua-inglesa-convivencia-e-colaboracao-em-sala-de-aula,EF,oc,Funções e usos da língua inglesa: convivência e colaboração em sala de aula,ef-comp-li
+ef-comp-li-oc-funcoes-e-usos-da-lingua-inglesa-em-sala-de-aula-classroom-language,EF,oc,Funções e usos da língua inglesa em sala de aula (Classroom language),ef-comp-li
+ef-comp-li-oc-funcoes-e-usos-da-lingua-inglesa-persuasao,EF,oc,Funções e usos da língua inglesa: persuasão,ef-comp-li
+ef-comp-li-oc-hipoteses-sobre-a-finalidade-de-um-texto,EF,oc,Hipóteses sobre a finalidade de um texto,ef-comp-li
+ef-comp-li-oc-impacto-de-aspectos-culturais-na-comunicacao,EF,oc,Impacto de aspectos culturais na comunicação,ef-comp-li
+ef-comp-li-oc-imperativo,EF,oc,Imperativo,ef-comp-li
+ef-comp-li-oc-informacoes-em-ambientes-virtuais,EF,oc,Informações em ambientes virtuais,ef-comp-li
+ef-comp-li-oc-leitura-de-textos-de-cunho-artistico-literario,EF,oc,Leitura de textos de cunho artístico/literário,ef-comp-li
+ef-comp-li-oc-leitura-de-textos-digitais-para-estudo,EF,oc,Leitura de textos digitais para estudo,ef-comp-li
+ef-comp-li-oc-might,EF,oc,might,ef-comp-li
+ef-comp-li-oc-negociacao-de-sentidos-mal-entendidos-no-uso-da-lingua-inglesa-e-conflito-de-opinioes,EF,oc,Negociação de sentidos (mal-entendidos no uso da língua inglesa e conflito de opiniões),ef-comp-li
+ef-comp-li-oc-objetivos-de-leitura,EF,oc,Objetivos de leitura,ef-comp-li
+ef-comp-li-oc-oracoes-condicionais-tipos-1-e-2,EF,oc,Orações condicionais (tipos 1 e 2),ef-comp-li
+ef-comp-li-oc-paises-que-tem-a-lingua-inglesa-como-lingua-materna-e-ou-oficial,EF,oc,Países que têm a língua inglesa como língua materna e/ou oficial,ef-comp-li
+ef-comp-li-oc-partilha-de-leitura,EF,oc,Partilha de leitura,ef-comp-li
+ef-comp-li-oc-partilha-de-leitura-com-mediacao-do-professor,EF,oc,"Partilha de leitura, com mediação do professor",ef-comp-li
+ef-comp-li-oc-passado-simples-e-continuo-formas-afirmativa-negativa-e-interrogativa,EF,oc,"Passado simples e contínuo (formas afirmativa, negativa e interrogativa)",ef-comp-li
+ef-comp-li-oc-planejamento-do-texto-brainstorming,EF,oc,Planejamento do texto: brainstorming,ef-comp-li
+ef-comp-li-oc-planejamento-do-texto-organizacao-de-ideias,EF,oc,Planejamento do texto: organização de ideias,ef-comp-li
+ef-comp-li-oc-polissemia,EF,oc,Polissemia,ef-comp-li
+ef-comp-li-oc-praticas-investigativas,EF,oc,Práticas investigativas,ef-comp-li
+ef-comp-li-oc-pre-escrita-planejamento-de-producao-escrita-com-mediacao-do-professor,EF,oc,"Pré-escrita: planejamento de produção escrita, com mediação do professor",ef-comp-li
+ef-comp-li-oc-presenca-da-lingua-inglesa-no-cotidiano,EF,oc,Presença da língua inglesa no cotidiano,ef-comp-li
+ef-comp-li-oc-presente-simples-e-continuo-formas-afirmativa-negativa-e-interrogativa,EF,oc,"Presente simples e contínuo (formas afirmativa, negativa e interrogativa)",ef-comp-li
+ef-comp-li-oc-producao-de-textos-escritos-com-mediacao-do-professor-colegas,EF,oc,Produção de textos escritos com mediação do professor/colegas,ef-comp-li
+ef-comp-li-oc-producao-de-textos-escritos-em-formatos-diversos-com-a-mediacao-do-professor,EF,oc,"Produção de textos escritos, em formatos diversos, com a mediação do professor",ef-comp-li
+ef-comp-li-oc-producao-de-textos-escritos-em-formatos-diversos-com-mediacao-do-professor,EF,oc,"Produção de textos escritos, em formatos diversos, com mediação do professor",ef-comp-li
+ef-comp-li-oc-producao-de-textos-orais-com-a-mediacao-do-professor,EF,oc,"Produção de textos orais, com a mediação do professor",ef-comp-li
+ef-comp-li-oc-producao-de-textos-orais-com-autonomia,EF,oc,Produção de textos orais com autonomia,ef-comp-li
+ef-comp-li-oc-producao-de-textos-orais-com-mediacao-do-professor,EF,oc,"Produção de textos orais, com mediação do professor",ef-comp-li
+ef-comp-li-oc-pronomes-do-caso-reto-e-do-caso-obliquo,EF,oc,Pronomes do caso reto e do caso oblíquo,ef-comp-li
+ef-comp-li-oc-pronomes-relativos,EF,oc,Pronomes relativos,ef-comp-li
+ef-comp-li-oc-pronuncia,EF,oc,Pronúncia,ef-comp-li
+ef-comp-li-oc-quantificadores,EF,oc,Quantificadores,ef-comp-li
+ef-comp-li-oc-recursos-de-argumentacao,EF,oc,Recursos de argumentação,ef-comp-li
+ef-comp-li-oc-recursos-de-persuasao,EF,oc,Recursos de persuasão,ef-comp-li
+ef-comp-li-oc-reflexao-pos-leitura,EF,oc,Reflexão pós-leitura,ef-comp-li
+ef-comp-li-oc-revisao-de-textos-com-a-mediacao-do-professor,EF,oc,Revisão de textos com a mediação do professor,ef-comp-li
+ef-comp-li-oc-usos-de-linguagem-em-meio-digital-internetes,EF,oc,Usos de linguagem em meio digital: “internetês”,ef-comp-li
+ef-comp-li-oc-usos-de-recursos-linguisticos-e-paralinguisticos-no-intercambio-oral,EF,oc,Usos de recursos linguísticos e paralinguísticos no intercâmbio oral,ef-comp-li
+ef-comp-li-oc-variacao-linguistica,EF,oc,Variação linguística,ef-comp-li
+ef-comp-li-oc-verbo-modal-can-presente-e-passado,EF,oc,Verbo modal can (presente e passado),ef-comp-li
+ef-comp-li-oc-verbos-modais-should-must-have-to-may-e,EF,oc,"Verbos modais: should, must, have to, may e",ef-comp-li
+ef-comp-li-oc-verbos-para-indicar-o-futuro,EF,oc,Verbos para indicar o futuro,ef-comp-li
+ef-comp-li-ut-a-lingua-inglesa-no-cotidiano-da-sociedade-brasileira-comunidade,EF,ut,A língua inglesa no cotidiano da sociedade brasileira/comunidade,ef-comp-li
+ef-comp-li-ut-a-lingua-inglesa-no-mundo,EF,ut,A língua inglesa no mundo,ef-comp-li
+ef-comp-li-ut-atitudes-e-disposicoes-favoraveis-do-leitor,EF,ut,Atitudes e disposições favoráveis do leitor,ef-comp-li
+ef-comp-li-ut-avaliacao-dos-textos-lidos,EF,ut,Avaliação dos textos lidos,ef-comp-li
+ef-comp-li-ut-compreensao-oral,EF,ut,Compreensão oral,ef-comp-li
+ef-comp-li-ut-comunicacao-intercultural,EF,ut,Comunicação intercultural,ef-comp-li
+ef-comp-li-ut-estrategias-de-escrita,EF,ut,Estratégias de escrita,ef-comp-li
+ef-comp-li-ut-estrategias-de-escrita-escrita-e-pos-escrita,EF,ut,Estratégias de escrita: escrita e pós- escrita,ef-comp-li
+ef-comp-li-ut-estrategias-de-escrita-pre-escrita,EF,ut,Estratégias de escrita: pré-escrita,ef-comp-li
+ef-comp-li-ut-estrategias-de-escrita-pre-escrita-e-escrita,EF,ut,Estratégias de escrita: pré-escrita e escrita,ef-comp-li
+ef-comp-li-ut-estrategias-de-leitura,EF,ut,Estratégias de leitura,ef-comp-li
+ef-comp-li-ut-estudo-do-lexico,EF,ut,Estudo do léxico,ef-comp-li
+ef-comp-li-ut-gramatica,EF,ut,Gramática,ef-comp-li
+ef-comp-li-ut-interacao-discursiva,EF,ut,Interação discursiva,ef-comp-li
+ef-comp-li-ut-manifestacoes-culturais,EF,ut,Manifestações culturais,ef-comp-li
+ef-comp-li-ut-praticas-de-escrita,EF,ut,Práticas de escrita,ef-comp-li
+ef-comp-li-ut-praticas-de-leitura-e-construcao-de-repertorio-lexical,EF,ut,Práticas de leitura e construção de repertório lexical,ef-comp-li
+ef-comp-li-ut-praticas-de-leitura-e-fruicao,EF,ut,Práticas de leitura e fruição,ef-comp-li
+ef-comp-li-ut-praticas-de-leitura-e-novas-tecnologias,EF,ut,Práticas de leitura e novas tecnologias,ef-comp-li
+ef-comp-li-ut-praticas-de-leitura-e-pesquisa,EF,ut,Práticas de leitura e pesquisa,ef-comp-li
+ef-comp-li-ut-producao-oral,EF,ut,Produção oral,ef-comp-li
+ef-comp-lp-catu-campo-artistico-literario,EF,catu,Campo artístico-literário,ef-comp-lp
+ef-comp-lp-catu-campo-da-vida-cotidiana,EF,catu,Campo da vida cotidiana,ef-comp-lp
+ef-comp-lp-catu-campo-da-vida-publica,EF,catu,Campo da vida pública,ef-comp-lp
+ef-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa,EF,catu,Campo das práticas de estudo e pesquisa,ef-comp-lp
+ef-comp-lp-catu-campo-de-atuacao-na-vida-publica,EF,catu,Campo de atuação na vida pública,ef-comp-lp
+ef-comp-lp-catu-campo-jornalistico-midiatico,EF,catu,Campo jornalístico/midiático,ef-comp-lp
+ef-comp-lp-catu-todos-os-campos-de-atuacao,EF,catu,Todos os campos de atuação,ef-comp-lp
+ef-comp-lp-oc-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao,EF,oc,adequação à norma-padrão e o uso adequado de ferramentas de edição,ef-comp-lp
+ef-comp-lp-oc-adequacao-do-texto-as-normas-de-escrita,EF,oc,Adequação do texto às normas de escrita,ef-comp-lp
+ef-comp-lp-oc-adesao-as-praticas-de-leitura,EF,oc,Adesão às práticas de leitura,ef-comp-lp
+ef-comp-lp-oc-analise-de-textos-legais-normativos-propositivos-e-reivindicatorios,EF,oc,"Análise de textos legais/normativos, propositivos e reivindicatórios",ef-comp-lp
+ef-comp-lp-oc-apreciacao-e-replica,EF,oc,Apreciação e réplica,ef-comp-lp
+ef-comp-lp-oc-apreciacao-estetica-estilo,EF,oc,Apreciação estética/Estilo,ef-comp-lp
+ef-comp-lp-oc-apreender-o-sentido-geral-dos-textos-apreciacao-e-replica-producao-proposta,EF,oc,Apreender o sentido geral dos textos Apreciação e réplica Produção/Proposta,ef-comp-lp
+ef-comp-lp-oc-argumentacao-movimentos-argumentativos-tipos-de-argumento-e-forca-argumentativa,EF,oc,"Argumentação: movimentos argumentativos, tipos de argumento e força argumentativa",ef-comp-lp
+ef-comp-lp-oc-aspectos-nao-linguisticos-paralinguisticos-no-ato-da-fala,EF,oc,Aspectos não linguísticos (paralinguísticos) no ato da fala,ef-comp-lp
+ef-comp-lp-oc-caracteristicas-da-conversacao-espontanea,EF,oc,Características da conversação espontânea,ef-comp-lp
+ef-comp-lp-oc-caracterizacao-do-campo-jornalistico-e-relacao-entre-os-generos-em-circulacao-midias-e-praticas-da-cultura-digital,EF,oc,"Caracterização do campo jornalístico e relação entre os gêneros em circulação, mídias e práticas da cultura digital",ef-comp-lp
+ef-comp-lp-oc-coesao,EF,oc,Coesão,ef-comp-lp
+ef-comp-lp-oc-coesao-e-articuladores,EF,oc,Coesão e articuladores,ef-comp-lp
+ef-comp-lp-oc-compreensao,EF,oc,Compreensão,ef-comp-lp
+ef-comp-lp-oc-compreensao-de-textos-orais,EF,oc,Compreensão de textos orais,ef-comp-lp
+ef-comp-lp-oc-compreensao-em-leitura,EF,oc,Compreensão em leitura,ef-comp-lp
+ef-comp-lp-oc-conhecimento-das-diversas-grafias-do-alfabeto-acentuacao,EF,oc,Conhecimento das diversas grafias do alfabeto/ Acentuação,ef-comp-lp
+ef-comp-lp-oc-conhecimento-do-alfabeto-do-portugues-do-brasil,EF,oc,Conhecimento do alfabeto do português do Brasil,ef-comp-lp
+ef-comp-lp-oc-conhecimento-do-alfabeto-do-portugues-do-brasil-ordem-alfabetica-polissemia,EF,oc,Conhecimento do alfabeto do português do Brasil/Ordem alfabética/Polissemia,ef-comp-lp
+ef-comp-lp-oc-consideracao-das-condicoes-de-producao,EF,oc,Consideração das condições de produção,ef-comp-lp
+ef-comp-lp-oc-consideracao-das-condicoes-de-producao-de-textos-de-divulgacao-cientifica,EF,oc,Consideração das condições de produção de textos de divulgação científica,ef-comp-lp
+ef-comp-lp-oc-construcao-composicional,EF,oc,Construção composicional,ef-comp-lp
+ef-comp-lp-oc-construcao-composicional-e-estilo-generos-de-divulgacao-cientifica,EF,oc,Construção composicional e estilo Gêneros de divulgação científica,ef-comp-lp
+ef-comp-lp-oc-construcao-da-textualidade,EF,oc,Construção da textualidade,ef-comp-lp
+ef-comp-lp-oc-construcao-da-textualidade-relacao-entre-textos,EF,oc,Construção da textualidade Relação entre textos,ef-comp-lp
+ef-comp-lp-oc-construcao-do-sistema-alfabetico,EF,oc,Construção do sistema alfabético,ef-comp-lp
+ef-comp-lp-oc-construcao-do-sistema-alfabetico-convencoes-da-escrita,EF,oc,Construção do sistema alfabético/ Convenções da escrita,ef-comp-lp
+ef-comp-lp-oc-construcao-do-sistema-alfabetico-e-da-ortografia,EF,oc,Construção do sistema alfabético e da ortografia,ef-comp-lp
+ef-comp-lp-oc-construcao-do-sistema-alfabetico-estabelecimento-de-relacoes-anaforicas-na-referenciacao-e-construcao-da-coesao,EF,oc,Construção do sistema alfabético/ Estabelecimento de relações anafóricas na referenciação e construção da coesão,ef-comp-lp
+ef-comp-lp-oc-contagem-de-historias,EF,oc,Contagem de histórias,ef-comp-lp
+ef-comp-lp-oc-contexto-de-producao-circulacao-e-recepcao-de-textos-e-praticas-relacionadas-a-defesa-de-direitos-e-a-participacao-social,EF,oc,"Contexto de produção, circulação e recepção de textos e práticas relacionadas à defesa de direitos e à participação social",ef-comp-lp
+ef-comp-lp-oc-conversacao-espontanea,EF,oc,Conversação espontânea,ef-comp-lp
+ef-comp-lp-oc-correspondencia-fonema-grafema,EF,oc,Correspondência fonema-grafema,ef-comp-lp
+ef-comp-lp-oc-curadoria-de-informacao,EF,oc,Curadoria de informação,ef-comp-lp
+ef-comp-lp-oc-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos,EF,oc,de sentidos provocados pelos usos de recursos linguísticos e multissemióticos,ef-comp-lp
+ef-comp-lp-oc-declamacao,EF,oc,Declamação,ef-comp-lp
+ef-comp-lp-oc-decodificacao-fluencia-de-leitura,EF,oc,Decodificação/Fluência de leitura,ef-comp-lp
+ef-comp-lp-oc-discurso-direto-e-indireto,EF,oc,Discurso direto e indireto,ef-comp-lp
+ef-comp-lp-oc-discussao-oral,EF,oc,Discussão oral,ef-comp-lp
+ef-comp-lp-oc-edicao-de-textos,EF,oc,Edição de textos,ef-comp-lp
+ef-comp-lp-oc-efeito-de-sentido,EF,oc,Efeito de sentido,ef-comp-lp
+ef-comp-lp-oc-efeitos-de-sentido,EF,oc,Efeitos de sentido,ef-comp-lp
+ef-comp-lp-oc-efeitos-de-sentido-exploracao-da-multissemiose,EF,oc,Efeitos de sentido Exploração da multissemiose,ef-comp-lp
+ef-comp-lp-oc-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos,EF,oc,Efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos,ef-comp-lp
+ef-comp-lp-oc-elementos-notacionais-da-escrita,EF,oc,Elementos notacionais da escrita,ef-comp-lp
+ef-comp-lp-oc-elementos-notacionais-da-escrita-morfossintaxe,EF,oc,Elementos notacionais da escrita/morfossintaxe,ef-comp-lp
+ef-comp-lp-oc-elementos-paralinguisticos-e-cinesicos-apresentacoes-orais,EF,oc,Elementos paralinguísticos e cinésicos Apresentações orais,ef-comp-lp
+ef-comp-lp-oc-escrita-autonoma,EF,oc,Escrita autônoma,ef-comp-lp
+ef-comp-lp-oc-escrita-autonoma-e-compartilhada,EF,oc,Escrita autônoma e compartilhada,ef-comp-lp
+ef-comp-lp-oc-escrita-colaborativa,EF,oc,Escrita colaborativa,ef-comp-lp
+ef-comp-lp-oc-escrita-compartilhada,EF,oc,Escrita compartilhada,ef-comp-lp
+ef-comp-lp-oc-escuta,EF,oc,Escuta,ef-comp-lp
+ef-comp-lp-oc-escuta-atenta,EF,oc,Escuta atenta,ef-comp-lp
+ef-comp-lp-oc-escuta-de-textos-orais,EF,oc,Escuta de textos orais,ef-comp-lp
+ef-comp-lp-oc-estilo,EF,oc,Estilo,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-leitura,EF,oc,Estratégia de leitura,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-leitura-apreender-os-sentidos-globais-do-texto,EF,oc,Estratégia de leitura: apreender os sentidos globais do texto,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-leitura-distincao-de-fato-e-opiniao,EF,oc,Estratégia de leitura Distinção de fato e opinião,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-leitura-identificacao-de-teses-e-argumentos,EF,oc,Estratégia de leitura: identificação de teses e argumentos,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-producao-planejamento-de-textos-argumentativos-e-apreciativos,EF,oc,Estratégia de produção: planejamento de textos argumentativos e apreciativos,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-producao-planejamento-de-textos-informativos,EF,oc,Estratégia de produção: planejamento de textos informativos,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-producao-planejamento-de-textos-reivindicatorios-ou-propositivos,EF,oc,Estratégia de produção: planejamento de textos reivindicatórios ou propositivos,ef-comp-lp
+ef-comp-lp-oc-estrategia-de-producao-textualizacao-de-textos-informativos,EF,oc,Estratégia de produção: textualização de textos informativos,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-escrita,EF,oc,Estratégias de escrita,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-escrita-textualizacao-revisao-e-edicao,EF,oc,"Estratégias de escrita: textualização, revisão e edição",ef-comp-lp
+ef-comp-lp-oc-estrategias-de-leitura-apreciacao-e-replica,EF,oc,Estratégias de leitura Apreciação e réplica,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao,EF,oc,Estratégias de produção,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-de-textos-argumentativos-e-apreciativos,EF,oc,Estratégias de produção: planejamento de textos argumentativos e apreciativos,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-de-textos-informativos,EF,oc,Estratégias de produção: planejamento de textos informativos,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-e-participacao-em-debates-regrados,EF,oc,Estratégias de produção: planejamento e participação em debates regrados,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-e-producao-de-apresentacoes-orais,EF,oc,Estratégias de produção: planejamento e produção de apresentações orais,ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-realizacao-e-edicao-de-entrevistas-orais,EF,oc,"Estratégias de produção: planejamento, realização e edição de entrevistas orais",ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-textualizacao-e-revisao-edicao,EF,oc,"Estratégias de produção: planejamento, textualização e revisão/edição",ef-comp-lp
+ef-comp-lp-oc-estrategias-de-producao-planejamento-textualizacao-revisao-e-edicao-de-textos-publicitarios,EF,oc,"Estratégias de produção: planejamento, textualização, revisão e edição de textos publicitários",ef-comp-lp
+ef-comp-lp-oc-estrategias-e-procedimentos-de-leitura-em-textos-legais-e-normativos,EF,oc,Estratégias e procedimentos de leitura em textos legais e normativos,ef-comp-lp
+ef-comp-lp-oc-estrategias-e-procedimentos-de-leitura-em-textos-reivindicatorios-ou-propositivos,EF,oc,Estratégias e procedimentos de leitura em textos reivindicatórios ou propositivos,ef-comp-lp
+ef-comp-lp-oc-estrategias-e-procedimentos-de-leitura-relacao-do-verbal-com-outras-semioses,EF,oc,Estratégias e procedimentos de leitura Relação do verbal com outras semioses,ef-comp-lp
+ef-comp-lp-oc-estrategias-procedimentos-de-leitura-em-textos-reivindicatorios-ou-propositivos,EF,oc,"Estratégias, procedimentos de leitura em textos reivindicatórios ou propositivos",ef-comp-lp
+ef-comp-lp-oc-exposicao-oral,EF,oc,Exposição oral,ef-comp-lp
+ef-comp-lp-oc-figuras-de-linguagem,EF,oc,Figuras de linguagem,ef-comp-lp
+ef-comp-lp-oc-fono-ortografia,EF,oc,Fono-ortografia,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-de-generos-orais,EF,oc,Forma de composição de gêneros orais,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-de-textos-dramaticos,EF,oc,Forma de composição de textos dramáticos,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-de-textos-poeticos,EF,oc,Forma de composição de textos poéticos,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-de-textos-poeticos-visuais,EF,oc,Forma de composição de textos poéticos visuais,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-do-texto,EF,oc,Forma de composição do texto,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-dos-textos,EF,oc,Forma de composição dos textos,ef-comp-lp
+ef-comp-lp-oc-forma-de-composicao-dos-textos-adequacao-do-texto-as-normas-de-escrita,EF,oc,Forma de composição dos textos/Adequação do texto às normas de escrita,ef-comp-lp
+ef-comp-lp-oc-formacao-de-leitor,EF,oc,Formação de leitor,ef-comp-lp
+ef-comp-lp-oc-formacao-do-leitor-literario,EF,oc,Formação do leitor literário,ef-comp-lp
+ef-comp-lp-oc-formacao-do-leitor-literario-leitura-multissemiotica,EF,oc,Formação do leitor literário/Leitura multissemiótica,ef-comp-lp
+ef-comp-lp-oc-formas-de-composicao-de-narrativas,EF,oc,Formas de composição de narrativas,ef-comp-lp
+ef-comp-lp-oc-formas-de-composicao-de-textos-poeticos,EF,oc,Formas de composição de textos poéticos,ef-comp-lp
+ef-comp-lp-oc-formas-de-composicao-de-textos-poeticos-visuais,EF,oc,Formas de composição de textos poéticos visuais,ef-comp-lp
+ef-comp-lp-oc-imagens-analiticas-em-textos,EF,oc,Imagens analíticas em textos,ef-comp-lp
+ef-comp-lp-oc-lei-codigo-estatuto-codigo-regimento-etc,EF,oc,"(Lei, código, estatuto, código, regimento etc.)",ef-comp-lp
+ef-comp-lp-oc-leitura-colaborativa-e-autonoma,EF,oc,Leitura colaborativa e autônoma,ef-comp-lp
+ef-comp-lp-oc-leitura-de-imagens-em-narrativas-visuais,EF,oc,Leitura de imagens em narrativas visuais,ef-comp-lp
+ef-comp-lp-oc-lexico-morfologia,EF,oc,Léxico/morfologia,ef-comp-lp
+ef-comp-lp-oc-marcas-linguisticas-intertextualidade,EF,oc,Marcas linguísticas Intertextualidade,ef-comp-lp
+ef-comp-lp-oc-modalizacao,EF,oc,Modalização,ef-comp-lp
+ef-comp-lp-oc-morfologia,EF,oc,Morfologia,ef-comp-lp
+ef-comp-lp-oc-morfologia-morfossintaxe,EF,oc,Morfologia/Morfossintaxe,ef-comp-lp
+ef-comp-lp-oc-morfossintaxe,EF,oc,Morfossintaxe,ef-comp-lp
+ef-comp-lp-oc-movimentos-argumentativos-e-forca-dos-argumentos,EF,oc,Movimentos argumentativos e força dos argumentos,ef-comp-lp
+ef-comp-lp-oc-oralidade-publica-intercambio-conversacional-em-sala-de-aula,EF,oc,Oralidade pública/Intercâmbio conversacional em sala de aula,ef-comp-lp
+ef-comp-lp-oc-participacao-em-discussoes-orais-de-temas-controversos-de-interesse-da-turma-e-ou-de-relevancia-social,EF,oc,Participação em discussões orais de temas controversos de interesse da turma e/ou de relevância social,ef-comp-lp
+ef-comp-lp-oc-performances-orais,EF,oc,Performances orais,ef-comp-lp
+ef-comp-lp-oc-pesquisa,EF,oc,Pesquisa,ef-comp-lp
+ef-comp-lp-oc-planejamento-de-texto,EF,oc,Planejamento de texto,ef-comp-lp
+ef-comp-lp-oc-planejamento-de-texto-oral,EF,oc,Planejamento de texto oral,ef-comp-lp
+ef-comp-lp-oc-planejamento-de-texto-oral-exposicao-oral,EF,oc,Planejamento de texto oral Exposição oral,ef-comp-lp
+ef-comp-lp-oc-planejamento-de-texto-progressao-tematica-e-paragrafacao,EF,oc,Planejamento de texto/Progressão temática e paragrafação,ef-comp-lp
+ef-comp-lp-oc-planejamento-de-textos-de-pecas-publicitarias-de-campanhas-sociais,EF,oc,Planejamento de textos de peças publicitárias de campanhas sociais,ef-comp-lp
+ef-comp-lp-oc-planejamento-e-producao-de-entrevistas-orais,EF,oc,Planejamento e produção de entrevistas orais,ef-comp-lp
+ef-comp-lp-oc-planejamento-e-producao-de-texto,EF,oc,Planejamento e produção de texto,ef-comp-lp
+ef-comp-lp-oc-planejamento-e-producao-de-textos-jornalisticos-orais,EF,oc,Planejamento e produção de textos jornalísticos orais,ef-comp-lp
+ef-comp-lp-oc-pontuacao,EF,oc,Pontuação,ef-comp-lp
+ef-comp-lp-oc-procedimentos-de-apoio-a-compreensao-tomada-de-nota,EF,oc,Procedimentos de apoio à compreensão Tomada de nota,ef-comp-lp
+ef-comp-lp-oc-procedimentos-e-generos-de-apoio-a-compreensao,EF,oc,Procedimentos e gêneros de apoio à compreensão,ef-comp-lp
+ef-comp-lp-oc-producao-de-texto,EF,oc,Produção de texto,ef-comp-lp
+ef-comp-lp-oc-producao-de-texto-oral,EF,oc,Produção de texto oral,ef-comp-lp
+ef-comp-lp-oc-producao-de-textos,EF,oc,Produção de textos,ef-comp-lp
+ef-comp-lp-oc-producao-de-textos-jornalisticos-orais,EF,oc,Produção de textos jornalísticos orais,ef-comp-lp
+ef-comp-lp-oc-producao-de-textos-orais,EF,oc,Produção de textos orais,ef-comp-lp
+ef-comp-lp-oc-producao-de-textos-orais-oralizacao,EF,oc,Produção de textos orais Oralização,ef-comp-lp
+ef-comp-lp-oc-producao-e-edicao-de-textos-publicitarios,EF,oc,Produção e edição de textos publicitários,ef-comp-lp
+ef-comp-lp-oc-protocolos-de-leitura,EF,oc,Protocolos de leitura,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-da-textualidade,EF,oc,Reconstrução da textualidade,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos,EF,oc,Reconstrução da textualidade e compreensão dos efeitos,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos,EF,oc,Reconstrução da textualidade e compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-das-condicoes-de-producao-circulacao-e-recepcao,EF,oc,"Reconstrução das condições de produção, circulação e recepção",ef-comp-lp
+ef-comp-lp-oc-reconstrucao-das-condicoes-de-producao-e-circulacao-e-adequacao-do-texto-a-construcao-composicional-e-ao-estilo-de-genero,EF,oc,Reconstrução das condições de produção e circulação e adequação do texto à construção composicional e ao estilo de gênero,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-das-condicoes-de-producao-e-recepcao-de-textos,EF,oc,Reconstrução das condições de produção e recepção de textos,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-das-condicoes-de-producao-e-recepcao-dos-textos-e-adequacao-do-texto-a-construcao-composicional-e-ao-estilo-de-genero,EF,oc,Reconstrução das condições de produção e recepção dos textos e adequação do texto à construção composicional e ao estilo de gênero,ef-comp-lp
+ef-comp-lp-oc-reconstrucao-do-contexto-de-producao-circulacao-e-recepcao-de-textos,EF,oc,"Reconstrução do contexto de produção, circulação e recepção de textos",ef-comp-lp
+ef-comp-lp-oc-reconstrucao-do-contexto-de-producao-circulacao-e-recepcao-de-textos-legais-e-normativos,EF,oc,"Reconstrução do contexto de produção, circulação e recepção de textos legais e normativos",ef-comp-lp
+ef-comp-lp-oc-recursos-linguisticos-e-semioticos-que-operam-nos-textos-pertencentes-aos-generos-literarios,EF,oc,Recursos linguísticos e semióticos que operam nos textos pertencentes aos gêneros literários,ef-comp-lp
+ef-comp-lp-oc-registro,EF,oc,Registro,ef-comp-lp
+ef-comp-lp-oc-relacao-do-texto-com-o-contexto-de-producao-e-experimentacao-de-papeis-sociais,EF,oc,Relação do texto com o contexto de produção e experimentação de papéis sociais,ef-comp-lp
+ef-comp-lp-oc-relacao-entre-contexto-de-producao-e-caracteristicas-composicionais-e-estilisticas-dos-generos,EF,oc,Relação entre contexto de produção e características composicionais e estilísticas dos gêneros,ef-comp-lp
+ef-comp-lp-oc-relacao-entre-contexto-de-producao-e-caracteristicas-composicionais-e-estilisticas-dos-generos-carta-de-solicitacao-carta-de-reclamacao-peticao-on-line-carta-aberta-abaixo-assinado-proposta-etc,EF,oc,"Relação entre contexto de produção e características composicionais e estilísticas dos gêneros (carta de solicitação, carta de reclamação, petição on-line, carta aberta, abaixo-assinado, proposta etc.)",ef-comp-lp
+ef-comp-lp-oc-relacao-entre-generos-e-midias,EF,oc,Relação entre gêneros e mídias,ef-comp-lp
+ef-comp-lp-oc-relacao-entre-textos,EF,oc,Relação entre textos,ef-comp-lp
+ef-comp-lp-oc-relato-oral-registro-formal-e-informal,EF,oc,Relato oral/Registro formal e informal,ef-comp-lp
+ef-comp-lp-oc-revisao-de-textos,EF,oc,Revisão de textos,ef-comp-lp
+ef-comp-lp-oc-revisao-edicao-de-texto-informativo-e-opinativo,EF,oc,Revisão/edição de texto informativo e opinativo,ef-comp-lp
+ef-comp-lp-oc-segmentacao-de-palavras-classificacao-de-palavras-por-numero-de-silabas,EF,oc,Segmentação de palavras/Classificação de palavras por número de sílabas,ef-comp-lp
+ef-comp-lp-oc-semantica,EF,oc,Semântica,ef-comp-lp
+ef-comp-lp-oc-semantica-coesao,EF,oc,Semântica Coesão,ef-comp-lp
+ef-comp-lp-oc-sequencias-textuais,EF,oc,Sequências textuais,ef-comp-lp
+ef-comp-lp-oc-sinonimia-e-antonimia-morfologia-pontuacao,EF,oc,Sinonímia e antonímia/Morfologia/Pontuação,ef-comp-lp
+ef-comp-lp-oc-sintaxe,EF,oc,Sintaxe,ef-comp-lp
+ef-comp-lp-oc-textos-dramaticos,EF,oc,Textos dramáticos,ef-comp-lp
+ef-comp-lp-oc-textualizacao,EF,oc,Textualização,ef-comp-lp
+ef-comp-lp-oc-textualizacao-de-textos-argumentativos-e-apreciativos,EF,oc,Textualização de textos argumentativos e apreciativos,ef-comp-lp
+ef-comp-lp-oc-textualizacao-progressao-tematica,EF,oc,Textualização Progressão temática,ef-comp-lp
+ef-comp-lp-oc-textualizacao-revisao-e-edicao,EF,oc,"Textualização, revisão e edição",ef-comp-lp
+ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao,EF,oc,"Textualização, tendo em vista suas condições de produção, as características do gênero em questão, o estabelecimento de coesão,",ef-comp-lp
+ef-comp-lp-oc-usar-adequadamente-ferramentas-de-apoio-a-apresentacoes-orais,EF,oc,Usar adequadamente ferramentas de apoio a apresentações orais,ef-comp-lp
+ef-comp-lp-oc-utilizacao-de-tecnologia-digital,EF,oc,Utilização de tecnologia digital,ef-comp-lp
+ef-comp-lp-oc-variacao-linguistica,EF,oc,Variação linguística,ef-comp-lp
+ef-comp-lp-prat-analise-linguistica-semiotica,EF,prat,Análise linguística/semiótica,ef-comp-lp
+ef-comp-lp-prat-analise-linguistica-semiotica-alfabetizacao,EF,prat,Análise linguística/semiótica (Alfabetização),ef-comp-lp
+ef-comp-lp-prat-analise-linguistica-semiotica-ortografizacao,EF,prat,Análise linguística/semiótica (Ortografização),ef-comp-lp
+ef-comp-lp-prat-escrita-compartilhada-e-autonoma,EF,prat,Escrita (compartilhada e autônoma),ef-comp-lp
+ef-comp-lp-prat-leitura,EF,prat,Leitura,ef-comp-lp
+ef-comp-lp-prat-leitura-escuta-compartilhada-e-autonoma,EF,prat,Leitura/escuta (compartilhada e autônoma),ef-comp-lp
+ef-comp-lp-prat-oralidade,EF,prat,Oralidade,ef-comp-lp
+ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video,EF,prat,"Oralidade *Considerar todas as habilidades dos eixos leitura e produção que se referem a textos ou produções orais, em áudio ou vídeo",ef-comp-lp
+ef-comp-lp-prat-producao-de-textos,EF,prat,Produção de textos,ef-comp-lp
+ef-comp-lp-prat-producao-de-textos-escrita-compartilhada-e-autonoma,EF,prat,Produção de textos (escrita compartilhada e autônoma),ef-comp-lp
+ef-comp-ma-oc-a-circunferencia-como-lugar-geometrico,EF,oc,A circunferência como lugar geométrico,ef-comp-ma
+ef-comp-ma-oc-ampliacao-e-reducao-de-figuras-poligonais-em-malhas-quadriculadas-reconhecimento-da-congruencia-dos-angulos-e-da-proporcionalidade-dos-lados-correspondentes,EF,oc,Ampliação e redução de figuras poligonais em malhas quadriculadas: reconhecimento da congruência dos ângulos e da proporcionalidade dos lados correspondentes,ef-comp-ma
+ef-comp-ma-oc-analise-da-ideia-de-acaso-em-situacoes-do-cotidiano-espaco-amostral,EF,oc,Análise da ideia de acaso em situações do cotidiano: espaço amostral,ef-comp-ma
+ef-comp-ma-oc-analise-da-ideia-de-aleatorio-em-situacoes-do-cotidiano,EF,oc,Análise da ideia de aleatório em situações do cotidiano,ef-comp-ma
+ef-comp-ma-oc-analise-de-chances-de-eventos-aleatorios,EF,oc,Análise de chances de eventos aleatórios,ef-comp-ma
+ef-comp-ma-oc-analise-de-graficos-divulgados-pela-midia-elementos-que-podem-induzir-a-erros-de-leitura-ou-de-interpretacao,EF,oc,Análise de gráficos divulgados pela mídia: elementos que podem induzir a erros de leitura ou de interpretação,ef-comp-ma
+ef-comp-ma-oc-analise-de-probabilidade-de-eventos-aleatorios-eventos-dependentes-e-independentes,EF,oc,Análise de probabilidade de eventos aleatórios: eventos dependentes e independentes,ef-comp-ma
+ef-comp-ma-oc-angulos-nocao-usos-e-medida,EF,oc,"Ângulos: noção, usos e medida",ef-comp-ma
+ef-comp-ma-oc-angulos-retos-e-nao-retos-uso-de-dobraduras-esquadros-e-softwares,EF,oc,"Ângulos retos e não retos: uso de dobraduras, esquadros e softwares",ef-comp-ma
+ef-comp-ma-oc-aproximacao-de-numeros-para-multiplos-de-potencias-de-10,EF,oc,Aproximação de números para múltiplos de potências de 10,ef-comp-ma
+ef-comp-ma-oc-area-de-figuras-planas,EF,oc,Área de figuras planas,ef-comp-ma
+ef-comp-ma-oc-area-do-circulo-e-comprimento-de-sua-circunferencia,EF,oc,Área do círculo e comprimento de sua circunferência,ef-comp-ma
+ef-comp-ma-oc-areas-de-figuras-construidas-em-malhas-quadriculadas,EF,oc,Áreas de figuras construídas em malhas quadriculadas,ef-comp-ma
+ef-comp-ma-oc-areas-e-perimetros-de-figuras-poligonais-algumas-relacoes,EF,oc,Áreas e perímetros de figuras poligonais: algumas relações,ef-comp-ma
+ef-comp-ma-oc-associacao-de-uma-equacao-linear-de-1o-grau-a-uma-reta-no-plano-cartesiano,EF,oc,Associação de uma equação linear de 1º grau a uma reta no plano cartesiano,ef-comp-ma
+ef-comp-ma-oc-calculo-de-porcentagens-e-de-acrescimos-e-decrescimos-simples,EF,oc,Cálculo de porcentagens e de acréscimos e decréscimos simples,ef-comp-ma
+ef-comp-ma-oc-calculo-de-porcentagens-e-representacao-fracionaria,EF,oc,Cálculo de porcentagens e representação fracionária,ef-comp-ma
+ef-comp-ma-oc-calculo-de-porcentagens-por-meio-de-estrategias-diversas-sem-fazer-uso-da-regra-de-tres,EF,oc,"Cálculo de porcentagens por meio de estratégias diversas, sem fazer uso da “regra de três”",ef-comp-ma
+ef-comp-ma-oc-calculo-de-probabilidade-como-a-razao-entre-o-numero-de-resultados-favoraveis-e-o-total-de-resultados-possiveis-em-um-espaco-amostral-equiprovavel,EF,oc,Cálculo de probabilidade como a razão entre o número de resultados favoráveis e o total de resultados possíveis em um espaço amostral equiprovável,ef-comp-ma
+ef-comp-ma-oc-calculo-de-probabilidade-de-eventos-equiprovaveis,EF,oc,Cálculo de probabilidade de eventos equiprováveis,ef-comp-ma
+ef-comp-ma-oc-calculo-de-probabilidade-por-meio-de-muitas-repeticoes-de-um-experimento-frequencias-de-ocorrencias-e-probabilidade-frequentista,EF,oc,Cálculo de probabilidade por meio de muitas repetições de um experimento (frequências de ocorrências e probabilidade frequentista),ef-comp-ma
+ef-comp-ma-oc-calculo-de-volume-de-blocos-retangulares-utilizando-unidades-de-medida-convencionais-mais-usuais,EF,oc,"Cálculo de volume de blocos retangulares, utilizando unidades de medida convencionais mais usuais",ef-comp-ma
+ef-comp-ma-oc-coleta-classificacao-e-representacao-de-dados-de-pesquisa-realizada,EF,oc,"Coleta, classificação e representação de dados de pesquisa realizada",ef-comp-ma
+ef-comp-ma-oc-coleta-classificacao-e-representacao-de-dados-em-tabelas-simples-e-de-dupla-entrada-e-em-graficos-de-colunas,EF,oc,"Coleta, classificação e representação de dados em tabelas simples e de dupla entrada e em gráficos de colunas",ef-comp-ma
+ef-comp-ma-oc-coleta-classificacao-e-representacao-de-dados-referentes-a-variaveis-categoricas-por-meio-de-tabelas-e-graficos,EF,oc,"Coleta, classificação e representação de dados referentes a variáveis categóricas, por meio de tabelas e gráficos",ef-comp-ma
+ef-comp-ma-oc-coleta-de-dados-organizacao-e-registro,EF,oc,"Coleta de dados, organização e registro",ef-comp-ma
+ef-comp-ma-oc-coleta-e-organizacao-de-informacoes,EF,oc,Coleta e organização de informações,ef-comp-ma
+ef-comp-ma-oc-comparacao-de-areas-por-superposicao,EF,oc,Comparação de áreas por superposição,ef-comp-ma
+ef-comp-ma-oc-comparacao-e-ordenacao-de-numeros-racionais-na-representacao-decimal-e-na-fracionaria-utilizando-a-nocao-de-equivalencia,EF,oc,Comparação e ordenação de números racionais na representação decimal e na fracionária utilizando a noção de equivalência,ef-comp-ma
+ef-comp-ma-oc-composicao-e-decomposicao-de-numeros-naturais,EF,oc,Composição e decomposição de números naturais,ef-comp-ma
+ef-comp-ma-oc-composicao-e-decomposicao-de-numeros-naturais-ate-1000,EF,oc,Composição e decomposição de números naturais (até 1000),ef-comp-ma
+ef-comp-ma-oc-composicao-e-decomposicao-de-um-numero-natural-de-ate-cinco-ordens-por-meio-de-adicoes-e-multiplicacoes-por-potencias-de-10,EF,oc,"Composição e decomposição de um número natural de até cinco ordens, por meio de adições e multiplicações por potências de 10",ef-comp-ma
+ef-comp-ma-oc-congruencia-de-figuras-geometricas-planas,EF,oc,Congruência de figuras geométricas planas,ef-comp-ma
+ef-comp-ma-oc-congruencia-de-triangulos-e-demonstracoes-de-propriedades-de-quadrilateros,EF,oc,Congruência de triângulos e demonstrações de propriedades de quadriláteros,ef-comp-ma
+ef-comp-ma-oc-construcao-de-diferentes-tipos-de-graficos-para-representa-los-e-interpretacao-das-informacoes,EF,oc,Construção de diferentes tipos de gráficos para representá-los e interpretação das informações,ef-comp-ma
+ef-comp-ma-oc-construcao-de-fatos-basicos-da-adicao,EF,oc,Construção de fatos básicos da adição,ef-comp-ma
+ef-comp-ma-oc-construcao-de-fatos-fundamentais-da-adicao-e-da-subtracao,EF,oc,Construção de fatos fundamentais da adição e da subtração,ef-comp-ma
+ef-comp-ma-oc-construcao-de-fatos-fundamentais-da-adicao-subtracao-e-multiplicacao,EF,oc,"Construção de fatos fundamentais da adição, subtração e multiplicação",ef-comp-ma
+ef-comp-ma-oc-construcao-de-figuras-semelhantes-ampliacao-e-reducao-de-figuras-planas-em-malhas-quadriculadas,EF,oc,Construção de figuras semelhantes: ampliação e redução de figuras planas em malhas quadriculadas,ef-comp-ma
+ef-comp-ma-oc-construcao-de-retas-paralelas-e-perpendiculares-fazendo-uso-de-reguas-esquadros-e-softwares,EF,oc,"Construção de retas paralelas e perpendiculares, fazendo uso de réguas, esquadros e softwares",ef-comp-ma
+ef-comp-ma-oc-construcao-de-sequencias-repetitivas-e-de-sequencias-recursivas,EF,oc,Construção de sequências repetitivas e de sequências recursivas,ef-comp-ma
+ef-comp-ma-oc-construcoes-geometricas-angulos-de-90-60-45-e-30-e-poligonos-regulares,EF,oc,"Construções geométricas: ângulos de 90°, 60°, 45° e 30° e polígonos regulares",ef-comp-ma
+ef-comp-ma-oc-contagem-ascendente-e-descendente,EF,oc,Contagem ascendente e descendente,ef-comp-ma
+ef-comp-ma-oc-contagem-de-rotina,EF,oc,Contagem de rotina,ef-comp-ma
+ef-comp-ma-oc-demonstracoes-de-relacoes-entre-os-angulos-formados-por-retas-paralelas-intersectadas-por-uma-transversal,EF,oc,Demonstrações de relações entre os ângulos formados por retas paralelas intersectadas por uma transversal,ef-comp-ma
+ef-comp-ma-oc-diferenciacao-entre-variaveis-categoricas-e-variaveis-numericas,EF,oc,Diferenciação entre variáveis categóricas e variáveis numéricas,ef-comp-ma
+ef-comp-ma-oc-diferentes-tipos-de-representacao-de-informacoes-graficos-e-fluxogramas,EF,oc,Diferentes tipos de representação de informações: gráficos e fluxogramas,ef-comp-ma
+ef-comp-ma-oc-distancia-entre-pontos-no-plano-cartesiano,EF,oc,Distância entre pontos no plano cartesiano,ef-comp-ma
+ef-comp-ma-oc-divisao-euclidiana,EF,oc,Divisão euclidiana,ef-comp-ma
+ef-comp-ma-oc-dizimas-periodicas-fracao-geratriz,EF,oc,Dízimas periódicas: fração geratriz,ef-comp-ma
+ef-comp-ma-oc-equacao-polinomial-de-2o-grau-do-tipo-ax2-b,EF,oc,Equação polinomial de 2º grau do tipo ax2 = b,ef-comp-ma
+ef-comp-ma-oc-equacoes-polinomiais-do-1o-grau,EF,oc,Equações polinomiais do 1º grau,ef-comp-ma
+ef-comp-ma-oc-equivalencia-de-area-de-figuras-planas-calculo-de-areas-de-figuras-que-podem-ser-decompostas-por-outras-cujas-areas-podem-ser-facilmente-determinadas-como-triangulos-e-quadrilateros,EF,oc,"Equivalência de área de figuras planas: cálculo de áreas de figuras que podem ser decompostas por outras, cujas áreas podem ser facilmente determinadas como triângulos e quadriláteros",ef-comp-ma
+ef-comp-ma-oc-equivalencia-de-expressoes-algebricas-identificacao-da-regularidade-de-uma-sequencia-numerica,EF,oc,Equivalência de expressões algébricas: identificação da regularidade de uma sequência numérica,ef-comp-ma
+ef-comp-ma-oc-esboco-de-roteiros-e-de-plantas-simples,EF,oc,Esboço de roteiros e de plantas simples,ef-comp-ma
+ef-comp-ma-oc-espaco-amostral-analise-de-chances-de-eventos-aleatorios,EF,oc,Espaço amostral: análise de chances de eventos aleatórios,ef-comp-ma
+ef-comp-ma-oc-estatistica-media-e-amplitude-de-um-conjunto-de-dados,EF,oc,Estatística: média e amplitude de um conjunto de dados,ef-comp-ma
+ef-comp-ma-oc-experimentos-aleatorios-espaco-amostral-e-estimativa-de-probabilidade-por-meio-de-frequencia-de-ocorrencias,EF,oc,Experimentos aleatórios: espaço amostral e estimativa de probabilidade por meio de frequência de ocorrências,ef-comp-ma
+ef-comp-ma-oc-expressoes-algebricas-fatoracao-e-produtos-notaveis,EF,oc,Expressões algébricas: fatoração e produtos notáveis,ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-espaciais-cubo-bloco-retangular-piramide-cone-cilindro-e-esfera-reconhecimento-analise-de-caracteristicas-e-planificacoes,EF,oc,"Figuras geométricas espaciais (cubo, bloco retangular, pirâmide, cone, cilindro e esfera): reconhecimento, análise de características e planificações",ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-espaciais-cubo-bloco-retangular-piramide-cone-cilindro-e-esfera-reconhecimento-e-caracteristicas,EF,oc,"Figuras geométricas espaciais (cubo, bloco retangular, pirâmide, cone, cilindro e esfera): reconhecimento e características",ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-espaciais-prismas-e-piramides-reconhecimento-representacoes-planificacoes-e-caracteristicas,EF,oc,"Figuras geométricas espaciais (prismas e pirâmides): reconhecimento, representações, planificações e características",ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-espaciais-reconhecimento-e-relacoes-com-objetos-familiares-do-mundo-fisico,EF,oc,Figuras geométricas espaciais: reconhecimento e relações com objetos familiares do mundo físico,ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-espaciais-reconhecimento-representacoes-planificacoes-e-caracteristicas,EF,oc,"Figuras geométricas espaciais: reconhecimento, representações, planificações e características",ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-planas-caracteristicas-representacoes-e-angulos,EF,oc,"Figuras geométricas planas: características, representações e ângulos",ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-planas-circulo-quadrado-retangulo-e-triangulo-reconhecimento-e-caracteristicas,EF,oc,"Figuras geométricas planas (círculo, quadrado, retângulo e triângulo): reconhecimento e características",ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-planas-reconhecimento-do-formato-das-faces-de-figuras-geometricas-espaciais,EF,oc,Figuras geométricas planas: reconhecimento do formato das faces de figuras geométricas espaciais,ef-comp-ma
+ef-comp-ma-oc-figuras-geometricas-planas-triangulo-quadrado-retangulo-trapezio-e-paralelogramo-reconhecimento-e-analise-de-caracteristicas,EF,oc,"Figuras geométricas planas (triângulo, quadrado, retângulo, trapézio e paralelogramo): reconhecimento e análise de características",ef-comp-ma
+ef-comp-ma-oc-fluxograma-para-determinar-a-paridade-de-um-numero-natural,EF,oc,Fluxograma para determinar a paridade de um número natural,ef-comp-ma
+ef-comp-ma-oc-fracao-e-seus-significados-como-parte-de-inteiros-resultado-da-divisao-razao-e-operador,EF,oc,"Fração e seus significados: como parte de inteiros, resultado da divisão, razão e operador",ef-comp-ma
+ef-comp-ma-oc-fracoes-significados-parte-todo-quociente-equivalencia-comparacao-adicao-e-subtracao-calculo-da-fracao-de-um-numero-natural-adicao-e-subtracao-de-fracoes,EF,oc,"Frações: significados (parte/todo, quociente), equivalência, comparação, adição e subtração; cálculo da fração de um número natural; adição e subtração de frações",ef-comp-ma
+ef-comp-ma-oc-funcoes-representacoes-numerica-algebrica-e-grafica,EF,oc,"Funções: representações numérica, algébrica e gráfica",ef-comp-ma
+ef-comp-ma-oc-graficos-de-barras-colunas-linhas-ou-setores-e-seus-elementos-constitutivos-e-adequacao-para-determinado-conjunto-de-dados,EF,oc,"Gráficos de barras, colunas, linhas ou setores e seus elementos constitutivos e adequação para determinado conjunto de dados",ef-comp-ma
+ef-comp-ma-oc-graficos-de-setores-interpretacao-pertinencia-e-construcao-para-representar-conjunto-de-dados,EF,oc,"Gráficos de setores: interpretação, pertinência e construção para representar conjunto de dados",ef-comp-ma
+ef-comp-ma-oc-grandezas-diretamente-proporcionais,EF,oc,Grandezas diretamente proporcionais,ef-comp-ma
+ef-comp-ma-oc-grandezas-diretamente-proporcionais-e-grandezas-inversamente-proporcionais,EF,oc,Grandezas diretamente proporcionais e grandezas inversamente proporcionais,ef-comp-ma
+ef-comp-ma-oc-identificacao-de-regularidade-de-sequencias-e-determinacao-de-elementos-ausentes-na-sequencia,EF,oc,Identificação de regularidade de sequências e determinação de elementos ausentes na sequência,ef-comp-ma
+ef-comp-ma-oc-identificacao-e-descricao-de-regularidades-em-sequencias-numericas-recursivas,EF,oc,Identificação e descrição de regularidades em sequências numéricas recursivas,ef-comp-ma
+ef-comp-ma-oc-leitura-coleta-classificacao-interpretacao-e-representacao-de-dados-em-tabelas-de-dupla-entrada-grafico-de-colunas-agrupadas-graficos-pictoricos-e-grafico-de-linhas,EF,oc,"Leitura, coleta, classificação interpretação e representação de dados em tabelas de dupla entrada, gráfico de colunas agrupadas, gráficos pictóricos e gráfico de linhas",ef-comp-ma
+ef-comp-ma-oc-leitura-de-tabelas-e-de-graficos-de-colunas-simples,EF,oc,Leitura de tabelas e de gráficos de colunas simples,ef-comp-ma
+ef-comp-ma-oc-leitura-e-interpretacao-de-tabelas-e-graficos-de-colunas-ou-barras-simples-ou-multiplas-referentes-a-variaveis-categoricas-e-variaveis-numericas,EF,oc,Leitura e interpretação de tabelas e gráficos (de colunas ou barras simples ou múltiplas) referentes a variáveis categóricas e variáveis numéricas,ef-comp-ma
+ef-comp-ma-oc-leitura-escrita-comparacao-e-ordenacao-de-numeros-de-ate-tres-ordens-pela-compreensao-de-caracteristicas-do-sistema-de-numeracao-decimal-valor-posicional-e-papel-do-zero,EF,oc,"Leitura, escrita, comparação e ordenação de números de até três ordens pela compreensão de características do sistema de numeração decimal (valor posicional e papel do zero)",ef-comp-ma
+ef-comp-ma-oc-leitura-escrita-comparacao-e-ordenacao-de-numeros-naturais-de-quatro-ordens,EF,oc,"Leitura, escrita, comparação e ordenação de números naturais de quatro ordens",ef-comp-ma
+ef-comp-ma-oc-leitura-escrita-e-comparacao-de-numeros-naturais-ate-100,EF,oc,"Leitura, escrita e comparação de números naturais (até 100)",ef-comp-ma
+ef-comp-ma-oc-leitura-interpretacao-e-representacao-de-dados-de-pesquisa-expressos-em-tabelas-de-dupla-entrada-graficos-de-colunas-simples-e-agrupadas-graficos-de-barras-e-de-setores-e-graficos-pictoricos,EF,oc,"Leitura, interpretação e representação de dados de pesquisa expressos em tabelas de dupla entrada, gráficos de colunas simples e agrupadas, gráficos de barras e de setores e gráficos pictóricos",ef-comp-ma
+ef-comp-ma-oc-leitura-interpretacao-e-representacao-de-dados-em-tabelas-de-dupla-entrada-e-graficos-de-barras,EF,oc,"Leitura, interpretação e representação de dados em tabelas de dupla entrada e gráficos de barras",ef-comp-ma
+ef-comp-ma-oc-leitura-interpretacao-e-representacao-de-dados-em-tabelas-de-dupla-entrada-graficos-de-colunas-simples-e-agrupadas-graficos-de-barras-e-colunas-e-graficos-pictoricos,EF,oc,"Leitura, interpretação e representação de dados em tabelas de dupla entrada, gráficos de colunas simples e agrupadas, gráficos de barras e colunas e gráficos pictóricos",ef-comp-ma
+ef-comp-ma-oc-linguagem-algebrica-variavel-e-incognita,EF,oc,Linguagem algébrica: variável e incógnita,ef-comp-ma
+ef-comp-ma-oc-localizacao-de-objetos-e-de-pessoas-no-espaco-utilizando-diversos-pontos-de-referencia-e-vocabulario-apropriado,EF,oc,"Localização de objetos e de pessoas no espaço, utilizando diversos pontos de referência e vocabulário apropriado",ef-comp-ma
+ef-comp-ma-oc-localizacao-e-movimentacao-de-pessoas-e-objetos-no-espaco-segundo-pontos-de-referencia-e-indicacao-de-mudancas-de-direcao-e-sentido,EF,oc,"Localização e movimentação de pessoas e objetos no espaço, segundo pontos de referência, e indicação de mudanças de direção e sentido",ef-comp-ma
+ef-comp-ma-oc-localizacao-e-movimentacao-pontos-de-referencia-direcao-e-sentido,EF,oc,"Localização e movimentação: pontos de referência, direção e sentido",ef-comp-ma
+ef-comp-ma-oc-localizacao-e-movimentacao-representacao-de-objetos-e-pontos-de-referencia,EF,oc,Localização e movimentação: representação de objetos e pontos de referência,ef-comp-ma
+ef-comp-ma-oc-mediatriz-e-bissetriz-como-lugares-geometricos-construcao-e-problemas,EF,oc,Mediatriz e bissetriz como lugares geométricos: construção e problemas,ef-comp-ma
+ef-comp-ma-oc-medida-de-capacidade-e-de-massa-unidades-de-medida-nao-convencionais-e-convencionais-litro-mililitro-cm3-grama-e-quilograma,EF,oc,"Medida de capacidade e de massa: unidades de medida não convencionais e convencionais (litro, mililitro, cm3, grama e quilograma)",ef-comp-ma
+ef-comp-ma-oc-medida-de-comprimento-unidades-nao-padronizadas-e-padronizadas-metro-centimetro-e-milimetro,EF,oc,"Medida de comprimento: unidades não padronizadas e padronizadas (metro, centímetro e milímetro)",ef-comp-ma
+ef-comp-ma-oc-medida-do-comprimento-da-circunferencia,EF,oc,Medida do comprimento da circunferência,ef-comp-ma
+ef-comp-ma-oc-medidas-de-capacidade,EF,oc,Medidas de capacidade,ef-comp-ma
+ef-comp-ma-oc-medidas-de-capacidade-e-de-massa-unidades-nao-convencionais-e-convencionais-registro-estimativas-e-comparacoes,EF,oc,"Medidas de capacidade e de massa (unidades não convencionais e convencionais): registro, estimativas e comparações",ef-comp-ma
+ef-comp-ma-oc-medidas-de-comprimento-area-massa-tempo-temperatura-e-capacidade-utilizacao-de-unidades-convencionais-e-relacoes-entre-as-unidades-de-medida-mais-usuais,EF,oc,"Medidas de comprimento, área, massa, tempo, temperatura e capacidade: utilização de unidades convencionais e relações entre as unidades de medida mais usuais",ef-comp-ma
+ef-comp-ma-oc-medidas-de-comprimento-massa-e-capacidade-comparacoes-e-unidades-de-medida-nao-convencionais,EF,oc,"Medidas de comprimento, massa e capacidade: comparações e unidades de medida não convencionais",ef-comp-ma
+ef-comp-ma-oc-medidas-de-comprimento-massa-e-capacidade-estimativas-utilizacao-de-instrumentos-de-medida-e-de-unidades-de-medida-convencionais-mais-usuais,EF,oc,"Medidas de comprimento, massa e capacidade: estimativas, utilização de instrumentos de medida e de unidades de medida convencionais mais usuais",ef-comp-ma
+ef-comp-ma-oc-medidas-de-comprimento-unidades-nao-convencionais-e-convencionais-registro-instrumentos-de-medida-estimativas-e-comparacoes,EF,oc,"Medidas de comprimento (unidades não convencionais e convencionais): registro, instrumentos de medida, estimativas e comparações",ef-comp-ma
+ef-comp-ma-oc-medidas-de-temperatura-em-grau-celsius-construcao-de-graficos-para-indicar-a-variacao-da-temperatura-minima-e-maxima-medida-em-um-dado-dia-ou-em-uma-semana,EF,oc,Medidas de temperatura em grau Celsius: construção de gráficos para indicar a variação da temperatura (mínima e máxima) medida em um dado dia ou em uma semana,ef-comp-ma
+ef-comp-ma-oc-medidas-de-tempo-intervalo-de-tempo-uso-do-calendario-leitura-de-horas-em-relogios-digitais-e-ordenacao-de-datas,EF,oc,"Medidas de tempo: intervalo de tempo, uso do calendário, leitura de horas em relógios digitais e ordenação de datas",ef-comp-ma
+ef-comp-ma-oc-medidas-de-tempo-leitura-de-horas-em-relogios-digitais-e-analogicos-duracao-de-eventos-e-reconhecimento-de-relacoes-entre-unidades-de-medida-de-tempo,EF,oc,"Medidas de tempo: leitura de horas em relógios digitais e analógicos, duração de eventos e reconhecimento de relações entre unidades de medida de tempo",ef-comp-ma
+ef-comp-ma-oc-medidas-de-tempo-leitura-de-horas-em-relogios-digitais-e-analogicos-duracao-de-eventos-e-relacoes-entre-unidades-de-medida-de-tempo,EF,oc,"Medidas de tempo: leitura de horas em relógios digitais e analógicos, duração de eventos e relações entre unidades de medida de tempo",ef-comp-ma
+ef-comp-ma-oc-medidas-de-tempo-unidades-de-medida-de-tempo-suas-relacoes-e-o-uso-do-calendario,EF,oc,"Medidas de tempo: unidades de medida de tempo, suas relações e o uso do calendário",ef-comp-ma
+ef-comp-ma-oc-medidas-de-tendencia-central-e-de-dispersao,EF,oc,Medidas de tendência central e de dispersão,ef-comp-ma
+ef-comp-ma-oc-multiplos-e-divisores-de-um-numero-natural,EF,oc,Múltiplos e divisores de um número natural,ef-comp-ma
+ef-comp-ma-oc-multiplos-e-divisores-de-um-numero-natural-numeros-primos-e-compostos,EF,oc,Múltiplos e divisores de um número natural Números primos e compostos,ef-comp-ma
+ef-comp-ma-oc-necessidade-dos-numeros-reais-para-medir-qualquer-segmento-de-reta,EF,oc,Necessidade dos números reais para medir qualquer segmento de reta,ef-comp-ma
+ef-comp-ma-oc-nocao-de-acaso,EF,oc,Noção de acaso,ef-comp-ma
+ef-comp-ma-oc-nocao-de-volume,EF,oc,Noção de volume,ef-comp-ma
+ef-comp-ma-oc-notacao-cientifica,EF,oc,Notação científica,ef-comp-ma
+ef-comp-ma-oc-numeros-inteiros-usos-historia-ordenacao-associacao-com-pontos-da-reta-numerica-e-operacoes,EF,oc,"Números inteiros: usos, história, ordenação, associação com pontos da reta numérica e operações",ef-comp-ma
+ef-comp-ma-oc-numeros-irracionais-reconhecimento-e-localizacao-de-alguns-na-reta-numerica,EF,oc,Números irracionais: reconhecimento e localização de alguns na reta numérica,ef-comp-ma
+ef-comp-ma-oc-numeros-racionais-expressos-na-forma-decimal-e-sua-representacao-na-reta-numerica,EF,oc,Números racionais expressos na forma decimal e sua representação na reta numérica,ef-comp-ma
+ef-comp-ma-oc-numeros-racionais-fracoes-unitarias-mais-usuais-1-2-1-3-1-4-1-5-1-10-e-1-100,EF,oc,"Números racionais: frações unitárias mais usuais (1/2, 1/3, 1/4, 1/5, 1/10 e 1/100)",ef-comp-ma
+ef-comp-ma-oc-numeros-racionais-na-representacao-fracionaria-e-na-decimal-usos-ordenacao-e-associacao-com-pontos-da-reta-numerica-e-operacoes,EF,oc,"Números racionais na representação fracionária e na decimal: usos, ordenação e associação com pontos da reta numérica e operações",ef-comp-ma
+ef-comp-ma-oc-numeros-racionais-representacao-decimal-para-escrever-valores-do-sistema-monetario-brasileiro,EF,oc,Números racionais: representação decimal para escrever valores do sistema monetário brasileiro,ef-comp-ma
+ef-comp-ma-oc-numeros-reais-notacao-cientifica-e-problemas,EF,oc,Números reais: notação científica e problemas,ef-comp-ma
+ef-comp-ma-oc-o-principio-multiplicativo-da-contagem,EF,oc,O princípio multiplicativo da contagem,ef-comp-ma
+ef-comp-ma-oc-operacoes-adicao-subtracao-multiplicacao-divisao-e-potenciacao-com-numeros-naturais,EF,oc,"Operações (adição, subtração, multiplicação, divisão e potenciação) com números naturais",ef-comp-ma
+ef-comp-ma-oc-operacoes-adicao-subtracao-multiplicacao-divisao-e-potenciacao-com-numeros-racionais,EF,oc,"Operações (adição, subtração, multiplicação, divisão e potenciação) com números racionais",ef-comp-ma
+ef-comp-ma-oc-organizacao-dos-dados-de-uma-variavel-continua-em-classes,EF,oc,Organização dos dados de uma variável contínua em classes,ef-comp-ma
+ef-comp-ma-oc-padroes-figurais-e-numericos-investigacao-de-regularidades-ou-padroes-em-sequencias,EF,oc,Padrões figurais e numéricos: investigação de regularidades ou padrões em sequências,ef-comp-ma
+ef-comp-ma-oc-paralelismo-e-perpendicularismo,EF,oc,Paralelismo e perpendicularismo,ef-comp-ma
+ef-comp-ma-oc-perimetro-de-um-quadrado-como-grandeza-proporcional-a-medida-do-lado,EF,oc,Perímetro de um quadrado como grandeza proporcional à medida do lado,ef-comp-ma
+ef-comp-ma-oc-pesquisa-amostral-e-pesquisa-censitaria,EF,oc,Pesquisa amostral e pesquisa censitária,ef-comp-ma
+ef-comp-ma-oc-pesquisas-censitaria-ou-amostral,EF,oc,Pesquisas censitária ou amostral,ef-comp-ma
+ef-comp-ma-oc-planejamento-de-pesquisa-coleta-e-organizacao-dos-dados-construcao-de-tabelas-e-graficos-e-interpretacao-das-informacoes,EF,oc,"Planejamento de pesquisa, coleta e organização dos dados, construção de tabelas e gráficos e interpretação das informações",ef-comp-ma
+ef-comp-ma-oc-planejamento-e-execucao-de-pesquisa-amostral,EF,oc,Planejamento e execução de pesquisa amostral,ef-comp-ma
+ef-comp-ma-oc-planejamento-e-execucao-de-pesquisa-amostral-e-apresentacao-de-relatorio,EF,oc,Planejamento e execução de pesquisa amostral e apresentação de relatório,ef-comp-ma
+ef-comp-ma-oc-plano-cartesiano-associacao-dos-vertices-de-um-poligono-a-pares-ordenados,EF,oc,Plano cartesiano: associação dos vértices de um polígono a pares ordenados,ef-comp-ma
+ef-comp-ma-oc-plano-cartesiano-coordenadas-cartesianas-1o-quadrante-e-representacao-de-deslocamentos-no-plano-cartesiano,EF,oc,Plano cartesiano: coordenadas cartesianas (1º quadrante) e representação de deslocamentos no plano cartesiano,ef-comp-ma
+ef-comp-ma-oc-plantas-baixas-e-vistas-aereas,EF,oc,Plantas baixas e vistas aéreas,ef-comp-ma
+ef-comp-ma-oc-poligonos-classificacoes-quanto-ao-numero-de-vertices-as-medidas-de-lados-e-angulos-e-ao-paralelismo-e-perpendicularismo-dos-lados,EF,oc,"Polígonos: classificações quanto ao número de vértices, às medidas de lados e ângulos e ao paralelismo e perpendicularismo dos lados",ef-comp-ma
+ef-comp-ma-oc-poligonos-regulares,EF,oc,Polígonos regulares,ef-comp-ma
+ef-comp-ma-oc-poligonos-regulares-quadrado-e-triangulo-equilatero,EF,oc,Polígonos regulares: quadrado e triângulo equilátero,ef-comp-ma
+ef-comp-ma-oc-porcentagens,EF,oc,Porcentagens,ef-comp-ma
+ef-comp-ma-oc-porcentagens-problemas-que-envolvem-calculo-de-percentuais-sucessivos,EF,oc,Porcentagens: problemas que envolvem cálculo de percentuais sucessivos,ef-comp-ma
+ef-comp-ma-oc-potenciacao-e-radiciacao,EF,oc,Potenciação e radiciação,ef-comp-ma
+ef-comp-ma-oc-potencias-com-expoentes-negativos-e-fracionarios,EF,oc,Potências com expoentes negativos e fracionários,ef-comp-ma
+ef-comp-ma-oc-principio-multiplicativo-da-contagem,EF,oc,Princípio multiplicativo da contagem,ef-comp-ma
+ef-comp-ma-oc-prismas-e-piramides-planificacoes-e-relacoes-entre-seus-elementos-vertices-faces-e-arestas,EF,oc,"Prismas e pirâmides: planificações e relações entre seus elementos (vértices, faces e arestas)",ef-comp-ma
+ef-comp-ma-oc-problemas-adicao-e-subtracao-de-numeros-naturais-e-numeros-racionais-cuja-representacao-decimal-e-finita,EF,oc,Problemas: adição e subtração de números naturais e números racionais cuja representação decimal é finita,ef-comp-ma
+ef-comp-ma-oc-problemas-de-contagem,EF,oc,Problemas de contagem,ef-comp-ma
+ef-comp-ma-oc-problemas-de-contagem-do-tipo-se-cada-objeto-de-uma-colecao-a-for-combinado-com-todos-os-elementos-de-uma-colecao-b-quantos-agrupamentos-desse-tipo-podem-ser-formados,EF,oc,"Problemas de contagem do tipo: “Se cada objeto de uma coleção A for combinado com todos os elementos de uma coleção B, quantos agrupamentos desse tipo podem ser formados?”",ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-a-particao-de-um-todo-em-duas-partes-proporcionais,EF,oc,Problemas envolvendo a partição de um todo em duas partes proporcionais,ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-adicao-de-parcelas-iguais-multiplicacao,EF,oc,Problemas envolvendo adição de parcelas iguais (multiplicação),ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-diferentes-significados-da-adicao-e-da-subtracao-juntar-acrescentar-separar-retirar,EF,oc,"Problemas envolvendo diferentes significados da adição e da subtração (juntar, acrescentar, separar, retirar)",ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-diferentes-significados-da-multiplicacao-e-da-divisao-adicao-de-parcelas-iguais-configuracao-retangular-proporcionalidade-reparticao-equitativa-e-medida,EF,oc,"Problemas envolvendo diferentes significados da multiplicação e da divisão: adição de parcelas iguais, configuração retangular, proporcionalidade, repartição equitativa e medida",ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-diferentes-significados-da-multiplicacao-e-da-divisao-adicao-de-parcelas-iguais-configuracao-retangular-reparticao-em-partes-iguais-e-medida,EF,oc,"Problemas envolvendo diferentes significados da multiplicação e da divisão: adição de parcelas iguais, configuração retangular, repartição em partes iguais e medida",ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-grandezas-diretamente-proporcionais-e-grandezas-inversamente-proporcionais,EF,oc,Problemas envolvendo grandezas diretamente proporcionais e grandezas inversamente proporcionais,ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-medicoes,EF,oc,Problemas envolvendo medições,ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-significados-da-adicao-e-da-subtracao-juntar-acrescentar-separar-retirar-comparar-e-completar-quantidades,EF,oc,"Problemas envolvendo significados da adição e da subtração: juntar, acrescentar, separar, retirar, comparar e completar quantidades",ef-comp-ma
+ef-comp-ma-oc-problemas-envolvendo-significados-de-dobro-metade-triplo-e-terca-parte,EF,oc,"Problemas envolvendo significados de dobro, metade, triplo e terça parte",ef-comp-ma
+ef-comp-ma-oc-problemas-multiplicacao-e-divisao-de-numeros-racionais-cuja-representacao-decimal-e-finita-por-numeros-naturais,EF,oc,Problemas: multiplicação e divisão de números racionais cuja representação decimal é finita por números naturais,ef-comp-ma
+ef-comp-ma-oc-problemas-que-tratam-da-particao-de-um-todo-em-duas-partes-desiguais-envolvendo-razoes-entre-as-partes-e-entre-uma-das-partes-e-o-todo,EF,oc,"Problemas que tratam da partição de um todo em duas partes desiguais, envolvendo razões entre as partes e entre uma das partes e o todo",ef-comp-ma
+ef-comp-ma-oc-problemas-sobre-medidas-envolvendo-grandezas-como-comprimento-massa-tempo-temperatura-area-capacidade-e-volume,EF,oc,"Problemas sobre medidas envolvendo grandezas como comprimento, massa, tempo, temperatura, área, capacidade e volume",ef-comp-ma
+ef-comp-ma-oc-problemas-utilizando-o-sistema-monetario-brasileiro,EF,oc,Problemas utilizando o sistema monetário brasileiro,ef-comp-ma
+ef-comp-ma-oc-procedimentos-de-calculo-mental-e-escrito-com-numeros-naturais-adicao-e-subtracao,EF,oc,Procedimentos de cálculo (mental e escrito) com números naturais: adição e subtração,ef-comp-ma
+ef-comp-ma-oc-propriedades-da-igualdade,EF,oc,Propriedades da igualdade,ef-comp-ma
+ef-comp-ma-oc-propriedades-da-igualdade-e-nocao-de-equivalencia,EF,oc,Propriedades da igualdade e noção de equivalência,ef-comp-ma
+ef-comp-ma-oc-propriedades-das-operacoes-para-o-desenvolvimento-de-diferentes-estrategias-de-calculo-com-numeros-naturais,EF,oc,Propriedades das operações para o desenvolvimento de diferentes estratégias de cálculo com números naturais,ef-comp-ma
+ef-comp-ma-oc-quantificacao-de-elementos-de-uma-colecao-estimativas-contagem-um-a-um-pareamento-ou-outros-agrupamentos-e-comparacao,EF,oc,"Quantificação de elementos de uma coleção: estimativas, contagem um a um, pareamento ou outros agrupamentos e comparação",ef-comp-ma
+ef-comp-ma-oc-razao-entre-grandezas-de-especies-diferentes,EF,oc,Razão entre grandezas de espécies diferentes,ef-comp-ma
+ef-comp-ma-oc-reconhecimento-de-numeros-no-contexto-diario-indicacao-de-quantidades-indicacao-de-ordem-ou-indicacao-de-codigo-para-a-organizacao-de-informacoes,EF,oc,"Reconhecimento de números no contexto diário: indicação de quantidades, indicação de ordem ou indicação de código para a organização de informações",ef-comp-ma
+ef-comp-ma-oc-registros-pessoais-para-comunicacao-de-informacoes-coletadas,EF,oc,Registros pessoais para comunicação de informações coletadas,ef-comp-ma
+ef-comp-ma-oc-relacao-de-igualdade,EF,oc,Relação de igualdade,ef-comp-ma
+ef-comp-ma-oc-relacoes-entre-adicao-e-subtracao-e-entre-multiplicacao-e-divisao,EF,oc,Relações entre adição e subtração e entre multiplicação e divisão,ef-comp-ma
+ef-comp-ma-oc-relacoes-entre-arcos-e-angulos-na-circunferencia-de-um-circulo,EF,oc,Relações entre arcos e ângulos na circunferência de um círculo,ef-comp-ma
+ef-comp-ma-oc-relacoes-entre-os-angulos-formados-por-retas-paralelas-intersectadas-por-uma-transversal,EF,oc,Relações entre os ângulos formados por retas paralelas intersectadas por uma transversal,ef-comp-ma
+ef-comp-ma-oc-relacoes-metricas-no-triangulo-retangulo,EF,oc,Relações métricas no triângulo retângulo,ef-comp-ma
+ef-comp-ma-oc-representacao-fracionaria-dos-numeros-racionais-reconhecimento-significados-leitura-e-representacao-na-reta-numerica,EF,oc,"Representação fracionária dos números racionais: reconhecimento, significados, leitura e representação na reta numérica",ef-comp-ma
+ef-comp-ma-oc-resolucao-de-equacoes-polinomiais-do-2o-grau-por-meio-de-fatoracoes,EF,oc,Resolução de equações polinomiais do 2º grau por meio de fatorações,ef-comp-ma
+ef-comp-ma-oc-reta-numerica,EF,oc,Reta numérica,ef-comp-ma
+ef-comp-ma-oc-retas-paralelas-cortadas-por-transversais-teoremas-de-proporcionalidade-e-verificacoes-experimentais,EF,oc,Retas paralelas cortadas por transversais: teoremas de proporcionalidade e verificações experimentais,ef-comp-ma
+ef-comp-ma-oc-semelhanca-de-triangulos,EF,oc,Semelhança de triângulos,ef-comp-ma
+ef-comp-ma-oc-sequencia-numerica-recursiva-formada-por-multiplos-de-um-numero-natural,EF,oc,Sequência numérica recursiva formada por múltiplos de um número natural,ef-comp-ma
+ef-comp-ma-oc-sequencia-numerica-recursiva-formada-por-numeros-que-deixam-o-mesmo-resto-ao-ser-divididos-por-um-mesmo-numero-natural-diferente-de-zero,EF,oc,Sequência numérica recursiva formada por números que deixam o mesmo resto ao ser divididos por um mesmo número natural diferente de zero,ef-comp-ma
+ef-comp-ma-oc-sequencias-recursivas-e-nao-recursivas,EF,oc,Sequências recursivas e não recursivas,ef-comp-ma
+ef-comp-ma-oc-sequencias-recursivas-observacao-de-regras-usadas-utilizadas-em-seriacoes-numericas-mais-1-mais-2-menos-1-menos-2-por-exemplo,EF,oc,"Sequências recursivas: observação de regras usadas utilizadas em seriações numéricas (mais 1, mais 2, menos 1, menos 2, por exemplo)",ef-comp-ma
+ef-comp-ma-oc-significado-de-medida-e-de-unidade-de-medida,EF,oc,Significado de medida e de unidade de medida,ef-comp-ma
+ef-comp-ma-oc-significados-de-metade-terca-parte-quarta-parte-quinta-parte-e-decima-parte,EF,oc,"Significados de metade, terça parte, quarta parte, quinta parte e décima parte",ef-comp-ma
+ef-comp-ma-oc-simetria-de-reflexao,EF,oc,Simetria de reflexão,ef-comp-ma
+ef-comp-ma-oc-simetrias-de-translacao-rotacao-e-reflexao,EF,oc,"Simetrias de translação, rotação e reflexão",ef-comp-ma
+ef-comp-ma-oc-sistema-de-equacoes-polinomiais-de-1o-grau-resolucao-algebrica-e-representacao-no-plano-cartesiano,EF,oc,Sistema de equações polinomiais de 1º grau: resolução algébrica e representação no plano cartesiano,ef-comp-ma
+ef-comp-ma-oc-sistema-de-numeracao-decimal-caracteristicas-leitura-escrita-e-comparacao-de-numeros-naturais-e-de-numeros-racionais-representados-na-forma-decimal,EF,oc,"Sistema de numeração decimal: características, leitura, escrita e comparação de números naturais e de números racionais representados na forma decimal",ef-comp-ma
+ef-comp-ma-oc-sistema-de-numeracao-decimal-leitura-escrita-comparacao-e-ordenacao-de-numeros-naturais-de-ate-cinco-ordens,EF,oc,"Sistema de numeração decimal: leitura, escrita, comparação e ordenação de números naturais de até cinco ordens",ef-comp-ma
+ef-comp-ma-oc-sistema-de-numeracao-decimal-leitura-escrita-e-ordenacao-de-numeros-naturais-de-ate-seis-ordens,EF,oc,"Sistema de numeração decimal: leitura, escrita e ordenação de números naturais (de até seis ordens)",ef-comp-ma
+ef-comp-ma-oc-sistema-monetario-brasileiro-estabelecimento-de-equivalencias-de-um-mesmo-valor-na-utilizacao-de-diferentes-cedulas-e-moedas,EF,oc,Sistema monetário brasileiro: estabelecimento de equivalências de um mesmo valor na utilização de diferentes cédulas e moedas,ef-comp-ma
+ef-comp-ma-oc-sistema-monetario-brasileiro-reconhecimento-de-cedulas-e-moedas,EF,oc,Sistema monetário brasileiro: reconhecimento de cédulas e moedas,ef-comp-ma
+ef-comp-ma-oc-sistema-monetario-brasileiro-reconhecimento-de-cedulas-e-moedas-e-equivalencia-de-valores,EF,oc,Sistema monetário brasileiro: reconhecimento de cédulas e moedas e equivalência de valores,ef-comp-ma
+ef-comp-ma-oc-soma-das-probabilidades-de-todos-os-elementos-de-um-espaco-amostral,EF,oc,Soma das probabilidades de todos os elementos de um espaço amostral,ef-comp-ma
+ef-comp-ma-oc-teorema-de-pitagoras-verificacoes-experimentais-e-demonstracao,EF,oc,Teorema de Pitágoras: verificações experimentais e demonstração,ef-comp-ma
+ef-comp-ma-oc-transformacoes-geometricas-de-poligonos-no-plano-cartesiano-multiplicacao-das-coordenadas-por-um-numero-inteiro-e-obtencao-de-simetricos-em-relacao-aos-eixos-e-a-origem,EF,oc,Transformações geométricas de polígonos no plano cartesiano: multiplicação das coordenadas por um número inteiro e obtenção de simétricos em relação aos eixos e à origem,ef-comp-ma
+ef-comp-ma-oc-transformacoes-geometricas-simetrias-de-translacao-reflexao-e-rotacao,EF,oc,"Transformações geométricas: simetrias de translação, reflexão e rotação",ef-comp-ma
+ef-comp-ma-oc-triangulos-construcao-condicao-de-existencia-e-soma-das-medidas-dos-angulos-internos,EF,oc,"Triângulos: construção, condição de existência e soma das medidas dos ângulos internos",ef-comp-ma
+ef-comp-ma-oc-unidades-de-medida-para-medir-distancias-muito-grandes-e-muito-pequenas,EF,oc,Unidades de medida para medir distâncias muito grandes e muito pequenas,ef-comp-ma
+ef-comp-ma-oc-unidades-de-medida-utilizadas-na-informatica,EF,oc,Unidades de medida utilizadas na informática,ef-comp-ma
+ef-comp-ma-oc-valor-numerico-de-expressoes-algebricas,EF,oc,Valor numérico de expressões algébricas,ef-comp-ma
+ef-comp-ma-oc-variacao-de-grandezas-diretamente-proporcionais-inversamente-proporcionais-ou-nao-proporcionais,EF,oc,"Variação de grandezas: diretamente proporcionais, inversamente proporcionais ou não proporcionais",ef-comp-ma
+ef-comp-ma-oc-vistas-ortogonais-de-figuras-espaciais,EF,oc,Vistas ortogonais de figuras espaciais,ef-comp-ma
+ef-comp-ma-oc-volume-de-bloco-retangular,EF,oc,Volume de bloco retangular,ef-comp-ma
+ef-comp-ma-oc-volume-de-prismas-e-cilindros,EF,oc,Volume de prismas e cilindros,ef-comp-ma
+ef-comp-ma-ut-algebra,EF,ut,Álgebra,ef-comp-ma
+ef-comp-ma-ut-geometria,EF,ut,Geometria,ef-comp-ma
+ef-comp-ma-ut-grandezas-e-medidas,EF,ut,Grandezas e medidas,ef-comp-ma
+ef-comp-ma-ut-numeros,EF,ut,Números,ef-comp-ma
+ef-comp-ma-ut-probabilidade-e-estatistica,EF,ut,Probabilidade e estatística,ef-comp-ma
+em-comp-lp-catu-campo-artistico-literario,EM,catu,Campo artístico-literário,em-comp-lp
+em-comp-lp-catu-campo-da-vida-pessoal,EM,catu,Campo da vida pessoal,em-comp-lp
+em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa,EM,catu,Campo das práticas de estudo e pesquisa,em-comp-lp
+em-comp-lp-catu-campo-de-atuacao-na-vida-publica,EM,catu,Campo de atuação na vida pública,em-comp-lp
+em-comp-lp-catu-campo-jornalistico-midiatico,EM,catu,Campo jornalístico-midiático,em-comp-lp
+em-comp-lp-catu-todos-os-campos-de-atuacao-social,EM,catu,Todos os Campos de atuação social,em-comp-lp

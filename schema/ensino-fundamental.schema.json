@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/ensino-fundamental.schema.json",
+  "title": "Ensino Fundamental (dados/bncc-2018/ensino-fundamental.json)",
+  "type": "object",
+  "properties": {
+    "habilidades": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "codigo": { "$ref": "definicoes.json#/$defs/codigo_ef" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "componente": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "anos": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "integer", "minimum": 1, "maximum": 9 }
+          },
+          "organizacao": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": { "const": "unidade_tematica" },
+                  "unidade_tematica": { "$ref": "definicoes.json#/$defs/id_slug" }
+                },
+                "required": ["tipo", "unidade_tematica"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "description": "Língua Portuguesa: campos de atuação + prática de linguagem",
+                "properties": {
+                  "tipo": { "const": "campo_pratica" },
+                  "campos_atuacao": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": { "$ref": "definicoes.json#/$defs/id_slug" }
+                  },
+                  "pratica_linguagem": { "$ref": "definicoes.json#/$defs/id_slug" }
+                },
+                "required": ["tipo", "campos_atuacao", "pratica_linguagem"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "description": "Língua Inglesa: eixo + unidade temática",
+                "properties": {
+                  "tipo": { "const": "eixo" },
+                  "eixo": { "$ref": "definicoes.json#/$defs/id_slug" },
+                  "unidade_tematica": { "$ref": "definicoes.json#/$defs/id_slug" }
+                },
+                "required": ["tipo", "eixo", "unidade_tematica"],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "objetos_conhecimento": {
+            "type": "array",
+            "items": { "$ref": "definicoes.json#/$defs/id_slug" }
+          },
+          "vigencia": { "$ref": "definicoes.json#/$defs/vigencia" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["codigo", "documento", "texto", "componente", "anos", "organizacao", "objetos_conhecimento", "vigencia", "fonte"],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": { "properties": { "componente": { "const": "ef-comp-lp" } } },
+            "then": { "properties": { "organizacao": { "properties": { "tipo": { "const": "campo_pratica" } } } } }
+          },
+          {
+            "if": { "properties": { "componente": { "const": "ef-comp-li" } } },
+            "then": { "properties": { "organizacao": { "properties": { "tipo": { "const": "eixo" } } } } }
+          }
+        ]
+      }
+    },
+    "contextos_organizacao": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "tipo": { "enum": ["ut", "oc", "catu", "prat", "eixo"] },
+          "nome": { "type": "string" },
+          "componente": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["id", "tipo", "nome", "componente", "fonte"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["habilidades", "contextos_organizacao"],
+  "additionalProperties": false
+}

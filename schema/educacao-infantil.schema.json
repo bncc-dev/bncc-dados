@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/educacao-infantil.schema.json",
+  "title": "Educação Infantil (dados/bncc-2018/educacao-infantil.json)",
+  "type": "object",
+  "properties": {
+    "objetivos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "codigo": { "$ref": "definicoes.json#/$defs/codigo_ei" },
+          "documento": { "$ref": "definicoes.json#/$defs/documento_ref" },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "campo_experiencias": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "grupo_etario": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "alinhamento": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "vigencia": { "$ref": "definicoes.json#/$defs/vigencia" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["codigo", "documento", "texto", "campo_experiencias", "grupo_etario", "alinhamento", "vigencia", "fonte"],
+        "additionalProperties": false
+      }
+    },
+    "alinhamentos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "Progressão horizontal oficial: objetivos do mesmo aspecto entre grupos etários (BNCC p. 26)",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "campo_experiencias": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "objetivos": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 3,
+            "items": { "$ref": "definicoes.json#/$defs/codigo_ei" }
+          },
+          "nota": { "type": "string" }
+        },
+        "required": ["id", "campo_experiencias", "objetivos"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["objetivos", "alinhamentos"],
+  "additionalProperties": false
+}
