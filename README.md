@@ -113,4 +113,4 @@ Leia `llms.txt` na raiz. Em resumo: consuma os JSONs de `dados/bncc-2018/`, use 
 
 ## Roadmap
 
-Pacote npm e PyPI, servidor MCP e páginas por habilidade chegam na próxima fase, construídos sobre este dataset. Correções de dados exigem referência à fonte oficial no PR.
+Já disponíveis como pré-release (0.1.x), construídos sobre este dataset: pacote npm [@bncc/dados](https://www.npmjs.com/package/@bncc/dados), pacote PyPI [bncc](https://pypi.org/project/bncc/) e servidor MCP [@bncc/mcp](https://www.npmjs.com/package/@bncc/mcp) (`npx -y @bncc/mcp`). As versões 1.0 saem com a release `dados-v1.0.0`. Páginas por habilidade no ar na mesma release. Correções de dados exigem referência à fonte oficial no PR.
