@@ -1,0 +1,2099 @@
+{
+  "documento_curricular": [
+    {
+      "id": "bncc-2018",
+      "nome": "Base Nacional Comum Curricular",
+      "tipo": "base_nacional",
+      "esfera": "federal",
+      "derivado_de": null
+    }
+  ],
+  "etapas": [
+    {
+      "id": "EI",
+      "nome": "Educação Infantil"
+    },
+    {
+      "id": "EF",
+      "nome": "Ensino Fundamental"
+    },
+    {
+      "id": "EM",
+      "nome": "Ensino Médio"
+    }
+  ],
+  "modalidades": [
+    {
+      "id": "eja",
+      "nome": "Educação de Jovens e Adultos",
+      "transversal_a": [
+        "EF",
+        "EM"
+      ],
+      "segmentos": [
+        {
+          "id": "eja-1",
+          "corresponde_a": "EF anos iniciais"
+        },
+        {
+          "id": "eja-2",
+          "corresponde_a": "EF anos finais"
+        },
+        {
+          "id": "eja-3",
+          "corresponde_a": "EM"
+        }
+      ]
+    }
+  ],
+  "areas_conhecimento": [
+    {
+      "id": "ef-area-linguagens",
+      "etapa": "EF",
+      "nome": "Linguagens",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ef-area-matematica",
+      "etapa": "EF",
+      "nome": "Matemática",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza",
+      "etapa": "EF",
+      "nome": "Ciências da Natureza",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ef-area-ciencias-humanas",
+      "etapa": "EF",
+      "nome": "Ciências Humanas",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ef-area-ensino-religioso",
+      "etapa": "EF",
+      "nome": "Ensino Religioso",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg",
+      "etapa": "EM",
+      "nome": "Linguagens e suas Tecnologias",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "em-area-mat",
+      "etapa": "EM",
+      "nome": "Matemática e suas Tecnologias",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "em-area-cnt",
+      "etapa": "EM",
+      "nome": "Ciências da Natureza e suas Tecnologias",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs",
+      "etapa": "EM",
+      "nome": "Ciências Humanas e Sociais Aplicadas",
+      "documento": "bncc-2018"
+    }
+  ],
+  "componentes_curriculares": [
+    {
+      "id": "ef-comp-ar",
+      "etapa": "EF",
+      "nome": "Arte",
+      "sigla_codigo": "AR",
+      "area": "ef-area-linguagens",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-ci",
+      "etapa": "EF",
+      "nome": "Ciências",
+      "sigla_codigo": "CI",
+      "area": "ef-area-ciencias-da-natureza",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-ef",
+      "etapa": "EF",
+      "nome": "Educação Física",
+      "sigla_codigo": "EF",
+      "area": "ef-area-linguagens",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-er",
+      "etapa": "EF",
+      "nome": "Ensino Religioso",
+      "sigla_codigo": "ER",
+      "area": "ef-area-ensino-religioso",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-ge",
+      "etapa": "EF",
+      "nome": "Geografia",
+      "sigla_codigo": "GE",
+      "area": "ef-area-ciencias-humanas",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-hi",
+      "etapa": "EF",
+      "nome": "História",
+      "sigla_codigo": "HI",
+      "area": "ef-area-ciencias-humanas",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-li",
+      "etapa": "EF",
+      "nome": "Língua Inglesa",
+      "sigla_codigo": "LI",
+      "area": "ef-area-linguagens",
+      "tem_aprendizagens_proprias": true,
+      "presenca": {
+        "anos": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "id": "ef-comp-lp",
+      "etapa": "EF",
+      "nome": "Língua Portuguesa",
+      "sigla_codigo": "LP",
+      "area": "ef-area-linguagens",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "ef-comp-ma",
+      "etapa": "EF",
+      "nome": "Matemática",
+      "sigla_codigo": "MA",
+      "area": "ef-area-matematica",
+      "tem_aprendizagens_proprias": true,
+      "presenca": null
+    },
+    {
+      "id": "em-comp-lp",
+      "etapa": "EM",
+      "nome": "Língua Portuguesa",
+      "sigla_codigo": "LP",
+      "area": "em-area-lgg",
+      "tem_aprendizagens_proprias": true,
+      "destaque_legal": "Lei nº 13.415/2017"
+    },
+    {
+      "id": "em-comp-mat",
+      "etapa": "EM",
+      "nome": "Matemática",
+      "sigla_codigo": null,
+      "area": "em-area-mat",
+      "tem_aprendizagens_proprias": true,
+      "destaque_legal": "Lei nº 13.415/2017",
+      "nota": "detalhamento coincide com a área (componente único)"
+    },
+    {
+      "id": "em-comp-arte",
+      "etapa": "EM",
+      "nome": "Arte",
+      "sigla_codigo": null,
+      "area": "em-area-lgg",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-educacao-fisica",
+      "etapa": "EM",
+      "nome": "Educação Física",
+      "sigla_codigo": null,
+      "area": "em-area-lgg",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-lingua-inglesa",
+      "etapa": "EM",
+      "nome": "Língua Inglesa",
+      "sigla_codigo": null,
+      "area": "em-area-lgg",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-biologia",
+      "etapa": "EM",
+      "nome": "Biologia",
+      "sigla_codigo": null,
+      "area": "em-area-cnt",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-fisica",
+      "etapa": "EM",
+      "nome": "Física",
+      "sigla_codigo": null,
+      "area": "em-area-cnt",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-quimica",
+      "etapa": "EM",
+      "nome": "Química",
+      "sigla_codigo": null,
+      "area": "em-area-cnt",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-historia",
+      "etapa": "EM",
+      "nome": "História",
+      "sigla_codigo": null,
+      "area": "em-area-chs",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-geografia",
+      "etapa": "EM",
+      "nome": "Geografia",
+      "sigla_codigo": null,
+      "area": "em-area-chs",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-sociologia",
+      "etapa": "EM",
+      "nome": "Sociologia",
+      "sigla_codigo": null,
+      "area": "em-area-chs",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    },
+    {
+      "id": "em-comp-filosofia",
+      "etapa": "EM",
+      "nome": "Filosofia",
+      "sigla_codigo": null,
+      "area": "em-area-chs",
+      "tem_aprendizagens_proprias": false,
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "localizador": "p. 33 (PDF da estrutura)"
+      }
+    }
+  ],
+  "recortes_temporais": [
+    {
+      "id": "ei-grupo-01",
+      "etapa": "EI",
+      "tipo": "grupo_etario",
+      "nome": "Bebês",
+      "faixa": "0–1a6m"
+    },
+    {
+      "id": "ei-grupo-02",
+      "etapa": "EI",
+      "tipo": "grupo_etario",
+      "nome": "Crianças bem pequenas",
+      "faixa": "1a7m–3a11m"
+    },
+    {
+      "id": "ei-grupo-03",
+      "etapa": "EI",
+      "tipo": "grupo_etario",
+      "nome": "Crianças pequenas",
+      "faixa": "4a–5a11m"
+    },
+    {
+      "id": "ef-ano-01",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 1,
+      "segmento": "anos_iniciais"
+    },
+    {
+      "id": "ef-ano-02",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 2,
+      "segmento": "anos_iniciais"
+    },
+    {
+      "id": "ef-ano-03",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 3,
+      "segmento": "anos_iniciais"
+    },
+    {
+      "id": "ef-ano-04",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 4,
+      "segmento": "anos_iniciais"
+    },
+    {
+      "id": "ef-ano-05",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 5,
+      "segmento": "anos_iniciais"
+    },
+    {
+      "id": "ef-ano-06",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 6,
+      "segmento": "anos_finais"
+    },
+    {
+      "id": "ef-ano-07",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 7,
+      "segmento": "anos_finais"
+    },
+    {
+      "id": "ef-ano-08",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 8,
+      "segmento": "anos_finais"
+    },
+    {
+      "id": "ef-ano-09",
+      "etapa": "EF",
+      "tipo": "ano",
+      "numero": 9,
+      "segmento": "anos_finais"
+    },
+    {
+      "id": "em-sem-seriacao",
+      "etapa": "EM",
+      "tipo": "sem_seriacao",
+      "nota": "habilidades sem seriação; progressão definida pelos currículos (BNCC p. 32, 34)"
+    }
+  ],
+  "campos_experiencias": [
+    {
+      "id": "ei-campo-eo",
+      "nome": "O eu, o outro e o nós",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-campo-cg",
+      "nome": "Corpo, gestos e movimentos",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-campo-ts",
+      "nome": "Traços, sons, cores e formas",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-campo-ef",
+      "nome": "Escuta, fala, pensamento e imaginação",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-campo-et",
+      "nome": "Espaços, tempos, quantidades, relações e transformações",
+      "documento": "bncc-2018"
+    }
+  ],
+  "direitos_aprendizagem": [
+    {
+      "id": "ei-direito-conviver",
+      "nome": "Conviver",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-direito-brincar",
+      "nome": "Brincar",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-direito-participar",
+      "nome": "Participar",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-direito-explorar",
+      "nome": "Explorar",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-direito-expressar",
+      "nome": "Expressar",
+      "documento": "bncc-2018"
+    },
+    {
+      "id": "ei-direito-conhecer-se",
+      "nome": "Conhecer-se",
+      "documento": "bncc-2018"
+    }
+  ],
+  "competencias_gerais": [
+    {
+      "id": "cg-01",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 1,
+      "texto": "Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-02",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 2,
+      "texto": "Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-03",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 3,
+      "texto": "Valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também participar de práticas diversificadas da produção artístico-cultural.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-04",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 4,
+      "texto": "Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, bem como conhecimentos das linguagens artística, matemática e científica, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao entendimento mútuo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-05",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 5,
+      "texto": "Compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-06",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 6,
+      "texto": "Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que lhe possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-07",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 7,
+      "texto": "Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-08",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 8,
+      "texto": "Conhecer-se, apreciar-se e cuidar de sua saúde física e emocional, compreendendo-se na diversidade humana e reconhecendo suas emoções e as dos outros, com autocrítica e capacidade para lidar com elas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-09",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 9,
+      "texto": "Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação,fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    },
+    {
+      "id": "cg-10",
+      "documento": "bncc-2018",
+      "tipo": "geral",
+      "numero": 10,
+      "texto": "Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Competências gerais"
+      }
+    }
+  ],
+  "competencias_especificas": [
+    {
+      "id": "ef-area-linguagens-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-linguagens",
+      "numero": 1,
+      "texto": "Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Linguagens"
+      }
+    },
+    {
+      "id": "ef-area-linguagens-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-linguagens",
+      "numero": 2,
+      "texto": "Conhecer e explorar diversas práticas de linguagem (artísticas, corporais e linguísticas) em diferentes campos da atividade humana para continuar aprendendo, ampliar suas possibilidades de participação na vida social e colaborar para a construção de uma sociedade mais justa, democrática e inclusiva.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Linguagens"
+      }
+    },
+    {
+      "id": "ef-area-linguagens-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-linguagens",
+      "numero": 3,
+      "texto": "Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao diálogo, à resolução de conflitos e à cooperação.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Linguagens"
+      }
+    },
+    {
+      "id": "ef-area-linguagens-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-linguagens",
+      "numero": 4,
+      "texto": "Utilizar diferentes linguagens para defender pontos de vista que respeitem o outro e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, atuando criticamente frente a questões do mundo contemporâneo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Linguagens"
+      }
+    },
+    {
+      "id": "ef-area-linguagens-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-linguagens",
+      "numero": 5,
+      "texto": "Desenvolver o senso estético para reconhecer, fruir e respeitar as diversas manifestações artísticas e culturais, das locais às mundiais, inclusive aquelas pertencentes ao patrimônio cultural da humanidade, bem como participar de práticas diversificadas, individuais e coletivas, da produção artístico-cultural, com respeito à diversidade de saberes, identidades e culturas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Linguagens"
+      }
+    },
+    {
+      "id": "ef-area-linguagens-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-linguagens",
+      "numero": 6,
+      "texto": "Compreender e utilizar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares), para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Linguagens"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 1,
+      "texto": "Reconhecer que a Matemática é uma ciência humana, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos, e é uma ciência viva, que contribui para solucionar problemas científicos e tecnológicos e para alicerçar descobertas e construções, inclusive com impactos no mundo do trabalho.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 2,
+      "texto": "Desenvolver o raciocínio lógico, o espírito de investigação e a capacidade de produzir argumentos convincentes, recorrendo aos conhecimentos matemáticos para compreender e atuar no mundo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 3,
+      "texto": "Compreender as relações entre conceitos e procedimentos dos diferentes campos da Matemática (Aritmética, Álgebra, Geometria, Estatística e Probabilidade) e de outras áreas do conhecimento, sentindo segurança quanto à própria capacidade de construir e aplicar conhecimentos matemáticos, desenvolvendo a autoestima e a perseverança na busca de soluções.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 4,
+      "texto": "Fazer observações sistemáticas de aspectos quantitativos e qualitativos presentes nas práticas sociais e culturais, de modo a investigar, organizar, representar e comunicar informações relevantes, para interpretá-las e avaliá-las crítica e eticamente, produzindo argumentos convincentes.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 5,
+      "texto": "Utilizar processos e ferramentas matemáticas, inclusive tecnologias digitais disponíveis, para modelar e resolver problemas cotidianos, sociais e de outras áreas de conhecimento, validando estratégias e resultados.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 6,
+      "texto": "Enfrentar situações-problema em múltiplos contextos, incluindo-se situações imaginadas, não diretamente relacionadas com o aspecto prático-utilitário, expressar suas respostas e sintetizar conclusões, utilizando diferentes registros e linguagens (gráficos, tabelas, esquemas, além de texto escrito na língua materna e outras linguagens para descrever algoritmos, como fluxogramas, e dados).",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 7,
+      "texto": "Desenvolver e/ou discutir projetos que abordem, sobretudo, questões de urgência social, com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de opiniões de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-matematica-ce-08",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-matematica",
+      "numero": 8,
+      "texto": "Interagir com seus pares de forma cooperativa, trabalhando coletivamente no planejamento e desenvolvimento de pesquisas para responder a questionamentos e na busca de soluções para problemas, de modo a identificar aspectos consensuais ou não na discussão de uma determinada questão, respeitando o modo de pensar dos colegas e aprendendo com eles.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Matemática"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 1,
+      "texto": "Compreender as Ciências da Natureza como empreendimento humano, e o conhecimento científico como provisório, cultural e histórico.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 2,
+      "texto": "Compreender conceitos fundamentais e estruturas explicativas das Ciências da Natureza, bem como dominar processos, práticas e procedimentos da investigação científica, de modo a sentir segurança no debate de questões científicas, tecnológicas, socioambientais e do mundo do trabalho, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 3,
+      "texto": "Analisar, compreender e explicar características, fenômenos e processos relativos ao mundo natural, social e tecnológico (incluindo o digital), como também as relações que se estabelecem entre eles, exercitando a curiosidade para fazer perguntas, buscar respostas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das Ciências da Natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 4,
+      "texto": "Avaliar aplicações e implicações políticas, socioambientais e culturais da ciência e de suas tecnologias para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 5,
+      "texto": "Construir argumentos com base em dados, evidências e informações confiáveis e negociar e defender ideias e pontos de vista que promovam a consciência socioambiental e o respeito a si próprio e ao outro, acolhendo e valorizando a diversidade de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 6,
+      "texto": "Utilizar diferentes linguagens e tecnologias digitais de informação e comunicação para se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas das Ciências da Natureza de forma crítica, significativa, reflexiva e ética.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 7,
+      "texto": "Conhecer, apreciar e cuidar de si, do seu corpo e bem-estar, compreendendo-se na diversidade humana, fazendo-se respeitar e respeitando o outro, recorrendo aos conhecimentos das Ciências da Natureza e às suas tecnologias.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-da-natureza-ce-08",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-da-natureza",
+      "numero": 8,
+      "texto": "Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, recorrendo aos conhecimentos das Ciências da Natureza para tomar decisões frente a questões científico-tecnológicas e socioambientais e a respeito da saúde individual e coletiva, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências da nature"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 1,
+      "texto": "Compreender a si e ao outro como identidades diferentes, de forma a exercitar o respeito à diferença em uma sociedade plural e promover os direitos humanos.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 2,
+      "texto": "Analisar o mundo social, cultural e digital e o meio técnico-científico-informacional com base nos conhecimentos das Ciências Humanas, considerando suas variações de significado no tempo e no espaço, para intervir em situações do cotidiano e se posicionar diante de problemas do mundo contemporâneo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 3,
+      "texto": "Identificar, comparar e explicar a intervenção do ser humano na natureza e na sociedade, exercitando a curiosidade e propondo ideias e ações que contribuam para a transformação espacial, social e cultural, de modo a participar efetivamente das dinâmicas da vida social.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 4,
+      "texto": "Interpretar e expressar sentimentos, crenças e dúvidas com relação a si mesmo, aos outros e às diferentes culturas, com base nos instrumentos de investigação das Ciências Humanas, promovendo o acolhimento e a valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 5,
+      "texto": "Comparar eventos ocorridos simultaneamente no mesmo espaço e em espaços variados, e eventos ocorridos em tempos diferentes no mesmo espaço e em espaços variados.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 6,
+      "texto": "Construir argumentos, com base nos conhecimentos das Ciências Humanas, para negociar e defender ideias e opiniões que respeitem e promovam os direitos humanos e a consciência socioambiental, exercitando a responsabilidade e o protagonismo voltados para o bem comum e a construção de uma sociedade justa, democrática e inclusiva.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ciencias-humanas-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ciencias-humanas",
+      "numero": 7,
+      "texto": "Utilizar as linguagens cartográfica, gráfica e iconográfica e diferentes gêneros textuais e tecnologias digitais de informação e comunicação no desenvolvimento do raciocínio espaço-temporal relacionado a localização, distância, direção, duração, simultaneidade, sucessão, ritmo e conexão.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ciências humanas"
+      }
+    },
+    {
+      "id": "ef-area-ensino-religioso-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ensino-religioso",
+      "numero": 1,
+      "texto": "Conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ensino religioso"
+      }
+    },
+    {
+      "id": "ef-area-ensino-religioso-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ensino-religioso",
+      "numero": 2,
+      "texto": "Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ensino religioso"
+      }
+    },
+    {
+      "id": "ef-area-ensino-religioso-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ensino-religioso",
+      "numero": 3,
+      "texto": "Compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ensino religioso"
+      }
+    },
+    {
+      "id": "ef-area-ensino-religioso-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ensino-religioso",
+      "numero": 4,
+      "texto": "Reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ensino religioso"
+      }
+    },
+    {
+      "id": "ef-area-ensino-religioso-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ensino-religioso",
+      "numero": 5,
+      "texto": "Analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ensino religioso"
+      }
+    },
+    {
+      "id": "ef-area-ensino-religioso-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "ef-area-ensino-religioso",
+      "numero": 6,
+      "texto": "Debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Ensino religioso"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 1,
+      "texto": "Reconhecer o texto como lugar de manifestação e negociação de sentidos, valores e ideologias.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 2,
+      "texto": "Compreender a língua como fenômeno cultural, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-a como meio de construção de identidades de seus usuários e da comunidade a que pertencem.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 3,
+      "texto": "Apropriar-se da linguagem escrita, reconhecendo-a como forma de interação nos diferentes campos de atuação da vida social e utilizando-a para ampliar suas possibilidades de participar da cultura letrada, de construir conhecimentos (inclusive escolares) e de se envolver com maior autonomia e protagonismo na vida social.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 4,
+      "texto": "Ler, escutar e produzir textos orais, escritos e multissemióticos que circulam em diferentes campos de atuação e mídias, com compreensão, autonomia, ﬂuência e criticidade, de modo a se expressar e partilhar informações, experiências, ideias e sentimentos, e continuar aprendendo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 5,
+      "texto": "Compreender o fenômeno da variação linguística, demonstrando atitude respeitosa diante de variedades linguísticas e rejeitando preconceitos linguísticos.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 6,
+      "texto": "Empregar, nas interações sociais, a variedade e o estilo de linguagem adequados à situação comunicativa, ao(s) interlocutor(es) e ao gênero do discurso/gênero textual.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 7,
+      "texto": "Analisar informações, argumentos e opiniões manifestados em interações sociais e nos meios de comunicação, posicionando-se ética e criticamente em relação a conteúdos discriminatórios que ferem direitos humanos e ambientais.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-08",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 8,
+      "texto": "Selecionar textos e livros para leitura integral, de acordo com objetivos, interesses e projetos pessoais (estudo, formação pessoal, entretenimento, pesquisa, trabalho etc.).",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-09",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 9,
+      "texto": "Envolver-se em práticas de leitura literária que possibilitem o desenvolvimento do senso estético para fruição, valorizando a literatura e outras manifestações artístico-culturais como formas de acesso às dimensões lúdicas, de imaginário e encantamento, reconhecendo o potencial transformador e humanizador da experiência com a literatura.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-lp-ce-10",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-lp",
+      "numero": 10,
+      "texto": "Mobilizar práticas da cultura digital, diferentes linguagens, mídias e ferramentas digitais para expandir as formas de produzir sentidos (nos processos de compreensão e produção), aprender e refletir sobre o mundo e realizar diferentes projetos autorais.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 1,
+      "texto": "Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 2,
+      "texto": "Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 3,
+      "texto": "Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 4,
+      "texto": "Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 5,
+      "texto": "Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 6,
+      "texto": "Estabelecer relações entre arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da arte na sociedade.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 7,
+      "texto": "Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-08",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 8,
+      "texto": "Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas artes.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ar-ce-09",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ar",
+      "numero": 9,
+      "texto": "Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Arte"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 1,
+      "texto": "Compreender a origem da cultura corporal de movimento e seus vínculos com a organização da vida coletiva e individual.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 2,
+      "texto": "Planejar e empregar estratégias para resolver desafios e aumentar as possibilidades de aprendizagem das práticas corporais, além de se envolver no processo de ampliação do acervo cultural nesse campo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 3,
+      "texto": "Refletir, criticamente, sobre as relações entre a realização das práticas corporais e os processos de saúde/doença, inclusive no contexto das atividades laborais.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 4,
+      "texto": "Identificar a multiplicidade de padrões de desempenho, saúde, beleza e estética corporal, analisando, criticamente, os modelos disseminados na mídia e discutir posturas consumistas e preconceituosas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 5,
+      "texto": "Identificar as formas de produção dos preconceitos, compreender seus efeitos e combater posicionamentos discriminatórios em relação às práticas corporais e aos seus participantes.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 6,
+      "texto": "Interpretar e recriar os valores, os sentidos e os significados atribuídos às diferentes práticas corporais, bem como aos sujeitos que delas participam.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 7,
+      "texto": "Reconhecer as práticas corporais como elementos constitutivos da identidade cultural dos povos e grupos.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-08",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 8,
+      "texto": "Usufruir das práticas corporais de forma autônoma para potencializar o envolvimento em contextos de lazer, ampliar as redes de sociabilidade e a promoção da saúde.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-09",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 9,
+      "texto": "Reconhecer o acesso às práticas corporais como direito do cidadão, propondo e produzindo alternativas para sua realização no contexto comunitário.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-ef-ce-10",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ef",
+      "numero": 10,
+      "texto": "Experimentar, desfrutar, apreciar e criar diferentes brincadeiras, jogos, danças, ginásticas, esportes, lutas e práticas corporais de aventura, valorizando o trabalho coletivo e o protagonismo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Educação Física"
+      }
+    },
+    {
+      "id": "ef-comp-li-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-li",
+      "numero": 1,
+      "texto": "Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da língua inglesa contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Inglesa"
+      }
+    },
+    {
+      "id": "ef-comp-li-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-li",
+      "numero": 2,
+      "texto": "Comunicar-se na língua inglesa, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Inglesa"
+      }
+    },
+    {
+      "id": "ef-comp-li-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-li",
+      "numero": 3,
+      "texto": "Identificar similaridades e diferenças entre a língua inglesa e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Inglesa"
+      }
+    },
+    {
+      "id": "ef-comp-li-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-li",
+      "numero": 4,
+      "texto": "Elaborar repertórios linguístico-discursivos da língua inglesa, usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Inglesa"
+      }
+    },
+    {
+      "id": "ef-comp-li-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-li",
+      "numero": 5,
+      "texto": "Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na língua inglesa, de forma ética, crítica e responsável.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Inglesa"
+      }
+    },
+    {
+      "id": "ef-comp-li-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-li",
+      "numero": 6,
+      "texto": "Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na língua inglesa, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Língua Inglesa"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 1,
+      "texto": "Utilizar os conhecimentos geográficos para entender a interação sociedade/natureza e exercitar o interesse e o espírito de investigação e de resolução de problemas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 2,
+      "texto": "Estabelecer conexões entre diferentes temas do conhecimento geográfico, reconhecendo a importância dos objetos técnicos para a compreensão das formas como os seres humanos fazem uso dos recursos da natureza ao longo da história.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 3,
+      "texto": "Desenvolver autonomia e senso crítico para compreensão e aplicação do raciocínio geográfico na análise da ocupação humana e produção do espaço, envolvendo os princípios de analogia, conexão, diferenciação, distribuição, extensão, localização e ordem.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 4,
+      "texto": "Desenvolver o pensamento espacial, fazendo uso das linguagens cartográficas e iconográficas, de diferentes gêneros textuais e das geotecnologias para a resolução de problemas que envolvam informações geográficas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 5,
+      "texto": "Desenvolver e utilizar processos, práticas e procedimentos de investigação para compreender o mundo natural, social, econômico, político e o meio técnico-científico e informacional, avaliar ações e propor perguntas e soluções (inclusive tecnológicas) para questões que requerem conhecimentos científicos da Geografia.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 6,
+      "texto": "Construir argumentos com base em informações geográficas, debater e defender ideias e pontos de vista que respeitem e promovam a consciência socioambiental e o respeito à biodiversidade e ao outro, sem preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-ge-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-ge",
+      "numero": 7,
+      "texto": "Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, propondo ações sobre as questões socioambientais, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de Geografia"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 1,
+      "texto": "Compreender e problematizar os conceitos e procedimentos norteadores da produção historiográfica.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 2,
+      "texto": "Compreender acontecimentos históricos, relações de poder e processos e mecanismos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais ao longo do tempo e em diferentes espaços para analisar, posicionar-se e intervir no mundo contemporâneo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 3,
+      "texto": "Compreender a historicidade no tempo e no espaço, relacionando acontecimentos e processos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais, bem como problematizar os significados das lógicas de organização cronológica.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 4,
+      "texto": "Elaborar questionamentos, hipóteses, argumentos e proposições em relação a documentos, interpretações e contextos históricos específicos, recorrendo a diferentes linguagens e mídias, exercitando a empatia, o diálogo, a resolução de conflitos, a cooperação e o respeito.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 5,
+      "texto": "Identificar interpretações que expressem visões de diferentes sujeitos, culturas e povos com relação a um mesmo contexto histórico, e posicionar-se criticamente com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 6,
+      "texto": "Analisar e compreender o movimento de populações e mercadorias no tempo e no espaço e seus significados históricos, levando em conta o respeito e a solidariedade com as diferentes populações.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "ef-comp-hi-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_componente",
+      "componente": "ef-comp-hi",
+      "numero": 7,
+      "texto": "Produzir, avaliar e utilizar tecnologias digitais de informação e comunicação de modo crítico, ético e responsável, compreendendo seus significados para os diferentes grupos ou estratos sociais.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino Fundamental.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comps. de História"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 1,
+      "texto": "Compreender o funcionamento das diferentes linguagens e práticas culturais (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 2,
+      "texto": "Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconhecimento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 3,
+      "texto": "Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 4,
+      "texto": "Compreender as línguas como fenômeno (geo)político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas variedades e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 5,
+      "texto": "Compreender os processos de produção e negociação de sentidos nas práticas corporais, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 6,
+      "texto": "Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re)construir produções autorais individuais e coletivas, exercendo protagonismo de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-lgg-ce-07",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-lgg",
+      "numero": 7,
+      "texto": "Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Linguagens e suas Tec"
+      }
+    },
+    {
+      "id": "em-area-mat-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-mat",
+      "numero": 1,
+      "texto": "Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, das questões socioeconômicas ou tecnológicas, divulgados por diferentes meios, de modo a contribuir para uma formação geral.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Matemática e suas Te"
+      }
+    },
+    {
+      "id": "em-area-mat-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-mat",
+      "numero": 2,
+      "texto": "Propor ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas sociais, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, mobilizando e articulando conceitos, procedimentos e linguagens próprios da Matemática.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Matemática e suas Te"
+      }
+    },
+    {
+      "id": "em-area-mat-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-mat",
+      "numero": 3,
+      "texto": "Utilizar estratégias, conceitos, definições e procedimentos matemáticos para interpretar, construir modelos e resolver problemas em diversos contextos, analisando a plausibilidade dos resultados e a adequação das soluções propostas, de modo a construir argumentação consistente.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Matemática e suas Te"
+      }
+    },
+    {
+      "id": "em-area-mat-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-mat",
+      "numero": 4,
+      "texto": "Compreender e utilizar, com flexibilidade e precisão, diferentes registros de representação matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca de solução e comunicação de resultados de problemas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Matemática e suas Te"
+      }
+    },
+    {
+      "id": "em-area-mat-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-mat",
+      "numero": 5,
+      "texto": "Investigar e estabelecer conjecturas a respeito de diferentes conceitos e propriedades matemáticas, empregando estratégias e recursos, como observação de padrões, experimentações e diferentes tecnologias, identificando a necessidade, ou não, de uma demonstração cada vez mais formal na validação das referidas conjecturas.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Matemática e suas Te"
+      }
+    },
+    {
+      "id": "em-area-cnt-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-cnt",
+      "numero": 1,
+      "texto": "Analisar fenômenos naturais e processos tecnológicos, com base nas interações e relações entre matéria e energia, para propor ações individuais e coletivas que aperfeiçoem processos produtivos, minimizem impactos socioambientais e melhorem as condições de vida em âmbito local, regional e global.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências da Natureza"
+      }
+    },
+    {
+      "id": "em-area-cnt-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-cnt",
+      "numero": 2,
+      "texto": "Analisar e utilizar interpretações sobre a dinâmica da Vida, da Terra e do Cosmos para elaborar argumentos, realizar previsões sobre o funcionamento e a evolução dos seres vivos e do Universo, e fundamentar e defender decisões éticas e responsáveis.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências da Natureza"
+      }
+    },
+    {
+      "id": "em-area-cnt-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-cnt",
+      "numero": 3,
+      "texto": "Investigar situações-problema e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC).",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências da Natureza"
+      }
+    },
+    {
+      "id": "em-area-chs-ce-01",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-chs",
+      "numero": 1,
+      "texto": "Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir da pluralidade de procedimentos epistemológicos, científicos e tecnológicos, de modo a compreender e posicionar-se criticamente em relação a eles, considerando diferentes pontos de vista e tomando decisões baseadas em argumentos e fontes de natureza científica.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências Humanas e S"
+      }
+    },
+    {
+      "id": "em-area-chs-ce-02",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-chs",
+      "numero": 2,
+      "texto": "Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão das relações de poder que determinam as territorialidades e o papel geopolítico dos Estados-nações.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências Humanas e S"
+      }
+    },
+    {
+      "id": "em-area-chs-ce-03",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-chs",
+      "numero": 3,
+      "texto": "Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) e seus impactos econômicos e socioambientais, com vistas à proposição de alternativas que respeitem e promovam a consciência, a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências Humanas e S"
+      }
+    },
+    {
+      "id": "em-area-chs-ce-04",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-chs",
+      "numero": 4,
+      "texto": "Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências Humanas e S"
+      }
+    },
+    {
+      "id": "em-area-chs-ce-05",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-chs",
+      "numero": 5,
+      "texto": "Identificar e combater as diversas formas de injustiça, preconceito e violência, adotando princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências Humanas e S"
+      }
+    },
+    {
+      "id": "em-area-chs-ce-06",
+      "documento": "bncc-2018",
+      "tipo": "especifica_de_area",
+      "area": "em-area-chs",
+      "numero": 6,
+      "texto": "Participar do debate público de forma crítica, respeitando diferentes posições e fazendo escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Comp. de Ciências Humanas e S"
+      }
+    }
+  ]
+}

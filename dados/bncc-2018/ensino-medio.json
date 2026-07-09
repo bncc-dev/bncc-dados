@@ -1,0 +1,4598 @@
+{
+  "habilidades": [
+    {
+      "codigo": "EM13CHS101",
+      "documento": "bncc-2018",
+      "texto": "Identificar, analisar e comparar diferentes fontes e narrativas expressas em diversas linguagens, com vistas à compreensão de ideias filosóficas e de processos e eventos históricos, geográficos, políticos, econômicos, sociais, ambientais e culturais.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 3",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 574"
+      }
+    },
+    {
+      "codigo": "EM13CHS102",
+      "documento": "bncc-2018",
+      "texto": "Identificar, analisar e discutir as circunstâncias históricas, geográficas, políticas, econômicas, sociais, ambientais e culturais de matrizes conceituais (etnocentrismo, racismo, evolução, modernidade, cooperativismo/desenvolvimento etc.), avaliando criticamente seu significado histórico e comparando-as a narrativas que contemplem outros agentes e discursos.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 4",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 574"
+      }
+    },
+    {
+      "codigo": "EM13CHS103",
+      "documento": "bncc-2018",
+      "texto": "Elaborar hipóteses, selecionar evidências e compor argumentos relativos a processos políticos, econômicos, sociais, ambientais, culturais e epistemológicos, com base na sistematização de dados e informações de diversas naturezas (expressões artísticas, textos filosóficos e sociológicos, documentos históricos e geográficos, gráficos, mapas, tabelas, tradições orais, entre outros).",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 5",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 574"
+      }
+    },
+    {
+      "codigo": "EM13CHS104",
+      "documento": "bncc-2018",
+      "texto": "Analisar objetos e vestígios da cultura material e imaterial de modo a identificar conhecimentos, valores, crenças e práticas que caracterizam a identidade e a diversidade cultural de diferentes sociedades inseridas no tempo e no espaço.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 6",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 574"
+      }
+    },
+    {
+      "codigo": "EM13CHS105",
+      "documento": "bncc-2018",
+      "texto": "Identificar, contextualizar e criticar tipologias evolutivas (populações nômades e sedentárias, entre outras) e oposições dicotômicas (cidade/campo, cultura/ natureza, civilizados/bárbaros, razão/emoção, material/virtual etc.), explicitando suas ambiguidades.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 7",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 574"
+      }
+    },
+    {
+      "codigo": "EM13CHS106",
+      "documento": "bncc-2018",
+      "texto": "Utilizar as linguagens cartográfica, gráfica e iconográfica, diferentes gêneros textuais e tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais, incluindo as escolares, para se comunicar, acessar e difundir informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 8",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 574"
+      }
+    },
+    {
+      "codigo": "EM13CHS201",
+      "documento": "bncc-2018",
+      "texto": "Analisar e caracterizar as dinâmicas das populações, das mercadorias e do capital nos diversos continentes, com destaque para a mobilidade e a fixação de pessoas, grupos humanos e povos, em função de eventos naturais, políticos, econômicos, sociais, religiosos e culturais, de modo a compreender e posicionar-se criticamente em relação a esses processos e às possíveis relações entre eles.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 9",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 575"
+      }
+    },
+    {
+      "codigo": "EM13CHS202",
+      "documento": "bncc-2018",
+      "texto": "Analisar e avaliar os impactos das tecnologias na estruturação e nas dinâmicas de grupos, povos e sociedades contemporâneos (fluxos populacionais, financeiros, de mercadorias, de informações, de valores éticos e culturais etc.), bem como suas interferências nas decisões políticas, sociais, ambientais, econômicas e culturais.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 10",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 575"
+      }
+    },
+    {
+      "codigo": "EM13CHS203",
+      "documento": "bncc-2018",
+      "texto": "Comparar os significados de território, fronteiras e vazio (espacial, temporal e cultural) em diferentes sociedades, contextualizando e relativizando visões dualistas (civilização/barbárie, nomadismo/sedentarismo, esclarecimento/obscurantismo, cidade/campo, entre outras).",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 11",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 575"
+      }
+    },
+    {
+      "codigo": "EM13CHS204",
+      "documento": "bncc-2018",
+      "texto": "Comparar e avaliar os processos de ocupação do espaço e a formação de territórios, territorialidades e fronteiras, identificando o papel de diferentes agentes (como grupos sociais e culturais, impérios, Estados Nacionais e organismos internacionais) e considerando os conflitos populacionais (internos e externos), a diversidade étnico-cultural e as características socioeconômicas, políticas e tecnológicas.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 12",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 575"
+      }
+    },
+    {
+      "codigo": "EM13CHS205",
+      "documento": "bncc-2018",
+      "texto": "Analisar a produção de diferentes territorialidades em suas dimensões culturais, econômicas, ambientais, políticas e sociais, no Brasil e no mundo contemporâneo, com destaque para as culturas juvenis.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 13",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 575"
+      }
+    },
+    {
+      "codigo": "EM13CHS206",
+      "documento": "bncc-2018",
+      "texto": "Analisar a ocupação humana e a produção do espaço em diferentes tempos, aplicando os princípios de localização, distribuição, ordem, extensão, conexão, arranjos, casualidade, entre outros que contribuem para o raciocínio geográfico.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 14",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 575"
+      }
+    },
+    {
+      "codigo": "EM13CHS301",
+      "documento": "bncc-2018",
+      "texto": "Problematizar hábitos e práticas individuais e coletivos de produção, reaproveitamento e descarte de resíduos em metrópoles, áreas urbanas e rurais, e comunidades com diferentes características socioeconômicas, e elaborar e/ou selecionar propostas de ação que promovam a sustentabilidade socioambiental, o combate à poluição sistêmica e o consumo responsável.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 15",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 577"
+      }
+    },
+    {
+      "codigo": "EM13CHS302",
+      "documento": "bncc-2018",
+      "texto": "Analisar e avaliar criticamente os impactos econômicos e socioambientais de cadeias produtivas ligadas à exploração de recursos naturais e às atividades agropecuárias em diferentes ambientes e escalas de análise, considerando o modo de vida das populações locais - entre elas as indígenas, quilombolas e demais comunidades tradicionais -, suas práticas agroextrativistas e o compromisso com a sustentabilidade.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 16",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 577"
+      }
+    },
+    {
+      "codigo": "EM13CHS303",
+      "documento": "bncc-2018",
+      "texto": "Debater e avaliar o papel da indústria cultural e das culturas de massa no estímulo ao consumismo, seus impactos econômicos e socioambientais, com vistas à percepção crítica das necessidades criadas pelo consumo e à adoção de hábitos sustentáveis.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 17",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 577"
+      }
+    },
+    {
+      "codigo": "EM13CHS304",
+      "documento": "bncc-2018",
+      "texto": "Analisar os impactos socioambientais decorrentes de práticas de instituições governamentais, de empresas e de indivíduos, discutindo as origens dessas práticas, selecionando, incorporando e promovendo aquelas que favoreçam a consciência e a ética socioambiental e o consumo responsável.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 18",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 577"
+      }
+    },
+    {
+      "codigo": "EM13CHS305",
+      "documento": "bncc-2018",
+      "texto": "Analisar e discutir o papel e as competências legais dos organismos nacionais e internacionais de regulação, controle e fiscalização ambiental e dos acordos internacionais para a promoção e a garantia de práticas ambientais sustentáveis.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 19",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 577"
+      }
+    },
+    {
+      "codigo": "EM13CHS306",
+      "documento": "bncc-2018",
+      "texto": "Contextualizar, comparar e avaliar os impactos de diferentes modelos socioeconômicos no uso dos recursos naturais e na promoção da sustentabilidade econômica e socioambiental do planeta (como a adoção dos sistemas da agrobiodiversidade e agroflorestal por diferentes comunidades, entre outros).",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 20",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 577"
+      }
+    },
+    {
+      "codigo": "EM13CHS401",
+      "documento": "bncc-2018",
+      "texto": "Identificar e analisar as relações entre sujeitos, grupos, classes sociais e sociedades com culturas distintas diante das transformações técnicas, tecnológicas e informacionais e das novas formas de trabalho ao longo do tempo, em diferentes espaços (urbanos e rurais) e contextos.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 21",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 578"
+      }
+    },
+    {
+      "codigo": "EM13CHS402",
+      "documento": "bncc-2018",
+      "texto": "Analisar e comparar indicadores de emprego, trabalho e renda em diferentes espaços, escalas e tempos, associando-os a processos de estratificação e desigualdade socioeconômica.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 22",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 578"
+      }
+    },
+    {
+      "codigo": "EM13CHS403",
+      "documento": "bncc-2018",
+      "texto": "Caracterizar e analisar os impactos das transformações tecnológicas nas relações sociais e de trabalho próprias da contemporaneidade, promovendo ações voltadas à superação das desigualdades sociais, da opressão e da violação dos Direitos Humanos.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 23",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 578"
+      }
+    },
+    {
+      "codigo": "EM13CHS404",
+      "documento": "bncc-2018",
+      "texto": "Identificar e discutir os múltiplos aspectos do trabalho em diferentes circunstâncias e contextos históricos e/ou geográficos e seus efeitos sobre as gerações, em especial, os jovens, levando em consideração, na atualidade, as transformações técnicas, tecnológicas e informacionais.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 24",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 578"
+      }
+    },
+    {
+      "codigo": "EM13CHS501",
+      "documento": "bncc-2018",
+      "texto": "Analisar os fundamentos da ética em diferentes culturas, tempos e espaços, identificando processos que contribuem para a formação de sujeitos éticos que valorizem a liberdade, a cooperação, a autonomia, o empreendedorismo, a convivência democrática e a solidariedade.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 25",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 579"
+      }
+    },
+    {
+      "codigo": "EM13CHS502",
+      "documento": "bncc-2018",
+      "texto": "Analisar situações da vida cotidiana, estilos de vida, valores, condutas etc., desnaturalizando e problematizando formas de desigualdade, preconceito, intolerância e discriminação, e identificar ações que promovam os Direitos Humanos, a solidariedade e o respeito às diferenças e às liberdades individuais.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 26",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 579"
+      }
+    },
+    {
+      "codigo": "EM13CHS503",
+      "documento": "bncc-2018",
+      "texto": "Identificar diversas formas de violência (física, simbólica, psicológica etc.), suas principais vítimas, suas causas sociais, psicológicas e afetivas, seus significados e usos políticos, sociais e culturais, discutindo e avaliando mecanismos para combatê-las, com base em argumentos éticos.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 27",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 579"
+      }
+    },
+    {
+      "codigo": "EM13CHS504",
+      "documento": "bncc-2018",
+      "texto": "Analisar e avaliar os impasses ético-políticos decorrentes das transformações culturais, sociais, históricas, científicas e tecnológicas no mundo contemporâneo e seus desdobramentos nas atitudes e nos valores de indivíduos, grupos sociais, sociedades e culturas.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 28",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 579"
+      }
+    },
+    {
+      "codigo": "EM13CHS601",
+      "documento": "bncc-2018",
+      "texto": "Identificar e analisar as demandas e os protagonismos políticos, sociais e culturais dos povos indígenas e das populações afrodescendentes (incluindo as quilombolas) no Brasil contemporâneo considerando a história das Américas e o contexto de exclusão e inclusão precária desses grupos na ordem social e econômica atual, promovendo ações para a redução das desigualdades étnico-raciais no país.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 29",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 581"
+      }
+    },
+    {
+      "codigo": "EM13CHS602",
+      "documento": "bncc-2018",
+      "texto": "Identificar e caracterizar a presença do paternalismo, do autoritarismo e do populismo na política, na sociedade e nas culturas brasileira e latino-americana, em períodos ditatoriais e democráticos, relacionando-os com as formas de organização e de articulação das sociedades em defesa da autonomia, da liberdade, do diálogo e da promoção da democracia, da cidadania e dos direitos humanos na sociedade atual.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 30",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 581"
+      }
+    },
+    {
+      "codigo": "EM13CHS603",
+      "documento": "bncc-2018",
+      "texto": "Analisar a formação de diferentes países, povos e nações e de suas experiências políticas e de exercício da cidadania, aplicando conceitos políticos básicos (Estado, poder, formas, sistemas e regimes de governo, soberania etc.).",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 31",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 581"
+      }
+    },
+    {
+      "codigo": "EM13CHS604",
+      "documento": "bncc-2018",
+      "texto": "Discutir o papel dos organismos internacionais no contexto mundial, com vistas à elaboração de uma visão crítica sobre seus limites e suas formas de atuação nos países, considerando os aspectos positivos e negativos dessa atuação para as populações locais.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 32",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 581"
+      }
+    },
+    {
+      "codigo": "EM13CHS605",
+      "documento": "bncc-2018",
+      "texto": "Analisar os princípios da declaração dos Direitos Humanos, recorrendo às noções de justiça, igualdade e fraternidade, identificar os progressos e entraves à concretização desses direitos nas diversas sociedades contemporâneas e promover ações concretas diante da desigualdade e das violações desses direitos em diferentes espaços de vivência, respeitando a identidade de cada grupo e de cada indivíduo.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 33",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 581"
+      }
+    },
+    {
+      "codigo": "EM13CHS606",
+      "documento": "bncc-2018",
+      "texto": "Analisar as características socioeconômicas da sociedade brasileira - com base na análise de documentos (dados, tabelas, mapas etc.) de diferentes fontes - e propor medidas para enfrentar os problemas identificados e construir uma sociedade mais próspera, justa e inclusiva, que valorize o protagonismo de seus cidadãos e promova o autoconhecimento, a autoestima, a autoconfiança e a empatia.",
+      "area": "em-area-chs",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-chs-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 3",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 581"
+      }
+    },
+    {
+      "codigo": "EM13CNT101",
+      "documento": "bncc-2018",
+      "texto": "Analisar e representar, com ou sem o uso de dispositivos e de aplicativos digitais específicos, as transformações e conservações em sistemas que envolvam quantidade de matéria, de energia e de movimento para realizar previsões sobre seus comportamentos em situações cotidianas e em processos produtivos que priorizem o desenvolvimento sustentável, o uso consciente dos recursos naturais e a preservação da vida em todas as suas formas.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 4",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT102",
+      "documento": "bncc-2018",
+      "texto": "Realizar previsões, avaliar intervenções e/ou construir protótipos de sistemas térmicos que visem à sustentabilidade, considerando sua composição e os efeitos das variáveis termodinâmicas sobre seu funcionamento, considerando também o uso de tecnologias digitais que auxiliem no cálculo de estimativas e no apoio à construção dos protótipos.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 5",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT103",
+      "documento": "bncc-2018",
+      "texto": "Utilizar o conhecimento sobre as radiações e suas origens para avaliar as potencialidades e os riscos de sua aplicação em equipamentos de uso cotidiano, na saúde, no ambiente, na indústria, na agricultura e na geração de energia elétrica.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 6",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT104",
+      "documento": "bncc-2018",
+      "texto": "Avaliar os benefícios e os riscos à saúde e ao ambiente, considerando a composição, a toxicidade e a reatividade de diferentes materiais e produtos, como também o nível de exposição a eles, posicionando-se criticamente e propondo soluções individuais e/ou coletivas para seus usos e descartes responsáveis.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 7",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT105",
+      "documento": "bncc-2018",
+      "texto": "Analisar os ciclos biogeoquímicos e interpretar os efeitos de fenômenos naturais e da interferência humana sobre esses ciclos, para promover ações individuais e/ ou coletivas que minimizem consequências nocivas à vida.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 8",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT106",
+      "documento": "bncc-2018",
+      "texto": "Avaliar, com ou sem o uso de dispositivos e aplicativos digitais, tecnologias e possíveis soluções para as demandas que envolvem a geração, o transporte, a distribuição e o consumo de energia elétrica, considerando a disponibilidade de recursos, a eficiência energética, a relação custo/benefício, as características geográficas e ambientais, a produção de resíduos e os impactos socioambientais e culturais.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 9",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT107",
+      "documento": "bncc-2018",
+      "texto": "Realizar previsões qualitativas e quantitativas sobre o funcionamento de geradores, motores elétricos e seus componentes, bobinas, transformadores, pilhas, baterias e dispositivos eletrônicos, com base na análise dos processos de transformação e condução de energia envolvidos - com ou sem o uso de dispositivos e aplicativos digitais -, para propor ações que visem a sustentabilidade.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 10",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 557"
+      }
+    },
+    {
+      "codigo": "EM13CNT201",
+      "documento": "bncc-2018",
+      "texto": "Analisar e discutir modelos, teorias e leis propostos em diferentes épocas e culturas para comparar distintas explicações sobre o surgimento e a evolução da Vida, da Terra e do Universo com as teorias científicas aceitas atualmente.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 11",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT202",
+      "documento": "bncc-2018",
+      "texto": "Analisar as diversas formas de manifestação da vida em seus diferentes níveis de organização, bem como as condições ambientais favoráveis e os fatores limitantes a elas, com ou sem o uso de dispositivos e aplicativos digitais (como softwares de simulação e de realidade virtual, entre outros).",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 12",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT203",
+      "documento": "bncc-2018",
+      "texto": "Avaliar e prever efeitos de intervenções nos ecossistemas, e seus impactos nos seres vivos e no corpo humano, com base nos mecanismos de manutenção da vida, nos ciclos da matéria e nas transformações e transferências de energia, utilizando representações e simulações sobre tais fatores, com ou sem o uso de dispositivos e aplicativos digitais (como softwares de simulação e de realidade virtual, entre outros).",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 13",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT204",
+      "documento": "bncc-2018",
+      "texto": "Elaborar explicações, previsões e cálculos a respeito dos movimentos de objetos na Terra, no Sistema Solar e no Universo com base na análise das interações gravitacionais, com ou sem o uso de dispositivos e aplicativos digitais (como softwares de simulação e de realidade virtual, entre outros).",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 14",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT205",
+      "documento": "bncc-2018",
+      "texto": "Interpretar resultados e realizar previsões sobre atividades experimentais, fenômenos naturais e processos tecnológicos, com base nas noções de probabilidade e incerteza, reconhecendo os limites explicativos das ciências.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 15",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT206",
+      "documento": "bncc-2018",
+      "texto": "Discutir a importância da preservação e conservação da biodiversidade, considerando parâmetros qualitativos e quantitativos, e avaliar os efeitos da ação humana e das políticas ambientais para a garantia da sustentabilidade do planeta.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 16",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT207",
+      "documento": "bncc-2018",
+      "texto": "Identificar, analisar e discutir vulnerabilidades vinculadas às vivências e aos desafios contemporâneos aos quais as juventudes estão expostas, considerando os aspectos físico, psicoemocional e social, a fim de desenvolver e divulgar ações de prevenção e de promoção da saúde e do bem-estar.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 17",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT208",
+      "documento": "bncc-2018",
+      "texto": "Aplicar os princípios da evolução biológica para analisar a história humana, considerando sua origem, diversificação, dispersão pelo planeta e diferentes formas de interação com a natureza, valorizando e respeitando a diversidade étnica e cultural humana.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 18",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT209",
+      "documento": "bncc-2018",
+      "texto": "Analisar a evolução estelar associando-a aos modelos de origem e distribuição dos elementos químicos no Universo, compreendendo suas relações com as condições necessárias ao surgimento de sistemas solares e planetários, suas estruturas e composições e as possibilidades de existência de vida, utilizando representações e simulações, com ou sem o uso de dispositivos e aplicativos digitais (como softwares de simulação e de realidade virtual, entre outros).",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 19",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 559"
+      }
+    },
+    {
+      "codigo": "EM13CNT301",
+      "documento": "bncc-2018",
+      "texto": "Construir questões, elaborar hipóteses, previsões e estimativas, empregar instrumentos de medição e representar e interpretar modelos explicativos, dados e/ou resultados experimentais para construir, avaliar e justificar conclusões no enfrentamento de situações-problema sob uma perspectiva científica.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 20",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT302",
+      "documento": "bncc-2018",
+      "texto": "Comunicar, para públicos variados, em diversos contextos, resultados de análises, pesquisas e/ou experimentos, elaborando e/ou interpretando textos, gráficos, tabelas, símbolos, códigos, sistemas de classificação e equações, por meio de diferentes linguagens, mídias, tecnologias digitais de informação e comunicação (TDIC), de modo a participar e/ou promover debates em torno de temas científicos e/ou tecnológicos de relevância sociocultural e ambiental.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 21",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT303",
+      "documento": "bncc-2018",
+      "texto": "Interpretar textos de divulgação científica que tratem de temáticas das Ciências da Natureza, disponíveis em diferentes mídias, considerando a apresentação dos dados, tanto na forma de textos como em equações, gráficos e/ou tabelas, a consistência dos argumentos e a coerência das conclusões, visando construir estratégias de seleção de fontes confiáveis de informações.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 22",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT304",
+      "documento": "bncc-2018",
+      "texto": "Analisar e debater situações controversas sobre a aplicação de conhecimentos da área de Ciências da Natureza (tais como tecnologias do DNA, tratamentos com células-tronco, neurotecnologias, produção de tecnologias de defesa, estratégias de controle de pragas, entre outros), com base em argumentos consistentes, legais, éticos e responsáveis, distinguindo diferentes pontos de vista.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 23",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT305",
+      "documento": "bncc-2018",
+      "texto": "Investigar e discutir o uso indevido de conhecimentos das Ciências da Natureza na justificativa de processos de discriminação, segregação e privação de direitos individuais e coletivos, em diferentes contextos sociais e históricos, para promover a equidade e o respeito à diversidade.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 24",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT306",
+      "documento": "bncc-2018",
+      "texto": "Avaliar os riscos envolvidos em atividades cotidianas, aplicando conhecimentos das Ciências da Natureza, para justificar o uso de equipamentos e recursos, bem como comportamentos de segurança, visando à integridade física, individual e coletiva, e socioambiental, podendo fazer uso de dispositivos e aplicativos digitais que viabilizem a estruturação de simulações de tais riscos.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 25",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT307",
+      "documento": "bncc-2018",
+      "texto": "Analisar as propriedades dos materiais para avaliar a adequação de seu uso em diferentes aplicações (industriais, cotidianas, arquitetônicas ou tecnológicas) e/ ou propor soluções seguras e sustentáveis considerando seu contexto local e cotidiano.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 26",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 561"
+      }
+    },
+    {
+      "codigo": "EM13CNT308",
+      "documento": "bncc-2018",
+      "texto": "Investigar e analisar o funcionamento de equipamentos elétricos e/ou eletrônicos e sistemas de automação para compreender as tecnologias contemporâneas e avaliar seus impactos sociais, culturais e ambientais.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 27",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 562"
+      }
+    },
+    {
+      "codigo": "EM13CNT309",
+      "documento": "bncc-2018",
+      "texto": "Analisar questões socioambientais, políticas e econômicas relativas à dependência do mundo atual em relação aos recursos não renováveis e discutir a necessidade de introdução de alternativas e novas tecnologias energéticas e de materiais, comparando diferentes tipos de motores e processos de produção de novos materiais.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências da Natureza ', linha 28",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 562"
+      }
+    },
+    {
+      "codigo": "EM13CNT310",
+      "documento": "bncc-2018",
+      "texto": "Investigar e analisar os efeitos de programas de infraestrutura e demais serviços básicos (saneamento, energia elétrica, transporte, telecomunicações, cobertura vacinal, atendimento primário à saúde e produção de alimentos, entre outros) e identificar necessidades locais e/ou regionais em relação a esses serviços, a fim de avaliar e/ou promover ações que contribuam para a melhoria na qualidade de vida e nas condições de saúde da população.",
+      "area": "em-area-cnt",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-cnt-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 3",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 562"
+      }
+    },
+    {
+      "codigo": "EM13LGG101",
+      "documento": "bncc-2018",
+      "texto": "Compreender e analisar processos de produção e circulação de discursos, nas diferentes linguagens, para fazer escolhas fundamentadas em função de interesses pessoais e coletivos.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 4",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 493"
+      }
+    },
+    {
+      "codigo": "EM13LGG102",
+      "documento": "bncc-2018",
+      "texto": "Analisar visões de mundo, conflitos de interesse, preconceitos e ideologias presentes nos discursos veiculados nas diferentes mídias, ampliando suas possibilidades de explicação, interpretação e intervenção crítica da/na realidade.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 5",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 493"
+      }
+    },
+    {
+      "codigo": "EM13LGG103",
+      "documento": "bncc-2018",
+      "texto": "Analisar o funcionamento das linguagens, para interpretar e produzir criticamente discursos em textos de diversas semioses (visuais, verbais, sonoras, gestuais).",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 6",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 493"
+      }
+    },
+    {
+      "codigo": "EM13LGG104",
+      "documento": "bncc-2018",
+      "texto": "Utilizar as diferentes linguagens, levando em conta seus funcionamentos, para a compreensão e produção de textos e discursos em diversos campos de atuação social.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 7",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 493"
+      }
+    },
+    {
+      "codigo": "EM13LGG105",
+      "documento": "bncc-2018",
+      "texto": "Analisar e experimentar diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Ciências Humanas e So', linha 34",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 493"
+      }
+    },
+    {
+      "codigo": "EM13LGG201",
+      "documento": "bncc-2018",
+      "texto": "Utilizar as diversas linguagens (artísticas, corporais e verbais) em diferentes contextos, valorizando-as como fenômeno social, cultural, histórico, variável, heterogêneo e sensível aos contextos de uso.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 8",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 494"
+      }
+    },
+    {
+      "codigo": "EM13LGG202",
+      "documento": "bncc-2018",
+      "texto": "Analisar interesses, relações de poder e perspectivas de mundo nos discursos das diversas práticas de linguagem (artísticas, corporais e verbais), compreendendo criticamente o modo como circulam, constituem-se e (re)produzem significação e ideologias.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 9",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 494"
+      }
+    },
+    {
+      "codigo": "EM13LGG203",
+      "documento": "bncc-2018",
+      "texto": "Analisar os diálogos e os processos de disputa por legitimidade nas práticas de linguagem e em suas produções (artísticas, corporais e verbais).",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 10",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 494"
+      }
+    },
+    {
+      "codigo": "EM13LGG204",
+      "documento": "bncc-2018",
+      "texto": "Dialogar e produzir entendimento mútuo, nas diversas linguagens (artísticas, corporais e verbais), com vistas ao interesse comum pautado em princípios e valores de equidade assentados na democracia e nos Direitos Humanos.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 11",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 494"
+      }
+    },
+    {
+      "codigo": "EM13LGG301",
+      "documento": "bncc-2018",
+      "texto": "Participar de processos de produção individual e colaborativa em diferentes linguagens (artísticas, corporais e verbais), levando em conta suas formas e seus funcionamentos, para produzir sentidos em diferentes contextos.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 12",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 495"
+      }
+    },
+    {
+      "codigo": "EM13LGG302",
+      "documento": "bncc-2018",
+      "texto": "Posicionar-se criticamente diante de diversas visões de mundo presentes nos discursos em diferentes linguagens, levando em conta seus contextos de produção e de circulação.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 13",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 495"
+      }
+    },
+    {
+      "codigo": "EM13LGG303",
+      "documento": "bncc-2018",
+      "texto": "Debater questões polêmicas de relevância social, analisando diferentes argumentos e opiniões, para formular, negociar e sustentar posições, frente à análise de perspectivas distintas.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 14",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 495"
+      }
+    },
+    {
+      "codigo": "EM13LGG304",
+      "documento": "bncc-2018",
+      "texto": "Formular propostas, intervir e tomar decisões que levem em conta o bem comum e os Direitos Humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 15",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 495"
+      }
+    },
+    {
+      "codigo": "EM13LGG305",
+      "documento": "bncc-2018",
+      "texto": "Mapear e criar, por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 16",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 495"
+      }
+    },
+    {
+      "codigo": "EM13LGG401",
+      "documento": "bncc-2018",
+      "texto": "Analisar criticamente textos de modo a compreender e caracterizar as línguas como fenômeno (geo)político, histórico, social, cultural, variável, heterogêneo e sensível aos contextos de uso.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 17",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 496"
+      }
+    },
+    {
+      "codigo": "EM13LGG402",
+      "documento": "bncc-2018",
+      "texto": "Empregar, nas interações sociais, a variedade e o estilo de língua adequados à situação comunicativa, ao(s) interlocutor(es) e ao gênero do discurso, respeitando os usos das línguas por esse(s) interlocutor(es) e sem preconceito linguístico.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 18",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 496"
+      }
+    },
+    {
+      "codigo": "EM13LGG403",
+      "documento": "bncc-2018",
+      "texto": "Fazer uso do inglês como língua de comunicação global, levando em conta a multiplicidade e variedade de usos, usuários e funções dessa língua no mundo contemporâneo.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 19",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 496"
+      }
+    },
+    {
+      "codigo": "EM13LGG501",
+      "documento": "bncc-2018",
+      "texto": "Selecionar e utilizar movimentos corporais de forma consciente e intencional para interagir socialmente em práticas corporais, de modo a estabelecer relações construtivas, empáticas, éticas e de respeito às diferenças.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 20",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 497"
+      }
+    },
+    {
+      "codigo": "EM13LGG502",
+      "documento": "bncc-2018",
+      "texto": "Analisar criticamente preconceitos, estereótipos e relações de poder presentes nas práticas corporais, adotando posicionamento contrário a qualquer manifestação de injustiça e desrespeito a direitos humanos e valores democráticos.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 21",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 497"
+      }
+    },
+    {
+      "codigo": "EM13LGG503",
+      "documento": "bncc-2018",
+      "texto": "Vivenciar práticas corporais e significá-las em seu projeto de vida, como forma de autoconhecimento, autocuidado com o corpo e com a saúde, socialização e entretenimento.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 22",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 497"
+      }
+    },
+    {
+      "codigo": "EM13LGG601",
+      "documento": "bncc-2018",
+      "texto": "Apropriar-se do patrimônio artístico de diferentes tempos e lugares, compreendendo a sua diversidade, bem como os processos de legitimação das manifestações artísticas na sociedade, desenvolvendo visão crítica e histórica.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 23",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 498"
+      }
+    },
+    {
+      "codigo": "EM13LGG602",
+      "documento": "bncc-2018",
+      "texto": "Fruir e apreciar esteticamente diversas manifestações artísticas e culturais, das locais às mundiais, assim como delas participar, de modo a aguçar continuamente a sensibilidade, a imaginação e a criatividade.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 24",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 498"
+      }
+    },
+    {
+      "codigo": "EM13LGG603",
+      "documento": "bncc-2018",
+      "texto": "Expressar-se e atuar em processos de criação autorais individuais e coletivos nas diferentes linguagens artísticas (artes visuais, audiovisual, dança, música e teatro) e nas intersecções entre elas, recorrendo a referências estéticas e culturais, conhecimentos de naturezas diversas (artísticos, históricos, sociais e políticos) e experiências individuais e coletivas.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 25",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 498"
+      }
+    },
+    {
+      "codigo": "EM13LGG604",
+      "documento": "bncc-2018",
+      "texto": "Relacionar as práticas artísticas às diferentes dimensões da vida social, cultural, política e econômica e identificar o processo de construção histórica dessas práticas.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 26",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 498"
+      }
+    },
+    {
+      "codigo": "EM13LGG701",
+      "documento": "bncc-2018",
+      "texto": "Explorar tecnologias digitais da informação e comunicação (TDIC), compreendendo seus princípios e funcionalidades, e utilizá-las de modo ético, criativo, responsável e adequado a práticas de linguagem em diferentes contextos.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 27",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 499"
+      }
+    },
+    {
+      "codigo": "EM13LGG702",
+      "documento": "bncc-2018",
+      "texto": "Avaliar o impacto das tecnologias digitais da informação e comunicação (TDIC) na formação do sujeito e em suas práticas sociais, para fazer uso crítico dessa mídia em práticas de seleção, compreensão e produção de discursos em ambiente digital.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 28",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 499"
+      }
+    },
+    {
+      "codigo": "EM13LGG703",
+      "documento": "bncc-2018",
+      "texto": "Utilizar diferentes linguagens, mídias e ferramentas digitais em processos de produção coletiva, colaborativa e projetos autorais em ambientes digitais.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 29",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 499"
+      }
+    },
+    {
+      "codigo": "EM13LGG704",
+      "documento": "bncc-2018",
+      "texto": "Apropriar-se criticamente de processos de pesquisa e busca de informação, por meio de ferramentas e dos novos formatos de produção e distribuição do conhecimento na cultura de rede.",
+      "area": "em-area-lgg",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Linguagens e suas Tecn', linha 30",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 499"
+      }
+    },
+    {
+      "codigo": "EM13LP01",
+      "documento": "bncc-2018",
+      "texto": "Relacionar o texto, tanto na produção como na leitura/escuta, com suas condições de produção e seu contexto sócio-histórico de circulação (leitor/audiência previstos, objetivos, pontos de vista e perspectivas, papel social do autor, época, gênero do discurso etc.), de forma a ampliar as possibilidades de construção de sentidos e de análise crítica e produzir textos adequados a diferentes situações.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 3",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 508"
+      }
+    },
+    {
+      "codigo": "EM13LP02",
+      "documento": "bncc-2018",
+      "texto": "Estabelecer relações entre as partes do texto, tanto na produção como na leitura/escuta, considerando a construção composicional e o estilo do gênero, usando/reconhecendo adequadamente elementos e recursos coesivos diversos que contribuam para a coerência, a continuidade do texto e sua progressão temática, e organizando informações, tendo em vista as condições de produção e as relações lógico-discursivas envolvidas (causa/efeito ou consequência; tese/argumentos; problema/solução; definição/exemplos etc.).",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 4",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 508"
+      }
+    },
+    {
+      "codigo": "EM13LP03",
+      "documento": "bncc-2018",
+      "texto": "Analisar relações de intertextualidade e interdiscursividade que permitam a explicitação de relações dialógicas, a identificação de posicionamentos ou de perspectivas, a compreensão de paráfrases, paródias e estilizações, entre outras possibilidades.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 5",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 508"
+      }
+    },
+    {
+      "codigo": "EM13LP04",
+      "documento": "bncc-2018",
+      "texto": "Estabelecer relações de interdiscursividade e intertextualidade para explicitar, sustentar e conferir consistência a posicionamentos e para construir e corroborar explicações e relatos, fazendo uso de citações e paráfrases devidamente marcadas.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 6",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 508"
+      }
+    },
+    {
+      "codigo": "EM13LP05",
+      "documento": "bncc-2018",
+      "texto": "Analisar, em textos argumentativos, os posicionamentos assumidos, os movimentos argumentativos (sustentação, refutação/contra-argumentação e negociação) e os argumentos utilizados para sustentá-los, para avaliar sua força e eficácia, e posicionar-se criticamente diante da questão discutida e/ou dos argumentos utilizados, recorrendo aos mecanismos linguísticos necessários.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 7",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 509"
+      }
+    },
+    {
+      "codigo": "EM13LP06",
+      "documento": "bncc-2018",
+      "texto": "Analisar efeitos de sentido decorrentes de usos expressivos da linguagem, da escolha de determinadas palavras ou expressões e da ordenação, combinação e contraposição de palavras, dentre outros, para ampliar as possibilidades de construção de sentidos e de uso crítico da língua.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 8",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 509"
+      }
+    },
+    {
+      "codigo": "EM13LP07",
+      "documento": "bncc-2018",
+      "texto": "Analisar, em textos de diferentes gêneros, marcas que expressam a posição do enunciador frente àquilo que é dito: uso de diferentes modalidades (epistêmica, deôntica e apreciativa) e de diferentes recursos gramaticais que operam como modalizadores (verbos modais, tempos e modos verbais, expressões modais, adjetivos, locuções ou orações adjetivas, advérbios, locuções ou orações adverbiais, entonação etc.), uso de estratégias de impessoalização (uso de terceira pessoa e de voz passiva etc.), com vistas ao incremento da compreensão e da criticidade e ao manejo adequado desses elementos nos textos produzidos, considerando os contextos de produção.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 9",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 509"
+      }
+    },
+    {
+      "codigo": "EM13LP08",
+      "documento": "bncc-2018",
+      "texto": "Analisar elementos e aspectos da sintaxe do português, como a ordem dos constituintes da sentença (e os efeito que causam sua inversão), a estrutura dos sintagmas, as categorias sintáticas, os processos de coordenação e subordinação (e os efeitos de seus usos) e a sintaxe de concordância e de regência, de modo a potencializar os processos de compreensão e produção de textos e a possibilitar escolhas adequadas à situação comunicativa.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 10",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 509"
+      }
+    },
+    {
+      "codigo": "EM13LP09",
+      "documento": "bncc-2018",
+      "texto": "Comparar o tratamento dado pela gramática tradicional e pelas gramáticas de uso contemporâneas em relação a diferentes tópicos gramaticais, de forma a perceber as diferenças de abordagem e o fenômeno da variação linguística e analisar motivações que levam ao predomínio do ensino da norma-padrão na escola.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-04"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 11",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 509"
+      }
+    },
+    {
+      "codigo": "EM13LP10",
+      "documento": "bncc-2018",
+      "texto": "Analisar o fenômeno da variação linguística, em seus diferentes níveis (variações fonético-fonológica, lexical, sintática, semântica e estilístico-pragmática) e em suas diferentes dimensões (regional, histórica, social, situacional, ocupacional, etária etc.), de forma a ampliar a compreensão sobre a natureza viva e dinâmica da língua e sobre o fenômeno da constituição de variedades linguísticas de prestígio e estigmatizadas, e a fundamentar o respeito às variedades linguísticas e o combate a preconceitos linguísticos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-04"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 12",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 510"
+      }
+    },
+    {
+      "codigo": "EM13LP11",
+      "documento": "bncc-2018",
+      "texto": "Fazer curadoria de informação, tendo em vista diferentes propósitos e projetos discursivos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 13",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 510"
+      }
+    },
+    {
+      "codigo": "EM13LP12",
+      "documento": "bncc-2018",
+      "texto": "Selecionar informações, dados e argumentos em fontes confiáveis, impressas e digitais, e utilizá-los de forma referenciada, para que o texto a ser produzido tenha um nível de aprofundamento adequado (para além do senso comum) e contemple a sustentação das posições defendidas.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 14",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 510"
+      }
+    },
+    {
+      "codigo": "EM13LP13",
+      "documento": "bncc-2018",
+      "texto": "Analisar, a partir de referências contextuais, estéticas e culturais, efeitos de sentido decorrentes de escolhas de elementos sonoros (volume, timbre, intensidade, pausas, ritmo, efeitos sonoros, sincronização etc.) e de suas relações com o verbal, levando-os em conta na produção de áudios, para ampliar as possibilidades de construção de sentidos e de apreciação.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 15",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 510"
+      }
+    },
+    {
+      "codigo": "EM13LP14",
+      "documento": "bncc-2018",
+      "texto": "Analisar, a partir de referências contextuais, estéticas e culturais, efeitos de sentido decorrentes de escolhas e composição das imagens (enquadramento, ângulo/vetor, foco/profundidade de campo, iluminação, cor, linhas, formas etc.) e de sua sequenciação (disposição e transição, movimentos de câmera, remix, entre outros), das performances (movimentos do corpo, gestos, ocupação do espaço cênico), dos elementos sonoros (entonação, trilha sonora, sampleamento etc.) e das relações desses elementos com o verbal, levando em conta esses efeitos nas produções de imagens e vídeos, para ampliar as possibilidades de construção de sentidos e de apreciação.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 16",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 510"
+      }
+    },
+    {
+      "codigo": "EM13LP15",
+      "documento": "bncc-2018",
+      "texto": "Planejar, produzir, revisar, editar, reescrever e avaliar textos escritos e multissemióticos, considerando sua adequação às condições de produção do texto, no que diz respeito ao lugar social a ser assumido e à imagem que se pretende passar a respeito de si mesmo, ao leitor pretendido, ao veículo e mídia em que o texto ou produção cultural vai circular, ao contexto imediato e sócio-histórico mais geral, ao gênero textual em questão e suas regularidades, à variedade linguística apropriada a esse contexto e ao uso do conhecimento dos aspectos notacionais (ortografia padrão, pontuação adequada, mecanismos de concordância nominal e verbal, regência verbal etc.), sempre que o contexto o exigir.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 17",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 511"
+      }
+    },
+    {
+      "codigo": "EM13LP16",
+      "documento": "bncc-2018",
+      "texto": "Produzir e analisar textos orais, considerando sua adequação aos contextos de produção, à forma composicional e ao estilo do gênero em questão, à clareza, à progressão temática e à variedade linguística empregada, como também aos elementos relacionados à fala (modulação de voz, entonação, ritmo, altura e intensidade, respiração etc.) e à cinestesia (postura corporal, movimentos e gestualidade significativa, expressão facial, contato de olho com plateia etc.).",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-04"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 18",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 511"
+      }
+    },
+    {
+      "codigo": "EM13LP17",
+      "documento": "bncc-2018",
+      "texto": "Elaborar roteiros para a produção de vídeos variados (vlog, videoclipe, videominuto, documentário etc.), apresentações teatrais, narrativas multimídia e transmídia, podcasts, playlists comentadas etc., para ampliar as possibilidades de produção de sentidos e engajar-se em práticas autorais e coletivas.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03",
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 19",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 511"
+      }
+    },
+    {
+      "codigo": "EM13LP18",
+      "documento": "bncc-2018",
+      "texto": "Utilizar softwares de edição de textos, fotos, vídeos e áudio, além de ferramentas e ambientes colaborativos para criar textos e produções multissemióticas com finalidades diversas, explorando os recursos e efeitos disponíveis e apropriando-se de práticas colaborativas de escrita, de construção coletiva do conhecimento e de desenvolvimento de projetos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-todos-os-campos-de-atuacao-social"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 20",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 511"
+      }
+    },
+    {
+      "codigo": "EM13LP19",
+      "documento": "bncc-2018",
+      "texto": "Apresentar-se por meio de textos multimodais diversos (perfis variados, gifs biográficos, biodata, currículo web, videocurrículo etc.) e de ferramentas digitais (ferramenta de gif, wiki, site etc.), para falar de si mesmo de formas variadas, considerando diferentes situações e objetivos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-da-vida-pessoal"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 21",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 513"
+      }
+    },
+    {
+      "codigo": "EM13LP20",
+      "documento": "bncc-2018",
+      "texto": "Compartilhar gostos, interesses, práticas culturais, temas/ problemas/questões que despertam maior interesse ou preocupação, respeitando e valorizando diferenças, como forma de identificar afinidades e interesses comuns, como também de organizar e/ou participar de grupos, clubes, oficinas e afins.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-da-vida-pessoal"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 22",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 513"
+      }
+    },
+    {
+      "codigo": "EM13LP21",
+      "documento": "bncc-2018",
+      "texto": "Produzir, de forma colaborativa, e socializar playlists comentadas de preferências culturais e de entretenimento, revistas culturais, fanzines, e-zines ou publicações afins que divulguem, comentem e avaliem músicas, games, séries, filmes, quadrinhos, livros, peças, exposições, espetáculos de dança etc., de forma a compartilhar gostos, identificar afinidades, fomentar comunidades etc.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-da-vida-pessoal"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 23",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 513"
+      }
+    },
+    {
+      "codigo": "EM13LP22",
+      "documento": "bncc-2018",
+      "texto": "Construir e/ou atualizar, de forma colaborativa, registros dinâmicos (mapas, wiki etc.) de profissões e ocupações de seu interesse (áreas de atuação, dados sobre formação, fazeres, produções, depoimentos de profissionais etc.) que possibilitem vislumbrar trajetórias pessoais e profissionais.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-da-vida-pessoal"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 24",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 513"
+      }
+    },
+    {
+      "codigo": "EM13LP23",
+      "documento": "bncc-2018",
+      "texto": "Analisar criticamente o histórico e o discurso político de candidatos, propagandas políticas, políticas públicas, programas e propostas de governo, de forma a participar do debate político e tomar decisões conscientes e fundamentadas.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-de-atuacao-na-vida-publica"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 25",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 516"
+      }
+    },
+    {
+      "codigo": "EM13LP24",
+      "documento": "bncc-2018",
+      "texto": "Analisar formas não institucionalizadas de participação social, sobretudo as vinculadas a manifestações artísticas, produções culturais, intervenções urbanas e formas de expressão típica das culturas juvenis que pretendam expor uma problemática ou promover uma reflexão/ação, posicionando-se em relação a essas produções e manifestações.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-de-atuacao-na-vida-publica"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 26",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 516"
+      }
+    },
+    {
+      "codigo": "EM13LP25",
+      "documento": "bncc-2018",
+      "texto": "Participar de reuniões na escola (conselho de escola e de classe, grêmio livre etc.), agremiações, coletivos ou movimentos, entre outros, em debates, assembleias, fóruns de discussão etc., exercitando a escuta atenta, respeitando seu turno e tempo de fala, posicionando-se de forma fundamentada, respeitosa e ética diante da apresentação de propostas e defesas de opiniões, usando estratégias linguísticas típicas de negociação e de apoio e/ou de consideração do discurso do outro (como solicitar esclarecimento, detalhamento, fazer referência direta ou retomar a fala do outro, parafraseando-a para endossá-la, enfatizá-la, complementá-la ou enfraquecê-la), considerando propostas alternativas e reformulando seu posicionamento, quando for caso, com vistas ao entendimento e ao bem comum.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-02",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-de-atuacao-na-vida-publica"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 27",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 516"
+      }
+    },
+    {
+      "codigo": "EM13LP26",
+      "documento": "bncc-2018",
+      "texto": "Relacionar textos e documentos legais e normativos de âmbito universal, nacional, local ou escolar que envolvam a definição de direitos e deveres - em especial, os voltados a adolescentes e jovens - aos seus contextos de produção, identificando ou inferindo possíveis motivações e finalidades, como forma de ampliar a compreensão desses direitos e deveres.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-de-atuacao-na-vida-publica"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 28",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 516"
+      }
+    },
+    {
+      "codigo": "EM13LP27",
+      "documento": "bncc-2018",
+      "texto": "Engajar-se na busca de solução para problemas que envolvam a coletividade, denunciando o desrespeito a direitos, organizando e/ou participando de discussões, campanhas e debates, produzindo textos reivindicatórios, normativos, entre outras possibilidades, como forma de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade, pelo consumo consciente e pela consciência socioambiental.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-de-atuacao-na-vida-publica"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 29",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 516"
+      }
+    },
+    {
+      "codigo": "EM13LP28",
+      "documento": "bncc-2018",
+      "texto": "Organizar situações de estudo e utilizar procedimentos e estratégias de leitura adequados aos objetivos e à natureza do conhecimento em questão.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03",
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 30",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 519"
+      }
+    },
+    {
+      "codigo": "EM13LP29",
+      "documento": "bncc-2018",
+      "texto": "Resumir e resenhar textos, por meio do uso de paráfrases, de marcas do discurso reportado e de citações, para uso em textos de divulgação de estudos e pesquisas.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 31",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 519"
+      }
+    },
+    {
+      "codigo": "EM13LP30",
+      "documento": "bncc-2018",
+      "texto": "Realizar pesquisas de diferentes tipos (bibliográfica, de campo, experimento científico, levantamento de dados etc.), usando fontes abertas e confiáveis, registrando o processo e comunicando os resultados, tendo em vista os objetivos pretendidos e demais elementos do contexto de produção, como forma de compreender como o conhecimento científico é produzido e apropriar-se dos procedimentos e dos gêneros textuais envolvidos na realização de pesquisas.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 32",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 519"
+      }
+    },
+    {
+      "codigo": "EM13LP31",
+      "documento": "bncc-2018",
+      "texto": "Compreender criticamente textos de divulgação científica orais, escritos e multissemióticos de diferentes áreas do conhecimento, identificando sua organização tópica e a hierarquização das informações, identificando e descartando fontes não confiáveis e problematizando enfoques tendenciosos ou superficiais.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 33",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 519"
+      }
+    },
+    {
+      "codigo": "EM13LP32",
+      "documento": "bncc-2018",
+      "texto": "Selecionar informações e dados necessários para uma dada pesquisa (sem excedê-los) em diferentes fontes (orais, impressas, digitais etc.) e comparar autonomamente esses conteúdos, levando em conta seus contextos de produção, referências e índices de confiabilidade, e percebendo coincidências, complementaridades, contradições, erros ou imprecisões conceituais e de dados, de forma a compreender e posicionar-se criticamente sobre esses conteúdos e estabelecer recortes precisos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 34",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 519"
+      }
+    },
+    {
+      "codigo": "EM13LP33",
+      "documento": "bncc-2018",
+      "texto": "Selecionar, elaborar e utilizar instrumentos de coleta de dados e informações (questionários, enquetes, mapeamentos, opinários) e de tratamento e análise dos conteúdos obtidos, que atendam adequadamente a diferentes objetivos de pesquisa.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 520"
+      }
+    },
+    {
+      "codigo": "EM13LP34",
+      "documento": "bncc-2018",
+      "texto": "Produzir textos para a divulgação do conhecimento e de resultados de levantamentos e pesquisas - texto monográfico, ensaio, artigo de divulgação científica, verbete de enciclopédia (colaborativa ou não), infográfico (estático ou animado), relato de experimento, relatório, relatório multimidiático de campo, reportagem científica, podcast ou vlog científico, apresentações orais, seminários, comunicações em mesas redondas, mapas dinâmicos etc. -, considerando o contexto de produção e utilizando os conhecimentos sobre os gêneros de divulgação científica, de forma a engajar-se em processos significativos de socialização e divulgação do conhecimento.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 36",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 520"
+      }
+    },
+    {
+      "codigo": "EM13LP35",
+      "documento": "bncc-2018",
+      "texto": "Utilizar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de transição, slides mestres, layouts personalizados, gravação de áudios em slides etc.).",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 37"
+      }
+    },
+    {
+      "codigo": "EM13LP36",
+      "documento": "bncc-2018",
+      "texto": "Analisar os interesses que movem o campo jornalístico, os impactos das novas tecnologias digitais de informação e comunicação e da Web 2.0 no campo e as condições que fazem da informação uma mercadoria e da checagem de informação uma prática (e um serviço) essencial, adotando atitude analítica e crítica diante dos textos jornalísticos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 38",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 523"
+      }
+    },
+    {
+      "codigo": "EM13LP37",
+      "documento": "bncc-2018",
+      "texto": "Conhecer e analisar diferentes projetos editorias - institucionais, privados, públicos, financiados, independentes etc. -, de forma a ampliar o repertório de escolhas possíveis de fontes de informação e opinião, reconhecendo o papel da mídia plural para a consolidação da democracia.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 39",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 523"
+      }
+    },
+    {
+      "codigo": "EM13LP38",
+      "documento": "bncc-2018",
+      "texto": "Analisar os diferentes graus de parcialidade/imparcialidade (no limite, a não neutralidade) em textos noticiosos, comparando relatos de diferentes fontes e analisando o recorte feito de fatos/dados e os efeitos de sentido provocados pelas escolhas realizadas pelo autor do texto, de forma a manter uma atitude crítica diante dos textos jornalísticos e tornar-se consciente das escolhas feitas como produtor.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 40",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 523"
+      }
+    },
+    {
+      "codigo": "EM13LP39",
+      "documento": "bncc-2018",
+      "texto": "Usar procedimentos de checagem de fatos noticiados e fotos publicadas (verificar/avaliar veículo, fonte, data e local da publicação, autoria, URL, formatação; comparar diferentes fontes; consultar ferramentas e sites checadores etc.), de forma a combater a proliferação de notícias falsas (fake news).",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 41",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 523"
+      }
+    },
+    {
+      "codigo": "EM13LP40",
+      "documento": "bncc-2018",
+      "texto": "Analisar o fenômeno da pós-verdade - discutindo as condições e os mecanismos de disseminação de fake news e também exemplos, causas e consequências desse fenômeno e da prevalência de crenças e opiniões sobre fatos -, de forma a adotar atitude crítica em relação ao fenômeno e desenvolver uma postura flexível que permita rever crenças e opiniões quando fatos apurados as contradisserem.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02",
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 42",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 523"
+      }
+    },
+    {
+      "codigo": "EM13LP41",
+      "documento": "bncc-2018",
+      "texto": "Analisar os processos humanos e automáticos de curadoria que operam nas redes sociais e outros domínios da internet, comparando os feeds de diferentes páginas de redes sociais e discutindo os efeitos desses modelos de curadoria, de forma a ampliar as possibilidades de trato com o diferente e minimizar o efeito bolha e a manipulação de terceiros.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 43",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 523"
+      }
+    },
+    {
+      "codigo": "EM13LP42",
+      "documento": "bncc-2018",
+      "texto": "Acompanhar, analisar e discutir a cobertura da mídia diante de acontecimentos e questões de relevância social, local e global, comparando diferentes enfoques e perspectivas, por meio do uso de ferramentas de curadoria (como agregadores de conteúdo) e da consulta a serviços e fontes de checagem e curadoria de informação, de forma a aprofundar o entendimento sobre um determinado fato ou questão, identificar o enfoque preponderante da mídia e manter-se implicado, de forma crítica, com os fatos e as questões que afetam a coletividade.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 44",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 524"
+      }
+    },
+    {
+      "codigo": "EM13LP43",
+      "documento": "bncc-2018",
+      "texto": "Atuar de forma fundamentada, ética e crítica na produção e no compartilhamento de comentários, textos noticiosos e de opinião, memes, gifs, remixes variados etc. em redes sociais ou outros ambientes digitais.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 45",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 524"
+      }
+    },
+    {
+      "codigo": "EM13LP44",
+      "documento": "bncc-2018",
+      "texto": "Analisar formas contemporâneas de publicidade em contexto digital (advergame, anúncios em vídeos, social advertising, unboxing, narrativa mercadológica, entre outras), e peças de campanhas publicitárias e políticas (cartazes, folhetos, anúncios, propagandas em diferentes mídias, spots, jingles etc.), identificando valores e representações de situações, grupos e configurações sociais veiculadas, desconstruindo estereótipos, destacando estratégias de engajamento e viralização e explicando os mecanismos de persuasão utilizados e os efeitos de sentido provocados pelas escolhas feitas em termos de elementos e recursos linguístico-discursivos, imagéticos, sonoros, gestuais e espaciais, entre outros.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-07"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 46",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 524"
+      }
+    },
+    {
+      "codigo": "EM13LP45",
+      "documento": "bncc-2018",
+      "texto": "Analisar, discutir, produzir e socializar, tendo em vista temas e acontecimentos de interesse local ou global, notícias, fotodenúncias, fotorreportagens, reportagens multimidiáticas, documentários, infográficos, podcasts noticiosos, artigos de opinião, críticas da mídia, vlogs de opinião, textos de apresentação e apreciação de produções culturais (resenhas, ensaios etc.) e outros gêneros próprios das formas de expressão das culturas juvenis (vlogs e podcasts culturais, gameplay etc.), em várias mídias, vivenciando de forma significativa o papel de repórter, analista, crítico, editorialista ou articulista, leitor, vlogueiro e booktuber, entre outros.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-jornalistico-midiatico"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 524"
+      }
+    },
+    {
+      "codigo": "EM13LP46",
+      "documento": "bncc-2018",
+      "texto": "Compartilhar sentidos construídos na leitura/escuta de textos literários, percebendo diferenças e eventuais tensões entre as formas pessoais e as coletivas de apreensão desses textos, para exercitar o diálogo cultural e aguçar a perspectiva crítica.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 48",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 527"
+      }
+    },
+    {
+      "codigo": "EM13LP47",
+      "documento": "bncc-2018",
+      "texto": "Participar de eventos (saraus, competições orais, audições, mostras, festivais, feiras culturais e literárias, rodas e clubes de leitura, cooperativas culturais, jograis, repentes, slams etc.), inclusive para socializar obras da própria autoria (poemas, contos e suas variedades, roteiros e microrroteiros, videominutos, playlists comentadas de música etc.) e/ou interpretar obras de outros, inserindo-se nas diferentes práticas culturais de seu tempo.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03",
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 527"
+      }
+    },
+    {
+      "codigo": "EM13LP48",
+      "documento": "bncc-2018",
+      "texto": "Identificar assimilações, rupturas e permanências no processo de constituição da literatura brasileira e ao longo de sua trajetória, por meio da leitura e análise de obras fundamentais do cânone ocidental, em especial da literatura portuguesa, para perceber a historicidade de matrizes e procedimentos estéticos.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 527"
+      }
+    },
+    {
+      "codigo": "EM13LP49",
+      "documento": "bncc-2018",
+      "texto": "Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários (a apreensão pessoal do cotidiano nas crônicas, a manifestação livre e subjetiva do eu lírico diante do mundo nos poemas, a múltipla perspectiva da vida humana e social dos romances, a dimensão política e social de textos da literatura marginal e da periferia etc.) para experimentar os diferentes ângulos de apreensão do indivíduo e do mundo pela literatura.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 527"
+      }
+    },
+    {
+      "codigo": "EM13LP50",
+      "documento": "bncc-2018",
+      "texto": "Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores e gêneros literários de um mesmo momento histórico e de momentos históricos diversos, explorando os modos como a literatura e as artes em geral se constituem, dialogam e se retroalimentam.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-06"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 527"
+      }
+    },
+    {
+      "codigo": "EM13LP51",
+      "documento": "bncc-2018",
+      "texto": "Selecionar obras do repertório artístico-literário contemporâneo à disposição segundo suas predileções, de modo a constituir um acervo pessoal e dele se apropriar para se inserir e intervir com autonomia e criticidade no meio cultural.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 527"
+      }
+    },
+    {
+      "codigo": "EM13LP52",
+      "documento": "bncc-2018",
+      "texto": "Analisar obras significativas das literaturas brasileiras e de outros países e povos, em especial a portuguesa, a indígena, a africana e a latino-americana, com base em ferramentas da crítica literária (estrutura da composição, estilo, aspectos discursivos) ou outros critérios relacionados a diferentes matrizes culturais, considerando o contexto de produção (visões de mundo, diálogos com outros textos, inserções em movimentos estéticos e culturais etc.) e o modo como dialogam com o presente.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-02"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 54",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 528"
+      }
+    },
+    {
+      "codigo": "EM13LP53",
+      "documento": "bncc-2018",
+      "texto": "Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.).",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 55",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 528"
+      }
+    },
+    {
+      "codigo": "EM13LP54",
+      "documento": "bncc-2018",
+      "texto": "Criar obras autorais, em diferentes gêneros e mídias - mediante seleção e apropriação de recursos textuais e expressivos do repertório artístico -, e/ou produções derivadas (paródias, estilizações, fanfics, fanclipes etc.), como forma de dialogar crítica e/ou subjetivamente com o texto literário.",
+      "area": "em-area-lgg",
+      "componente": "em-comp-lp",
+      "competencias_especificas": [
+        "em-area-lgg-ce-01",
+        "em-area-lgg-ce-03"
+      ],
+      "campos_atuacao_social": [
+        "em-comp-lp-catu-campo-artistico-literario"
+      ],
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 56",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 528"
+      }
+    },
+    {
+      "codigo": "EM13MAT101",
+      "documento": "bncc-2018",
+      "texto": "Interpretar criticamente situações econômicas, sociais e fatos relativos às Ciências da Natureza que envolvam a variação de grandezas, pela análise dos gráficos das funções representadas e das taxas de variação, com ou sem apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 3",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 535"
+      }
+    },
+    {
+      "codigo": "EM13MAT102",
+      "documento": "bncc-2018",
+      "texto": "Analisar tabelas, gráficos e amostras de pesquisas estatísticas apresentadas em relatórios divulgados por diferentes meios de comunicação, identificando, quando for o caso, inadequações que possam induzir a erros de interpretação, como escalas e amostras não apropriadas.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 4",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 535"
+      }
+    },
+    {
+      "codigo": "EM13MAT103",
+      "documento": "bncc-2018",
+      "texto": "Interpretar e compreender textos científicos ou divulgados pelas mídias, que empregam unidades de medida de diferentes grandezas e as conversões possíveis entre elas, adotadas ou não pelo Sistema Internacional (SI), como as de armazenamento e velocidade de transferência de dados, ligadas aos avanços tecnológicos.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 5",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 535"
+      }
+    },
+    {
+      "codigo": "EM13MAT104",
+      "documento": "bncc-2018",
+      "texto": "Interpretar taxas e índices de natureza socioeconômica (índice de desenvolvimento humano, taxas de inflação, entre outros), investigando os processos de cálculo desses números, para analisar criticamente a realidade e produzir argumentos.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 6",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 535"
+      }
+    },
+    {
+      "codigo": "EM13MAT105",
+      "documento": "bncc-2018",
+      "texto": "Utilizar as noções de transformações isométricas (translação, reflexão, rotação e composições destas) e transformações homotéticas para construir figuras e analisar elementos da natureza e diferentes produções humanas (fractais, construções civis, obras de arte, entre outras).",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 7",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 535"
+      }
+    },
+    {
+      "codigo": "EM13MAT106",
+      "documento": "bncc-2018",
+      "texto": "Identificar situações da vida cotidiana nas quais seja necessário fazer escolhas levando-se em conta os riscos probabilísticos (usar este ou aquele método contraceptivo, optar por um tratamento médico em detrimento de outro etc.).",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-01"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 8",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 535"
+      }
+    },
+    {
+      "codigo": "EM13MAT201",
+      "documento": "bncc-2018",
+      "texto": "Propor ou participar de ações adequadas às demandas da região, preferencialmente para sua comunidade, envolvendo medições e cálculos de perímetro, de área, de volume, de capacidade ou de massa.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 9",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 536"
+      }
+    },
+    {
+      "codigo": "EM13MAT202",
+      "documento": "bncc-2018",
+      "texto": "Planejar e executar pesquisa amostral sobre questões relevantes, usando dados coletados diretamente ou em diferentes fontes, e comunicar os resultados por meio de relatório contendo gráficos e interpretação das medidas de tendência central e das medidas de dispersão (amplitude e desvio padrão), utilizando ou não recursos tecnológicos.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 10",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 536"
+      }
+    },
+    {
+      "codigo": "EM13MAT203",
+      "documento": "bncc-2018",
+      "texto": "Aplicar conceitos matemáticos no planejamento, na execução e na análise de ações envolvendo a utilização de aplicativos e a criação de planilhas (para o controle de orçamento familiar, simuladores de cálculos de juros simples e compostos, entre outros), para tomar decisões.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-02"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 11",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 536"
+      }
+    },
+    {
+      "codigo": "EM13MAT301",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas do cotidiano, da Matemática e de outras áreas do conhecimento, que envolvem equações lineares simultâneas, usando técnicas algébricas e gráficas, com ou sem apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 12",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT302",
+      "documento": "bncc-2018",
+      "texto": "Construir modelos empregando as funções polinomiais de 1º ou 2º graus, para resolver problemas em contextos diversos, com ou sem apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 13",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT303",
+      "documento": "bncc-2018",
+      "texto": "Interpretar e comparar situações que envolvam juros simples com as que envolvem juros compostos, por meio de representações gráficas ou análise de planilhas, destacando o crescimento linear ou exponencial de cada caso.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 14",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT304",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas com funções exponenciais nos quais seja necessário compreender e interpretar a variação das grandezas envolvidas, em contextos como o da Matemática Financeira, entre outros.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 15",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT305",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas com funções logarítmicas nos quais seja necessário compreender e interpretar a variação das grandezas envolvidas, em contextos como os de abalos sísmicos, pH, radioatividade, Matemática Financeira, entre outros.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 16",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT306",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas em contextos que envolvem fenômenos periódicos reais (ondas sonoras, fases da lua, movimentos cíclicos, entre outros) e comparar suas representações com as funções seno e cosseno, no plano cartesiano, com ou sem apoio de aplicativos de álgebra e geometria.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 17",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT307",
+      "documento": "bncc-2018",
+      "texto": "Empregar diferentes métodos para a obtenção da medida da área de uma superfície (reconfigurações, aproximação por cortes etc.) e deduzir expressões de cálculo para aplicá-las em situações reais (como o remanejamento e a distribuição de plantações, entre outros), com ou sem apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 18",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT308",
+      "documento": "bncc-2018",
+      "texto": "Aplicar as relações métricas, incluindo as leis do seno e do cosseno ou as noções de congruência e semelhança, para resolver e elaborar problemas que envolvem triângulos, em variados contextos.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 19",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 538"
+      }
+    },
+    {
+      "codigo": "EM13MAT309",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas que envolvem o cálculo de áreas totais e de volumes de prismas, pirâmides e corpos redondos em situações reais (como o cálculo do gasto de material para revestimento ou pinturas de objetos cujos formatos sejam composições dos sólidos estudados), com ou sem apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 20",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT310",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas de contagem envolvendo agrupamentos ordenáveis ou não de elementos, por meio dos princípios multiplicativo e aditivo, recorrendo a estratégias diversas, como o diagrama de árvore.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 21",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT311",
+      "documento": "bncc-2018",
+      "texto": "Identificar e descrever o espaço amostral de eventos aleatórios, realizando contagem das possibilidades, para resolver e elaborar problemas que envolvem o cálculo da probabilidade.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 22",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT312",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas que envolvem o cálculo de probabilidade de eventos em experimentos aleatórios sucessivos.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 23",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT313",
+      "documento": "bncc-2018",
+      "texto": "Utilizar, quando necessário, a notação científica para expressar uma medida, compreendendo as noções de algarismos significativos e algarismos duvidosos, e reconhecendo que toda medida é inevitavelmente acompanhada de erro.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 24",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT314",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas que envolvem grandezas determinadas pela razão ou pelo produto de outras (velocidade, densidade demográfica, energia elétrica etc.).",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 25",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT315",
+      "documento": "bncc-2018",
+      "texto": "Investigar e registrar, por meio de um fluxograma, quando possível, um algoritmo que resolve um problema.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 26",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT316",
+      "documento": "bncc-2018",
+      "texto": "Resolver e elaborar problemas, em diferentes contextos, que envolvem cálculo e interpretação das medidas de tendência central (média, moda, mediana) e das medidas de dispersão (amplitude, variância e desvio padrão).",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-03"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 27",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 539"
+      }
+    },
+    {
+      "codigo": "EM13MAT401",
+      "documento": "bncc-2018",
+      "texto": "Converter representações algébricas de funções polinomiais de 1º grau em representações geométricas no plano cartesiano, distinguindo os casos nos quais o comportamento é proporcional, recorrendo ou não a softwares ou aplicativos de álgebra e geometria dinâmica.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 28",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT402",
+      "documento": "bncc-2018",
+      "texto": "Converter representações algébricas de funções polinomiais de 2º grau em representações geométricas no plano cartesiano, distinguindo os casos nos quais uma variável for diretamente proporcional ao quadrado da outra, recorrendo ou não a softwares ou aplicativos de álgebra e geometria dinâmica, entre outros materiais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 29",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT403",
+      "documento": "bncc-2018",
+      "texto": "Analisar e estabelecer relações, com ou sem apoio de tecnologias digitais, entre as representações de funções exponencial e logarítmica expressas em tabelas e em plano cartesiano, para identificar as características fundamentais (domínio, imagem, crescimento) de cada função.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 30",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT404",
+      "documento": "bncc-2018",
+      "texto": "Analisar funções definidas por uma ou mais sentenças (tabela do Imposto de Renda, contas de luz, água, gás etc.), em suas representações algébrica e gráfica, identificando domínios de validade, imagem, crescimento e decrescimento, e convertendo essas representações de uma para outra, com ou sem apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 31",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT405",
+      "documento": "bncc-2018",
+      "texto": "Utilizar conceitos iniciais de uma linguagem de programação na implementação de algoritmos escritos em linguagem corrente e/ou matemática.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 32",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT406",
+      "documento": "bncc-2018",
+      "texto": "Construir e interpretar tabelas e gráficos de frequências com base em dados obtidos em pesquisas por amostras estatísticas, incluindo ou não o uso de softwares que inter-relacionem estatística, geometria e álgebra.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 33",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT407",
+      "documento": "bncc-2018",
+      "texto": "Interpretar e comparar conjuntos de dados estatísticos por meio de diferentes diagramas e gráficos (histograma, de caixa (box-plot), de ramos e folhas, entre outros), reconhecendo os mais eficientes para sua análise.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-04"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 34",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 541"
+      }
+    },
+    {
+      "codigo": "EM13MAT501",
+      "documento": "bncc-2018",
+      "texto": "Investigar relações entre números expressos em tabelas para representá-los no plano cartesiano, identificando padrões e criando conjecturas para generalizar e expressar algebricamente essa generalização, reconhecendo quando essa representação é de função polinomial de 1º grau.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT502",
+      "documento": "bncc-2018",
+      "texto": "Investigar relações entre números expressos em tabelas para representá-los no plano cartesiano, identificando padrões e criando conjecturas para generalizar e expressar algebricamente essa generalização, reconhecendo quando essa representação é de função polinomial de 2º grau do tipo y = ax2.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 36",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT503",
+      "documento": "bncc-2018",
+      "texto": "Investigar pontos de máximo ou de mínimo de funções quadráticas em contextos envolvendo superfícies, Matemática Financeira ou Cinemática, entre outros, com apoio de tecnologias digitais.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 37",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT504",
+      "documento": "bncc-2018",
+      "texto": "Investigar processos de obtenção da medida do volume de prismas, pirâmides, cilindros e cones, incluindo o princípio de Cavalieri, para a obtenção das fórmulas de cálculo da medida do volume dessas figuras.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 38",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT505",
+      "documento": "bncc-2018",
+      "texto": "Resolver problemas sobre ladrilhamento do plano, com ou sem apoio de aplicativos de geometria dinâmica, para conjecturar a respeito dos tipos ou composição de polígonos que podem ser utilizados em ladrilhamento, generalizando padrões observados.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 39",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT506",
+      "documento": "bncc-2018",
+      "texto": "Representar graficamente a variação da área e do perímetro de um polígono regular quando os comprimentos de seus lados variam, analisando e classificando as funções envolvidas.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 40",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT507",
+      "documento": "bncc-2018",
+      "texto": "Identificar e associar progressões aritméticas (PA) a funções afins de domínios discretos, para análise de propriedades, dedução de algumas fórmulas e resolução de problemas.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 41",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT508",
+      "documento": "bncc-2018",
+      "texto": "Identificar e associar progressões geométricas (PG) a funções exponenciais de domínios discretos, para análise de propriedades, dedução de algumas fórmulas e resolução de problemas.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 42",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT509",
+      "documento": "bncc-2018",
+      "texto": "Investigar a deformação de ângulos e áreas provocada pelas diferentes projeções usadas em cartografia (como a cilíndrica e a cônica), com ou sem suporte de tecnologia digital.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 43",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT510",
+      "documento": "bncc-2018",
+      "texto": "Investigar conjuntos de dados relativos ao comportamento de duas variáveis numéricas, usando ou não tecnologias da informação, e, quando apropriado, levar em conta a variação e utilizar uma reta para descrever a relação observada.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 44",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    },
+    {
+      "codigo": "EM13MAT511",
+      "documento": "bncc-2018",
+      "texto": "Reconhecer a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades.",
+      "area": "em-area-mat",
+      "componente": null,
+      "competencias_especificas": [
+        "em-area-mat-ce-05"
+      ],
+      "campos_atuacao_social": null,
+      "seriacao": null,
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba 'Hab. de Matemática e suas Tec', linha 45",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 543"
+      }
+    }
+  ],
+  "contextos_organizacao": [
+    {
+      "id": "em-comp-lp-catu-campo-artistico-literario",
+      "tipo": "catu",
+      "nome": "Campo artístico-literário",
+      "componente": "em-comp-lp",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Hab. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "em-comp-lp-catu-campo-da-vida-pessoal",
+      "tipo": "catu",
+      "nome": "Campo da vida pessoal",
+      "componente": "em-comp-lp",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Hab. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "em-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa",
+      "tipo": "catu",
+      "nome": "Campo das práticas de estudo e pesquisa",
+      "componente": "em-comp-lp",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Hab. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "em-comp-lp-catu-campo-de-atuacao-na-vida-publica",
+      "tipo": "catu",
+      "nome": "Campo de atuação na vida pública",
+      "componente": "em-comp-lp",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Hab. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "em-comp-lp-catu-campo-jornalistico-midiatico",
+      "tipo": "catu",
+      "nome": "Campo jornalístico-midiático",
+      "componente": "em-comp-lp",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Hab. de Língua Portuguesa"
+      }
+    },
+    {
+      "id": "em-comp-lp-catu-todos-os-campos-de-atuacao-social",
+      "tipo": "catu",
+      "nome": "Todos os Campos de atuação social",
+      "componente": "em-comp-lp",
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "BNCC_Ensino_Medio.xlsx",
+        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
+        "localizador": "aba Hab. de Língua Portuguesa"
+      }
+    }
+  ]
+}

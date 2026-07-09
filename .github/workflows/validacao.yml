@@ -1,0 +1,24 @@
+name: validacao
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproduzir-e-validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar poppler (pdftotext)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Extrair das fontes oficiais
+        run: |
+          cd pipeline
+          python3 extrair.py
+          python3 extrair_ei.py
+      - name: Verificar contra o PDF homologado
+        run: cd pipeline && python3 verificar.py
+      - name: Validar contratos e completude
+        run: cd pipeline && python3 validar.py
+      - name: Dataset commitado = dataset reproduzido
+        run: git diff --exit-code dados/

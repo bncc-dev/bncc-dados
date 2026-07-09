@@ -1,0 +1,2183 @@
+{
+  "objetivos": [
+    {
+      "codigo": "EI01CG01",
+      "documento": "bncc-2018",
+      "texto": "Movimentar as partes do corpo para exprimir corporalmente emoções, necessidades e desejos.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-cg-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI01CG02",
+      "documento": "bncc-2018",
+      "texto": "Experimentar as possibilidades corporais nas brincadeiras e interações em ambientes acolhedores e desafiantes.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-cg-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI01CG03",
+      "documento": "bncc-2018",
+      "texto": "Imitar gestos e movimentos de outras crianças, adultos e animais.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-cg-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI01CG04",
+      "documento": "bncc-2018",
+      "texto": "Participar do cuidado do seu corpo e da promoção do seu bem-estar.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-cg-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI01CG05",
+      "documento": "bncc-2018",
+      "texto": "Utilizar os movimentos de preensão, encaixe e lançamento, ampliando suas possibilidades de manuseio de diferentes materiais e objetos.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-cg-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI01EF01",
+      "documento": "bncc-2018",
+      "texto": "Reconhecer quando é chamado por seu nome e reconhecer os nomes de pessoas com quem convive.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI01EF02",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar interesse ao ouvir a leitura de poemas e a apresentação de músicas.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI01EF03",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar interesse ao ouvir histórias lidas ou contadas, observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas).",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI01EF04",
+      "documento": "bncc-2018",
+      "texto": "Reconhecer elementos das ilustrações de histórias, apontando-os, a pedido do adulto-leitor.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI01EF05",
+      "documento": "bncc-2018",
+      "texto": "Imitar as variações de entonação e gestos realizados pelos adultos, ao ler histórias e ao cantar.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI01EF06",
+      "documento": "bncc-2018",
+      "texto": "Comunicar-se com outras pessoas usando movimentos, gestos, balbucios, fala e outras formas de expressão.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI01EF07",
+      "documento": "bncc-2018",
+      "texto": "Conhecer e manipular materiais impressos e audiovisuais em diferentes portadores (livro, revista, gibi, jornal, cartaz, CD, tablet etc.).",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI01EF08",
+      "documento": "bncc-2018",
+      "texto": "Participar de situações de escuta de textos em diferentes gêneros textuais (poemas, fábulas, contos, receitas, quadrinhos, anúncios etc.).",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-08",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI01EF09",
+      "documento": "bncc-2018",
+      "texto": "Conhecer e manipular diferentes instrumentos e suportes de escrita.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ef-09",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI01EO01",
+      "documento": "bncc-2018",
+      "texto": "Perceber que suas ações têm efeitos nas outras crianças e nos adultos.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-eo-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI01EO02",
+      "documento": "bncc-2018",
+      "texto": "Perceber as possibilidades e os limites de seu corpo nas brincadeiras e interações das quais participa.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-eo-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI01EO03",
+      "documento": "bncc-2018",
+      "texto": "Interagir com crianças da mesma faixa etária e adultos ao explorar espaços, materiais, objetos, brinquedos.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-eo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI01EO04",
+      "documento": "bncc-2018",
+      "texto": "Comunicar necessidades, desejos e emoções, utilizando gestos, balbucios, palavras.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-eo-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI01EO05",
+      "documento": "bncc-2018",
+      "texto": "Reconhecer seu corpo e expressar suas sensações em momentos de alimentação, higiene, brincadeira e descanso.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-eo-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI01EO06",
+      "documento": "bncc-2018",
+      "texto": "Interagir com outras crianças da mesma faixa etária e adultos, adaptando-se ao convívio social.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-eo-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 48",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48"
+      }
+    },
+    {
+      "codigo": "EI01ET01",
+      "documento": "bncc-2018",
+      "texto": "Explorar e descobrir as propriedades de objetos e materiais (odor, cor, sabor, temperatura).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-et-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI01ET02",
+      "documento": "bncc-2018",
+      "texto": "Explorar relações de causa e efeito (transbordar, tingir, misturar, mover e remover etc.) na interação com o mundo físico.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-et-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI01ET03",
+      "documento": "bncc-2018",
+      "texto": "Explorar o ambiente pela ação e observação, manipulando, experimentando e fazendo descobertas.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-et-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI01ET04",
+      "documento": "bncc-2018",
+      "texto": "Manipular, experimentar, arrumar e explorar o espaço por meio de experiências de deslocamentos de si e dos objetos.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-et-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI01ET05",
+      "documento": "bncc-2018",
+      "texto": "Manipular materiais diversos e variados para comparar as diferenças e semelhanças entre eles.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-et-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI01ET06",
+      "documento": "bncc-2018",
+      "texto": "Vivenciar diferentes ritmos, velocidades e fluxos nas interações e brincadeiras (em danças, balanços, escorregadores etc.).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-et-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI01TS01",
+      "documento": "bncc-2018",
+      "texto": "Explorar sons produzidos com o próprio corpo e com objetos do ambiente.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ts-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 28"
+      }
+    },
+    {
+      "codigo": "EI01TS02",
+      "documento": "bncc-2018",
+      "texto": "Traçar marcas gráficas, em diferentes suportes, usando instrumentos riscantes e tintas.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ts-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50"
+      }
+    },
+    {
+      "codigo": "EI01TS03",
+      "documento": "bncc-2018",
+      "texto": "Explorar diferentes fontes sonoras e materiais para acompanhar brincadeiras cantadas, canções, músicas e melodias.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-01",
+      "alinhamento": "ei-align-ts-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50"
+      }
+    },
+    {
+      "codigo": "EI02CG01",
+      "documento": "bncc-2018",
+      "texto": "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-cg-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI02CG02",
+      "documento": "bncc-2018",
+      "texto": "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-cg-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI02CG03",
+      "documento": "bncc-2018",
+      "texto": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-cg-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI02CG04",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar progressiva independência no cuidado do seu corpo.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-cg-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI02CG05",
+      "documento": "bncc-2018",
+      "texto": "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-cg-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI02EF01",
+      "documento": "bncc-2018",
+      "texto": "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI02EF02",
+      "documento": "bncc-2018",
+      "texto": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI02EF03",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI02EF04",
+      "documento": "bncc-2018",
+      "texto": "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI02EF05",
+      "documento": "bncc-2018",
+      "texto": "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI02EF06",
+      "documento": "bncc-2018",
+      "texto": "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI02EF07",
+      "documento": "bncc-2018",
+      "texto": "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI02EF08",
+      "documento": "bncc-2018",
+      "texto": "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-08",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI02EF09",
+      "documento": "bncc-2018",
+      "texto": "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ef-09",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI02EO01",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI02EO02",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI02EO03",
+      "documento": "bncc-2018",
+      "texto": "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI02EO04",
+      "documento": "bncc-2018",
+      "texto": "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI02EO05",
+      "documento": "bncc-2018",
+      "texto": "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI02EO06",
+      "documento": "bncc-2018",
+      "texto": "Respeitar regras básicas de convívio social nas interações e brincadeiras.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 48",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48"
+      }
+    },
+    {
+      "codigo": "EI02EO07",
+      "documento": "bncc-2018",
+      "texto": "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-eo-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 48",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48"
+      }
+    },
+    {
+      "codigo": "EI02ET01",
+      "documento": "bncc-2018",
+      "texto": "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI02ET02",
+      "documento": "bncc-2018",
+      "texto": "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI02ET03",
+      "documento": "bncc-2018",
+      "texto": "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI02ET04",
+      "documento": "bncc-2018",
+      "texto": "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI02ET05",
+      "documento": "bncc-2018",
+      "texto": "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI02ET06",
+      "documento": "bncc-2018",
+      "texto": "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI02ET07",
+      "documento": "bncc-2018",
+      "texto": "Contar oralmente objetos, pessoas, livros etc., em contextos diversos.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 54",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54"
+      }
+    },
+    {
+      "codigo": "EI02ET08",
+      "documento": "bncc-2018",
+      "texto": "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.).",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-et-08",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 54",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54"
+      }
+    },
+    {
+      "codigo": "EI02TS01",
+      "documento": "bncc-2018",
+      "texto": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ts-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 28"
+      }
+    },
+    {
+      "codigo": "EI02TS02",
+      "documento": "bncc-2018",
+      "texto": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ts-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50"
+      }
+    },
+    {
+      "codigo": "EI02TS03",
+      "documento": "bncc-2018",
+      "texto": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-02",
+      "alinhamento": "ei-align-ts-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50"
+      }
+    },
+    {
+      "codigo": "EI03CG01",
+      "documento": "bncc-2018",
+      "texto": "Criar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro, música.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-cg-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI03CG02",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-cg-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI03CG03",
+      "documento": "bncc-2018",
+      "texto": "Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-cg-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI03CG04",
+      "documento": "bncc-2018",
+      "texto": "Adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-cg-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI03CG05",
+      "documento": "bncc-2018",
+      "texto": "Coordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas.",
+      "campo_experiencias": "ei-campo-cg",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-cg-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 49",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49"
+      }
+    },
+    {
+      "codigo": "EI03EF01",
+      "documento": "bncc-2018",
+      "texto": "Expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita (escrita espontânea), de fotos, desenhos e outras formas de expressão.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI03EF02",
+      "documento": "bncc-2018",
+      "texto": "Inventar brincadeiras cantadas, poemas e canções, criando rimas, aliterações e ritmos.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI03EF03",
+      "documento": "bncc-2018",
+      "texto": "Escolher e folhear livros, procurando orientar-se por temas e ilustrações e tentando identificar palavras conhecidas.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI03EF04",
+      "documento": "bncc-2018",
+      "texto": "Recontar histórias ouvidas e planejar coletivamente roteiros de vídeos e de encenações, definindo os contextos, os personagens, a estrutura da história.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI03EF05",
+      "documento": "bncc-2018",
+      "texto": "Recontar histórias ouvidas para produção de reconto escrito, tendo o professor como escriba.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 51",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51"
+      }
+    },
+    {
+      "codigo": "EI03EF06",
+      "documento": "bncc-2018",
+      "texto": "Produzir suas próprias histórias orais e escritas (escrita espontânea), em situações com função social significativa.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI03EF07",
+      "documento": "bncc-2018",
+      "texto": "Levantar hipóteses sobre gêneros textuais veiculados em portadores conhecidos, recorrendo a estratégias de observação gráfica e/ou de leitura.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI03EF08",
+      "documento": "bncc-2018",
+      "texto": "Selecionar livros e textos de gêneros conhecidos para a leitura de um adulto e/ou para sua própria leitura (partindo de seu repertório sobre esses textos, como a recuperação pela memória, pela leitura das ilustrações etc.).",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-08",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI03EF09",
+      "documento": "bncc-2018",
+      "texto": "Levantar hipóteses em relação à linguagem escrita, realizando registros de palavras e textos, por meio de escrita espontânea.",
+      "campo_experiencias": "ei-campo-ef",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ef-09",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 52",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52"
+      }
+    },
+    {
+      "codigo": "EI03EO01",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar empatia pelos outros, percebendo que as pessoas têm diferentes sentimentos, necessidades e maneiras de pensar e agir.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI03EO02",
+      "documento": "bncc-2018",
+      "texto": "Agir de maneira independente, com confiança em suas capacidades, reconhecendo suas conquistas e limitações.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI03EO03",
+      "documento": "bncc-2018",
+      "texto": "Ampliar as relações interpessoais, desenvolvendo atitudes de participação e cooperação.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI03EO04",
+      "documento": "bncc-2018",
+      "texto": "Comunicar suas ideias e sentimentos a pessoas e grupos diversos.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI03EO05",
+      "documento": "bncc-2018",
+      "texto": "Demonstrar valorização das características de seu corpo e respeitar as características dos outros (crianças e adultos) com os quais convive.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 47",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47"
+      }
+    },
+    {
+      "codigo": "EI03EO06",
+      "documento": "bncc-2018",
+      "texto": "Manifestar interesse e respeito por diferentes culturas e modos de vida.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 48",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48"
+      }
+    },
+    {
+      "codigo": "EI03EO07",
+      "documento": "bncc-2018",
+      "texto": "Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos.",
+      "campo_experiencias": "ei-campo-eo",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-eo-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 48",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48"
+      }
+    },
+    {
+      "codigo": "EI03ET01",
+      "documento": "bncc-2018",
+      "texto": "Estabelecer relações de comparação entre objetos, observando suas propriedades.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI03ET02",
+      "documento": "bncc-2018",
+      "texto": "Observar e descrever mudanças em diferentes materiais, resultantes de ações sobre eles, em experimentos envolvendo fenômenos naturais e artificiais.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI03ET03",
+      "documento": "bncc-2018",
+      "texto": "Identificar e selecionar fontes de informações, para responder a questões sobre a natureza, seus fenômenos, sua conservação.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI03ET04",
+      "documento": "bncc-2018",
+      "texto": "Registrar observações, manipulações e medidas, usando múltiplas linguagens (desenho, registro por números ou escrita espontânea), em diferentes suportes.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI03ET05",
+      "documento": "bncc-2018",
+      "texto": "Classificar objetos e figuras de acordo com suas semelhanças e diferenças.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI03ET06",
+      "documento": "bncc-2018",
+      "texto": "Relatar fatos importantes sobre seu nascimento e desenvolvimento, a história dos seus familiares e da sua comunidade.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 53",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53"
+      }
+    },
+    {
+      "codigo": "EI03ET07",
+      "documento": "bncc-2018",
+      "texto": "Relacionar números às suas respectivas quantidades e identificar o antes, o depois e o entre em uma sequência.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 54",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54"
+      }
+    },
+    {
+      "codigo": "EI03ET08",
+      "documento": "bncc-2018",
+      "texto": "Expressar medidas (peso, altura etc.), construindo gráficos básicos.",
+      "campo_experiencias": "ei-campo-et",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-et-08",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 54",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54"
+      }
+    },
+    {
+      "codigo": "EI03TS01",
+      "documento": "bncc-2018",
+      "texto": "Utilizar sons produzidos por materiais, objetos e instrumentos musicais durante brincadeiras de faz de conta, encenações, criações musicais, festas.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ts-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 28"
+      }
+    },
+    {
+      "codigo": "EI03TS02",
+      "documento": "bncc-2018",
+      "texto": "Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ts-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50"
+      }
+    },
+    {
+      "codigo": "EI03TS03",
+      "documento": "bncc-2018",
+      "texto": "Reconhecer as qualidades do som (intensidade, duração, altura e timbre), utilizando-as em suas produções sonoras e ao ouvir músicas e sons.",
+      "campo_experiencias": "ei-campo-ts",
+      "grupo_etario": "ei-grupo-03",
+      "alinhamento": "ei-align-ts-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "bncc-2018",
+        "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
+        "proveniencia": "BNCC completa homologada (601 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 50",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50"
+      }
+    }
+  ],
+  "alinhamentos": [
+    {
+      "id": "ei-align-cg-01",
+      "campo_experiencias": "ei-campo-cg",
+      "objetivos": [
+        "EI01CG01",
+        "EI02CG01",
+        "EI03CG01"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-cg-02",
+      "campo_experiencias": "ei-campo-cg",
+      "objetivos": [
+        "EI01CG02",
+        "EI02CG02",
+        "EI03CG02"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-cg-03",
+      "campo_experiencias": "ei-campo-cg",
+      "objetivos": [
+        "EI01CG03",
+        "EI02CG03",
+        "EI03CG03"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-cg-04",
+      "campo_experiencias": "ei-campo-cg",
+      "objetivos": [
+        "EI01CG04",
+        "EI02CG04",
+        "EI03CG04"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-cg-05",
+      "campo_experiencias": "ei-campo-cg",
+      "objetivos": [
+        "EI01CG05",
+        "EI02CG05",
+        "EI03CG05"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-01",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF01",
+        "EI02EF01",
+        "EI03EF01"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-02",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF02",
+        "EI02EF02",
+        "EI03EF02"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-03",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF03",
+        "EI02EF03",
+        "EI03EF03"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-04",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF04",
+        "EI02EF04",
+        "EI03EF04"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-05",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF05",
+        "EI02EF05",
+        "EI03EF05"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-06",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF06",
+        "EI02EF06",
+        "EI03EF06"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-07",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF07",
+        "EI02EF07",
+        "EI03EF07"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-08",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF08",
+        "EI02EF08",
+        "EI03EF08"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ef-09",
+      "campo_experiencias": "ei-campo-ef",
+      "objetivos": [
+        "EI01EF09",
+        "EI02EF09",
+        "EI03EF09"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-01",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI01EO01",
+        "EI02EO01",
+        "EI03EO01"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-02",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI01EO02",
+        "EI02EO02",
+        "EI03EO02"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-03",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI01EO03",
+        "EI02EO03",
+        "EI03EO03"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-04",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI01EO04",
+        "EI02EO04",
+        "EI03EO04"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-05",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI01EO05",
+        "EI02EO05",
+        "EI03EO05"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-06",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI01EO06",
+        "EI02EO06",
+        "EI03EO06"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-eo-07",
+      "campo_experiencias": "ei-campo-eo",
+      "objetivos": [
+        "EI02EO07",
+        "EI03EO07"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-01",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI01ET01",
+        "EI02ET01",
+        "EI03ET01"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-02",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI01ET02",
+        "EI02ET02",
+        "EI03ET02"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-03",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI01ET03",
+        "EI02ET03",
+        "EI03ET03"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-04",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI01ET04",
+        "EI02ET04",
+        "EI03ET04"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-05",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI01ET05",
+        "EI02ET05",
+        "EI03ET05"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-06",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI01ET06",
+        "EI02ET06",
+        "EI03ET06"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-07",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI02ET07",
+        "EI03ET07"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-et-08",
+      "campo_experiencias": "ei-campo-et",
+      "objetivos": [
+        "EI02ET08",
+        "EI03ET08"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ts-01",
+      "campo_experiencias": "ei-campo-ts",
+      "objetivos": [
+        "EI01TS01",
+        "EI02TS01",
+        "EI03TS01"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ts-02",
+      "campo_experiencias": "ei-campo-ts",
+      "objetivos": [
+        "EI01TS02",
+        "EI02TS02",
+        "EI03TS02"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    },
+    {
+      "id": "ei-align-ts-03",
+      "campo_experiencias": "ei-campo-ts",
+      "objetivos": [
+        "EI01TS03",
+        "EI02TS03",
+        "EI03TS03"
+      ],
+      "nota": "pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)"
+    }
+  ]
+}
