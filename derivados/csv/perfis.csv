@@ -1,0 +1,6 @@
+id,nome,descricao,sinonimos
+perfil-professor,Professor,"Docente responsável por planejar, conduzir e avaliar o ensino dos componentes curriculares e das experiências de aprendizagem.",docente | educador
+perfil-aluno,Aluno,"Estudante matriculado em uma etapa ou modalidade da educação básica, sujeito das aprendizagens descritas na BNCC.",estudante | educando
+perfil-gestor,Gestor,Profissional responsável pela gestão administrativa e pedagógica da instituição de ensino.,diretor | gestor escolar
+perfil-responsavel,Responsável,"Pessoa adulta legalmente responsável pelo estudante, que acompanha sua vida escolar.",pais | família | responsável legal
+perfil-coordenador,Coordenador,"Profissional que articula, orienta e acompanha o trabalho pedagógico da equipe docente.",coordenador pedagógico

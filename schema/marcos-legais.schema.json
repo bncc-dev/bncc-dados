@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/marcos-legais.schema.json",
+  "title": "Marcos legais da educação básica (dados/bncc-2018/marcos-legais.json)",
+  "description": "Referências estruturadas aos atos normativos que fundamentam a BNCC e a educação básica: id, ementa, link oficial e relações com entidades do dataset. Sem texto integral na v1.0 (schema doc §7.1).",
+  "type": "object",
+  "properties": {
+    "marcos_legais": {
+      "type": "array",
+      "minItems": 15,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "tipo": { "enum": ["constituicao", "emenda_constitucional", "lei", "resolucao", "parecer"] },
+          "titulo": { "type": "string", "minLength": 10 },
+          "ementa": { "type": "string", "minLength": 20 },
+          "url_oficial": { "type": "string", "pattern": "^https://[a-z0-9.-]+\\.gov\\.br/" },
+          "nota": { "type": "string" },
+          "relaciona": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "entidade": {
+                  "oneOf": [
+                    { "$ref": "definicoes.json#/$defs/id_slug" },
+                    { "enum": ["EI", "EF", "EM"] }
+                  ]
+                },
+                "natureza": { "enum": ["fundamenta", "fundamenta_destaque", "institui", "abrange", "altera", "diretrizes", "complementa"] }
+              },
+              "required": ["entidade", "natureza"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["id", "tipo", "titulo", "ementa", "url_oficial", "relaciona"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["marcos_legais"],
+  "additionalProperties": false
+}

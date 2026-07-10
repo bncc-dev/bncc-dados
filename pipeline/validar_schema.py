@@ -26,6 +26,8 @@ PARES = {
     'educacao-infantil.json': 'educacao-infantil.schema.json',
     'ensino-fundamental.json': 'ensino-fundamental.schema.json',
     'ensino-medio.json': 'ensino-medio.schema.json',
+    'marcos-legais.json': 'marcos-legais.schema.json',
+    'perfis.json': 'perfis.schema.json',
 }
 
 
@@ -73,6 +75,11 @@ def autoteste_negativo(reg):
     area['competencias_especificas'] = ['em-area-lgg-ce-01', 'em-area-lgg-ce-02']  # área deve ter 1
     casos.append(('habilidade de área com 2 competências', 'ensino-medio.schema.json', caso))
 
+    ml = json.loads((DATASET / 'marcos-legais.json').read_text())
+    caso = copy.deepcopy(ml)
+    caso['marcos_legais'][0]['url_oficial'] = 'https://www.jusbrasil.com.br/lei'  # só fonte oficial gov.br
+    casos.append(('marco legal com URL fora do gov.br', 'marcos-legais.schema.json', caso))
+
     falhas = []
     for nome, schema, dados in casos:
         if not validar_arquivo(None, schema, reg, dados=dados):
@@ -95,6 +102,6 @@ if __name__ == '__main__':
     if frouxos:
         print(f'  AUTOTESTE NEGATIVO FALHOU (schema frouxo): {frouxos}')
     else:
-        print('  autoteste negativo: 4/4 corrupções rejeitadas')
+        print('  autoteste negativo: 5/5 corrupções rejeitadas')
 
     sys.exit(1 if total_erros or frouxos else 0)

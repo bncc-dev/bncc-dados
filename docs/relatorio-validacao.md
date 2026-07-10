@@ -1,6 +1,6 @@
 # Relatório de validação · dataset completo (bncc.dev, protótipo)
 
-EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 885 contextos de organização
+EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 885 contextos de organização · 20 marcos legais · 5 perfis
 
 ## Contratos
 
@@ -20,6 +20,9 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula vazia
 - ✅ 7. Verificação PDF: 1.576/1.580 ok; 4 divergências conhecidas e documentadas
 - ✅ 8. Vigência coerente
+- ✅ 8b. Marcos legais: 20 registros e relações apontando para entidades do dataset
+- ✅ 8b. Marcos legais: IDs únicos, URL oficial https no gov.br
+- ✅ 8b. Perfis: vocabulário mínimo do plano presente
 - ✅ 9. Completude: nenhum código do PDF fora do dataset
 - ✅ 9. Completude: nenhum código do dataset fora do PDF
 

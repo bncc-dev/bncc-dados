@@ -13,6 +13,8 @@ Regras para agentes:
 - [Educação Infantil](dados/bncc-2018/educacao-infantil.json): 93 objetivos por campo de experiências e grupo etário, com alinhamentos entre faixas
 - [Ensino Fundamental](dados/bncc-2018/ensino-fundamental.json): 1.304 habilidades com unidades temáticas, objetos de conhecimento, campos de atuação e práticas de linguagem
 - [Ensino Médio](dados/bncc-2018/ensino-medio.json): 183 habilidades com competências específicas vinculadas
+- [Marcos legais](dados/bncc-2018/marcos-legais.json): 20 atos normativos (Constituição, LDB, resoluções da BNCC) com ementa, URL oficial e relações com o dataset
+- [Perfis](dados/bncc-2018/perfis.json): vocabulário dos papéis escolares (professor, aluno, gestor, responsável, coordenador)
 
 ## Documentação
 - [README](README.md): visão geral, uso, licenças

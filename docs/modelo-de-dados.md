@@ -48,6 +48,15 @@ Cada registro carrega, além dos campos da tabela acima:
 - EF: `objetos_conhecimento` como lista de referências (entidade própria, relação N:N).
 - EI: `alinhamento` liga objetivos do mesmo aspecto entre as três faixas etárias (relação oficial da p. 26 do documento, que a maioria dos datasets perde). Alinhamentos com 2 objetivos refletem células vazias do quadro oficial.
 
+## Marcos legais e perfis
+
+Dois vocabulários de referência acompanham o núcleo curricular (schema doc §7):
+
+- `marcos_legais` (`marcos-legais.json`, 20 registros): os atos normativos que fundamentam a BNCC e a educação básica, da Constituição de 1988 à Lei nº 14.945/2024. Cada registro traz `id`, `tipo` (constituição, emenda, lei, resolução, parecer), `titulo`, `ementa`, `url_oficial` (sempre domínio gov.br, verificada no ar) e `relaciona` (vínculos tipados com entidades do dataset, ex.: a Lei nº 13.415/2017 `fundamenta_destaque` LP e Matemática no EM). Sem texto integral na v1.0; dispositivos como dados são evolução futura.
+- `perfis` (`perfis.json`, 5 registros): vocabulário dos papéis do ecossistema escolar (professor, aluno, gestor, responsável, coordenador), com sinônimos. É referência de nomenclatura para aplicações consumidoras; não carrega lógica de autorização.
+
+Nota de proveniência: os PDFs do CNE migraram do antigo portal.mec.gov.br (fora do ar) para `www.gov.br/mec/pt-br/cne/pdf/`; as URLs registradas seguem esse acervo, conferidas documento a documento (número, data e ementa).
+
 ## O que o modelo não inventa
 
 - Progressão formal entre habilidades do EF: a BNCC não a define; o dataset oferece aproximações estruturais (mesmo objeto de conhecimento, mesma prática) e nada além.

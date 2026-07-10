@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/perfis.schema.json",
+  "title": "Vocabulário de perfis de acesso (dados/bncc-2018/perfis.json)",
+  "description": "Papéis de referência do ecossistema escolar (schema doc §7.2). Vocabulário para aplicações consumidoras; sem lógica de autorização.",
+  "type": "object",
+  "properties": {
+    "perfis": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "allOf": [
+              { "$ref": "definicoes.json#/$defs/id_slug" },
+              { "pattern": "^perfil-" }
+            ]
+          },
+          "nome": { "type": "string", "minLength": 3 },
+          "descricao": { "type": "string", "minLength": 20 },
+          "sinonimos": { "type": "array", "items": { "type": "string", "minLength": 3 } }
+        },
+        "required": ["id", "nome", "descricao", "sinonimos"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["perfis"],
+  "additionalProperties": false
+}

@@ -10,7 +10,7 @@ Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumid
 
 | Pasta | Conteúdo |
 |---|---|
-| `dados/bncc-2018/` | O dataset em JSON: estrutura do sistema, 93 objetivos da EI (com alinhamentos entre faixas etárias), 1.304 habilidades do EF (com unidades temáticas, objetos de conhecimento, campos de atuação e práticas de linguagem), 183 habilidades do EM (com competências vinculadas) |
+| `dados/bncc-2018/` | O dataset em JSON: estrutura do sistema, 93 objetivos da EI (com alinhamentos entre faixas etárias), 1.304 habilidades do EF (com unidades temáticas, objetos de conhecimento, campos de atuação e práticas de linguagem), 183 habilidades do EM (com competências vinculadas), 20 marcos legais com URL oficial e 5 perfis de referência |
 | `fontes/` | Os documentos oficiais do MEC dos quais tudo é extraído, com checksums |
 | `schema/` | JSON Schemas (draft 2020-12) que definem e validam o formato de cada arquivo de dados |
 | `derivados/` | O mesmo dado em SQLite e CSV, gerados dos JSONs (para SQL e planilhas) |

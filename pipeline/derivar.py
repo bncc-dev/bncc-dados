@@ -19,6 +19,8 @@ ef = json.loads((DATASET / 'ensino-fundamental.json').read_text())
 em = json.loads((DATASET / 'ensino-medio.json').read_text())
 ei = json.loads((DATASET / 'educacao-infantil.json').read_text())
 est = json.loads((DATASET / 'estrutura.json').read_text())
+ml = json.loads((DATASET / 'marcos-legais.json').read_text())
+pf = json.loads((DATASET / 'perfis.json').read_text())
 
 DATA_VERSION = ef['habilidades'][0]['vigencia']['desde']
 SEP = ' | '
@@ -75,6 +77,10 @@ def gerar_sqlite(caminho):
         competencia TEXT REFERENCES competencia_especifica(id), PRIMARY KEY (codigo, competencia));
     CREATE TABLE habilidade_em_campo_atuacao (codigo TEXT REFERENCES habilidade_em(codigo),
         campo_atuacao TEXT REFERENCES contexto_organizacao(id), PRIMARY KEY (codigo, campo_atuacao));
+    CREATE TABLE marco_legal (id TEXT PRIMARY KEY, tipo TEXT, titulo TEXT, ementa TEXT, url_oficial TEXT, nota TEXT);
+    CREATE TABLE marco_legal_relacao (marco TEXT REFERENCES marco_legal(id),
+        entidade TEXT, natureza TEXT, PRIMARY KEY (marco, entidade, natureza));
+    CREATE TABLE perfil (id TEXT PRIMARY KEY, nome TEXT, descricao TEXT, sinonimos TEXT);
     CREATE INDEX idx_hef_componente ON habilidade_ef(componente);
     CREATE INDEX idx_hef_ano ON habilidade_ef_ano(ano);
     CREATE INDEX idx_hem_area ON habilidade_em(area);
@@ -157,6 +163,15 @@ def gerar_sqlite(caminho):
         c.executemany('INSERT INTO habilidade_em_campo_atuacao VALUES (?,?)',
                       [(h['codigo'], ca) for ca in sorted(set(h['campos_atuacao_social'] or []))])
 
+    for m in ml['marcos_legais']:
+        c.execute('INSERT INTO marco_legal VALUES (?,?,?,?,?,?)',
+                  (m['id'], m['tipo'], m['titulo'], m['ementa'], m['url_oficial'], m.get('nota')))
+        c.executemany('INSERT INTO marco_legal_relacao VALUES (?,?,?)',
+                      [(m['id'], r['entidade'], r['natureza']) for r in m['relaciona']])
+    for p in pf['perfis']:
+        c.execute('INSERT INTO perfil VALUES (?,?,?,?)',
+                  (p['id'], p['nome'], p['descricao'], SEP.join(p['sinonimos'])))
+
     db.commit()
     return db
 
@@ -225,6 +240,14 @@ def gerar_csvs():
              [[r['id'], r['etapa'], r['tipo'], r.get('nome', ''), r.get('faixa', ''),
                r.get('numero', ''), r.get('segmento', '')]
               for r in sorted(est['recortes_temporais'], key=lambda x: x['id'])])
+
+    escrever('marcos-legais', ['id', 'tipo', 'titulo', 'ementa', 'url_oficial', 'relaciona', 'nota'],
+             [[m['id'], m['tipo'], m['titulo'], m['ementa'], m['url_oficial'],
+               SEP.join(f"{r['entidade']}:{r['natureza']}" for r in m['relaciona']), m.get('nota', '')]
+              for m in ml['marcos_legais']])
+
+    escrever('perfis', ['id', 'nome', 'descricao', 'sinonimos'],
+             [[p['id'], p['nome'], p['descricao'], SEP.join(p['sinonimos'])] for p in pf['perfis']])
 
 
 if __name__ == '__main__':

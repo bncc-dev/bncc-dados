@@ -117,6 +117,26 @@ check('7. Verificação PDF: 1.576/1.580 ok; 4 divergências conhecidas e docume
 check('8. Vigência coerente', all(h['vigencia']['status'] == 'vigente'
                                   for h in ef['habilidades'] + em['habilidades'] + ei['objetivos']))
 
+# ------------------------------------------------ 8b. marcos legais e perfis
+ml = json.loads((DATASET / 'marcos-legais.json').read_text())
+pf = json.loads((DATASET / 'perfis.json').read_text())
+entidades_conhecidas = ({d['id'] for d in est['documento_curricular']} |
+                        {e['id'] for e in est['etapas']} | {m['id'] for m in est['modalidades']} |
+                        {a['id'] for a in est['areas_conhecimento']} | comps_est | ces)
+rel_quebradas = [(m['id'], r['entidade']) for m in ml['marcos_legais']
+                 for r in m['relaciona'] if r['entidade'] not in entidades_conhecidas]
+check('8b. Marcos legais: 20 registros e relações apontando para entidades do dataset',
+      len(ml['marcos_legais']) == 20 and not rel_quebradas, f'quebradas: {rel_quebradas[:5]}')
+check('8b. Marcos legais: IDs únicos, URL oficial https no gov.br',
+      len({m['id'] for m in ml['marcos_legais']}) == len(ml['marcos_legais'])
+      and all(m['url_oficial'].startswith('https://') and '.gov.br/' in m['url_oficial']
+              for m in ml['marcos_legais']))
+PERFIS_MINIMOS = {'perfil-professor', 'perfil-aluno', 'perfil-gestor',
+                  'perfil-responsavel', 'perfil-coordenador'}
+check('8b. Perfis: vocabulário mínimo do plano presente',
+      PERFIS_MINIMOS <= {p['id'] for p in pf['perfis']},
+      f"faltam: {sorted(PERFIS_MINIMOS - {p['id'] for p in pf['perfis']})}")
+
 # ----------------------------------------------- 9. completude: varredura PDF
 paginas = paginas_pdf(PDF_CANONICO)
 texto_pdf = ' '.join(paginas)
@@ -223,7 +243,8 @@ for titulo, corpo, fonte in entradas:
 linhas = ['# Relatório de validação · dataset completo (bncc.dev, protótipo)', '',
           f'EF {len(H_EF)} + EM {len(H_EM)} + EI {len(ei["objetivos"])} = **{len(todos)} aprendizagens** · '
           f'{len(est["competencias_gerais"])} competências gerais · {len(est["competencias_especificas"])} específicas · '
-          f'{len(ef["contextos_organizacao"]) + len(em["contextos_organizacao"])} contextos de organização', '',
+          f'{len(ef["contextos_organizacao"]) + len(em["contextos_organizacao"])} contextos de organização · '
+          f'{len(ml["marcos_legais"])} marcos legais · {len(pf["perfis"])} perfis', '',
           '## Contratos', '']
 linhas += [f"- {'✅' if ok else '❌'} {nome}" + (f' · {det}' if det and not ok else '') for nome, ok, det in checks]
 linhas += ['', '## Verificação contra o PDF homologado', '',

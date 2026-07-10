@@ -1,0 +1,34 @@
+{
+  "perfis": [
+    {
+      "id": "perfil-professor",
+      "nome": "Professor",
+      "descricao": "Docente responsável por planejar, conduzir e avaliar o ensino dos componentes curriculares e das experiências de aprendizagem.",
+      "sinonimos": ["docente", "educador"]
+    },
+    {
+      "id": "perfil-aluno",
+      "nome": "Aluno",
+      "descricao": "Estudante matriculado em uma etapa ou modalidade da educação básica, sujeito das aprendizagens descritas na BNCC.",
+      "sinonimos": ["estudante", "educando"]
+    },
+    {
+      "id": "perfil-gestor",
+      "nome": "Gestor",
+      "descricao": "Profissional responsável pela gestão administrativa e pedagógica da instituição de ensino.",
+      "sinonimos": ["diretor", "gestor escolar"]
+    },
+    {
+      "id": "perfil-responsavel",
+      "nome": "Responsável",
+      "descricao": "Pessoa adulta legalmente responsável pelo estudante, que acompanha sua vida escolar.",
+      "sinonimos": ["pais", "família", "responsável legal"]
+    },
+    {
+      "id": "perfil-coordenador",
+      "nome": "Coordenador",
+      "descricao": "Profissional que articula, orienta e acompanha o trabalho pedagógico da equipe docente.",
+      "sinonimos": ["coordenador pedagógico"]
+    }
+  ]
+}
