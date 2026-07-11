@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Instalar dependências (poppler + jsonschema)
         run: |
-          sudo apt-get update && sudo apt-get install -y poppler-utils
+          sudo apt-get update && sudo apt-get install -y poppler-utils ghostscript
           python3 -m pip install --upgrade 'jsonschema>=4.18'
       - name: Guardar derivados commitados (para comparação)
         run: cp derivados/bncc.sql /tmp/bncc-commitado.sql
@@ -20,8 +20,11 @@ jobs:
           cd pipeline
           python3 extrair.py
           python3 extrair_ei.py
+          python3 extrair_computacao.py
       - name: Verificar contra o PDF homologado
         run: cd pipeline && python3 verificar.py
+      - name: Verificar Computação contra o anexo oficial
+        run: cd pipeline && python3 verificar_computacao.py
       - name: Validar contra os JSON Schemas (com autoteste negativo)
         run: cd pipeline && python3 validar_schema.py
       - name: Validar contratos e completude

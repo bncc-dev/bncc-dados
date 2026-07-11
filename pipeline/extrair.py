@@ -271,7 +271,10 @@ def espinha(gerais, especificas):
                 for n in ['Conviver', 'Brincar', 'Participar', 'Explorar', 'Expressar', 'Conhecer-se']]
     return {
         'documento_curricular': [{'id': 'bncc-2018', 'nome': 'Base Nacional Comum Curricular',
-                                  'tipo': 'base_nacional', 'esfera': 'federal', 'derivado_de': None}],
+                                  'tipo': 'base_nacional', 'esfera': 'federal', 'derivado_de': None},
+                                 {'id': 'computacao-2022',
+                                  'nome': 'Computação na Educação Básica (complemento à BNCC)',
+                                  'tipo': 'complemento', 'esfera': 'federal', 'derivado_de': 'bncc-2018'}],
         'etapas': [{'id': 'EI', 'nome': 'Educação Infantil'}, {'id': 'EF', 'nome': 'Ensino Fundamental'},
                    {'id': 'EM', 'nome': 'Ensino Médio'}],
         'modalidades': [{'id': 'eja', 'nome': 'Educação de Jovens e Adultos', 'transversal_a': ['EF', 'EM'],

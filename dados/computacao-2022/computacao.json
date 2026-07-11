@@ -1,0 +1,3808 @@
+{
+  "eixos": [
+    {
+      "id": "co-eixo-pensamento-computacional",
+      "documento": "computacao-2022",
+      "nome": "Pensamento Computacional"
+    },
+    {
+      "id": "co-eixo-mundo-digital",
+      "documento": "computacao-2022",
+      "nome": "Mundo Digital"
+    },
+    {
+      "id": "co-eixo-cultura-digital",
+      "documento": "computacao-2022",
+      "nome": "Cultura Digital"
+    }
+  ],
+  "objetos_conhecimento": [
+    {
+      "id": "co-obj-algoritmos",
+      "documento": "computacao-2022",
+      "nome": "Algoritmos",
+      "pai": null
+    },
+    {
+      "id": "co-obj-algoritmos-classicos",
+      "documento": "computacao-2022",
+      "nome": "Algoritmos clássicos",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-algoritmos-com-repeticoes-condicionais-simples",
+      "documento": "computacao-2022",
+      "nome": "Algoritmos com repetições condicionais simples",
+      "pai": null
+    },
+    {
+      "id": "co-obj-algoritmos-com-repeticoes-simples",
+      "documento": "computacao-2022",
+      "nome": "Algoritmos com repetições simples",
+      "pai": null
+    },
+    {
+      "id": "co-obj-algoritmos-com-repeticoes-simples-e-aninhadas",
+      "documento": "computacao-2022",
+      "nome": "Algoritmos com repetições simples e aninhadas",
+      "pai": null
+    },
+    {
+      "id": "co-obj-algoritmos-com-selecao-condicional",
+      "documento": "computacao-2022",
+      "nome": "Algoritmos com seleção condicional",
+      "pai": null
+    },
+    {
+      "id": "co-obj-analise-de-programas",
+      "documento": "computacao-2022",
+      "nome": "Análise de programas",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-armazenamento-de-dados",
+      "documento": "computacao-2022",
+      "nome": "Armazenamento de dados",
+      "pai": null
+    },
+    {
+      "id": "co-obj-armazenamento-e-transmissao-de-dados",
+      "documento": "computacao-2022",
+      "nome": "Armazenamento e Transmissão de dados",
+      "pai": null
+    },
+    {
+      "id": "co-obj-arquitetura-de-computadores",
+      "documento": "computacao-2022",
+      "nome": "Arquitetura de computadores",
+      "pai": null
+    },
+    {
+      "id": "co-obj-automatos-e-linguagens-baseadas-em-eventos",
+      "documento": "computacao-2022",
+      "nome": "Autômatos e linguagens baseadas em eventos",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-autoria-em-meio-digital",
+      "documento": "computacao-2022",
+      "nome": "Autoria em meio digital",
+      "pai": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+    },
+    {
+      "id": "co-obj-codificacao-da-informacao",
+      "documento": "computacao-2022",
+      "nome": "Codificação da informação",
+      "pai": null
+    },
+    {
+      "id": "co-obj-conceituacao-de-algoritmos",
+      "documento": "computacao-2022",
+      "nome": "Conceituação de Algoritmos",
+      "pai": null
+    },
+    {
+      "id": "co-obj-cyberbullying",
+      "documento": "computacao-2022",
+      "nome": "Cyberbullying",
+      "pai": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+    },
+    {
+      "id": "co-obj-decomposicao",
+      "documento": "computacao-2022",
+      "nome": "Decomposição",
+      "pai": "co-obj-estrategias-de-solucao-de-problemas"
+    },
+    {
+      "id": "co-obj-estrategias-de-solucao-de-problemas",
+      "documento": "computacao-2022",
+      "nome": "Estratégias de solução de problemas",
+      "pai": null
+    },
+    {
+      "id": "co-obj-funcionamento-de-dispositivos-computacionais",
+      "documento": "computacao-2022",
+      "nome": "Funcionamento de dispositivos computacionais",
+      "pai": null
+    },
+    {
+      "id": "co-obj-fundamentos-de-seguranca-cibernetica",
+      "documento": "computacao-2022",
+      "nome": "Fundamentos de Segurança Cibernética",
+      "pai": "co-obj-armazenamento-e-transmissao-de-dados"
+    },
+    {
+      "id": "co-obj-fundamentos-de-sistemas-distribuidos",
+      "documento": "computacao-2022",
+      "nome": "Fundamentos de sistemas distribuídos",
+      "pai": "co-obj-sistemas-distribuidos-e-internet"
+    },
+    {
+      "id": "co-obj-fundamentos-de-transmissao-de-dados",
+      "documento": "computacao-2022",
+      "nome": "Fundamentos de transmissão de dados",
+      "pai": "co-obj-armazenamento-e-transmissao-de-dados"
+    },
+    {
+      "id": "co-obj-generalizacao",
+      "documento": "computacao-2022",
+      "nome": "Generalização",
+      "pai": "co-obj-estrategias-de-solucao-de-problemas"
+    },
+    {
+      "id": "co-obj-gestao-de-dados",
+      "documento": "computacao-2022",
+      "nome": "Gestão de dados",
+      "pai": "co-obj-armazenamento-e-transmissao-de-dados"
+    },
+    {
+      "id": "co-obj-hardware-e-software",
+      "documento": "computacao-2022",
+      "nome": "Hardware e software",
+      "pai": null
+    },
+    {
+      "id": "co-obj-impactos-da-tecnologia-digital",
+      "documento": "computacao-2022",
+      "nome": "Impactos da tecnologia digital",
+      "pai": "co-obj-uso-de-tecnologias-computacionais"
+    },
+    {
+      "id": "co-obj-instrucao-de-maquina",
+      "documento": "computacao-2022",
+      "nome": "Instrução de máquina",
+      "pai": null
+    },
+    {
+      "id": "co-obj-interface-fisica",
+      "documento": "computacao-2022",
+      "nome": "Interface física",
+      "pai": null
+    },
+    {
+      "id": "co-obj-internet",
+      "documento": "computacao-2022",
+      "nome": "Internet",
+      "pai": "co-obj-sistemas-distribuidos-e-internet"
+    },
+    {
+      "id": "co-obj-linguagem-de-programacao",
+      "documento": "computacao-2022",
+      "nome": "Linguagem de Programação",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-listas-e-grafos",
+      "documento": "computacao-2022",
+      "nome": "Listas e grafos",
+      "pai": null
+    },
+    {
+      "id": "co-obj-logica-computacional",
+      "documento": "computacao-2022",
+      "nome": "Lógica computacional",
+      "pai": null
+    },
+    {
+      "id": "co-obj-matrizes-e-registros",
+      "documento": "computacao-2022",
+      "nome": "Matrizes e registros",
+      "pai": null
+    },
+    {
+      "id": "co-obj-modelagem-de-objetos",
+      "documento": "computacao-2022",
+      "nome": "Modelagem de objetos",
+      "pai": null
+    },
+    {
+      "id": "co-obj-organizacao-de-objetos",
+      "documento": "computacao-2022",
+      "nome": "Organização de objetos",
+      "pai": null
+    },
+    {
+      "id": "co-obj-organizacao-e-representacao-da-informacao",
+      "documento": "computacao-2022",
+      "nome": "Organização e representação da informação",
+      "pai": null
+    },
+    {
+      "id": "co-obj-producao-digital",
+      "documento": "computacao-2022",
+      "nome": "Produção Digital",
+      "pai": "co-obj-uso-de-tecnologias-computacionais"
+    },
+    {
+      "id": "co-obj-programacao",
+      "documento": "computacao-2022",
+      "nome": "Programação",
+      "pai": null
+    },
+    {
+      "id": "co-obj-programacao-com-listas-e-recursao",
+      "documento": "computacao-2022",
+      "nome": "Programação com listas e recursão",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-programacao-usando-grafos-e-arvores",
+      "documento": "computacao-2022",
+      "nome": "Programação usando grafos e árvores",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-programacao-usando-registros-e-matrizes",
+      "documento": "computacao-2022",
+      "nome": "Programação usando registros e matrizes",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-projetos-com-programacao",
+      "documento": "computacao-2022",
+      "nome": "Projetos com programação",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-propriedades-de-grafos",
+      "documento": "computacao-2022",
+      "nome": "Propriedades de grafos",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-protocolos-de-comunicacao-em-redes",
+      "documento": "computacao-2022",
+      "nome": "Protocolos de comunicação em redes",
+      "pai": "co-obj-armazenamento-e-transmissao-de-dados"
+    },
+    {
+      "id": "co-obj-qualidade-da-informacao",
+      "documento": "computacao-2022",
+      "nome": "Qualidade da informação",
+      "pai": "co-obj-uso-de-tecnologias-computacionais"
+    },
+    {
+      "id": "co-obj-redes-sociais-e-seguranca-da-informacao",
+      "documento": "computacao-2022",
+      "nome": "Redes sociais e segurança da informação",
+      "pai": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+    },
+    {
+      "id": "co-obj-reuso",
+      "documento": "computacao-2022",
+      "nome": "Reúso",
+      "pai": "co-obj-estrategias-de-solucao-de-problemas"
+    },
+    {
+      "id": "co-obj-seguranca-cibernetica",
+      "documento": "computacao-2022",
+      "nome": "Segurança cibernética",
+      "pai": "co-obj-sistemas-distribuidos-e-internet"
+    },
+    {
+      "id": "co-obj-seguranca-cibernetica-cont",
+      "documento": "computacao-2022",
+      "nome": "Segurança cibernética (cont.)",
+      "pai": "co-obj-sistemas-distribuidos-e-internet-cont"
+    },
+    {
+      "id": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia",
+      "documento": "computacao-2022",
+      "nome": "Segurança e responsabilidade no uso da tecnologia",
+      "pai": null
+    },
+    {
+      "id": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia-computacional",
+      "documento": "computacao-2022",
+      "nome": "Segurança e responsabilidade no uso da tecnologia computacional",
+      "pai": null
+    },
+    {
+      "id": "co-obj-seguranca-e-responsabilidade-no-uso-de-tecnologia-computacional",
+      "documento": "computacao-2022",
+      "nome": "Segurança e responsabilidade no uso de tecnologia computacional",
+      "pai": null
+    },
+    {
+      "id": "co-obj-seguranca-em-ambientes-virtuais",
+      "documento": "computacao-2022",
+      "nome": "Segurança em ambientes virtuais",
+      "pai": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+    },
+    {
+      "id": "co-obj-sistema-operacional",
+      "documento": "computacao-2022",
+      "nome": "Sistema Operacional",
+      "pai": null
+    },
+    {
+      "id": "co-obj-sistemas-distribuidos-e-internet",
+      "documento": "computacao-2022",
+      "nome": "Sistemas distribuídos e internet",
+      "pai": null
+    },
+    {
+      "id": "co-obj-sistemas-distribuidos-e-internet-cont",
+      "documento": "computacao-2022",
+      "nome": "Sistemas distribuídos e internet (cont.)",
+      "pai": null
+    },
+    {
+      "id": "co-obj-tecnologia-digital-e-sociedade",
+      "documento": "computacao-2022",
+      "nome": "Tecnologia digital e sociedade",
+      "pai": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+    },
+    {
+      "id": "co-obj-tecnologia-digital-e-sustentabilidade",
+      "documento": "computacao-2022",
+      "nome": "Tecnologia digital e sustentabilidade",
+      "pai": "co-obj-uso-de-tecnologias-computacionais"
+    },
+    {
+      "id": "co-obj-tipos-de-dados",
+      "documento": "computacao-2022",
+      "nome": "Tipos de dados",
+      "pai": "co-obj-programacao"
+    },
+    {
+      "id": "co-obj-uso-critico-das-midias-digitais",
+      "documento": "computacao-2022",
+      "nome": "Uso crítico das mídias digitais",
+      "pai": "co-obj-uso-de-tecnologias-computacionais"
+    },
+    {
+      "id": "co-obj-uso-de-artefatos-computacionais",
+      "documento": "computacao-2022",
+      "nome": "Uso de artefatos computacionais",
+      "pai": null
+    },
+    {
+      "id": "co-obj-uso-de-tecnologias-computacionais",
+      "documento": "computacao-2022",
+      "nome": "Uso de tecnologias computacionais",
+      "pai": null
+    }
+  ],
+  "competencias": [
+    {
+      "id": "computacao-cg-01",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 1,
+      "texto": "Compreender a Computação como uma área de conhecimento que contribui para explicar o mundo atual e ser um agente ativo e consciente de transformação capaz de analisar criticamente seus impactos sociais, ambientais, culturais, econômicos, científicos, tecnológicos, legais e éticos.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-cg-02",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 2,
+      "texto": "Reconhecer o impacto dos artefatos computacionais e os respectivos desafios para os indivíduos na sociedade, discutindo questões socioambientais, culturais, científicas, políticas e econômicas.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-cg-03",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 3,
+      "texto": "Expressar e partilhar informações, ideias, sentimentos e soluções computacionais utilizando diferentes linguagens e tecnologias da Computação de forma criativa, crítica, significativa, reflexiva e ética.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-cg-04",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 4,
+      "texto": "Aplicar os princípios e técnicas da Computação e suas tecnologias para identificar problemas e criar soluções computacionais, preferencialmente de forma cooperativa, bem como alicerçar descobertas em diversas áreas do conhecimento seguindo uma abordagem científica e inovadora, considerando os impactos sob diferentes contextos.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-cg-05",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 5,
+      "texto": "Avaliar as soluções e os processos envolvidos na resolução computacional de problemas de diversas áreas do conhecimento, sendo capaz de construir argumentações coerentes e consistentes, utilizando conhecimentos da Computação para argumentar em diferentes contextos com base em fatos e informações confiáveis com respeito à diversidade de opiniões, saberes, identidades e culturas.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-cg-06",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 6,
+      "texto": "Desenvolver projetos, baseados em problemas, desafios e oportunidades que façam sentido ao contexto ou interesse do estudante, de maneira individual e/ou cooperativa, fazendo uso da Computação e suas tecnologias, utilizando conceitos, técnicas e ferramentas computacionais que possibilitem automatizar processos em diversas áreas do conhecimento com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de indivíduos e de grupos sociais, de maneira inclusiva.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-cg-07",
+      "documento": "computacao-2022",
+      "tipo": "geral_computacao",
+      "numero": 7,
+      "texto": "Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, identificando e reconhecendo seus direitos e deveres, recorrendo aos conhecimentos da Computação e suas tecnologias para tomar decisões frente às questões de diferentes naturezas.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências gerais do complemento (cabeçalho das planilhas de EF, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-01",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 1,
+      "texto": "Compreender as possibilidades e os limites da Computação para resolver problemas, tanto em termos de viabilidade quanto de eficiência, propondo e analisando soluções computacionais para diversos domínios do conhecimento, considerando diferentes aspectos.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-02",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 2,
+      "texto": "Analisar criticamente artefatos computacionais, sendo capaz de identificar as vulnerabilidades dos ambientes e das soluções computacionais buscando garantir a integridade, privacidade, sigilo e segurança das informações.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-03",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 3,
+      "texto": "Analisar situações do mundo contemporâneo, selecionando técnicas computacionais apropriadas para a solução de problemas.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-04",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 4,
+      "texto": "Construir conhecimento usando técnicas e tecnologias computacionais, produzindo conteúdos e artefatos de forma criativa, com respeito às questões éticas e legais, que proporcionem experiências para si e os demais.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-05",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 5,
+      "texto": "Desenvolver projetos para investigar desafios do mundo contemporâneo, construir soluções e tomar decisões éticas, democráticas e socialmente responsáveis, articulando conceitos, procedimentos e linguagens próprias da Computação preferencialmente de maneira colaborativa.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-06",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 6,
+      "texto": "Expressar e partilhar informações, ideias, sentimentos e soluções computacionais utilizando diferentes plataformas, ferramentas, linguagens e tecnologias da Computação de forma fluente, criativa, crítica, significativa, reflexiva e ética.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    },
+    {
+      "id": "computacao-em-ce-07",
+      "documento": "computacao-2022",
+      "tipo": "especifica_em_computacao",
+      "numero": 7,
+      "texto": "Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, identificando e reconhecendo seus direitos e deveres, recorrendo aos conhecimentos da Computação e suas tecnologias frente às questões de diferentes naturezas.",
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "competências específicas do EM (cabeçalho da planilha de EM, verificadas contra o anexo)"
+      }
+    }
+  ],
+  "objetivos_ei": [
+    {
+      "codigo": "EI03CO01",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer padrão de repetição em sequência de sons, movimentos, desenhos.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 4",
+        "localizador_pdf": "página PDF 6"
+      }
+    },
+    {
+      "codigo": "EI03CO02",
+      "documento": "computacao-2022",
+      "texto": "Expressar as etapas para a realização de uma tarefa de forma clara e ordenada.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 5",
+        "localizador_pdf": "página PDF 6"
+      }
+    },
+    {
+      "codigo": "EI03CO03",
+      "documento": "computacao-2022",
+      "texto": "Experienciar a execução de algoritmos brincando com objetos (des)plugados.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 6",
+        "localizador_pdf": "página PDF 6"
+      }
+    },
+    {
+      "codigo": "EI03CO04",
+      "documento": "computacao-2022",
+      "texto": "Criar e representar algoritmos para resolver problemas.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 7",
+        "localizador_pdf": "página PDF 8"
+      }
+    },
+    {
+      "codigo": "EI03CO05",
+      "documento": "computacao-2022",
+      "texto": "Comparar soluções algorítmicas para resolver um mesmo problema.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 8",
+        "localizador_pdf": "página PDF 8"
+      }
+    },
+    {
+      "codigo": "EI03CO06",
+      "documento": "computacao-2022",
+      "texto": "Compreender decisões em dois estados (verdadeiro ou falso).",
+      "eixo": "co-eixo-pensamento-computacional",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 9",
+        "localizador_pdf": "página PDF 8"
+      }
+    },
+    {
+      "codigo": "EI03CO07",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer dispositivos eletrônicos (e não-eletrônicos), identificando quando estão ligados ou desligados (abertos ou fechados).",
+      "eixo": "co-eixo-mundo-digital",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 10",
+        "localizador_pdf": "página PDF 10"
+      }
+    },
+    {
+      "codigo": "EI03CO08",
+      "documento": "computacao-2022",
+      "texto": "Compreender o conceito de interfaces para comunicação com objetos (des)plugados.",
+      "eixo": "co-eixo-mundo-digital",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 11",
+        "localizador_pdf": "página PDF 10"
+      }
+    },
+    {
+      "codigo": "EI03CO09",
+      "documento": "computacao-2022",
+      "texto": "Identificar dispositivos computacionais e as diferentes formas de interação.",
+      "eixo": "co-eixo-mundo-digital",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 12",
+        "localizador_pdf": "página PDF 10"
+      }
+    },
+    {
+      "codigo": "EI03CO10",
+      "documento": "computacao-2022",
+      "texto": "Utilizar tecnologia digital de maneira segura, consciente e respeitosa.",
+      "eixo": "co-eixo-cultura-digital",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 13",
+        "localizador_pdf": "página PDF 12"
+      }
+    },
+    {
+      "codigo": "EI03CO11",
+      "documento": "computacao-2022",
+      "texto": "Adotar hábitos saudáveis de uso de artefatos computacionais, seguindo recomendações de órgãos de saúde competentes.",
+      "eixo": "co-eixo-cultura-digital",
+      "grupo_etario": "ei-grupo-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx · linha 14",
+        "localizador_pdf": "página PDF 12"
+      }
+    }
+  ],
+  "habilidades_ef": [
+    {
+      "codigo": "EF01CO01",
+      "documento": "computacao-2022",
+      "texto": "Organizar objetos físicos ou digitais considerando diferentes características para esta organização, explicitando semelhanças (padrões) e diferenças.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-organizacao-de-objetos"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 5",
+        "localizador_pdf": "página PDF 16"
+      }
+    },
+    {
+      "codigo": "EF01CO02",
+      "documento": "computacao-2022",
+      "texto": "Identificar e seguir sequências de passos aplicados no dia a dia para resolver problemas.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-conceituacao-de-algoritmos"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 6",
+        "localizador_pdf": "página PDF 16"
+      }
+    },
+    {
+      "codigo": "EF01CO03",
+      "documento": "computacao-2022",
+      "texto": "Reorganizar e criar sequências de passos em meios físicos ou digitais, relacionando essas sequências à palavra ‘Algoritmos’.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-conceituacao-de-algoritmos"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 7",
+        "localizador_pdf": "página PDF 16"
+      }
+    },
+    {
+      "codigo": "EF01CO04",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer o que é a informação, que ela pode ser armazenada, transmitida como mensagem por diversos meios e descrita em várias linguagens.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 8",
+        "localizador_pdf": "página PDF 16"
+      }
+    },
+    {
+      "codigo": "EF01CO05",
+      "documento": "computacao-2022",
+      "texto": "Representar informação usando diferentes codificações.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 9",
+        "localizador_pdf": "página PDF 16"
+      }
+    },
+    {
+      "codigo": "EF01CO06",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer e explorar artefatos computacionais voltados a atender necessidades pessoais ou coletivas.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-artefatos-computacionais"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 10",
+        "localizador_pdf": "página PDF 18"
+      }
+    },
+    {
+      "codigo": "EF01CO07",
+      "documento": "computacao-2022",
+      "texto": "Conhecer as possibilidades de uso seguro das tecnologias computacionais para proteção dos dados pessoais e para garantir a própria segurança.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-de-tecnologia-computacional"
+      ],
+      "anos": [
+        1
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 11",
+        "localizador_pdf": "página PDF 18"
+      }
+    },
+    {
+      "codigo": "EF15CO01",
+      "documento": "computacao-2022",
+      "texto": "Identificar as principais formas de organizar e representar a informação de maneira estruturada (matrizes, registros, listas e grafos) ou não estruturada (números, palavras, valores verdade).",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-organizacao-e-representacao-da-informacao"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 61",
+        "localizador_pdf": "página PDF 38"
+      }
+    },
+    {
+      "codigo": "EF15CO02",
+      "documento": "computacao-2022",
+      "texto": "Construir e simular algoritmos, de forma independente ou em colaboração, que resolvam problemas simples e do cotidiano com uso de sequências, seleções condicionais e repetições de instruções.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-algoritmos"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 62",
+        "localizador_pdf": "página PDF 38"
+      }
+    },
+    {
+      "codigo": "EF15CO03",
+      "documento": "computacao-2022",
+      "texto": "Realizar operações de negação, conjunção e disjunção sobre sentenças lógicas e valores 'verdadeiro' e 'falso'.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-logica-computacional"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 64",
+        "localizador_pdf": "página PDF 38"
+      }
+    },
+    {
+      "codigo": "EF15CO04",
+      "documento": "computacao-2022",
+      "texto": "Aplicar a estratégia de decomposição para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas soluções.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-decomposicao"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 65",
+        "localizador_pdf": "página PDF 38"
+      }
+    },
+    {
+      "codigo": "EF15CO05",
+      "documento": "computacao-2022",
+      "texto": "Codificar a informação de diferentes formas, entendendo a importância desta codificação para o armazenamento, manipulação e transmissão em dispositivos computacionais.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 66",
+        "localizador_pdf": "página PDF 40"
+      }
+    },
+    {
+      "codigo": "EF15CO06",
+      "documento": "computacao-2022",
+      "texto": "Conhecer os componentes básicos de dispositivos computacionais, entendendo os princípios de seu funcionamento.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-funcionamento-de-dispositivos-computacionais"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 68",
+        "localizador_pdf": "página PDF 40"
+      }
+    },
+    {
+      "codigo": "EF15CO07",
+      "documento": "computacao-2022",
+      "texto": "Conhecer o conceito de Sistema Operacional e sua importância na integração entre software e hardware.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-sistema-operacional"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 69",
+        "localizador_pdf": "página PDF 40"
+      }
+    },
+    {
+      "codigo": "EF15CO08",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer e utilizar tecnologias computacionais para pesquisar e acessar informações, expressar-se crítica e criativamente e resolver problemas.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-artefatos-computacionais"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 70",
+        "localizador_pdf": "página PDF 40"
+      }
+    },
+    {
+      "codigo": "EF15CO09",
+      "documento": "computacao-2022",
+      "texto": "Entender que as tecnologias devem ser utilizadas de maneira segura, ética e responsável, respeitando direitos autorais, de imagem e as leis vigentes.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia-computacional"
+      ],
+      "anos": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 71",
+        "localizador_pdf": "página PDF 40"
+      }
+    },
+    {
+      "codigo": "EF02CO01",
+      "documento": "computacao-2022",
+      "texto": "Criar e comparar modelos (representações) de objetos, identificando padrões e atributos essenciais.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-modelagem-de-objetos"
+      ],
+      "anos": [
+        2
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 15",
+        "localizador_pdf": "página PDF 20"
+      }
+    },
+    {
+      "codigo": "EF02CO02",
+      "documento": "computacao-2022",
+      "texto": "Criar e simular algoritmos representados em linguagem oral, escrita ou pictográfica, construídos como sequências com repetições simples (iterações definidas) com base em instruções preestabelecidas ou criadas, analisando como a precisão da instrução impacta na execução do algoritmo.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-algoritmos-com-repeticoes-simples"
+      ],
+      "anos": [
+        2
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 16",
+        "localizador_pdf": "página PDF 20"
+      }
+    },
+    {
+      "codigo": "EF02CO03",
+      "documento": "computacao-2022",
+      "texto": "Identificar que máquinas diferentes executam conjuntos próprios de instruções e que podem ser usadas para definir algoritmos.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-instrucao-de-maquina"
+      ],
+      "anos": [
+        2
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 17",
+        "localizador_pdf": "página PDF 20"
+      }
+    },
+    {
+      "codigo": "EF02CO04",
+      "documento": "computacao-2022",
+      "texto": "Diferenciar componentes físicos (hardware) e programas que fornecem as instruções (software) para o hardware.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-hardware-e-software"
+      ],
+      "anos": [
+        2
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 18",
+        "localizador_pdf": "página PDF 20"
+      }
+    },
+    {
+      "codigo": "EF02CO05",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer as características e usos das tecnologias computacionais no cotidiano dentro e fora da escola.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-artefatos-computacionais"
+      ],
+      "anos": [
+        2
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 19",
+        "localizador_pdf": "página PDF 20"
+      }
+    },
+    {
+      "codigo": "EF02CO06",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer os cuidados com a segurança no uso de dispositivos computacionais.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-de-tecnologia-computacional"
+      ],
+      "anos": [
+        2
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 20",
+        "localizador_pdf": "página PDF 20"
+      }
+    },
+    {
+      "codigo": "EF03CO01",
+      "documento": "computacao-2022",
+      "texto": "Associar os valores 'verdadeiro' e 'falso' a sentenças lógicas que dizem respeito a situações do dia a dia, fazendo uso de termos que indicam negação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-logica-computacional"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 24",
+        "localizador_pdf": "página PDF 22"
+      }
+    },
+    {
+      "codigo": "EF03CO02",
+      "documento": "computacao-2022",
+      "texto": "Criar e simular algoritmos representados em linguagem oral, escrita ou pictográfica, que incluam sequências e repetições simples com condição (iterações indefinidas), para resolver problemas de forma independente e em colaboração.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-algoritmos-com-repeticoes-condicionais-simples"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 25",
+        "localizador_pdf": "página PDF 22"
+      }
+    },
+    {
+      "codigo": "EF03CO03",
+      "documento": "computacao-2022",
+      "texto": "Aplicar a estratégia de decomposição para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas soluções.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-decomposicao"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 26",
+        "localizador_pdf": "página PDF 22"
+      }
+    },
+    {
+      "codigo": "EF03CO04",
+      "documento": "computacao-2022",
+      "texto": "Relacionar o conceito de informação com o de dado.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 27",
+        "localizador_pdf": "página PDF 24"
+      }
+    },
+    {
+      "codigo": "EF03CO05",
+      "documento": "computacao-2022",
+      "texto": "Compreender que dados são estruturados em formatos específicos dependendo da informação armazenada.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 28",
+        "localizador_pdf": "página PDF 24"
+      }
+    },
+    {
+      "codigo": "EF03CO06",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces físicas (dispositivos de entrada e saída).",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-interface-fisica"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 29",
+        "localizador_pdf": "página PDF 24"
+      }
+    },
+    {
+      "codigo": "EF03CO07",
+      "documento": "computacao-2022",
+      "texto": "Utilizar diferentes navegadores e ferramentas de busca para pesquisar e acessar informações.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-tecnologias-computacionais"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 30",
+        "localizador_pdf": "página PDF 26"
+      }
+    },
+    {
+      "codigo": "EF03CO08",
+      "documento": "computacao-2022",
+      "texto": "Usar ferramentas computacionais em situações didáticas para se expressar em diferentes formatos digitais.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-tecnologias-computacionais"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 31",
+        "localizador_pdf": "página PDF 26"
+      }
+    },
+    {
+      "codigo": "EF03CO09",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer o potencial impacto do compartilhamento de informações pessoais ou de seus pares em meio digital.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+      ],
+      "anos": [
+        3
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 32",
+        "localizador_pdf": "página PDF 26"
+      }
+    },
+    {
+      "codigo": "EF04CO01",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer objetos do mundo real e/ou digital que podem ser representados através de matrizes que estabelecem uma organização na qual cada componente está em uma posição definida por coordenadas, fazendo manipulações simples sobre estas representações.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-matrizes-e-registros"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 36",
+        "localizador_pdf": "página PDF 28"
+      }
+    },
+    {
+      "codigo": "EF04CO02",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer objetos do mundo real e/ou digital que podem ser representados através de registros que estabelecem uma organização na qual cada componente é identificado por um nome, fazendo manipulações sobre estas representações.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-matrizes-e-registros"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 37",
+        "localizador_pdf": "página PDF 28"
+      }
+    },
+    {
+      "codigo": "EF04CO03",
+      "documento": "computacao-2022",
+      "texto": "Criar e simular algoritmos representados em linguagem oral, escrita ou pictográfica, que incluam sequências e repetições simples e aninhadas (iterações definidas e indefinidas), para resolver problemas de forma independente e em colaboração.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-algoritmos-com-repeticoes-simples-e-aninhadas"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 38",
+        "localizador_pdf": "página PDF 30"
+      }
+    },
+    {
+      "codigo": "EF04CO04",
+      "documento": "computacao-2022",
+      "texto": "Entender que para guardar, manipular e transmitir dados deve-se codificá-los de alguma forma que seja compreendida pela máquina (formato digital).",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 39",
+        "localizador_pdf": "página PDF 30"
+      }
+    },
+    {
+      "codigo": "EF04CO05",
+      "documento": "computacao-2022",
+      "texto": "Codificar diferentes informações para representação em computador (binária, ASCII, atributos de pixel, como RGB etc.).",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-codificacao-da-informacao"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 40",
+        "localizador_pdf": "página PDF 30"
+      }
+    },
+    {
+      "codigo": "EF04CO06",
+      "documento": "computacao-2022",
+      "texto": "Usar diferentes ferramentas computacionais para criação de conteúdo (textos, apresentações, vídeos etc.).",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-tecnologias-computacionais"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 41",
+        "localizador_pdf": "página PDF 30"
+      }
+    },
+    {
+      "codigo": "EF04CO07",
+      "documento": "computacao-2022",
+      "texto": "Demonstrar postura ética nas atividades de coleta, transferência, guarda e uso de dados.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 42",
+        "localizador_pdf": "página PDF 30"
+      }
+    },
+    {
+      "codigo": "EF04CO08",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer a importância de verificar a confiabilidade das fontes de informações obtidas na Internet.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+      ],
+      "anos": [
+        4
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 43",
+        "localizador_pdf": "página PDF 30"
+      }
+    },
+    {
+      "codigo": "EF05CO01",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer objetos do mundo real e/ou digital que podem ser representados através de listas que estabelecem uma organização na qual há um número variável de itens dispostos em sequência, fazendo manipulações simples sobre estas representações.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-listas-e-grafos"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 47",
+        "localizador_pdf": "página PDF 32"
+      }
+    },
+    {
+      "codigo": "EF05CO02",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer objetos do mundo real e digital que podem ser representados através de grafos que estabelecem uma organização com uma quantidade variável de vértices conectados por arestas, fazendo manipulações simples sobre estas representações.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-listas-e-grafos"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 48",
+        "localizador_pdf": "página PDF 32"
+      }
+    },
+    {
+      "codigo": "EF05CO03",
+      "documento": "computacao-2022",
+      "texto": "Realizar operações de negação, conjunção e disjunção sobre sentenças lógicas e valores 'verdadeiro' e 'falso'.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-logica-computacional"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 49",
+        "localizador_pdf": "página PDF 32"
+      }
+    },
+    {
+      "codigo": "EF05CO04",
+      "documento": "computacao-2022",
+      "texto": "Criar e simular algoritmos representados em linguagem oral, escrita ou pictográfica, que incluam sequências, repetições e seleções condicionais para resolver problemas de forma independente e em colaboração.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-algoritmos-com-selecao-condicional"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 50",
+        "localizador_pdf": "página PDF 34"
+      }
+    },
+    {
+      "codigo": "EF05CO05",
+      "documento": "computacao-2022",
+      "texto": "Identificar os componentes principais de um computador (dispositivos de entrada/saída, processadores e armazenamento).",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-arquitetura-de-computadores"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 51",
+        "localizador_pdf": "página PDF 34"
+      }
+    },
+    {
+      "codigo": "EF05CO06",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer que os dados podem ser armazenados em um dispositivo local ou remoto.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-armazenamento-de-dados"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 52",
+        "localizador_pdf": "página PDF 34"
+      }
+    },
+    {
+      "codigo": "EF05CO07",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer a necessidade de um sistema operacional para a execução de programas e gerenciamento do hardware.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-sistema-operacional"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 53",
+        "localizador_pdf": "página PDF 34"
+      }
+    },
+    {
+      "codigo": "EF05CO08",
+      "documento": "computacao-2022",
+      "texto": "Acessar as informações na Internet de forma crítica para distinguir os conteúdos confiáveis de não confiáveis.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 54",
+        "localizador_pdf": "página PDF 36"
+      }
+    },
+    {
+      "codigo": "EF05CO09",
+      "documento": "computacao-2022",
+      "texto": "Usar informações considerando aplicações e limites dos direitos autorais em diferentes mídias digitais.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 55",
+        "localizador_pdf": "página PDF 36"
+      }
+    },
+    {
+      "codigo": "EF05CO10",
+      "documento": "computacao-2022",
+      "texto": "Expressar-se crítica e criativamente na compreensão das mudanças tecnológicas no mundo do trabalho e sobre a evolução da sociedade.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-tecnologias-computacionais"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 56",
+        "localizador_pdf": "página PDF 36"
+      }
+    },
+    {
+      "codigo": "EF05CO11",
+      "documento": "computacao-2022",
+      "texto": "Identificar a adequação de diferentes tecnologias computacionais na resolução de problemas.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-de-tecnologias-computacionais"
+      ],
+      "anos": [
+        5
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx · linha 57 · impresso como (EF05CO011) no anexo e na planilha (DECISOES.md)",
+        "localizador_pdf": "página PDF 36"
+      }
+    },
+    {
+      "codigo": "EF06CO01",
+      "documento": "computacao-2022",
+      "texto": "Classificar informações, agrupando-as em coleções (conjuntos) e associando cada coleção a um ‘tipo de dados’",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-tipos-de-dados"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 5",
+        "localizador_pdf": "página PDF 42"
+      }
+    },
+    {
+      "codigo": "EF06CO02",
+      "documento": "computacao-2022",
+      "texto": "Elaborar algoritmos que envolvam instruções sequenciais, de repetição e de seleção usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-linguagem-de-programacao"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 6",
+        "localizador_pdf": "página PDF 42"
+      }
+    },
+    {
+      "codigo": "EF06CO03",
+      "documento": "computacao-2022",
+      "texto": "Descrever com precisão a solução de um problema, construindo o programa que implementa a solução descrita.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-linguagem-de-programacao"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 7",
+        "localizador_pdf": "página PDF 42"
+      }
+    },
+    {
+      "codigo": "EF06CO04",
+      "documento": "computacao-2022",
+      "texto": "Construir soluções de problemas usando a técnica de decomposição e automatizar tais soluções usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-decomposicao"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 8",
+        "localizador_pdf": "página PDF 42"
+      }
+    },
+    {
+      "codigo": "EF06CO05",
+      "documento": "computacao-2022",
+      "texto": "Identificar os recursos ou insumos necessários (entradas) para a resolução de problemas, bem como os resultados esperados (saídas), determinando os respectivos tipos de dados, e estabelecendo a definição de problema como uma relação entre entrada e saída.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-generalizacao"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 9",
+        "localizador_pdf": "página PDF 42"
+      }
+    },
+    {
+      "codigo": "EF06CO06",
+      "documento": "computacao-2022",
+      "texto": "Comparar diferentes casos particulares (instâncias) de um mesmo problema, identificando as semelhanças e diferenças entre eles, e criar um algoritmo para resolver todos, fazendo uso de variáveis (parâmetros) para permitir o tratamento de todos os casos de forma genérica.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-generalizacao"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 10",
+        "localizador_pdf": "página PDF 42"
+      }
+    },
+    {
+      "codigo": "EF06CO07",
+      "documento": "computacao-2022",
+      "texto": "Entender o processo de transmissão de dados, como a informação é quebrada em pedaços, transmitida em pacotes através de múltiplos equipamentos, e reconstruída no destino.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-fundamentos-de-transmissao-de-dados"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 11",
+        "localizador_pdf": "página PDF 44"
+      }
+    },
+    {
+      "codigo": "EF06CO08",
+      "documento": "computacao-2022",
+      "texto": "Compreender e utilizar diferentes formas de armazenar, manipular, compactar e recuperar arquivos, documentos e metadados.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-gestao-de-dados"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 12",
+        "localizador_pdf": "página PDF 44"
+      }
+    },
+    {
+      "codigo": "EF06CO09",
+      "documento": "computacao-2022",
+      "texto": "Apresentar conduta e linguagem apropriadas ao se comunicar em ambiente digital, considerando a ética e o respeito.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sociedade"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 13",
+        "localizador_pdf": "página PDF 44"
+      }
+    },
+    {
+      "codigo": "EF06CO10",
+      "documento": "computacao-2022",
+      "texto": "Analisar o consumo de tecnologia na sociedade, compreendendo criticamente o caminho da produção dos recursos bem como aspectos ligados à obsolescência e a sustentabilidade.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sustentabilidade"
+      ],
+      "anos": [
+        6
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 14",
+        "localizador_pdf": "página PDF 44"
+      }
+    },
+    {
+      "codigo": "EF69CO01",
+      "documento": "computacao-2022",
+      "texto": "Classificar informações, agrupando-as em coleções (conjuntos) e associando cada coleção a um ‘tipo de dado’.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-tipos-de-dados"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 62",
+        "localizador_pdf": "página PDF 60"
+      }
+    },
+    {
+      "codigo": "EF69CO02",
+      "documento": "computacao-2022",
+      "texto": "Elaborar algoritmos que envolvam instruções sequenciais, de repetição e de seleção usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-linguagem-de-programacao"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 63",
+        "localizador_pdf": "página PDF 60"
+      }
+    },
+    {
+      "codigo": "EF69CO03",
+      "documento": "computacao-2022",
+      "texto": "Descrever com precisão a solução de um problema, construindo o programa que implementa a solução descrita.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-linguagem-de-programacao"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 64",
+        "localizador_pdf": "página PDF 60"
+      }
+    },
+    {
+      "codigo": "EF69CO04",
+      "documento": "computacao-2022",
+      "texto": "Construir soluções de problemas usando a técnica de decomposição e automatizar tais soluções usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-decomposicao"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 65",
+        "localizador_pdf": "página PDF 60"
+      }
+    },
+    {
+      "codigo": "EF69CO05",
+      "documento": "computacao-2022",
+      "texto": "Identificar os recursos ou insumos necessários (entradas) para a resolução de problemas, bem como os resultados esperados (saídas), determinando os respectivos tipos de dados, e estabelecendo a definição de problema como uma relação entre entrada e saída.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-generalizacao"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 66",
+        "localizador_pdf": "página PDF 60"
+      }
+    },
+    {
+      "codigo": "EF69CO06",
+      "documento": "computacao-2022",
+      "texto": "Comparar diferentes casos particulares (instâncias) de um mesmo problema, identificando as semelhanças e diferenças entre eles, e criar um algoritmo para resolver todos, fazendo uso de variáveis (parâmetros) para permitir o tratamento de todos os casos de forma genérica.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-generalizacao"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 67",
+        "localizador_pdf": "página PDF 60"
+      }
+    },
+    {
+      "codigo": "EF69CO07",
+      "documento": "computacao-2022",
+      "texto": "Entender o processo de transmissão de dados, como a informação é quebrada em pedaços, transmitida em pacotes através de múltiplos equipamentos, e reconstruída no destino.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-fundamentos-de-transmissao-de-dados"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 68",
+        "localizador_pdf": "página PDF 62"
+      }
+    },
+    {
+      "codigo": "EF69CO08",
+      "documento": "computacao-2022",
+      "texto": "Compreender e utilizar diferentes formas de armazenar, manipular, compactar e recuperar arquivos, documentos e metadados.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-gestao-de-dados"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 69",
+        "localizador_pdf": "página PDF 62"
+      }
+    },
+    {
+      "codigo": "EF69CO09",
+      "documento": "computacao-2022",
+      "texto": "Compreender os conceitos de paralelismo, concorrência e armazenamento/ processamento distribuídos.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-fundamentos-de-sistemas-distribuidos"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 70",
+        "localizador_pdf": "página PDF 62"
+      }
+    },
+    {
+      "codigo": "EF69CO10",
+      "documento": "computacao-2022",
+      "texto": "Entender como é a estrutura e funcionamento da internet.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-internet"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 71",
+        "localizador_pdf": "página PDF 62"
+      }
+    },
+    {
+      "codigo": "EF69CO11",
+      "documento": "computacao-2022",
+      "texto": "Apresentar conduta e linguagem apropriadas ao se comunicar em ambiente digital, considerando a ética e o respeito.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sociedade"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 72",
+        "localizador_pdf": "página PDF 62"
+      }
+    },
+    {
+      "codigo": "EF69CO12",
+      "documento": "computacao-2022",
+      "texto": "Analisar o consumo de tecnologia na sociedade, compreendendo criticamente o caminho da produção dos recursos bem como aspectos ligados à obsolescência e a sustentabilidade.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sustentabilidade"
+      ],
+      "anos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 73",
+        "localizador_pdf": "página PDF 62"
+      }
+    },
+    {
+      "codigo": "EF07CO01",
+      "documento": "computacao-2022",
+      "texto": "Criar soluções de problemas para os quais seja adequado o uso de registros e matrizes unidimensionais para descrever suas informações e automatizá-las usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-programacao-usando-registros-e-matrizes"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 19",
+        "localizador_pdf": "página PDF 46"
+      }
+    },
+    {
+      "codigo": "EF07CO02",
+      "documento": "computacao-2022",
+      "texto": "Analisar programas para detectar e remover erros, ampliando a confiança na sua correção.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-analise-de-programas"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 21",
+        "localizador_pdf": "página PDF 46"
+      }
+    },
+    {
+      "codigo": "EF07CO03",
+      "documento": "computacao-2022",
+      "texto": "Construir soluções computacionais de problemas de diferentes áreas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e técnicas adequadas, aperfeiçoando e articulando saberes escolares.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-projetos-com-programacao"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 22",
+        "localizador_pdf": "página PDF 46"
+      }
+    },
+    {
+      "codigo": "EF07CO04",
+      "documento": "computacao-2022",
+      "texto": "Explorar propriedades básicas de grafos.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-propriedades-de-grafos"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 23",
+        "localizador_pdf": "página PDF 46"
+      }
+    },
+    {
+      "codigo": "EF07CO05",
+      "documento": "computacao-2022",
+      "texto": "Criar algoritmos fazendo uso da decomposição e do reúso no processo de solução de forma colaborativa e cooperativa e automatizá-los usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-reuso"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 24",
+        "localizador_pdf": "página PDF 48"
+      }
+    },
+    {
+      "codigo": "EF07CO06",
+      "documento": "computacao-2022",
+      "texto": "Compreender o papel de protocolos para a transmissão de dados.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-protocolos-de-comunicacao-em-redes"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 25",
+        "localizador_pdf": "página PDF 48"
+      }
+    },
+    {
+      "codigo": "EF07CO07",
+      "documento": "computacao-2022",
+      "texto": "Identificar problemas de segurança cibernética e experimentar formas de proteção.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-fundamentos-de-seguranca-cibernetica"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 26",
+        "localizador_pdf": "página PDF 48"
+      }
+    },
+    {
+      "codigo": "EF07CO08",
+      "documento": "computacao-2022",
+      "texto": "Demonstrar empatia sobre opiniões divergentes na web.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-cyberbullying"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 27",
+        "localizador_pdf": "página PDF 50"
+      }
+    },
+    {
+      "codigo": "EF07CO09",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer e debater sobre cyberbullying.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-cyberbullying"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 28",
+        "localizador_pdf": "página PDF 50"
+      }
+    },
+    {
+      "codigo": "EF07CO10",
+      "documento": "computacao-2022",
+      "texto": "Identificar os impactos ambientais do descarte de peças de computadores e eletrônicos, bem como sua relação com a sustentabilidade.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-impactos-da-tecnologia-digital"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 29",
+        "localizador_pdf": "página PDF 50"
+      }
+    },
+    {
+      "codigo": "EF07CO11",
+      "documento": "computacao-2022",
+      "texto": "Criar, documentar e publicar, de forma individual ou colaborativa, produtos (vídeos, podcasts, web sites) usando recursos de tecnologia.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-producao-digital"
+      ],
+      "anos": [
+        7
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 30",
+        "localizador_pdf": "página PDF 50"
+      }
+    },
+    {
+      "codigo": "EF08CO01",
+      "documento": "computacao-2022",
+      "texto": "Construir soluções de problemas usando a técnica de recursão e automatizar tais soluções usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-programacao-com-listas-e-recursao"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 34",
+        "localizador_pdf": "página PDF 52"
+      }
+    },
+    {
+      "codigo": "EF08CO02",
+      "documento": "computacao-2022",
+      "texto": "Criar soluções de problemas para os quais seja adequado o uso de listas para descrever suas informações e automatizá-las usando uma linguagem de programação, empregando ou não a recursão como uma técnica de resolver o problema.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-programacao-com-listas-e-recursao"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 35",
+        "localizador_pdf": "página PDF 52"
+      }
+    },
+    {
+      "codigo": "EF08CO03",
+      "documento": "computacao-2022",
+      "texto": "Utilizar algoritmos clássicos de manipulação sobre listas.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-algoritmos-classicos"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 36",
+        "localizador_pdf": "página PDF 52"
+      }
+    },
+    {
+      "codigo": "EF08CO04",
+      "documento": "computacao-2022",
+      "texto": "Construir soluções computacionais de problemas de diferentes áreas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e técnicas adequadas, aperfeiçoando e articulando saberes escolares.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-projetos-com-programacao"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 37",
+        "localizador_pdf": "página PDF 52"
+      }
+    },
+    {
+      "codigo": "EF08CO05",
+      "documento": "computacao-2022",
+      "texto": "Compreender os conceitos de paralelismo, concorrência e armazenamento/ processamento distribuídos.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-fundamentos-de-sistemas-distribuidos"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 38",
+        "localizador_pdf": "página PDF 52"
+      }
+    },
+    {
+      "codigo": "EF08CO06",
+      "documento": "computacao-2022",
+      "texto": "Entender como é a estrutura e funcionamento da internet.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-internet"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 39",
+        "localizador_pdf": "página PDF 52"
+      }
+    },
+    {
+      "codigo": "EF08CO07",
+      "documento": "computacao-2022",
+      "texto": "Compartilhar informações por meio de redes sociais, compreendendo a sua dinâmica de funcionamento, de forma responsável e avaliando sua confiabilidade, considerando o respeito e a ética.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-redes-sociais-e-seguranca-da-informacao"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 40",
+        "localizador_pdf": "página PDF 54"
+      }
+    },
+    {
+      "codigo": "EF08CO08",
+      "documento": "computacao-2022",
+      "texto": "Distinguir os tipos de dados pessoais que são solicitados em espaços digitais e os riscos associados.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-redes-sociais-e-seguranca-da-informacao"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 41",
+        "localizador_pdf": "página PDF 54"
+      }
+    },
+    {
+      "codigo": "EF08CO09",
+      "documento": "computacao-2022",
+      "texto": "Analisar criticamente as políticas de termos de uso das redes sociais e demais plataformas.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-redes-sociais-e-seguranca-da-informacao"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 42",
+        "localizador_pdf": "página PDF 54"
+      }
+    },
+    {
+      "codigo": "EF08CO10",
+      "documento": "computacao-2022",
+      "texto": "Discutir questões sobre segurança e privacidade relacionadas ao uso dos ambientes virtuais.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-em-ambientes-virtuais"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 43",
+        "localizador_pdf": "página PDF 54"
+      }
+    },
+    {
+      "codigo": "EF08CO11",
+      "documento": "computacao-2022",
+      "texto": "Avaliar a precisão, relevância, adequação, abrangência e vieses que ocorrem em fontes de informação eletrônica.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-uso-critico-das-midias-digitais"
+      ],
+      "anos": [
+        8
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 44",
+        "localizador_pdf": "página PDF 54"
+      }
+    },
+    {
+      "codigo": "EF09CO01",
+      "documento": "computacao-2022",
+      "texto": "Criar soluções de problemas para os quais seja adequado o uso de árvores e grafos para descrever suas informações e automatizá-las usando uma linguagem de programação.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-programacao-usando-grafos-e-arvores"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 49",
+        "localizador_pdf": "página PDF 56"
+      }
+    },
+    {
+      "codigo": "EF09CO02",
+      "documento": "computacao-2022",
+      "texto": "Construir soluções computacionais de problemas de diferentes áreas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e técnicas adequadas, aperfeiçoando e articulando saberes escolares.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-projetos-com-programacao"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 50",
+        "localizador_pdf": "página PDF 56"
+      }
+    },
+    {
+      "codigo": "EF09CO03",
+      "documento": "computacao-2022",
+      "texto": "Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.",
+      "eixo": "co-eixo-pensamento-computacional",
+      "objetos_conhecimento": [
+        "co-obj-automatos-e-linguagens-baseadas-em-eventos"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 51",
+        "localizador_pdf": "página PDF 56"
+      }
+    },
+    {
+      "codigo": "EF09CO04",
+      "documento": "computacao-2022",
+      "texto": "Compreender o funcionamento de malwares e outros ataques cibernéticos.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-cibernetica"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 52",
+        "localizador_pdf": "página PDF 56"
+      }
+    },
+    {
+      "codigo": "EF09CO05",
+      "documento": "computacao-2022",
+      "texto": "Analisar técnicas de criptografia para armazenamento e transmissão de dados.",
+      "eixo": "co-eixo-mundo-digital",
+      "objetos_conhecimento": [
+        "co-obj-seguranca-cibernetica-cont"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 53",
+        "localizador_pdf": "página PDF 58"
+      }
+    },
+    {
+      "codigo": "EF09CO06",
+      "documento": "computacao-2022",
+      "texto": "Analisar problemas sociais de sua cidade e estado a partir de ambientes digitais, propondo soluções.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sociedade"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 54",
+        "localizador_pdf": "página PDF 58"
+      }
+    },
+    {
+      "codigo": "EF09CO07",
+      "documento": "computacao-2022",
+      "texto": "Avaliar aplicações e implicações políticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sociedade"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 55",
+        "localizador_pdf": "página PDF 58"
+      }
+    },
+    {
+      "codigo": "EF09CO08",
+      "documento": "computacao-2022",
+      "texto": "Discutir como a distribuição desigual de recursos de computação em uma economia global levanta questões de equidade, acesso e poder.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-tecnologia-digital-e-sociedade"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 56",
+        "localizador_pdf": "página PDF 58"
+      }
+    },
+    {
+      "codigo": "EF09CO09",
+      "documento": "computacao-2022",
+      "texto": "Criar ou utilizar conteúdo em meio digital, compreendendo questões éticas relacionadas a direitos autorais e de uso de imagem.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-autoria-em-meio-digital"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 57",
+        "localizador_pdf": "página PDF 58"
+      }
+    },
+    {
+      "codigo": "EF09CO10",
+      "documento": "computacao-2022",
+      "texto": "Avaliar a veracidade, credibilidade e relevância da informação em seus diferentes formatos, sendo capaz de identificar o propósito pelo qual foi disseminada.",
+      "eixo": "co-eixo-cultura-digital",
+      "objetos_conhecimento": [
+        "co-obj-qualidade-da-informacao"
+      ],
+      "anos": [
+        9
+      ],
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx · linha 58",
+        "localizador_pdf": "página PDF 58"
+      }
+    }
+  ],
+  "habilidades_em": [
+    {
+      "codigo": "EM13CO01",
+      "documento": "computacao-2022",
+      "texto": "Explorar e construir a solução de problemas por meio da reutilização de partes de soluções existentes.",
+      "competencia": "computacao-em-ce-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 5",
+        "localizador_pdf": "página PDF 66"
+      }
+    },
+    {
+      "codigo": "EM13CO02",
+      "documento": "computacao-2022",
+      "texto": "Explorar e construir a solução de problemas por meio de refinamentos, utilizando diversos níveis de abstração desde a especificação até a implementação.",
+      "competencia": "computacao-em-ce-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 6",
+        "localizador_pdf": "página PDF 66"
+      }
+    },
+    {
+      "codigo": "EM13CO03",
+      "documento": "computacao-2022",
+      "texto": "Identificar o comportamento dos algoritmos no que diz respeito ao consumo de recursos como tempo de execução, espaço de memória e energia, entre outros.",
+      "competencia": "computacao-em-ce-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 7",
+        "localizador_pdf": "página PDF 66"
+      }
+    },
+    {
+      "codigo": "EM13CO04",
+      "documento": "computacao-2022",
+      "texto": "Reconhecer o conceito de metaprogramação como uma forma de generalização na construção de programas, permitindo que algoritmos sejam entrada ou saída para outros algoritmos.",
+      "competencia": "computacao-em-ce-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 8",
+        "localizador_pdf": "página PDF 66"
+      }
+    },
+    {
+      "codigo": "EM13CO05",
+      "documento": "computacao-2022",
+      "texto": "Identificar os limites da Computação para diferenciar o que pode ou não ser automatizado, buscando uma compreensão mais ampla dos limites dos processos mentais envolvidos na resolução de problemas.",
+      "competencia": "computacao-em-ce-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 9",
+        "localizador_pdf": "página PDF 66"
+      }
+    },
+    {
+      "codigo": "EM13CO06",
+      "documento": "computacao-2022",
+      "texto": "Avaliar software levando em consideração diferentes características e métricas associadas.",
+      "competencia": "computacao-em-ce-01",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 10",
+        "localizador_pdf": "página PDF 66"
+      }
+    },
+    {
+      "codigo": "EM13CO07",
+      "documento": "computacao-2022",
+      "texto": "Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviços envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.",
+      "competencia": "computacao-em-ce-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 12",
+        "localizador_pdf": "página PDF 68"
+      }
+    },
+    {
+      "codigo": "EM13CO08",
+      "documento": "computacao-2022",
+      "texto": "Entender como mudanças na tecnologia afetam a segurança, incluindo novas maneiras de preservar sua privacidade e dados pessoais on-line, reportando suspeitas e buscando ajuda em situações de risco.",
+      "competencia": "computacao-em-ce-02",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 13",
+        "localizador_pdf": "página PDF 68"
+      }
+    },
+    {
+      "codigo": "EM13CO09",
+      "documento": "computacao-2022",
+      "texto": "Identificar tecnologias digitais, sua presença e formas de uso, nas diferentes atividades no mundo do trabalho.",
+      "competencia": "computacao-em-ce-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 14",
+        "localizador_pdf": "página PDF 68"
+      }
+    },
+    {
+      "codigo": "EM13CO10",
+      "documento": "computacao-2022",
+      "texto": "Conhecer os fundamentos da Inteligência Artificial, comparando-a com a inteligência humana, analisando suas potencialidades, riscos e limites.",
+      "competencia": "computacao-em-ce-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 15",
+        "localizador_pdf": "página PDF 68"
+      }
+    },
+    {
+      "codigo": "EM13CO11",
+      "documento": "computacao-2022",
+      "texto": "Criar e explorar modelos computacionais simples para simular e fazer previsões, identificando sua importância no desenvolvimento científico.",
+      "competencia": "computacao-em-ce-03",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 16",
+        "localizador_pdf": "página PDF 68"
+      }
+    },
+    {
+      "codigo": "EM13CO12",
+      "documento": "computacao-2022",
+      "texto": "Produzir, analisar, gerir e compartilhar informações a partir de dados, utilizando princípios de ciência de dados.",
+      "competencia": "computacao-em-ce-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 18",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO13",
+      "documento": "computacao-2022",
+      "texto": "Analisar e utilizar as diferentes formas de representação e consulta a dados em formato digital para pesquisas científicas.",
+      "competencia": "computacao-em-ce-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 19",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO14",
+      "documento": "computacao-2022",
+      "texto": "Avaliar a confiabilidade das informações encontradas em meio digital, investigando seus modos de construção e considerando a autoria, a estrutura e o propósito da mensagem.",
+      "competencia": "computacao-em-ce-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 20",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO15",
+      "documento": "computacao-2022",
+      "texto": "Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.",
+      "competencia": "computacao-em-ce-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 21",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO16",
+      "documento": "computacao-2022",
+      "texto": "Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",
+      "competencia": "computacao-em-ce-04",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 22",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO17",
+      "documento": "computacao-2022",
+      "texto": "Construir redes virtuais de interação e colaboração, favorecendo o desenvolvimento de projetos de forma segura, legal e ética.",
+      "competencia": "computacao-em-ce-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 23",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO18",
+      "documento": "computacao-2022",
+      "texto": "Planejar e gerenciar projetos integrados às áreas de conhecimento de forma colaborativa, solucionando problemas, usando diversos artefatos computacionais.",
+      "competencia": "computacao-em-ce-05",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 24",
+        "localizador_pdf": "página PDF 70"
+      }
+    },
+    {
+      "codigo": "EM13CO19",
+      "documento": "computacao-2022",
+      "texto": "Expor, argumentar e negociar propostas, produtos e serviços, utilizando diferentes mídias e ferramentas digitais.",
+      "competencia": "computacao-em-ce-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 26",
+        "localizador_pdf": "página PDF 72"
+      }
+    },
+    {
+      "codigo": "EM13CO20",
+      "documento": "computacao-2022",
+      "texto": "Criar conteúdos, disponibilizando-os em ambientes virtuais para publicação e compartilhamento, avaliando a confiabilidade e as consequências da disseminação dessas informações.",
+      "competencia": "computacao-em-ce-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 27",
+        "localizador_pdf": "página PDF 72"
+      }
+    },
+    {
+      "codigo": "EM13CO21",
+      "documento": "computacao-2022",
+      "texto": "Comunicar ideias complexas de forma clara por meio de objetos digitais como mapas conceituais, infográficos, hipertextos e outros.",
+      "competencia": "computacao-em-ce-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 28",
+        "localizador_pdf": "página PDF 72"
+      }
+    },
+    {
+      "codigo": "EM13CO22",
+      "documento": "computacao-2022",
+      "texto": "Produzir e publicar conteúdo como textos, imagens, áudios, vídeos e suas associações, bem como ferramentas para sua integração, organização e apresentação, utilizando diferentes mídias digitais.",
+      "competencia": "computacao-em-ce-06",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 29",
+        "localizador_pdf": "página PDF 72"
+      }
+    },
+    {
+      "codigo": "EM13CO23",
+      "documento": "computacao-2022",
+      "texto": "Analisar criticamente as experiências em comunidades virtuais e as relações advindas da interação e comunicação com outras pessoas, bem como seus impactos na sociedade.",
+      "competencia": "computacao-em-ce-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 31",
+        "localizador_pdf": "página PDF 74"
+      }
+    },
+    {
+      "codigo": "EM13CO24",
+      "documento": "computacao-2022",
+      "texto": "Identificar e reconhecer como as redes sociais e artefatos computacionais em geral interferem na saúde física e mental de seus usuários.",
+      "competencia": "computacao-em-ce-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 32",
+        "localizador_pdf": "página PDF 74"
+      }
+    },
+    {
+      "codigo": "EM13CO25",
+      "documento": "computacao-2022",
+      "texto": "Dialogar em ambientes virtuais com segurança e respeito às diferenças culturais e pessoais, reconhecendo e denunciando atitudes abusivas.",
+      "competencia": "computacao-em-ce-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 33",
+        "localizador_pdf": "página PDF 74"
+      }
+    },
+    {
+      "codigo": "EM13CO26",
+      "documento": "computacao-2022",
+      "texto": "Aplicar os conceitos e pressupostos do direito digital em sua conduta e experiências com o cotidiano da cultura digital, bem como na produção e uso de artefatos computacionais.",
+      "competencia": "computacao-em-ce-07",
+      "vigencia": {
+        "status": "vigente",
+        "desde": "dados-2026.07",
+        "ate": null
+      },
+      "fonte": {
+        "documento": "computacao-2022",
+        "arquivo": "anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+        "proveniencia": "estrutura via planilhas Sec. Educação de Pernambuco; texto verificado contra o anexo oficial",
+        "localizador": "COMPUTAÇÃO - ENSINO MÉDIO.xlsx · linha 34",
+        "localizador_pdf": "página PDF 74"
+      }
+    }
+  ]
+}

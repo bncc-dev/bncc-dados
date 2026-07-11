@@ -48,6 +48,24 @@ Cada registro carrega, além dos campos da tabela acima:
 - EF: `objetos_conhecimento` como lista de referências (entidade própria, relação N:N).
 - EI: `alinhamento` liga objetivos do mesmo aspecto entre as três faixas etárias (relação oficial da p. 26 do documento, que a maioria dos datasets perde). Alinhamentos com 2 objetivos refletem células vazias do quadro oficial.
 
+## O complemento de Computação (`computacao-2022`)
+
+Primeiro documento curricular além da BNCC 2018, provando o desenho multi-documento do modelo: `computacao-2022` (`tipo: complemento`, `derivado_de: bncc-2018`) traz as normas de Computação na Educação Básica (anexo ao Parecer CNE/CEB nº 2/2022, instituído pela Resolução CNE/CEB nº 1/2022) em `dados/computacao-2022/computacao.json`.
+
+**141 aprendizagens** com componente `CO` nos códigos, com organização própria por etapa (honestidade estrutural, como no núcleo):
+
+| | EI | EF | EM |
+|---|---|---|---|
+| Entidade | `objetivo` (11, só pré-escola: `EI03CO01`–`11`) | `habilidade` (104: anos 1–9 + blocos `EF15`/`EF69`) | `habilidade` (26: `EM13CO01`–`26`) |
+| Organização | eixo | eixo + objeto de conhecimento (com hierarquia pai/sub nos anos finais) | competência específica do complemento (7) |
+
+- **Eixos** (3): Pensamento Computacional, Mundo Digital, Cultura Digital (`co-eixo-*`).
+- **Objetos de conhecimento** (`co-obj-*`): campo `pai` opcional captura a hierarquia dos quadros dos anos finais (ex.: `co-obj-tipos-de-dados` → pai `co-obj-programacao`).
+- **Competências**: 7 gerais do complemento (`computacao-cg-*`) e 7 específicas do EM (`computacao-em-ce-*`), às quais as habilidades do EM se vinculam.
+- **Sequências contínuas**: diferente da BNCC 2018, a numeração de Computação não tem lacunas (contrato no CI).
+- Verificação: os 141 textos são conferidos caractere a caractere contra o anexo oficial (`verificar_computacao.py`); decisões de interpretação nas entradas 9 e 10 do `DECISOES.md`.
+- Fora desta versão do módulo: descritores de agrupamento, explicações e exemplos oficiais do anexo (iteração futura).
+
 ## Marcos legais e perfis
 
 Dois vocabulários de referência acompanham o núcleo curricular (schema doc §7):

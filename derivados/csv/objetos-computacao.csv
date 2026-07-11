@@ -1,0 +1,62 @@
+id,nome,pai
+co-obj-algoritmos,Algoritmos,
+co-obj-algoritmos-classicos,Algoritmos clássicos,co-obj-programacao
+co-obj-algoritmos-com-repeticoes-condicionais-simples,Algoritmos com repetições condicionais simples,
+co-obj-algoritmos-com-repeticoes-simples,Algoritmos com repetições simples,
+co-obj-algoritmos-com-repeticoes-simples-e-aninhadas,Algoritmos com repetições simples e aninhadas,
+co-obj-algoritmos-com-selecao-condicional,Algoritmos com seleção condicional,
+co-obj-analise-de-programas,Análise de programas,co-obj-programacao
+co-obj-armazenamento-de-dados,Armazenamento de dados,
+co-obj-armazenamento-e-transmissao-de-dados,Armazenamento e Transmissão de dados,
+co-obj-arquitetura-de-computadores,Arquitetura de computadores,
+co-obj-automatos-e-linguagens-baseadas-em-eventos,Autômatos e linguagens baseadas em eventos,co-obj-programacao
+co-obj-autoria-em-meio-digital,Autoria em meio digital,co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia
+co-obj-codificacao-da-informacao,Codificação da informação,
+co-obj-conceituacao-de-algoritmos,Conceituação de Algoritmos,
+co-obj-cyberbullying,Cyberbullying,co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia
+co-obj-decomposicao,Decomposição,co-obj-estrategias-de-solucao-de-problemas
+co-obj-estrategias-de-solucao-de-problemas,Estratégias de solução de problemas,
+co-obj-funcionamento-de-dispositivos-computacionais,Funcionamento de dispositivos computacionais,
+co-obj-fundamentos-de-seguranca-cibernetica,Fundamentos de Segurança Cibernética,co-obj-armazenamento-e-transmissao-de-dados
+co-obj-fundamentos-de-sistemas-distribuidos,Fundamentos de sistemas distribuídos,co-obj-sistemas-distribuidos-e-internet
+co-obj-fundamentos-de-transmissao-de-dados,Fundamentos de transmissão de dados,co-obj-armazenamento-e-transmissao-de-dados
+co-obj-generalizacao,Generalização,co-obj-estrategias-de-solucao-de-problemas
+co-obj-gestao-de-dados,Gestão de dados,co-obj-armazenamento-e-transmissao-de-dados
+co-obj-hardware-e-software,Hardware e software,
+co-obj-impactos-da-tecnologia-digital,Impactos da tecnologia digital,co-obj-uso-de-tecnologias-computacionais
+co-obj-instrucao-de-maquina,Instrução de máquina,
+co-obj-interface-fisica,Interface física,
+co-obj-internet,Internet,co-obj-sistemas-distribuidos-e-internet
+co-obj-linguagem-de-programacao,Linguagem de Programação,co-obj-programacao
+co-obj-listas-e-grafos,Listas e grafos,
+co-obj-logica-computacional,Lógica computacional,
+co-obj-matrizes-e-registros,Matrizes e registros,
+co-obj-modelagem-de-objetos,Modelagem de objetos,
+co-obj-organizacao-de-objetos,Organização de objetos,
+co-obj-organizacao-e-representacao-da-informacao,Organização e representação da informação,
+co-obj-producao-digital,Produção Digital,co-obj-uso-de-tecnologias-computacionais
+co-obj-programacao,Programação,
+co-obj-programacao-com-listas-e-recursao,Programação com listas e recursão,co-obj-programacao
+co-obj-programacao-usando-grafos-e-arvores,Programação usando grafos e árvores,co-obj-programacao
+co-obj-programacao-usando-registros-e-matrizes,Programação usando registros e matrizes,co-obj-programacao
+co-obj-projetos-com-programacao,Projetos com programação,co-obj-programacao
+co-obj-propriedades-de-grafos,Propriedades de grafos,co-obj-programacao
+co-obj-protocolos-de-comunicacao-em-redes,Protocolos de comunicação em redes,co-obj-armazenamento-e-transmissao-de-dados
+co-obj-qualidade-da-informacao,Qualidade da informação,co-obj-uso-de-tecnologias-computacionais
+co-obj-redes-sociais-e-seguranca-da-informacao,Redes sociais e segurança da informação,co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia
+co-obj-reuso,Reúso,co-obj-estrategias-de-solucao-de-problemas
+co-obj-seguranca-cibernetica,Segurança cibernética,co-obj-sistemas-distribuidos-e-internet
+co-obj-seguranca-cibernetica-cont,Segurança cibernética (cont.),co-obj-sistemas-distribuidos-e-internet-cont
+co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia,Segurança e responsabilidade no uso da tecnologia,
+co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia-computacional,Segurança e responsabilidade no uso da tecnologia computacional,
+co-obj-seguranca-e-responsabilidade-no-uso-de-tecnologia-computacional,Segurança e responsabilidade no uso de tecnologia computacional,
+co-obj-seguranca-em-ambientes-virtuais,Segurança em ambientes virtuais,co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia
+co-obj-sistema-operacional,Sistema Operacional,
+co-obj-sistemas-distribuidos-e-internet,Sistemas distribuídos e internet,
+co-obj-sistemas-distribuidos-e-internet-cont,Sistemas distribuídos e internet (cont.),
+co-obj-tecnologia-digital-e-sociedade,Tecnologia digital e sociedade,co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia
+co-obj-tecnologia-digital-e-sustentabilidade,Tecnologia digital e sustentabilidade,co-obj-uso-de-tecnologias-computacionais
+co-obj-tipos-de-dados,Tipos de dados,co-obj-programacao
+co-obj-uso-critico-das-midias-digitais,Uso crítico das mídias digitais,co-obj-uso-de-tecnologias-computacionais
+co-obj-uso-de-artefatos-computacionais,Uso de artefatos computacionais,
+co-obj-uso-de-tecnologias-computacionais,Uso de tecnologias computacionais,

@@ -19,6 +19,21 @@
       "pattern": "^EM13((LGG|MAT|CNT|CHS)[0-9]{3}|LP[0-9]{2})$",
       "description": "Código de habilidade do Ensino Médio, ex.: EM13LGG103 ou EM13LP02"
     },
+    "codigo_computacao_ei": {
+      "type": "string",
+      "pattern": "^EI03CO[0-9]{2}$",
+      "description": "Objetivo de Computação na Educação Infantil (o anexo só define pré-escola), ex.: EI03CO01"
+    },
+    "codigo_computacao_ef": {
+      "type": "string",
+      "pattern": "^EF(0[1-9]|15|69)CO[0-9]{2}$",
+      "description": "Habilidade de Computação no Ensino Fundamental (ano ou bloco 15/69), ex.: EF06CO02"
+    },
+    "codigo_computacao_em": {
+      "type": "string",
+      "pattern": "^EM13CO[0-9]{2}$",
+      "description": "Habilidade de Computação no Ensino Médio (sequência simples), ex.: EM13CO07"
+    },
     "id_slug": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",

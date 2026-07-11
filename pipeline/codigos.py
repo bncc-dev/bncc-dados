@@ -1,7 +1,12 @@
-"""Decodificador de códigos da BNCC — as três gramáticas (schema §6).
+"""Decodificador de códigos da BNCC — as três gramáticas (schema §6) e a
+gramática do complemento de Computação (anexo ao Parecer CNE/CEB 2/2022).
 
 Entregável da Fase 1 (dado + função). Usado pela extração (realocação de
 linhas em abas erradas) e pela consulta 5 do caso âncora.
+
+Computação (componente CO, documento computacao-2022): EI03CO## (o anexo só
+define objetivos para a pré-escola), EF##CO## (anos 01-09 e blocos 15/69) e
+EM13CO## (sequência simples, sem dígito de competência no código).
 """
 import re
 
@@ -24,6 +29,33 @@ AREAS_EM = {'LGG': 'Linguagens e suas Tecnologias', 'MAT': 'Matemática e suas T
 def decodificar(codigo):
     """Decodifica um código BNCC → dict estruturado, ou lança ValueError."""
     codigo = codigo.strip().upper()
+
+    # ---- complemento de Computação (CO) ----
+    m = re.fullmatch(r'EI03CO(\d{2})', codigo)
+    if m:
+        return {'codigo': codigo, 'etapa': 'EI', 'grupo_etario': '03',
+                'grupo_etario_nome': GRUPOS_EI['03'], 'componente': 'CO',
+                'componente_nome': 'Computação', 'documento': 'computacao-2022',
+                'sequencia': int(m.group(1))}
+
+    m = re.fullmatch(r'EF(\d{2})CO(\d{2})', codigo)
+    if m:
+        anos_str, seq = m.groups()
+        if anos_str in ('15', '69'):
+            anos = BLOCOS_EF[anos_str]
+        elif anos_str.startswith('0') and 1 <= int(anos_str) <= 9:
+            anos = [int(anos_str)]
+        else:
+            raise ValueError(f'{codigo}: ano/bloco {anos_str!r} inválido para Computação')
+        return {'codigo': codigo, 'etapa': 'EF', 'anos': anos, 'bloco': anos_str in BLOCOS_EF,
+                'componente': 'CO', 'componente_nome': 'Computação',
+                'documento': 'computacao-2022', 'sequencia': int(seq)}
+
+    m = re.fullmatch(r'EM13CO(\d{2})', codigo)
+    if m:
+        return {'codigo': codigo, 'etapa': 'EM', 'seriacao': None, 'componente': 'CO',
+                'componente_nome': 'Computação', 'documento': 'computacao-2022',
+                'sequencia': int(m.group(1))}
 
     m = re.fullmatch(r'EI(0[123])(EO|CG|TS|EF|ET)(\d{2})', codigo)
     if m:

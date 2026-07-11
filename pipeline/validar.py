@@ -137,6 +137,60 @@ check('8b. Perfis: vocabulário mínimo do plano presente',
       PERFIS_MINIMOS <= {p['id'] for p in pf['perfis']},
       f"faltam: {sorted(PERFIS_MINIMOS - {p['id'] for p in pf['perfis']})}")
 
+# ------------------------------------------- 8c. Computação (computacao-2022)
+CO_DIR = DATASET.parent / 'computacao-2022'
+co = json.loads((CO_DIR / 'computacao.json').read_text())
+verif_co = json.loads((CO_DIR / 'verificacao.json').read_text())
+co_todas = co['objetivos_ei'] + co['habilidades_ef'] + co['habilidades_em']
+cods_co = [h['codigo'] for h in co_todas]
+
+check('8c. Documento curricular computacao-2022 na estrutura (complemento de bncc-2018)',
+      any(d['id'] == 'computacao-2022' and d['tipo'] == 'complemento'
+          and d['derivado_de'] == 'bncc-2018' for d in est['documento_curricular']))
+check('8c. Computação: 141 aprendizagens (EI03 11 + EF 104 + EM 26)',
+      (len(co['objetivos_ei']), len(co['habilidades_ef']), len(co['habilidades_em'])) == (11, 104, 26),
+      f"{len(co['objetivos_ei'])}+{len(co['habilidades_ef'])}+{len(co['habilidades_em'])}")
+pref_co = Counter(c[:4] for c in cods_co)
+check('8c. Computação: contagem por prefixo de código',
+      dict(pref_co) == {'EI03': 11, 'EF01': 7, 'EF02': 6, 'EF03': 9, 'EF04': 8, 'EF05': 11,
+                        'EF06': 10, 'EF07': 11, 'EF08': 11, 'EF09': 10, 'EF15': 9, 'EF69': 12,
+                        'EM13': 26}, f'{dict(pref_co)}')
+erros_co = []
+for c in cods_co:
+    try:
+        decodificar(c)
+    except ValueError as e:
+        erros_co.append(str(e))
+check('8c. Computação: gramática — todos os códigos decodificam', not erros_co, '; '.join(erros_co[:3]))
+grupos_co = {}
+for c in cods_co:
+    grupos_co.setdefault(c[:6], []).append(int(c[6:]))
+check('8c. Computação: sem duplicatas e sequências contínuas (sem lacunas, ao contrário da BNCC 2018)',
+      len(set(cods_co)) == len(cods_co) and
+      all(sorted(ns) == list(range(1, len(ns) + 1)) for ns in grupos_co.values()))
+eixos_co = {e['id'] for e in co['eixos']}
+objs_co = {o['id'] for o in co['objetos_conhecimento']}
+comps_co = {c['id'] for c in co['competencias']}
+ok_co = all(o['eixo'] in eixos_co and o['grupo_etario'] == 'ei-grupo-03' for o in co['objetivos_ei'])
+ok_co &= all(h['eixo'] in eixos_co and all(x in objs_co for x in h['objetos_conhecimento'])
+             for h in co['habilidades_ef'])
+ok_co &= all(h['competencia'] in comps_co for h in co['habilidades_em'])
+ok_co &= all(o['pai'] in objs_co for o in co['objetos_conhecimento'] if o['pai'])
+ok_co &= all(h['anos'] == decodificar(h['codigo'])['anos'] for h in co['habilidades_ef'])
+check('8c. Computação: integridade referencial (eixo, objeto/pai, competência, anos=código)', ok_co)
+vc = Counter(v['status'] for v in verif_co.values())
+check('8c. Computação: verificação contra o anexo oficial — 141/141 idênticos',
+      dict(vc) == {'ok': 141} and set(verif_co) == set(cods_co), f'{dict(vc)}')
+from anexo_computacao import paginas_anexo
+from extrair_computacao import CANONIZACOES
+sweep_co = set()
+for pag in paginas_anexo():
+    for cod in re.findall(r'\((E[IFM]\d{2}CO\d{2,3})\)', pag):
+        sweep_co.add(CANONIZACOES.get(cod, cod))
+check('8c. Completude: varredura de códigos no anexo == dataset (141)',
+      sweep_co == set(cods_co),
+      f'faltam: {sorted(sweep_co - set(cods_co))[:5]} sobram: {sorted(set(cods_co) - sweep_co)[:5]}')
+
 # ----------------------------------------------- 9. completude: varredura PDF
 paginas = paginas_pdf(PDF_CANONICO)
 texto_pdf = ' '.join(paginas)
@@ -234,6 +288,18 @@ entradas = [
      else 'DIVERGEM entre planilhas · decidir fonte', 'planilhas EF × EM'),
     ('Ano/Faixa da planilha vs código',
      'Quando divergem, prevalece o código (nenhum caso encontrado na extração atual).', 'extração'),
+    ('EF05CO011 · código com 3 dígitos no anexo oficial de Computação',
+     'O anexo ao Parecer CNE/CEB 2/2022 imprime "(EF05CO011)" — único código de Computação com sequência de 3 dígitos, '
+     'vindo após o EF05CO10. Canonizado como EF05CO11 (gramática dos demais 140 códigos); a forma impressa fica '
+     'registrada no localizador da fonte do registro.',
+     'anexo ao Parecer CNE/CEB 2/2022, quadro do 5º ano'),
+    ('Computação · estrutura via planilhas de Pernambuco, texto pelo anexo',
+     'As células dos quadros do anexo são mescladas em múltiplos níveis e a camada de texto do PDF as embaralha. '
+     'A estrutura (eixo, objeto, competência) vem das planilhas da Sec. de Educação de PE; variantes de nome geradas '
+     'por quebra de linha nas células (ex.: "responsabilidad e") são unificadas pela forma mais frequente. '
+     'TODOS os 141 textos e 78 itens de estrutura foram verificados caractere a caractere contra o anexo oficial, que sempre prevalece. '
+     'Descritores de agrupamento, explicações e exemplos do anexo ficam para iteração futura do módulo.',
+     'planilhas Sec. Educação PE × anexo ao Parecer CNE/CEB 2/2022'),
 ]
 for titulo, corpo, fonte in entradas:
     decisoes_md += [f'## {titulo}', '', corpo, '', f'*Fonte: {fonte}*', '']
@@ -244,7 +310,8 @@ linhas = ['# Relatório de validação · dataset completo (bncc.dev, protótipo
           f'EF {len(H_EF)} + EM {len(H_EM)} + EI {len(ei["objetivos"])} = **{len(todos)} aprendizagens** · '
           f'{len(est["competencias_gerais"])} competências gerais · {len(est["competencias_especificas"])} específicas · '
           f'{len(ef["contextos_organizacao"]) + len(em["contextos_organizacao"])} contextos de organização · '
-          f'{len(ml["marcos_legais"])} marcos legais · {len(pf["perfis"])} perfis', '',
+          f'{len(ml["marcos_legais"])} marcos legais · {len(pf["perfis"])} perfis · '
+          f'**{len(co_todas)} aprendizagens de Computação** (computacao-2022)', '',
           '## Contratos', '']
 linhas += [f"- {'✅' if ok else '❌'} {nome}" + (f' · {det}' if det and not ok else '') for nome, ok, det in checks]
 linhas += ['', '## Verificação contra o PDF homologado', '',

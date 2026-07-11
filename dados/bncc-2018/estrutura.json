@@ -6,6 +6,13 @@
       "tipo": "base_nacional",
       "esfera": "federal",
       "derivado_de": null
+    },
+    {
+      "id": "computacao-2022",
+      "nome": "Computação na Educação Básica (complemento à BNCC)",
+      "tipo": "complemento",
+      "esfera": "federal",
+      "derivado_de": "bncc-2018"
     }
   ],
   "etapas": [

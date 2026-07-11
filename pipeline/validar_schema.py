@@ -19,15 +19,17 @@ except ImportError as e:
 
 AQUI = Path(__file__).parent
 SCHEMAS = AQUI.parent / 'schema'
-DATASET = AQUI.parent / 'dados' / 'bncc-2018'
+DADOS = AQUI.parent / 'dados'
+DATASET = DADOS / 'bncc-2018'
 
 PARES = {
-    'estrutura.json': 'estrutura.schema.json',
-    'educacao-infantil.json': 'educacao-infantil.schema.json',
-    'ensino-fundamental.json': 'ensino-fundamental.schema.json',
-    'ensino-medio.json': 'ensino-medio.schema.json',
-    'marcos-legais.json': 'marcos-legais.schema.json',
-    'perfis.json': 'perfis.schema.json',
+    'bncc-2018/estrutura.json': 'estrutura.schema.json',
+    'bncc-2018/educacao-infantil.json': 'educacao-infantil.schema.json',
+    'bncc-2018/ensino-fundamental.json': 'ensino-fundamental.schema.json',
+    'bncc-2018/ensino-medio.json': 'ensino-medio.schema.json',
+    'bncc-2018/marcos-legais.json': 'marcos-legais.schema.json',
+    'bncc-2018/perfis.json': 'perfis.schema.json',
+    'computacao-2022/computacao.json': 'computacao.schema.json',
 }
 
 
@@ -46,7 +48,7 @@ def validar_arquivo(nome_dado, nome_schema, reg, dados=None):
     schema = json.loads((SCHEMAS / nome_schema).read_text())
     validador = Draft202012Validator(schema, registry=reg)
     if dados is None:
-        dados = json.loads((DATASET / nome_dado).read_text())
+        dados = json.loads((DADOS / nome_dado).read_text())
     erros = sorted(validador.iter_errors(dados), key=lambda e: list(e.absolute_path))
     return erros
 
@@ -80,6 +82,15 @@ def autoteste_negativo(reg):
     caso['marcos_legais'][0]['url_oficial'] = 'https://www.jusbrasil.com.br/lei'  # só fonte oficial gov.br
     casos.append(('marco legal com URL fora do gov.br', 'marcos-legais.schema.json', caso))
 
+    co = json.loads((DADOS / 'computacao-2022' / 'computacao.json').read_text())
+    caso = copy.deepcopy(co)
+    caso['objetivos_ei'][0]['codigo'] = 'EI01CO01'         # anexo só define pré-escola (EI03)
+    casos.append(('objetivo de Computação fora da pré-escola', 'computacao.schema.json', caso))
+
+    caso = copy.deepcopy(co)
+    caso['habilidades_ef'][0]['codigo'] = 'EF12CO01'       # bloco 12 não existe para CO
+    casos.append(('habilidade CO com bloco inválido', 'computacao.schema.json', caso))
+
     falhas = []
     for nome, schema, dados in casos:
         if not validar_arquivo(None, schema, reg, dados=dados):
@@ -102,6 +113,6 @@ if __name__ == '__main__':
     if frouxos:
         print(f'  AUTOTESTE NEGATIVO FALHOU (schema frouxo): {frouxos}')
     else:
-        print('  autoteste negativo: 5/5 corrupções rejeitadas')
+        print('  autoteste negativo: 7/7 corrupções rejeitadas')
 
     sys.exit(1 if total_erros or frouxos else 0)

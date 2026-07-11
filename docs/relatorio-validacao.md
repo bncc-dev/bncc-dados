@@ -1,6 +1,6 @@
 # Relatório de validação · dataset completo (bncc.dev, protótipo)
 
-EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 885 contextos de organização · 20 marcos legais · 5 perfis
+EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 885 contextos de organização · 20 marcos legais · 5 perfis · **141 aprendizagens de Computação** (computacao-2022)
 
 ## Contratos
 
@@ -23,6 +23,14 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 8b. Marcos legais: 20 registros e relações apontando para entidades do dataset
 - ✅ 8b. Marcos legais: IDs únicos, URL oficial https no gov.br
 - ✅ 8b. Perfis: vocabulário mínimo do plano presente
+- ✅ 8c. Documento curricular computacao-2022 na estrutura (complemento de bncc-2018)
+- ✅ 8c. Computação: 141 aprendizagens (EI03 11 + EF 104 + EM 26)
+- ✅ 8c. Computação: contagem por prefixo de código
+- ✅ 8c. Computação: gramática — todos os códigos decodificam
+- ✅ 8c. Computação: sem duplicatas e sequências contínuas (sem lacunas, ao contrário da BNCC 2018)
+- ✅ 8c. Computação: integridade referencial (eixo, objeto/pai, competência, anos=código)
+- ✅ 8c. Computação: verificação contra o anexo oficial — 141/141 idênticos
+- ✅ 8c. Completude: varredura de códigos no anexo == dataset (141)
 - ✅ 9. Completude: nenhum código do PDF fora do dataset
 - ✅ 9. Completude: nenhum código do dataset fora do PDF
 
@@ -64,4 +72,4 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 ## Decisões de interpretação
 
-Consolidadas em `saida/DECISOES.md` (8 entradas) + `decisoes-extracao.json` (3 da extração).
+Consolidadas em `saida/DECISOES.md` (10 entradas) + `decisoes-extracao.json` (3 da extração).

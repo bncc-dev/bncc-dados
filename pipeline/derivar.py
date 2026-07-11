@@ -21,6 +21,7 @@ ei = json.loads((DATASET / 'educacao-infantil.json').read_text())
 est = json.loads((DATASET / 'estrutura.json').read_text())
 ml = json.loads((DATASET / 'marcos-legais.json').read_text())
 pf = json.loads((DATASET / 'perfis.json').read_text())
+co = json.loads((DATASET.parent / 'computacao-2022' / 'computacao.json').read_text())
 
 DATA_VERSION = ef['habilidades'][0]['vigencia']['desde']
 SEP = ' | '
@@ -81,6 +82,17 @@ def gerar_sqlite(caminho):
     CREATE TABLE marco_legal_relacao (marco TEXT REFERENCES marco_legal(id),
         entidade TEXT, natureza TEXT, PRIMARY KEY (marco, entidade, natureza));
     CREATE TABLE perfil (id TEXT PRIMARY KEY, nome TEXT, descricao TEXT, sinonimos TEXT);
+    CREATE TABLE eixo_computacao (id TEXT PRIMARY KEY, nome TEXT);
+    CREATE TABLE objeto_computacao (id TEXT PRIMARY KEY, nome TEXT, pai TEXT REFERENCES objeto_computacao(id));
+    CREATE TABLE competencia_computacao (id TEXT PRIMARY KEY, tipo TEXT, numero INTEGER, texto TEXT);
+    CREATE TABLE aprendizagem_computacao (codigo TEXT PRIMARY KEY, documento TEXT, etapa TEXT, texto TEXT,
+        eixo TEXT REFERENCES eixo_computacao(id), competencia TEXT REFERENCES competencia_computacao(id),
+        grupo_etario TEXT, {VIG_DDL}, {FONTE_DDL});
+    CREATE TABLE aprendizagem_computacao_ano (codigo TEXT REFERENCES aprendizagem_computacao(codigo),
+        ano INTEGER, PRIMARY KEY (codigo, ano));
+    CREATE TABLE aprendizagem_computacao_objeto (codigo TEXT REFERENCES aprendizagem_computacao(codigo),
+        objeto TEXT REFERENCES objeto_computacao(id), PRIMARY KEY (codigo, objeto));
+    CREATE INDEX idx_aco_eixo ON aprendizagem_computacao(eixo);
     CREATE INDEX idx_hef_componente ON habilidade_ef(componente);
     CREATE INDEX idx_hef_ano ON habilidade_ef_ano(ano);
     CREATE INDEX idx_hem_area ON habilidade_em(area);
@@ -88,8 +100,8 @@ def gerar_sqlite(caminho):
     CREATE INDEX idx_ctx_tipo ON contexto_organizacao(tipo);
     ''')
 
-    checksums = SEP.join(f'{p.name}:{hashlib.sha256(p.read_bytes()).hexdigest()[:16]}'
-                         for p in sorted(FONTES.iterdir()) if p.suffix in ('.pdf', '.xlsx'))
+    checksums = SEP.join(f'{p.relative_to(FONTES)}:{hashlib.sha256(p.read_bytes()).hexdigest()[:16]}'
+                         for p in sorted(FONTES.rglob('*')) if p.suffix in ('.pdf', '.xlsx'))
     c.executemany('INSERT INTO meta VALUES (?,?)', sorted({
         'data_version': DATA_VERSION, 'schema_version': 'schema-v1.0.0-rc',
         'gerado_por': 'pipeline/derivar.py', 'fontes_sha256_16': checksums,
@@ -172,6 +184,24 @@ def gerar_sqlite(caminho):
         c.execute('INSERT INTO perfil VALUES (?,?,?,?)',
                   (p['id'], p['nome'], p['descricao'], SEP.join(p['sinonimos'])))
 
+    for e in co['eixos']:
+        c.execute('INSERT INTO eixo_computacao VALUES (?,?)', (e['id'], e['nome']))
+    for o in co['objetos_conhecimento']:
+        c.execute('INSERT INTO objeto_computacao VALUES (?,?,?)', (o['id'], o['nome'], o['pai']))
+    for k in co['competencias']:
+        c.execute('INSERT INTO competencia_computacao VALUES (?,?,?,?)',
+                  (k['id'], k['tipo'], k['numero'], k['texto']))
+    for a in co['objetivos_ei'] + co['habilidades_ef'] + co['habilidades_em']:
+        v = a['vigencia']
+        c.execute('INSERT INTO aprendizagem_computacao VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+                  (a['codigo'], a['documento'], a['codigo'][:2], a['texto'], a.get('eixo'),
+                   a.get('competencia'), a.get('grupo_etario'),
+                   v['status'], v['desde'], v['ate'], *fonte_cols(a['fonte'])))
+        c.executemany('INSERT INTO aprendizagem_computacao_ano VALUES (?,?)',
+                      [(a['codigo'], ano) for ano in a.get('anos', [])])
+        c.executemany('INSERT INTO aprendizagem_computacao_objeto VALUES (?,?)',
+                      [(a['codigo'], o) for o in sorted(set(a.get('objetos_conhecimento', [])))])
+
     db.commit()
     return db
 
@@ -248,6 +278,22 @@ def gerar_csvs():
 
     escrever('perfis', ['id', 'nome', 'descricao', 'sinonimos'],
              [[p['id'], p['nome'], p['descricao'], SEP.join(p['sinonimos'])] for p in pf['perfis']])
+
+    escrever('computacao',
+             ['codigo', 'etapa', 'anos', 'grupo_etario', 'eixo', 'objetos_conhecimento', 'competencia',
+              'texto', 'vigencia_status', 'fonte_localizador', 'fonte_localizador_pdf'],
+             [[a['codigo'], a['codigo'][:2], SEP.join(map(str, a.get('anos', []))),
+               a.get('grupo_etario', ''), a.get('eixo', ''),
+               SEP.join(a.get('objetos_conhecimento', [])), a.get('competencia', ''),
+               a['texto'], a['vigencia']['status'],
+               a['fonte'].get('localizador', ''), a['fonte'].get('localizador_pdf', '')]
+              for a in co['objetivos_ei'] + co['habilidades_ef'] + co['habilidades_em']])
+
+    escrever('objetos-computacao', ['id', 'nome', 'pai'],
+             [[o['id'], o['nome'], o['pai'] or ''] for o in co['objetos_conhecimento']])
+
+    escrever('competencias-computacao', ['id', 'tipo', 'numero', 'texto'],
+             [[k['id'], k['tipo'], k['numero'], k['texto']] for k in co['competencias']])
 
 
 if __name__ == '__main__':

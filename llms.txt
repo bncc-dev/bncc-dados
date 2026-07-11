@@ -1,6 +1,6 @@
 # bncc.dev
 
-> Dados abertos e verificados da Base Nacional Comum Curricular (BNCC) brasileira: 1.580 aprendizagens (Educação Infantil, Ensino Fundamental, Ensino Médio), competências, contextos de organização e proveniência por registro. Licença CC BY 4.0. Status: pré-release.
+> Dados abertos e verificados da Base Nacional Comum Curricular (BNCC) brasileira: 1.721 aprendizagens (1.580 da BNCC 2018 nas três etapas + 141 do complemento de Computação), competências, contextos de organização e proveniência por registro. Licença CC BY 4.0. Status: pré-release.
 
 Regras para agentes:
 - Use os códigos oficiais como chave: EF67LP08 (Fundamental), EM13LGG103 (Médio), EI02TS01 (Infantil).
@@ -15,6 +15,7 @@ Regras para agentes:
 - [Ensino Médio](dados/bncc-2018/ensino-medio.json): 183 habilidades com competências específicas vinculadas
 - [Marcos legais](dados/bncc-2018/marcos-legais.json): 20 atos normativos (Constituição, LDB, resoluções da BNCC) com ementa, URL oficial e relações com o dataset
 - [Perfis](dados/bncc-2018/perfis.json): vocabulário dos papéis escolares (professor, aluno, gestor, responsável, coordenador)
+- [Computação](dados/computacao-2022/computacao.json): complemento à BNCC (Parecer CNE/CEB 2/2022) com 141 aprendizagens por eixo, objeto de conhecimento e competência (códigos EI03CO01, EF06CO02, EM13CO07)
 
 ## Documentação
 - [README](README.md): visão geral, uso, licenças

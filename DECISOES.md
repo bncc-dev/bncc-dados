@@ -52,6 +52,22 @@ No EM, as habilidades de área têm exatamente uma competência específica, emb
 
 Quando o ano/faixa declarado na planilha divergir do decodificado do código, prevalece o código. Nenhum caso encontrado na extração atual; a regra fica registrada para o pipeline.
 
+## 9. EF05CO011: código com três dígitos de sequência no anexo oficial de Computação
+
+O anexo ao Parecer CNE/CEB nº 2/2022 imprime "(EF05CO011)" no quadro do 5º ano — o único código de Computação com sequência de 3 dígitos, vindo imediatamente após o EF05CO10. As planilhas de apoio da Sec. de Educação de Pernambuco reproduzem a mesma forma.
+
+**Decisão:** canonizado como EF05CO11, seguindo a gramática de 2 dígitos dos demais 140 códigos do complemento. A forma impressa fica registrada no localizador da fonte do registro.
+
+*Fonte: anexo ao Parecer CNE/CEB nº 2/2022 (quadro do 5º ano) × gramática dos códigos.*
+
+## 10. Computação: estrutura via planilhas de Pernambuco, texto verificado pelo anexo
+
+Os quadros do anexo oficial têm células mescladas em múltiplos níveis (eixo > objeto pai > sub-objeto) que a camada de texto do PDF embaralha. As planilhas da Secretaria de Educação de Pernambuco preservam as fronteiras de célula e forneceram a estrutura; variantes de nome geradas por quebra de linha dentro de células (ex.: "responsabilidad e") foram unificadas pela forma mais frequente.
+
+**Decisão:** estrutura extraída das planilhas de PE (nunca fonte de verdade); todos os 141 textos de aprendizagem e 78 itens de estrutura verificados caractere a caractere contra o anexo oficial, que sempre prevalece. Os descritores de agrupamento, explicações e exemplos oficiais do anexo ficam para iteração futura do módulo. A coluna do currículo de Pernambuco não entra no dataset (dado estadual, insumo da Fase 5).
+
+*Fonte: planilhas Sec. Educação de PE × anexo ao Parecer CNE/CEB nº 2/2022.*
+
 ## Versões das fontes (contexto das decisões)
 
 - Planilhas oficiais: exportadas de downloadbncc.mec.gov.br em 23/06/2023 (a ferramenta de exportação estava fora do ar em 09/07/2026, backend respondendo 503).

@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bncc.dev/schema/computacao.schema.json",
+  "title": "Complemento de Computação (dados/computacao-2022/computacao.json)",
+  "description": "Anexo ao Parecer CNE/CEB 2/2022, instituído pela Resolução CNE/CEB 1/2022: 141 aprendizagens (11 EI, 104 EF, 26 EM) organizadas por eixos e objetos de conhecimento (EI/EF) ou competências específicas (EM). Documento curricular computacao-2022, derivado de bncc-2018.",
+  "type": "object",
+  "$defs": {
+    "documento": { "const": "computacao-2022" },
+    "eixo_ref": { "enum": ["co-eixo-pensamento-computacional", "co-eixo-mundo-digital", "co-eixo-cultura-digital"] },
+    "objeto_ref": { "type": "string", "pattern": "^co-obj-[a-z0-9]+(-[a-z0-9]+)*$" }
+  },
+  "properties": {
+    "eixos": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "#/$defs/eixo_ref" },
+          "documento": { "$ref": "#/$defs/documento" },
+          "nome": { "type": "string", "minLength": 3 }
+        },
+        "required": ["id", "documento", "nome"],
+        "additionalProperties": false
+      }
+    },
+    "objetos_conhecimento": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "#/$defs/objeto_ref" },
+          "documento": { "$ref": "#/$defs/documento" },
+          "nome": { "type": "string", "minLength": 3 },
+          "pai": { "oneOf": [{ "$ref": "#/$defs/objeto_ref" }, { "type": "null" }] }
+        },
+        "required": ["id", "documento", "nome", "pai"],
+        "additionalProperties": false
+      }
+    },
+    "competencias": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "definicoes.json#/$defs/id_slug" },
+          "documento": { "$ref": "#/$defs/documento" },
+          "tipo": { "enum": ["geral_computacao", "especifica_em_computacao"] },
+          "numero": { "type": "integer", "minimum": 1 },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["id", "documento", "tipo", "numero", "texto", "fonte"],
+        "additionalProperties": false
+      }
+    },
+    "objetivos_ei": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "codigo": { "$ref": "definicoes.json#/$defs/codigo_computacao_ei" },
+          "documento": { "$ref": "#/$defs/documento" },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "eixo": { "$ref": "#/$defs/eixo_ref" },
+          "grupo_etario": { "const": "ei-grupo-03" },
+          "vigencia": { "$ref": "definicoes.json#/$defs/vigencia" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["codigo", "documento", "texto", "eixo", "grupo_etario", "vigencia", "fonte"],
+        "additionalProperties": false
+      }
+    },
+    "habilidades_ef": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "codigo": { "$ref": "definicoes.json#/$defs/codigo_computacao_ef" },
+          "documento": { "$ref": "#/$defs/documento" },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "eixo": { "$ref": "#/$defs/eixo_ref" },
+          "objetos_conhecimento": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/objeto_ref" }
+          },
+          "anos": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "integer", "minimum": 1, "maximum": 9 }
+          },
+          "vigencia": { "$ref": "definicoes.json#/$defs/vigencia" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["codigo", "documento", "texto", "eixo", "objetos_conhecimento", "anos", "vigencia", "fonte"],
+        "additionalProperties": false
+      }
+    },
+    "habilidades_em": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "codigo": { "$ref": "definicoes.json#/$defs/codigo_computacao_em" },
+          "documento": { "$ref": "#/$defs/documento" },
+          "texto": { "$ref": "definicoes.json#/$defs/texto_normativo" },
+          "competencia": { "type": "string", "pattern": "^computacao-em-ce-[0-9]{2}$" },
+          "vigencia": { "$ref": "definicoes.json#/$defs/vigencia" },
+          "fonte": { "$ref": "definicoes.json#/$defs/fonte" }
+        },
+        "required": ["codigo", "documento", "texto", "competencia", "vigencia", "fonte"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["eixos", "objetos_conhecimento", "competencias", "objetivos_ei", "habilidades_ef", "habilidades_em"],
+  "additionalProperties": false
+}

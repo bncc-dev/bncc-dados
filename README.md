@@ -1,6 +1,6 @@
 # bncc.dev · dados abertos da BNCC
 
-A Base Nacional Comum Curricular como dados estruturados, verificados e rastreáveis: as 1.580 aprendizagens das três etapas da educação básica (Educação Infantil, Ensino Fundamental e Ensino Médio), com competências, contextos de organização e proveniência registro a registro.
+A Base Nacional Comum Curricular como dados estruturados, verificados e rastreáveis: as 1.580 aprendizagens das três etapas da educação básica (Educação Infantil, Ensino Fundamental e Ensino Médio) e as 141 do complemento de Computação (Parecer CNE/CEB 2/2022), com competências, contextos de organização e proveniência registro a registro. 1.721 aprendizagens no total, cada uma conferida contra o documento oficial.
 
 **Status: pré-release.** Dados completos e validados, aguardando revisão pedagógica e primeira release versionada (`dados-v1.0.0`). Não recomendado para produção até lá.
 
@@ -11,6 +11,7 @@ Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumid
 | Pasta | Conteúdo |
 |---|---|
 | `dados/bncc-2018/` | O dataset em JSON: estrutura do sistema, 93 objetivos da EI (com alinhamentos entre faixas etárias), 1.304 habilidades do EF (com unidades temáticas, objetos de conhecimento, campos de atuação e práticas de linguagem), 183 habilidades do EM (com competências vinculadas), 20 marcos legais com URL oficial e 5 perfis de referência |
+| `dados/computacao-2022/` | O complemento de Computação (Parecer CNE/CEB 2/2022): 141 aprendizagens (11 EI, 104 EF, 26 EM) com eixos, objetos de conhecimento e competências próprias, verificadas contra o anexo oficial |
 | `fontes/` | Os documentos oficiais do MEC dos quais tudo é extraído, com checksums |
 | `schema/` | JSON Schemas (draft 2020-12) que definem e validam o formato de cada arquivo de dados |
 | `derivados/` | O mesmo dado em SQLite e CSV, gerados dos JSONs (para SQL e planilhas) |
