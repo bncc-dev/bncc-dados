@@ -7616,7 +7616,7 @@ INSERT INTO "marco_legal_relacao" VALUES('resolucao-cne-ceb-1-2022','bncc-2018',
 INSERT INTO "marco_legal_relacao" VALUES('lei-14945-2024','EM','altera');
 CREATE TABLE meta (chave TEXT PRIMARY KEY, valor TEXT NOT NULL);
 INSERT INTO "meta" VALUES('data_version','dados-2026.07');
-INSERT INTO "meta" VALUES('fontes_sha256_16','BNCC_Ensino Fundamental.xlsx:3e823abb2af70d76 | BNCC_Ensino_Medio.xlsx:f89493a6dcc8315a | Base-Nacional-Comum-Curricular-BNCC.pdf:81cd44ba5444ff1e | anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf:b0f021db3c7c2c04 | secedu-pernambuco/1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx:78db18845598bb5e | secedu-pernambuco/6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx:7352e56d5c1dbb7b | secedu-pernambuco/COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx:1c3df76a1ead3e2d | secedu-pernambuco/COMPUTAÇÃO - ENSINO MÉDIO.xlsx:8b19f82ddd4b7ad1');
+INSERT INTO "meta" VALUES('fontes_sha256_16','BNCC_Ensino Fundamental.xlsx:3e823abb2af70d76 | BNCC_Ensino_Medio.xlsx:f89493a6dcc8315a | Base-Nacional-Comum-Curricular-BNCC.pdf:81cd44ba5444ff1e | anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf:b0f021db3c7c2c04 | secedu-pernambuco/1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx:78db18845598bb5e | secedu-pernambuco/6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx:7352e56d5c1dbb7b | secedu-pernambuco/COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx:1c3df76a1ead3e2d | secedu-pernambuco/COMPUTAÇÃO - ENSINO MÉDIO.xlsx:8b19f82ddd4b7ad1');
 INSERT INTO "meta" VALUES('gerado_por','pipeline/derivar.py');
 INSERT INTO "meta" VALUES('licenca_dados','CC BY 4.0');
 INSERT INTO "meta" VALUES('projeto','bncc.dev');

@@ -100,8 +100,13 @@ def gerar_sqlite(caminho):
     CREATE INDEX idx_ctx_tipo ON contexto_organizacao(tipo);
     ''')
 
-    checksums = SEP.join(f'{p.relative_to(FONTES)}:{hashlib.sha256(p.read_bytes()).hexdigest()[:16]}'
-                         for p in sorted(FONTES.rglob('*')) if p.suffix in ('.pdf', '.xlsx'))
+    # NFC nos nomes: o macOS devolve NFD ao listar, o Linux devolve NFC — sem
+    # normalizar, o meta diverge entre plataformas (CI reprova o dump lógico)
+    import unicodedata
+    checksums = SEP.join(
+        f'{unicodedata.normalize("NFC", str(p.relative_to(FONTES)))}:{hashlib.sha256(p.read_bytes()).hexdigest()[:16]}'
+        for p in sorted(FONTES.rglob('*'), key=lambda p: unicodedata.normalize('NFC', str(p)))
+        if p.suffix in ('.pdf', '.xlsx'))
     c.executemany('INSERT INTO meta VALUES (?,?)', sorted({
         'data_version': DATA_VERSION, 'schema_version': 'schema-v1.0.0-rc',
         'gerado_por': 'pipeline/derivar.py', 'fontes_sha256_16': checksums,
