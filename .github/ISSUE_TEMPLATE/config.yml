@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Dúvida de uso
+    url: https://github.com/bncc-dev/bncc-dados/discussions
+    about: "Como consultar os dados, entender códigos, usar os pacotes npm, PyPI ou o servidor MCP."
+  - name: Documentação
+    url: https://github.com/bncc-dev/bncc-dados#documenta%C3%A7%C3%A3o
+    about: "Modelo de dados, metodologia, versionamento e instalação."
+  - name: Problema de segurança
+    url: https://github.com/bncc-dev/bncc-dados/security/policy
+    about: "Não abra issue pública. Veja a política de segurança."

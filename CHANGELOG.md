@@ -19,6 +19,7 @@ Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso
 - Pipeline reprodutível com CI (extração, verificação, validação, derivados).
 - Derivados SQLite e CSV gerados e conferidos.
 - Documentação: modelo de dados, metodologia, versionamento, contribuição.
+- Preparação para abertura: `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1 em pt-BR), `SECURITY.md`, `CITATION.cff` e templates de issue e PR, com o template de correção exigindo fonte oficial como campo obrigatório.
 
 ### Pendente para `dados-v1.0.0`
 - Registro da revisão pedagógica (Equipe Pedagógica Profy) — incluindo amostra do módulo de Computação, que entrou na v1.0 por decisão de 11/07/2026.

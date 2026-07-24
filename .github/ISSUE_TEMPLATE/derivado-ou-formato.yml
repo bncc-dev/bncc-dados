@@ -1,0 +1,29 @@
+name: "Novo derivado, formato ou integração"
+description: "Propor um formato de saída, integração ou melhoria de tooling"
+title: "[derivado] "
+labels: ["derivado"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Derivados são gerados dos JSONs canônicos por `pipeline/derivar.py` e nunca alteram o dado. Propostas bem-vindas: Parquet, JSON-LD, RDF, pacotes para outras linguagens, exemplos de consulta.
+  - type: textarea
+    id: proposta
+    attributes:
+      label: O que você propõe
+    validations:
+      required: true
+  - type: textarea
+    id: uso
+    attributes:
+      label: Quem usaria e para quê
+      description: "Um caso de uso concreto ajuda a priorizar."
+    validations:
+      required: true
+  - type: checkboxes
+    id: escopo
+    attributes:
+      label: Escopo
+      options:
+        - label: "Esta proposta não altera nenhum arquivo de dados/, apenas gera uma representação nova a partir deles."
+          required: true

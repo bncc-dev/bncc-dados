@@ -1,0 +1,60 @@
+name: "Correção de dado"
+description: "Um registro do dataset diverge da fonte oficial"
+title: "[correcao] "
+labels: ["correcao-dado"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A regra de ouro do projeto: **correção exige fonte oficial**. Este dataset registra o que os documentos do MEC e do CNE dizem, não o que seria pedagogicamente melhor. Sem citação da fonte, não conseguimos avaliar a proposta e a issue será fechada depois de 30 dias sem resposta.
+
+        Se a sua divergência for com o texto normativo em si (e não com a nossa reprodução dele), o lugar da discussão é o CNE, não este repositório.
+  - type: input
+    id: codigo
+    attributes:
+      label: Código do registro
+      description: "O identificador oficial da aprendizagem ou entidade afetada."
+      placeholder: "EF67LP08"
+    validations:
+      required: true
+  - type: input
+    id: arquivo
+    attributes:
+      label: Arquivo
+      description: "Em qual arquivo de dados/ está o registro."
+      placeholder: "dados/bncc-2018/ensino-fundamental.json"
+    validations:
+      required: true
+  - type: textarea
+    id: atual
+    attributes:
+      label: Valor atual
+      description: "Copie e cole o valor exatamente como está hoje no dataset."
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: proposto
+    attributes:
+      label: Valor correto
+      description: "O valor que deveria estar lá, exatamente como aparece na fonte oficial."
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte oficial
+      description: |
+        Documento (MEC ou CNE), página do PDF ou localizador na planilha e, se possível, print do trecho. Exemplo: "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167".
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmacoes
+    attributes:
+      label: Confirmações
+      options:
+        - label: "Conferi que a fonte que estou citando é um ato oficial federal (MEC ou CNE), não currículo estadual ou municipal."
+          required: true
+        - label: "Verifiquei o DECISOES.md e esta divergência ainda não está documentada lá."
+          required: true

@@ -1,0 +1,38 @@
+name: "Mudança normativa"
+description: "Novo ato oficial, revogação ou alteração da BNCC no mundo real"
+title: "[normativa] "
+labels: ["normativa"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template quando o mundo mudou, não quando erramos. Mudança normativa gera nova data-version com registros marcados como revogados, nunca apagados ou reutilizados (ver [docs/versionamento.md](../../docs/versionamento.md)).
+  - type: input
+    id: ato
+    attributes:
+      label: Ato normativo
+      description: "Identificação completa do ato."
+      placeholder: "Resolução CNE/CEB nº 1/2022"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL oficial
+      description: "Link para o documento em domínio oficial (gov.br)."
+    validations:
+      required: true
+  - type: input
+    id: data
+    attributes:
+      label: Data de publicação
+      placeholder: "2022-01-05"
+    validations:
+      required: true
+  - type: textarea
+    id: impacto
+    attributes:
+      label: O que muda no dataset
+      description: "Quais registros ou entidades são afetados, e como: inclusão, alteração de texto, revogação."
+    validations:
+      required: true

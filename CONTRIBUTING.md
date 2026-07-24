@@ -35,4 +35,10 @@ Requisitos: Python 3.10+ e `pdftotext` (poppler). O CI executa exatamente essa s
 
 ## Conduta
 
-Respeito e boa-fé. Este projeto serve a educação pública brasileira; discussões técnicas com esse espírito.
+Respeito e boa-fé. Este projeto serve a educação pública brasileira; discussões técnicas com esse espírito. As regras completas e o canal de denúncia estão no [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+Discordar sobre dados não é violação de conduta: divergências sobre o conteúdo do dataset se resolvem sempre pela fonte oficial, nunca por insistência ou autoridade pessoal.
+
+## Segurança
+
+Problemas de segurança (pipeline, CI, dependências, exposição acidental de segredo) não vão para issue pública: veja [SECURITY.md](SECURITY.md). Erro de dado não é problema de segurança; é issue normal de correção.
