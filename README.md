@@ -1,5 +1,10 @@
 # bncc.dev · dados abertos da BNCC
 
+[![Validação](https://github.com/bncc-dev/bncc-dados/actions/workflows/validacao.yml/badge.svg)](https://github.com/bncc-dev/bncc-dados/actions/workflows/validacao.yml)
+[![Dados: CC BY 4.0](https://img.shields.io/badge/dados-CC%20BY%204.0-lightgrey.svg)](dados/LICENSE.md)
+[![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-green.svg)](LICENSE)
+[![Status: pré-release](https://img.shields.io/badge/status-pr%C3%A9--release-orange.svg)](CHANGELOG.md)
+
 A Base Nacional Comum Curricular como dados estruturados, verificados e rastreáveis: as 1.580 aprendizagens das três etapas da educação básica (Educação Infantil, Ensino Fundamental e Ensino Médio) e as 141 do complemento de Computação (Parecer CNE/CEB 2/2022), com competências, contextos de organização e proveniência registro a registro. 1.721 aprendizagens no total, cada uma conferida contra o documento oficial.
 
 **Status: pré-release.** Dados completos e validados, aguardando revisão pedagógica e primeira release versionada (`dados-v1.0.0`). Não recomendado para produção até lá.
@@ -17,7 +22,7 @@ Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumid
 | `derivados/` | O mesmo dado em SQLite e CSV, gerados dos JSONs (para SQL e planilhas) |
 | `pipeline/` | Scripts de extração, verificação e validação: qualquer pessoa reproduz o dataset a partir das fontes |
 | `DECISOES.md` | Toda decisão de interpretação sobre inconsistências das fontes, documentada |
-| `docs/` | Divisão aberto/comercial, relatório de validação |
+| `docs/` | Metodologia, modelo de dados, versionamento, instalação e mais (ver [Documentação](#documentação)) |
 
 ## Por que confiar neste dado
 
@@ -30,9 +35,10 @@ Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumid
 
 ```bash
 git clone https://github.com/bncc-dev/bncc-dados.git
+cd bncc-dados
 python3 -c "
 import json
-ef = json.load(open('bncc-dados/dados/bncc-2018/ensino-fundamental.json'))
+ef = json.load(open('dados/bncc-2018/ensino-fundamental.json'))
 h = next(x for x in ef['habilidades'] if x['codigo'] == 'EF67LP08')
 print(h['texto'])
 print(h['fonte']['localizador_pdf'])
@@ -86,7 +92,7 @@ python3 verificar.py    # confere cada texto contra o PDF; grava a página
 python3 validar.py      # 18 contratos + completude (falha se algo divergir)
 ```
 
-Dependências: Python 3 e `pdftotext` (poppler). Sem bibliotecas externas.
+Dependências: Python 3 e `pdftotext` (poppler). Sem bibliotecas externas. Passo a passo completo (por sistema operacional, problemas comuns): [docs/instalacao.md](docs/instalacao.md).
 
 ## Documentação
 
@@ -100,6 +106,13 @@ Dependências: Python 3 e `pdftotext` (poppler). Sem bibliotecas externas.
 | [CHANGELOG.md](CHANGELOG.md) | Histórico por categoria (normativa, correção, schema, editorial) |
 | [AGENTS.md](AGENTS.md) | Guia para agentes de IA (também: [llms.txt](llms.txt)) |
 | [docs/relatorio-validacao.md](docs/relatorio-validacao.md) | Snapshot do relatório de validação da versão atual |
+| [docs/plano-abertura.md](docs/plano-abertura.md) | Diagnóstico e plano para tornar o repositório público |
+| [docs/instalacao.md](docs/instalacao.md) | Instalação e primeira execução (usar os dados ou reproduzir o pipeline) |
+| [docs/guia-comunidade.md](docs/guia-comunidade.md) | Manual operacional de gestão da comunidade open source |
+
+## Como contribuir
+
+Correções de dados são bem-vindas — a regra de ouro é uma só: **toda correção precisa citar a fonte oficial** (documento do MEC/CNE, com página ou localizador). O CI verifica automaticamente a reprodutibilidade de qualquer mudança. Comece por [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licenças
 
@@ -114,4 +127,4 @@ Leia `llms.txt` na raiz. Em resumo: consuma os JSONs de `dados/bncc-2018/`, use 
 
 ## Roadmap
 
-Já disponíveis como pré-release (0.1.x), construídos sobre este dataset: pacote npm [@bncc/dados](https://www.npmjs.com/package/@bncc/dados), pacote PyPI [bncc](https://pypi.org/project/bncc/) e servidor MCP [@bncc/mcp](https://www.npmjs.com/package/@bncc/mcp) (`npx -y @bncc/mcp`). As versões 1.0 saem com a release `dados-v1.0.0`. Páginas por habilidade no ar na mesma release. Correções de dados exigem referência à fonte oficial no PR.
+Já disponíveis como pré-release (0.1.x), construídos sobre este dataset: pacote npm [@bncc/dados](https://www.npmjs.com/package/@bncc/dados), pacote PyPI [bncc](https://pypi.org/project/bncc/) e servidor MCP [@bncc/mcp](https://www.npmjs.com/package/@bncc/mcp) (`npx -y @bncc/mcp`). As versões 1.0 saem com a release `dados-v1.0.0`. Páginas por habilidade no ar na mesma release.

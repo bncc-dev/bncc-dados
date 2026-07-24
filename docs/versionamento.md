@@ -35,6 +35,25 @@ Regras invioláveis:
 
 A distinção `normativa` (o mundo mudou) versus `correcao` (nós erramos) é obrigatória no changelog.
 
+## Processo de release no git
+
+Passo a passo operacional para publicar uma data-version:
+
+1. **Preparar em branch**: mudanças de dado entram por PR (nunca direto na `main`), com a fonte oficial citada e o CI verde.
+2. **Atualizar o CHANGELOG**: entrada categorizada (`normativa`, `correcao`, `schema`, `editorial`) antes do merge.
+3. **Taggear na `main`** após o merge:
+
+   ```bash
+   git tag -a dados-2026.08 -m "dados-2026.08: <resumo em uma linha>"
+   git push origin dados-2026.08
+   ```
+
+   Patch de correção usa sufixo: `dados-2026.08.1`. Mudança de formato ganha tag própria: `schema-v1.1.0`.
+4. **Release no GitHub**: criar a release a partir da tag, com o trecho do CHANGELOG como corpo e os derivados (`bncc.sqlite`, CSVs zipados) como assets — assim consumidores baixam artefatos versionados sem clonar o repo.
+5. **Imutabilidade**: tag publicada nunca é movida ou apagada. Errou? Nova tag patch.
+
+Convenções de branch: `main` sempre reproduzível (o CI garante); branches de trabalho com prefixo do tipo (`correcao/`, `normativa/`, `schema/`, `docs/`).
+
 ## Para consumidores
 
 - Fixe a data-version que você validou; atualize deliberadamente lendo o changelog.
