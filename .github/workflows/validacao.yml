@@ -8,7 +8,7 @@ jobs:
   reproduzir-e-validar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Instalar dependências (poppler + jsonschema)
         run: |
           sudo apt-get update && sudo apt-get install -y poppler-utils ghostscript
