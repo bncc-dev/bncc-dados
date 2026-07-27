@@ -39,8 +39,15 @@ O [workflow de validação](../.github/workflows/validacao.yml) executa a cadeia
 
 Além da cadeia interna, o dataset foi comparado com a base BNCC do Profy PEI (linhagem independente): 1.486 códigos em comum com textos 100% idênticos, e uma lacuna encontrada naquela base (EF35LP16), não neste dataset.
 
+## Revisão pedagógica
+
+Em julho de 2026, a Equipe Pedagógica da Profy revisou o dataset, com foco no ponto que a extração automática não consegue decidir sozinha: o **pareamento horizontal dos alinhamentos da Educação Infantil**. O documento oficial (p. 26) afirma que objetivos na mesma linha do quadro, entre grupos etários, tratam do mesmo aspecto do campo de experiências, mas o quadro não traz identificador desse vínculo — o pipeline o reconstrói pela posição sequencial do código (EI01TS01 → EI02TS01 → EI03TS01).
+
+A revisão percorreu os 32 alinhamentos e **confirmou a heurística**: nenhum pareamento incorreto foi encontrado, incluindo os três casos de célula vazia no quadro oficial, que produzem alinhamentos de 2 objetivos em vez de 3 (`ei-align-eo-07`, `ei-align-et-07`, `ei-align-et-08`). A confirmação está registrada na nota de cada um dos 32 registros e na decisão 5 do [DECISOES.md](../DECISOES.md).
+
+A revisão cobriu também uma amostra do módulo de Computação (`computacao-2022`), sem apontamentos.
+
 ## Limites conhecidos
 
 - A planilha da Educação Infantil não existe publicamente (ferramenta do MEC fora do ar); a EI vem do PDF, com a mesma verificação.
-- O pareamento dos alinhamentos da EI usa a posição sequencial dos códigos (heurística fiel ao quadro oficial), marcado para revisão pedagógica.
-- Revisão pedagógica formal (Equipe Pedagógica Profy) em operacionalização; será registrada antes da release `dados-v1.0.0`.
+- O pareamento dos alinhamentos da EI usa a posição sequencial dos códigos (heurística fiel ao quadro oficial), confirmada em revisão pedagógica (ver abaixo).

@@ -66,7 +66,7 @@ def extrair_todos():
     for o in objetivos.values():
         alinhamentos.setdefault(o['alinhamento'], {
             'id': o['alinhamento'], 'campo_experiencias': o['campo_experiencias'], 'objetivos': [],
-            'nota': 'pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)',
+            'nota': 'pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)',
         })['objetivos'].append(o['codigo'])
     for a in alinhamentos.values():
         a['objetivos'].sort()

@@ -1,33 +1,33 @@
 id,campo_experiencias,objetivos,nota
-ei-align-cg-01,ei-campo-cg,EI01CG01 | EI02CG01 | EI03CG01,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-cg-02,ei-campo-cg,EI01CG02 | EI02CG02 | EI03CG02,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-cg-03,ei-campo-cg,EI01CG03 | EI02CG03 | EI03CG03,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-cg-04,ei-campo-cg,EI01CG04 | EI02CG04 | EI03CG04,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-cg-05,ei-campo-cg,EI01CG05 | EI02CG05 | EI03CG05,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-01,ei-campo-ef,EI01EF01 | EI02EF01 | EI03EF01,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-02,ei-campo-ef,EI01EF02 | EI02EF02 | EI03EF02,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-03,ei-campo-ef,EI01EF03 | EI02EF03 | EI03EF03,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-04,ei-campo-ef,EI01EF04 | EI02EF04 | EI03EF04,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-05,ei-campo-ef,EI01EF05 | EI02EF05 | EI03EF05,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-06,ei-campo-ef,EI01EF06 | EI02EF06 | EI03EF06,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-07,ei-campo-ef,EI01EF07 | EI02EF07 | EI03EF07,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-08,ei-campo-ef,EI01EF08 | EI02EF08 | EI03EF08,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ef-09,ei-campo-ef,EI01EF09 | EI02EF09 | EI03EF09,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-01,ei-campo-eo,EI01EO01 | EI02EO01 | EI03EO01,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-02,ei-campo-eo,EI01EO02 | EI02EO02 | EI03EO02,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-03,ei-campo-eo,EI01EO03 | EI02EO03 | EI03EO03,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-04,ei-campo-eo,EI01EO04 | EI02EO04 | EI03EO04,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-05,ei-campo-eo,EI01EO05 | EI02EO05 | EI03EO05,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-06,ei-campo-eo,EI01EO06 | EI02EO06 | EI03EO06,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-eo-07,ei-campo-eo,EI02EO07 | EI03EO07,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-01,ei-campo-et,EI01ET01 | EI02ET01 | EI03ET01,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-02,ei-campo-et,EI01ET02 | EI02ET02 | EI03ET02,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-03,ei-campo-et,EI01ET03 | EI02ET03 | EI03ET03,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-04,ei-campo-et,EI01ET04 | EI02ET04 | EI03ET04,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-05,ei-campo-et,EI01ET05 | EI02ET05 | EI03ET05,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-06,ei-campo-et,EI01ET06 | EI02ET06 | EI03ET06,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-07,ei-campo-et,EI02ET07 | EI03ET07,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-et-08,ei-campo-et,EI02ET08 | EI03ET08,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ts-01,ei-campo-ts,EI01TS01 | EI02TS01 | EI03TS01,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ts-02,ei-campo-ts,EI01TS02 | EI02TS02 | EI03TS02,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
-ei-align-ts-03,ei-campo-ts,EI01TS03 | EI02TS03 | EI03TS03,pareamento pela posição sequencial nn (heurística; revisão pedagógica pendente)
+ei-align-cg-01,ei-campo-cg,EI01CG01 | EI02CG01 | EI03CG01,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-cg-02,ei-campo-cg,EI01CG02 | EI02CG02 | EI03CG02,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-cg-03,ei-campo-cg,EI01CG03 | EI02CG03 | EI03CG03,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-cg-04,ei-campo-cg,EI01CG04 | EI02CG04 | EI03CG04,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-cg-05,ei-campo-cg,EI01CG05 | EI02CG05 | EI03CG05,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-01,ei-campo-ef,EI01EF01 | EI02EF01 | EI03EF01,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-02,ei-campo-ef,EI01EF02 | EI02EF02 | EI03EF02,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-03,ei-campo-ef,EI01EF03 | EI02EF03 | EI03EF03,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-04,ei-campo-ef,EI01EF04 | EI02EF04 | EI03EF04,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-05,ei-campo-ef,EI01EF05 | EI02EF05 | EI03EF05,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-06,ei-campo-ef,EI01EF06 | EI02EF06 | EI03EF06,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-07,ei-campo-ef,EI01EF07 | EI02EF07 | EI03EF07,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-08,ei-campo-ef,EI01EF08 | EI02EF08 | EI03EF08,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ef-09,ei-campo-ef,EI01EF09 | EI02EF09 | EI03EF09,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-01,ei-campo-eo,EI01EO01 | EI02EO01 | EI03EO01,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-02,ei-campo-eo,EI01EO02 | EI02EO02 | EI03EO02,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-03,ei-campo-eo,EI01EO03 | EI02EO03 | EI03EO03,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-04,ei-campo-eo,EI01EO04 | EI02EO04 | EI03EO04,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-05,ei-campo-eo,EI01EO05 | EI02EO05 | EI03EO05,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-06,ei-campo-eo,EI01EO06 | EI02EO06 | EI03EO06,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-eo-07,ei-campo-eo,EI02EO07 | EI03EO07,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-01,ei-campo-et,EI01ET01 | EI02ET01 | EI03ET01,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-02,ei-campo-et,EI01ET02 | EI02ET02 | EI03ET02,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-03,ei-campo-et,EI01ET03 | EI02ET03 | EI03ET03,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-04,ei-campo-et,EI01ET04 | EI02ET04 | EI03ET04,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-05,ei-campo-et,EI01ET05 | EI02ET05 | EI03ET05,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-06,ei-campo-et,EI01ET06 | EI02ET06 | EI03ET06,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-07,ei-campo-et,EI02ET07 | EI03ET07,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-et-08,ei-campo-et,EI02ET08 | EI03ET08,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ts-01,ei-campo-ts,EI01TS01 | EI02TS01 | EI03TS01,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ts-02,ei-campo-ts,EI01TS02 | EI02TS02 | EI03TS02,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"
+ei-align-ts-03,ei-campo-ts,EI01TS03 | EI02TS03 | EI03TS03,"pareamento pela posição sequencial nn, confirmado em revisão pedagógica (07/2026)"

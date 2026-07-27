@@ -21,6 +21,7 @@ Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso
 - Documentação: modelo de dados, metodologia, versionamento, contribuição.
 - Preparação para abertura: `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1 em pt-BR), `SECURITY.md`, `CITATION.cff` e templates de issue e PR, com o template de correção exigindo fonte oficial como campo obrigatório.
 
-### Pendente para `dados-v1.0.0`
-- Registro da revisão pedagógica (Equipe Pedagógica Profy) — incluindo amostra do módulo de Computação, que entrou na v1.0 por decisão de 11/07/2026.
+- Revisão pedagógica (Equipe Pedagógica Profy, 07/2026): os 32 alinhamentos da Educação Infantil percorridos, heurística de pareamento sequencial confirmada sem apontamentos; amostra do módulo de Computação revisada, também sem apontamentos. Registro em `docs/metodologia.md` e na decisão 5 do `DECISOES.md`.
+
+### Pendente para a primeira release
 - Publicação do repositório e primeira tag.

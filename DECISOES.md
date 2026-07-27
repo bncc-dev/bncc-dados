@@ -34,7 +34,7 @@ O documento oficial (p. 26) afirma que objetivos na mesma linha do quadro, entre
 
 Células vazias do quadro oficial geram alinhamentos com 2 objetivos em vez de 3 (ei-align-eo-07, ei-align-et-07, ei-align-et-08): bebês têm menos objetivos nos campos EO e ET.
 
-**Decisão:** heurística de pareamento por posição adotada, marcada nos registros como pendente de revisão pedagógica.
+**Decisão:** heurística de pareamento por posição adotada e **confirmada em revisão pedagógica** (Equipe Pedagógica Profy, 07/2026), que percorreu os 32 alinhamentos e não encontrou pareamento incorreto. A nota de cada registro passou de "revisão pedagógica pendente" para o registro da confirmação.
 
 ## 6. Objetos de conhecimento: identidade por nome não cria progressão entre anos
 

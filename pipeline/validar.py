@@ -283,7 +283,7 @@ entradas = [
     ('Alinhamento horizontal da EI reconstruído por posição sequencial',
      'Objetivos com o mesmo NN entre grupos etários são pareados (BNCC p. 26: "mesmo aspecto"). '
      'Células vazias do quadro oficial geram alinhamentos com 2 objetivos (eo-07, et-07, et-08). '
-     'Heurística pendente de revisão pedagógica.',
+     'Heurística confirmada em revisão pedagógica (Equipe Pedagógica Profy, 07/2026).',
      'PDF homologado, seção EI'),
     ('Objetos de conhecimento: dedup por slug não cria progressão entre anos',
      'Nomes de objetos variam entre anos; a travessia de progressão exige curadoria de equivalência (v1.x).',
