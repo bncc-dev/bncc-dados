@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# Documentos internos de operação/estratégia: ficam fora do repositório público
+docs/plano-abertura.md
+docs/guia-comunidade.md

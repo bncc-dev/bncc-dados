@@ -47,10 +47,10 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 - Códigos no PDF: 1580 · extraídos: 1580 · faltando: nenhum · sobrando: nenhum
 
-## Diff Profy PEI (EF + EM completos)
+## Diff base de regressão (EF + EM completos)
 
-- Faltam no PEI: ['EF35LP16']
-- Extras no PEI: nenhum
+- Faltam na base de regressão: ['EF35LP16']
+- Extras na base de regressão: nenhum
 - Textos divergentes: 0
 
 ## As 14 consultas do caso âncora

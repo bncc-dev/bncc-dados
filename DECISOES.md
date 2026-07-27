@@ -68,6 +68,16 @@ Os quadros do anexo oficial têm células mescladas em múltiplos níveis (eixo 
 
 *Fonte: planilhas Sec. Educação de PE × anexo ao Parecer CNE/CEB nº 2/2022.*
 
+## 11. Redistribuição das planilhas de Pernambuco no repositório público
+
+As planilhas de apoio da Secretaria de Educação de Pernambuco são materiais públicos de formação, mas não trazem licença explícita de redistribuição. Como o `pipeline/extrair_computacao.py` depende delas, removê-las do repositório tornaria o módulo `computacao-2022` não reproduzível — o único do dataset nessa condição, contra a premissa central do projeto.
+
+**Decisão (27/07/2026):** manter os arquivos no repositório, com atribuição explícita à Secretaria e finalidade declarada de reprodutibilidade de dado normativo público, e remover a pedido da Secretaria sem discussão. O metadado `dc:creator` de `6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx`, que trazia o nome de uma pessoa física, foi removido: a atribuição institucional é pertinente, a identificação do servidor não. Nenhuma célula foi alterada e a extração segue produzindo 141/141 verificadas.
+
+Registrado como risco assumido e não como ausência de risco. A alternativa avaliada — substituir as planilhas por um JSON com o mapa código → eixo → objeto, preservando a reprodutibilidade sem redistribuir os arquivos — permanece disponível caso a situação mude.
+
+*Fonte: `fontes/README.md` (notas de proveniência) × auditoria de abertura de 27/07/2026.*
+
 ## Versões das fontes (contexto das decisões)
 
 - Planilhas oficiais: exportadas de downloadbncc.mec.gov.br em 23/06/2023 (a ferramenta de exportação estava fora do ar em 09/07/2026, backend respondendo 503).

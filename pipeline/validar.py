@@ -1,10 +1,11 @@
-"""Validação do dataset completo + completude vs PDF + diff Profy PEI +
+"""Validação do dataset completo + completude vs PDF + diff de base de regressão +
 14 consultas do caso âncora + DECISOES.md consolidado.
 
 Saídas: saida/relatorio-validacao.md e saida/DECISOES.md
 """
 import csv
 import json
+import os
 import re
 import unicodedata
 from collections import Counter
@@ -17,7 +18,11 @@ AQUI = Path(__file__).parent
 SAIDA = AQUI / 'saida'
 DATASET = AQUI.parent / 'dados' / 'bncc-2018'
 SAIDA.mkdir(exist_ok=True)
-PEI = Path('/Users/marcosbeto/Dev/profy-pei/backend/apps/bncc/data/web_habilidadeespecifica.csv')
+# Base de linhagem independente para diff de regressão (opcional).
+# Aponte BNCC_BASE_REGRESSAO para um CSV com colunas `code` e `description`;
+# sem a variável, o diff é pulado e a validação segue normalmente.
+BASE_REGRESSAO = os.environ.get('BNCC_BASE_REGRESSAO')
+PEI = Path(BASE_REGRESSAO) if BASE_REGRESSAO else None
 
 ef = json.loads((DATASET / 'ensino-fundamental.json').read_text())
 em = json.loads((DATASET / 'ensino-medio.json').read_text())
@@ -202,9 +207,9 @@ sobram = sorted(extraidos - sweep)
 check('9. Completude: nenhum código do PDF fora do dataset', not faltam, f'faltam: {faltam[:10]}')
 check('9. Completude: nenhum código do dataset fora do PDF', not sobram, f'sobram: {sobram[:10]}')
 
-# --------------------------------------------------------- diff Profy PEI (tudo)
+# ------------------------------------------------- diff base de regressão (tudo)
 pei = {}
-if PEI.exists():
+if PEI and PEI.exists():
     with open(PEI, encoding='utf-8') as fh:
         for row in csv.DictReader(fh):
             pei[row['code'].strip()] = re.sub(r'\s+', ' ', row['description']).strip()
@@ -214,8 +219,8 @@ if pei:
     pei_extra = sorted(set(pei) - set(nossos))
     pei_texto_dif = [c for c in nossos if c in pei and normalizar(nossos[c]) != normalizar(pei[c])]
 else:
-    pei_faltando = pei_extra = pei_texto_dif = ['(base PEI indisponível neste ambiente; diff pulado)'] and []
-    print('aviso: base Profy PEI indisponível; diff de regressão pulado')
+    pei_faltando = pei_extra = pei_texto_dif = []
+    print('aviso: base de regressão indisponível (BNCC_BASE_REGRESSAO); diff pulado')
 
 # --------------------------------------------- consultas do caso âncora (14)
 H_EF = ef['habilidades']
@@ -320,9 +325,9 @@ linhas += ['', '## Verificação contra o PDF homologado', '',
           [f'  - **{k}**: {v}' for k, v in DIVERGENCIAS_CONHECIDAS.items()]
 linhas += ['', '## Completude (varredura de códigos no PDF inteiro)', '',
            f'- Códigos no PDF: {len(sweep)} · extraídos: {len(extraidos)} · faltando: {faltam or "nenhum"} · sobrando: {sobram or "nenhum"}',
-           '', '## Diff Profy PEI (EF + EM completos)', '',
-           f'- Faltam no PEI: {pei_faltando or "nenhum"}',
-           f'- Extras no PEI: {pei_extra or "nenhum"}',
+           '', '## Diff base de regressão (EF + EM completos)', '',
+           f'- Faltam na base de regressão: {pei_faltando or "nenhum"}',
+           f'- Extras na base de regressão: {pei_extra or "nenhum"}',
            f'- Textos divergentes: {len(pei_texto_dif)}' + (f' · {pei_texto_dif[:6]}' if pei_texto_dif else ''),
            '', '## As 14 consultas do caso âncora', '']
 linhas += [f'- **{n}** → {r}' for n, r in consultas]
@@ -333,7 +338,7 @@ linhas += ['', '## Decisões de interpretação', '', f'Consolidadas em `saida/D
 falhas = [n for n, ok, _ in checks if not ok]
 print(f'Contratos: {len(checks) - len(falhas)}/{len(checks)} ok' + (f' | FALHAS: {falhas}' if falhas else ''))
 print(f'Completude: sweep={len(sweep)} extraidos={len(extraidos)} faltam={faltam[:5]} sobram={sobram[:5]}')
-print(f'PEI: faltam={pei_faltando} extras={pei_extra} texto_dif={pei_texto_dif[:5]}')
+print(f'regressao: faltam={pei_faltando} extras={pei_extra} texto_dif={pei_texto_dif[:5]}')
 for n, r in consultas:
     print(f'  {n[:55]:55} → {str(r)[:90]}')
 

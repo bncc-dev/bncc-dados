@@ -124,7 +124,6 @@ Dependências: Python 3.10+, `pdftotext` (poppler), `ghostscript` (normalizaçã
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Como propor correções (regra: fonte oficial no PR) |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Código de conduta da comunidade |
 | [SECURITY.md](SECURITY.md) | Como reportar problema de segurança (erro de dado é issue normal) |
-| [docs/guia-comunidade.md](docs/guia-comunidade.md) | Manual operacional de gestão da comunidade open source |
 | [AGENTS.md](AGENTS.md) | Guia para agentes de IA (também: [llms.txt](llms.txt)) |
 
 ## Como contribuir
