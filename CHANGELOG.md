@@ -2,7 +2,7 @@
 
 Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso corrigido) · `schema` (formato) · `editorial` (docs, pipeline, sem mudança de dado).
 
-## [Não publicado] · pré-release `dados-2026.07`
+## [dados-2026.07] — 2026-07-27
 
 ### Dados
 - Dataset inicial completo: 1.580 aprendizagens (EI 93, EF 1.304, EM 183), 10 competências gerais, 105 competências específicas, 885 contextos de organização e espinha estrutural.
@@ -23,5 +23,5 @@ Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso
 
 - Revisão pedagógica (Equipe Pedagógica Profy, 07/2026): os 32 alinhamentos da Educação Infantil percorridos, heurística de pareamento sequencial confirmada sem apontamentos; amostra do módulo de Computação revisada, também sem apontamentos. Registro em `docs/metodologia.md` e na decisão 5 do `DECISOES.md`.
 
-### Pendente para a primeira release
-- Publicação do repositório e primeira tag.
+### Schema
+- `schema-v1.0.0`: formato estável; o sufixo `-rc` sai com esta release.

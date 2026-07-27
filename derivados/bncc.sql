@@ -7620,7 +7620,7 @@ INSERT INTO "meta" VALUES('fontes_sha256_16','BNCC_Ensino Fundamental.xlsx:3e823
 INSERT INTO "meta" VALUES('gerado_por','pipeline/derivar.py');
 INSERT INTO "meta" VALUES('licenca_dados','CC BY 4.0');
 INSERT INTO "meta" VALUES('projeto','bncc.dev');
-INSERT INTO "meta" VALUES('schema_version','schema-v1.0.0-rc');
+INSERT INTO "meta" VALUES('schema_version','schema-v1.0.0');
 CREATE TABLE modalidade (id TEXT PRIMARY KEY, nome TEXT, transversal_a TEXT);
 INSERT INTO "modalidade" VALUES('eja','Educação de Jovens e Adultos','EF | EM');
 CREATE TABLE modalidade_segmento (id TEXT PRIMARY KEY, modalidade TEXT REFERENCES modalidade(id), corresponde_a TEXT);

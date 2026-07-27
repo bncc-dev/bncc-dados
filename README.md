@@ -3,7 +3,7 @@
 [![Validação](https://github.com/bncc-dev/bncc-dados/actions/workflows/validacao.yml/badge.svg)](https://github.com/bncc-dev/bncc-dados/actions/workflows/validacao.yml)
 [![Dados: CC BY 4.0](https://img.shields.io/badge/dados-CC%20BY%204.0-lightgrey.svg)](dados/LICENSE.md)
 [![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-green.svg)](LICENSE)
-[![Status: pré-release](https://img.shields.io/badge/status-pr%C3%A9--release-orange.svg)](CHANGELOG.md)
+[![Status: estável](https://img.shields.io/badge/status-est%C3%A1vel-brightgreen.svg)](CHANGELOG.md)
 
 A Base Nacional Comum Curricular como dados estruturados, verificados e rastreáveis: 1.721 aprendizagens, sendo as 1.580 das três etapas da educação básica mais as 141 do complemento de Computação (Parecer CNE/CEB 2/2022). Cada registro traz competências, contextos de organização e proveniência, conferido contra o documento oficial.
 
@@ -53,7 +53,7 @@ Exemplo de registro (Ensino Fundamental):
 }
 ```
 
-**Status: pré-release.** Dados completos e validados, aguardando revisão pedagógica e primeira release versionada (`dados-v1.0.0`); os pacotes acima estão em 0.1.x e chegam à 1.0 junto com ela. Até lá, os identificadores e o formato podem mudar.
+**Status: estável.** Primeira release: conteúdo `dados-2026.07`, formato `schema-v1.0.0`. Dados completos, validados e revisados pedagogicamente. Os identificadores e o formato passam a valer sob as garantias de [versionamento](docs/versionamento.md): mudança que quebre consumidores exige nova major do schema.
 
 Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumidora.
 
@@ -145,7 +145,7 @@ Para citar o dataset em publicação, use o `CITATION.cff` na raiz (o botão *Ci
 
 ## Roadmap
 
-Já disponíveis como pré-release (0.1.x): pacote npm [@bncc/dados](https://www.npmjs.com/package/@bncc/dados), pacote PyPI [bncc](https://pypi.org/project/bncc/) e servidor MCP [@bncc/mcp](https://www.npmjs.com/package/@bncc/mcp), todos em [Uso rápido](#uso-rápido). As versões 1.0 saem com a release `dados-v1.0.0`, junto com as páginas por habilidade em [bncc.dev](https://bncc.dev).
+Já disponíveis como pré-release (0.1.x): pacote npm [@bncc/dados](https://www.npmjs.com/package/@bncc/dados), pacote PyPI [bncc](https://pypi.org/project/bncc/) e servidor MCP [@bncc/mcp](https://www.npmjs.com/package/@bncc/mcp), todos em [Uso rápido](#uso-rápido). As versões 1.0 saem junto com esta primeira release, acompanhadas das páginas por habilidade em [bncc.dev](https://bncc.dev).
 
 ## In English
 

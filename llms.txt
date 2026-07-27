@@ -1,6 +1,6 @@
 # bncc.dev
 
-> Dados abertos e verificados da Base Nacional Comum Curricular (BNCC) brasileira: 1.721 aprendizagens (1.580 da BNCC 2018 nas três etapas + 141 do complemento de Computação), competências, contextos de organização e proveniência por registro. Licença CC BY 4.0. Status: pré-release.
+> Dados abertos e verificados da Base Nacional Comum Curricular (BNCC) brasileira: 1.721 aprendizagens (1.580 da BNCC 2018 nas três etapas + 141 do complemento de Computação), competências, contextos de organização e proveniência por registro. Licença CC BY 4.0. Versão do conteúdo: dados-2026.07; do formato: schema-v1.0.0.
 
 Regras para agentes:
 - Use os códigos oficiais como chave: EF67LP08 (Fundamental), EM13LGG103 (Médio), EI02TS01 (Infantil).

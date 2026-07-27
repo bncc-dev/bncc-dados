@@ -108,7 +108,7 @@ def gerar_sqlite(caminho):
         for p in sorted(FONTES.rglob('*'), key=lambda p: unicodedata.normalize('NFC', str(p)))
         if p.suffix in ('.pdf', '.xlsx'))
     c.executemany('INSERT INTO meta VALUES (?,?)', sorted({
-        'data_version': DATA_VERSION, 'schema_version': 'schema-v1.0.0-rc',
+        'data_version': DATA_VERSION, 'schema_version': 'schema-v1.0.0',
         'gerado_por': 'pipeline/derivar.py', 'fontes_sha256_16': checksums,
         'licenca_dados': 'CC BY 4.0', 'projeto': 'bncc.dev',
     }.items()))
