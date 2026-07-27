@@ -29,3 +29,11 @@ license: CC-BY-4.0
 license-url: "https://github.com/bncc-dev/bncc-dados/blob/main/dados/LICENSE.md"
 version: "dados-2026.07"
 date-released: "2026-07-27"
+doi: "10.5281/zenodo.21625233"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21625233"
+    description: "DOI de conceito: resolve sempre para a versão mais recente do dataset."
+  - type: doi
+    value: "10.5281/zenodo.21625234"
+    description: "DOI da versão dados-2026.07."

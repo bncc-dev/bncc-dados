@@ -4,6 +4,7 @@
 [![Dados: CC BY 4.0](https://img.shields.io/badge/dados-CC%20BY%204.0-lightgrey.svg)](dados/LICENSE.md)
 [![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-green.svg)](LICENSE)
 [![Status: estável](https://img.shields.io/badge/status-est%C3%A1vel-brightgreen.svg)](CHANGELOG.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21625233.svg)](https://doi.org/10.5281/zenodo.21625233)
 
 A Base Nacional Comum Curricular como dados estruturados, verificados e rastreáveis: 1.721 aprendizagens, sendo as 1.580 das três etapas da educação básica mais as 141 do complemento de Computação (Parecer CNE/CEB 2/2022). Cada registro traz competências, contextos de organização e proveniência, conferido contra o documento oficial.
 
