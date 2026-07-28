@@ -7,8 +7,8 @@ Guia rápido para quem quer **usar os dados** ou **reproduzir o pipeline** local
 Não precisa instalar nada além do que já usa:
 
 - **JSON** (fonte canônica): arquivos em `dados/bncc-2018/` e `dados/computacao-2022/`.
-- **SQLite**: `derivados/bncc.sqlite` — abra com `sqlite3` ou qualquer cliente SQL.
-- **CSV**: `derivados/csv/` — uma planilha por entidade, pronta para Excel/Sheets.
+- **SQLite**: `derivados/bncc.sqlite`. Abra com `sqlite3` ou qualquer cliente SQL.
+- **CSV**: `derivados/csv/`. Uma planilha por entidade, pronta para Excel/Sheets.
 
 ```bash
 git clone https://github.com/bncc-dev/bncc-dados.git
@@ -62,7 +62,7 @@ python3 validar.py      # schemas + 18 contratos (falha se algo divergir)
 python3 derivar.py      # gera SQLite e CSV em derivados/
 ```
 
-Se tudo passou e `git diff` está limpo, você reproduziu exatamente o dataset publicado — é a mesma checagem que o CI faz em todo push.
+Se tudo passou e `git diff` está limpo, você reproduziu exatamente o dataset publicado. É a mesma checagem que o CI faz em todo push.
 
 ## Problemas comuns
 
@@ -72,4 +72,4 @@ Se tudo passou e `git diff` está limpo, você reproduziu exatamente o dataset p
 | `ModuleNotFoundError: jsonschema` | venv não ativado ou `pip install` faltando |
 | `git diff` mostra mudanças após derivar | versão diferente das ferramentas; compare com o CI (`.github/workflows/validacao.yml`) |
 
-Dúvidas ou correções: veja [CONTRIBUTING.md](../CONTRIBUTING.md) — correções de dados exigem citação da fonte oficial.
+Dúvidas ou correções: veja [CONTRIBUTING.md](../CONTRIBUTING.md). Correções de dados exigem citação da fonte oficial.

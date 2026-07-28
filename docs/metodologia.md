@@ -41,7 +41,7 @@ Além da cadeia interna, o dataset foi comparado com a base BNCC do Profy PEI (l
 
 ## Revisão pedagógica
 
-Em julho de 2026, a Equipe Pedagógica da Profy revisou o dataset, com foco no ponto que a extração automática não consegue decidir sozinha: o **pareamento horizontal dos alinhamentos da Educação Infantil**. O documento oficial (p. 26) afirma que objetivos na mesma linha do quadro, entre grupos etários, tratam do mesmo aspecto do campo de experiências, mas o quadro não traz identificador desse vínculo — o pipeline o reconstrói pela posição sequencial do código (EI01TS01 → EI02TS01 → EI03TS01).
+Em julho de 2026, a Equipe Pedagógica da Profy revisou o dataset, com foco no ponto que a extração automática não consegue decidir sozinha: o **pareamento horizontal dos alinhamentos da Educação Infantil**. O documento oficial (p. 26) afirma que objetivos na mesma linha do quadro, entre grupos etários, tratam do mesmo aspecto do campo de experiências, mas o quadro não traz identificador desse vínculo. O pipeline o reconstrói pela posição sequencial do código (EI01TS01 → EI02TS01 → EI03TS01).
 
 A revisão percorreu os 32 alinhamentos e **confirmou a heurística**: nenhum pareamento incorreto foi encontrado, incluindo os três casos de célula vazia no quadro oficial, que produzem alinhamentos de 2 objetivos em vez de 3 (`ei-align-eo-07`, `ei-align-et-07`, `ei-align-et-08`). A confirmação está registrada na nota de cada um dos 32 registros e na decisão 5 do [DECISOES.md](../DECISOES.md).
 

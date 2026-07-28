@@ -51,7 +51,7 @@ Passo a passo operacional para publicar uma data-version:
    ```
 
    Patch de correção usa sufixo: `dados-2026.08.1`. Mudança de formato ganha tag própria: `schema-v1.1.0`.
-4. **Release no GitHub**: criar a release a partir da tag, com o trecho do CHANGELOG como corpo e os derivados (`bncc.sqlite`, CSVs zipados) como assets — assim consumidores baixam artefatos versionados sem clonar o repo.
+4. **Release no GitHub**: criar a release a partir da tag, com o trecho do CHANGELOG como corpo e os derivados (`bncc.sqlite`, CSVs zipados) como assets. Assim consumidores baixam artefatos versionados sem clonar o repo.
 5. **Imutabilidade**: tag publicada nunca é movida ou apagada. Errou? Nova tag patch.
 
 Convenções de branch: `main` sempre reproduzível (o CI garante); branches de trabalho com prefixo do tipo (`correcao/`, `normativa/`, `schema/`, `docs/`).
