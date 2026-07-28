@@ -52,9 +52,21 @@ Passo a passo operacional para publicar uma data-version:
 
    Patch de correção usa sufixo: `dados-2026.08.1`. Mudança de formato ganha tag própria: `schema-v1.1.0`.
 4. **Release no GitHub**: criar a release a partir da tag, com o trecho do CHANGELOG como corpo e os derivados (`bncc.sqlite`, CSVs zipados) como assets. Assim consumidores baixam artefatos versionados sem clonar o repo.
-5. **Imutabilidade**: tag publicada nunca é movida ou apagada. Errou? Nova tag patch.
+5. **Arquivar no Zenodo**: cada data-version é depositada no Zenodo, que atribui DOI e a torna citável em publicação acadêmica. O depósito de `dados-2026.07` foi feito manualmente em 27/07/2026; enquanto a integração Zenodo/GitHub não estiver ligada, cada release nova exige repetir o depósito pela interface.
+6. **Imutabilidade**: tag publicada nunca é movida ou apagada. Errou? Nova tag patch.
 
 Convenções de branch: `main` sempre reproduzível (o CI garante); branches de trabalho com prefixo do tipo (`correcao/`, `normativa/`, `schema/`, `docs/`).
+
+## Onde o dataset está arquivado
+
+O dataset é depositado no [Zenodo](https://doi.org/10.5281/zenodo.21625233), que garante preservação de longo prazo e DOI citável. São dois identificadores, com usos diferentes:
+
+| DOI | O que aponta | Quando usar |
+|---|---|---|
+| `10.5281/zenodo.21625233` | Conceito: resolve sempre para a versão mais recente | README, site, citação genérica do projeto |
+| `10.5281/zenodo.21625234` | A versão `dados-2026.07` | Artigo que precisa fixar exatamente os dados analisados |
+
+Ambos ficam registrados no `CITATION.cff`, que o GitHub usa para gerar a citação formatada. O registro é indexado pelo OpenAIRE automaticamente.
 
 ## Para consumidores
 
