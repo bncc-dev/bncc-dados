@@ -2962,7 +2962,7 @@
     {
       "codigo": "EM13LP35",
       "documento": "bncc-2018",
-      "texto": "Utilizar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de transição, slides mestres, layouts personalizados, gravação de áudios em slides etc.).",
+      "texto": "Utilizar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade de texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de transição, slides mestres, layouts personalizados, gravação de áudios em slides etc.).",
       "area": "em-area-lgg",
       "componente": "em-comp-lp",
       "competencias_especificas": [
@@ -2981,7 +2981,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba 'Hab. de Língua Portuguesa', linha 37"
+        "localizador": "aba 'Hab. de Língua Portuguesa', linha 37",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 520"
       }
     },
     {

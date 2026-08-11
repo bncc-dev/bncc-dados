@@ -107,16 +107,14 @@ check('6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula
       f'incompletos: {incompletos}')
 
 # ------------------------------------------------------------- 7. verificação
-DIVERGENCIAS_CONHECIDAS = {
-    'EM13LP35': 'planilha omite "de" ("a quantidade [de] texto e imagem") · PDF prevalece',
-    'EF03MA05': 'planilha omite ", inclusive os convencionais," · PDF prevalece',
-    'EF02MA06': 'camada de texto do PDF perde glifos na pág. 285 (dígitos e trecho final) · planilha prevalece, conferência visual feita',
-    'EF07MA33': 'glifo π ausente da camada de texto do PDF · planilha prevalece',
-}
+# Desde dados-2026.07.1 (decisão nº 12): as divergências planilha × PDF são
+# corrigidas na extração (CORRECOES_PDF em extrair.py) e os artefatos da camada
+# de texto do PDF viram exceções com conferência visual registrada
+# (CONFERIDOS_VISUALMENTE em verificar.py). Nenhum registro fica divergente.
 vf = Counter(v['status'] for v in verif.values())
 ruins = {k for k, v in verif.items() if v['status'] != 'ok'}
-check('7. Verificação PDF: 1.576/1.580 ok; 4 divergências conhecidas e documentadas',
-      ruins == set(DIVERGENCIAS_CONHECIDAS), f'{dict(vf)}; inesperadas: {sorted(ruins - set(DIVERGENCIAS_CONHECIDAS))}')
+check('7. Verificação PDF: 1.580/1.580 ok (correções e exceções registradas; decisão nº 12)',
+      not ruins, f'{dict(vf)}; não-ok: {sorted(ruins)}')
 
 # ------------------------------------------------------- 8. vigência coerente
 check('8. Vigência coerente', all(h['vigencia']['status'] == 'vigente'
@@ -321,8 +319,9 @@ linhas = ['# Relatório de validação · dataset completo (bncc.dev, protótipo
 linhas += [f"- {'✅' if ok else '❌'} {nome}" + (f' · {det}' if det and not ok else '') for nome, ok, det in checks]
 linhas += ['', '## Verificação contra o PDF homologado', '',
            f'- `{dict(vf)}` · {vf["ok"]}/{len(verif)} com página registrada em `fonte.localizador_pdf`',
-           '- Fila de divergências conhecidas (4):'] + \
-          [f'  - **{k}**: {v}' for k, v in DIVERGENCIAS_CONHECIDAS.items()]
+           '- Divergências abertas: nenhuma. Correções planilha × PDF aplicadas na extração '
+           '(`CORRECOES_PDF`) e exceções da camada de texto com conferência visual registrada '
+           '(`CONFERIDOS_VISUALMENTE`); ver decisão nº 12 do DECISOES.md.']
 linhas += ['', '## Completude (varredura de códigos no PDF inteiro)', '',
            f'- Códigos no PDF: {len(sweep)} · extraídos: {len(extraidos)} · faltando: {faltam or "nenhum"} · sobrando: {sobram or "nenhum"}',
            '', '## Diff base de regressão (EF + EM completos)', '',

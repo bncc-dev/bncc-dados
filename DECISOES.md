@@ -28,6 +28,8 @@ Nas páginas PDF 285 e 311, a extração de texto do PDF perde glifos (dígitos 
 
 **Decisão:** prevalece a planilha, com conferência visual das páginas registrada.
 
+*Revista em 10/08/2026 (ver decisão 12): para EF02MA06 a conclusão estava errada — era divergência real planilha × PDF, e o PDF prevalece. Para EF07MA33 (π) a decisão permanece.*
+
 ## 5. Alinhamento horizontal da EI reconstruído por posição sequencial
 
 O documento oficial (p. 26) afirma que objetivos na mesma linha do quadro, entre grupos etários, referem-se a um mesmo aspecto do campo de experiências. O dataset materializa isso na entidade `alinhamento`, pareando objetivos pelo mesmo número sequencial (EI01TS01, EI02TS01, EI03TS01).
@@ -78,8 +80,23 @@ Registrado como risco assumido e não como ausência de risco. A alternativa ava
 
 *Fonte: `fontes/README.md` (notas de proveniência) × auditoria de abertura de 27/07/2026.*
 
+## 12. Auditoria independente de 10/08/2026: 11 correções de texto e reforma da verificação
+
+Auditoria externa em três vias (duas determinísticas independentes + leitura visual de 100% dos registros) sobre `@bncc/dados 0.3.1` confirmou a estrutura de códigos perfeita (1.721 códigos, sem faltas nem sobras, páginas de origem corretas) e encontrou 8 registros com texto divergente do PDF homologado; a conferência visual das páginas durante a aplicação das correções encontrou mais 3 artefatos de hifenização no dataset.
+
+As causas, todas de processo:
+
+- **Ponto cego de prefixo**: `verificar.py` só conferia se o texto do dataset era prefixo do PDF; truncamentos (EF69LP34, EF69LP46 e os pontos finais de EF89LP19 e EF69AR16) nunca falhavam.
+- **Aprovação silenciosa**: o fallback que compara ignorando espaços e hífens aprovou como "ok com nota" o texto corrompido de EF03LP20 ("campopo lítico-cidadão").
+- **Decisões 2 e 3 documentadas e não aplicadas**: o extrator não tinha camada de correções, então EM13LP35 e EF03MA05 continuavam com o texto da planilha apesar da decisão registrada.
+- **Decisão 4 parcialmente revista**: em EF02MA06 a desconfiança do PDF veio de extração corrompida da p. 285 ("por 2, 3, 4 e 5" virava "por e"); a página impressa é legível, termina em "estratégias pessoais." e **não** contém "ou convencionais". Era divergência real planilha × PDF, não perda de glifo. EF07MA33 (π) permanece como estava: dataset correto, limitação da camada de texto.
+
+**Decisão:** o PDF homologado prevalece nos 11 casos (EF03LP20, EF69LP46, EF69LP34, EF02MA06, EF03MA05, EM13LP35, EF89LP19, EF69AR16, EF03LP11, EF04LP01, EF69LP48), agora aplicados de forma reproduzível pelo mapa `CORRECOES_PDF` em `pipeline/extrair.py`. O verificador passou a comparar a continuação do PDF após o fim do texto (elimina o ponto cego), e o fallback de hifenização não aprova mais sozinho: devolve `requer_conferencia_visual`, sanado apenas por exceção registrada em `CONFERIDOS_VISUALMENTE` com página conferida e motivo (hoje: EF07MA33, EF04GE08, EF03LP11, EF69LP48 — páginas 311, 379, 121 e 161 conferidas visualmente em 10/08/2026). Resultado após as correções: 1.580/1.580 ok.
+
+*Fonte: PDF homologado (páginas 117, 121, 127, 153, 159, 161, 185, 211, 285, 289, 311, 379, 520, conferidas visualmente) × relatório da auditoria independente de 10/08/2026.*
+
 ## Versões das fontes (contexto das decisões)
 
 - Planilhas oficiais: exportadas de downloadbncc.mec.gov.br em 23/06/2023 (a ferramenta de exportação estava fora do ar em 09/07/2026, backend respondendo 503).
-- PDF canônico: `Base-Nacional-Comum-Curricular-BNCC.pdf`, versão completa homologada (601 páginas). Atenção: o arquivo distribuído na página do Ensino Médio do site do MEC é o rascunho pré-homologação de 2018, com textos e numeração diferentes dos finais; ele não serve para verificação.
+- PDF canônico: `Base-Nacional-Comum-Curricular-BNCC.pdf`, versão completa homologada (600 páginas). Atenção: o arquivo distribuído na página do Ensino Médio do site do MEC é o rascunho pré-homologação de 2018, com textos e numeração diferentes dos finais; ele não serve para verificação.
 - Checksums em `fontes/README.md`.

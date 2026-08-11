@@ -18,7 +18,7 @@ MEC = AQUI.parent / 'fontes'
 SAIDA = AQUI / 'saida'
 DATASET = AQUI.parent / 'dados' / 'bncc-2018'
 
-# PDF canônico de verificação: BNCC completa homologada (601 p., três etapas,
+# PDF canônico de verificação: BNCC completa homologada (600 p., três etapas,
 # obtida em 09/jul/2026). Históricos no repo: BNCC-oficial.pdf (2017, EI+EF)
 # e bncc_ensino_medio.pdf (rascunho pré-homologação do EM — nunca verificar
 # contra ele; ver análise de fontes).
@@ -56,6 +56,40 @@ INTERCALACOES = re.compile(
     r'campo artístico(?:-literário)?|campo da vida pessoal)\s*', re.I)
 
 
+# Exceções com conferência visual registrada: casos em que a camada de texto
+# do PDF diverge do dataset, mas a página IMPRESSA confere com o dado.
+# Cada entrada exige a página conferida e a referência da conferência.
+# (Auditoria independente de 10/08/2026 + conferência visual das páginas
+# renderizadas em 10/08/2026; ver DECISOES.md.)
+CONFERIDOS_VISUALMENTE = {
+    'EF07MA33': {'pagina_pdf': 311, 'motivo': 'camada de texto do PDF perde o glifo π; página impressa confere com o dataset (decisão nº 4)'},
+    'EF04GE08': {'pagina_pdf': 379, 'motivo': 'hífen repetido na quebra de linha ("matérias- -primas") na camada de texto; página impressa imprime "matérias-primas" e confere com o dataset'},
+    'EF03LP11': {'pagina_pdf': 121, 'motivo': 'hífen de quebra de linha em "gráfico-visuais" na camada de texto; página impressa confere com o dataset'},
+    'EF69LP48': {'pagina_pdf': 161, 'motivo': 'hífen de quebra de linha em "gráfico-espacial" na camada de texto; página impressa confere com o dataset'},
+}
+
+CODIGO_QUALQUER = re.compile(r'\((?:EI\d{2}[A-Z]{2}\d{2,3}|EF\d{2}[A-Z]{2,3}\d{2,3}|EM13[A-Z]{2,3}\d{2,3})\)')
+
+
+def continuacao_no_pdf(resto):
+    """O PDF continua a frase depois de onde o texto do dataset terminou?
+
+    `resto` é o que sobra no PDF após o match do texto completo do dataset.
+    Corta no próximo código (a região seguinte pertence a outra habilidade) e
+    considera continuação se o resto começa em minúscula ou pontuação — i.e.,
+    a mesma frase segue. Cabeçalhos/títulos (maiúsculas) e lixo de layout não
+    contam como continuação.
+    """
+    m = CODIGO_QUALQUER.search(resto)
+    resto = resto[:m.start()] if m else resto
+    resto = resto.strip()
+    if not resto:
+        return None
+    if resto[0].islower() or resto[0] in '.,;:)»…':
+        return resto[:80]
+    return None
+
+
 def verificar(paginas, codigo, texto_planilha):
     alvo_original = normalizar(texto_planilha)
     marcador = f'({codigo})'
@@ -71,13 +105,22 @@ def verificar(paginas, codigo, texto_planilha):
         depois_limpo = re.sub(r'\s+', ' ', solto.sub('', INTERCALACOES.sub('', depois)))
         alvo_limpo = re.sub(r'\s+', ' ', solto.sub('', INTERCALACOES.sub('', alvo)))
         if depois.startswith(alvo) or depois_limpo.startswith(alvo_limpo):
+            resto = depois[len(alvo):] if depois.startswith(alvo) else depois_limpo[len(alvo_limpo):]
+            cont = continuacao_no_pdf(resto)
+            if cont is not None:
+                return {'status': 'divergente', 'pagina_pdf': i,
+                        'nota': 'o PDF continua depois do fim do texto do dataset (truncamento)',
+                        'continuacao_pdf': cont}
             return {'status': 'ok', 'pagina_pdf': i}
         # fallback: hifenizacao/quebra ambigua (hifen de composto na quebra de
         # linha, palavra partida sem hifen) — compara sem espacos nem hifens,
-        # mantendo todos os demais caracteres
+        # mantendo todos os demais caracteres. Match por essa via NUNCA vira
+        # "ok" sozinho: hifenizacao ambigua ja mascarou texto corrompido
+        # (EF03LP20, auditoria de 10/08/2026); exige conferencia visual.
         sem = lambda x: re.sub(r'[ \-]', '', x)
         if sem(depois_limpo).startswith(sem(alvo_limpo)):
-            return {'status': 'ok', 'pagina_pdf': i, 'nota': 'quebras/hifenizacao ambiguas na comparacao'}
+            return {'status': 'requer_conferencia_visual', 'pagina_pdf': i,
+                    'nota': 'match apenas ignorando espacos e hifens; conferir a pagina impressa'}
         depois = depois_limpo
         alvo = alvo_limpo
         # match parcial: acha o maior prefixo comum para diagnóstico
@@ -90,6 +133,11 @@ def verificar(paginas, codigo, texto_planilha):
         if comum > len(alvo) * 0.5 and i < len(paginas):
             juntas = depois + ' ' + normalizar(paginas[i])
             if juntas.startswith(alvo):
+                cont = continuacao_no_pdf(juntas[len(alvo):])
+                if cont is not None:
+                    return {'status': 'divergente', 'pagina_pdf': i,
+                            'nota': 'o PDF continua depois do fim do texto do dataset (truncamento)',
+                            'continuacao_pdf': cont}
                 return {'status': 'ok', 'pagina_pdf': i, 'nota': 'texto atravessa páginas'}
         if primeira_divergencia is None:
             primeira_divergencia = {'status': 'divergente', 'pagina_pdf': i, 'prefixo_comum': comum,
@@ -109,6 +157,10 @@ if __name__ == '__main__':
         dados = json.loads((DATASET / arquivo).read_text())
         for h in dados[chave]:
             r = verificar(paginas, h['codigo'], h['texto'])
+            exc = CONFERIDOS_VISUALMENTE.get(h['codigo'])
+            if exc and r['status'] != 'ok' and r.get('pagina_pdf') == exc['pagina_pdf']:
+                r = {'status': 'ok', 'pagina_pdf': exc['pagina_pdf'],
+                     'nota': f"conferência visual registrada: {exc['motivo']}"}
             r['arquivo_pdf'] = PDF_CANONICO.name
             resultados[h['codigo']] = r
             if r['status'] == 'ok':
@@ -123,6 +175,8 @@ if __name__ == '__main__':
     for cod, r in resultados.items():
         if r['status'] != 'ok':
             print(f'  {cod}: {r["status"]}', end='')
-            if r['status'] == 'divergente':
+            if r['status'] == 'divergente' and 'continuacao_pdf' in r:
+                print(f" (pág {r['pagina_pdf']}, truncamento)\n    pdf continua: …{r['continuacao_pdf']!r}", end='')
+            elif r['status'] == 'divergente':
                 print(f" (pág {r['pagina_pdf']}, diverge após {r['prefixo_comum']} chars)\n    planilha: …{r['trecho_planilha']!r}\n    pdf:      …{r['trecho_pdf']!r}", end='')
             print()

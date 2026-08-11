@@ -2,6 +2,17 @@
 
 Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso corrigido) · `schema` (formato) · `editorial` (docs, pipeline, sem mudança de dado).
 
+## [dados-2026.07.1] — 2026-08-10
+
+### Dados
+- **11 textos corrigidos contra o PDF homologado** (`correcao`), a partir de auditoria independente de 10/08/2026 (três vias: duas determinísticas + visual, 100% dos registros) e conferência visual das páginas: EF03LP20 ("campopo lítico-cidadão" → "campo político-cidadão"), EF69LP46 e EF69LP34 (truncamentos — faltavam ~448 e ~55 caracteres finais), EF02MA06 (removido "ou convencionais", ausente do PDF), EF03MA05 (restaurado ", inclusive os convencionais,"), EM13LP35 (restaurado o "de" em "quantidade de texto"), EF89LP19 e EF69AR16 (pontos finais), EF03LP11, EF04LP01 e EF69LP48 (artefatos de hifenização: "gráfico- visuais" → "gráfico-visuais", "fonema--grafema" → "fonema-grafema", "gráfico- espacial" → "gráfico-espacial"). Verificação após correção: **1.580/1.580 ok**. Decisão 12 do DECISOES.md; decisão 4 parcialmente revista (EF02MA06).
+
+### Editorial
+- Verificador (`pipeline/verificar.py`) reformado: compara a continuação do PDF após o fim do texto do dataset (elimina o ponto cego de prefixo que deixava truncamentos passarem) e o fallback de hifenização não aprova mais silenciosamente — exige conferência visual registrada (`CONFERIDOS_VISUALMENTE`, com página e motivo).
+- Extrator (`pipeline/extrair.py`) ganhou a camada `CORRECOES_PDF`: as correções planilha → PDF homologado agora são aplicadas de forma reproduzível na extração, em vez de editadas à mão no dado.
+- Contagem de páginas do PDF canônico corrigida na documentação: 600, não 601 (off-by-one do `split('\f')` do pdftotext).
+- Derivados (SQLite, SQL, CSVs) regenerados.
+
 ## [dados-2026.07] — 2026-07-27
 
 ### Dados

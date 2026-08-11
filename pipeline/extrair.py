@@ -28,6 +28,49 @@ FONTE_EM = {'documento': 'bncc-2018', 'arquivo': 'BNCC_Ensino_Medio.xlsx',
 
 DECISOES = []
 
+# Correções planilha → PDF homologado (decisão nº 12, auditoria de 10/08/2026).
+# O PDF homologado é a fonte canônica; onde a planilha diverge, o texto abaixo
+# prevalece. Formato: codigo -> (trecho da planilha, trecho do PDF).
+CORRECOES_PDF = {
+    'EF03LP20': ('campopo lítico-cidadão', 'campo político-cidadão'),
+    'EF69LP46': ('comentários de ordem estética e afetiva',
+                 'comentários de ordem estética e afetiva e justificando suas apreciações, '
+                 'escrevendo comentários e resenhas para jornais, blogs e redes sociais e '
+                 'utilizando formas de expressão das culturas juvenis, tais como, vlogs e '
+                 'podcasts culturais (literatura, cinema, teatro, música), playlists '
+                 'comentadas, fanfics, fanzines, e-zines, fanvídeos, fanclipes, posts em '
+                 'fanpages, trailer honesto, vídeo-minuto, dentre outras possibilidades de '
+                 'práticas de apreciação e de manifestação da cultura de fãs.'),
+    'EF69LP34': ('a sistematização de conteúdos e informações e',
+                 'a sistematização de conteúdos e informações e um posicionamento frente '
+                 'aos textos, se esse for o caso.'),
+    'EF02MA06': ('utilizando estratégias pessoais ou convencionais.',
+                 'utilizando estratégias pessoais.'),
+    'EF03MA05': ('procedimentos de cálculo mental e escrito para resolver',
+                 'procedimentos de cálculo mental e escrito, inclusive os convencionais, para resolver'),
+    'EM13LP35': ('dimensionando a quantidade texto e imagem',
+                 'dimensionando a quantidade de texto e imagem'),
+    'EF89LP19': ('fundamentada frente às propostas', 'fundamentada frente às propostas.'),
+    'EF69AR16': ('estética e ética', 'estética e ética.'),
+    'EF03LP11': ('recursos gráfico- visuais', 'recursos gráfico-visuais'),
+    'EF04LP01': ('fonema--grafema', 'fonema-grafema'),
+    'EF69LP48': ('gráfico- espacial', 'gráfico-espacial'),
+}
+
+
+def corrigir_pelo_pdf(codigo, texto):
+    """Aplica a correção planilha → PDF homologado, se houver para o código."""
+    if codigo not in CORRECOES_PDF:
+        return texto
+    velho, novo = CORRECOES_PDF[codigo]
+    if novo in texto:                       # planilha já corrigida pelo MEC
+        DECISOES.append(f'{codigo}: correção do PDF já presente na planilha; mapa pode ser aposentado.')
+        return texto
+    if velho not in texto:
+        DECISOES.append(f'{codigo}: trecho esperado da planilha não encontrado; correção NÃO aplicada — conferir.')
+        return texto
+    return texto.replace(velho, novo, 1)
+
 SIGLA_POR_ABA_EF = {'Língua Portuguesa': 'LP', 'Arte': 'AR', 'Educação Física': 'EF',
                     'Língua Inglesa': 'LI', 'Matemática': 'MA', 'Ciências': 'CI',
                     'Geografia': 'GE', 'História': 'HI', 'Ensino Religioso': 'ER'}
@@ -86,6 +129,7 @@ def extrair_ef(pl):
             if not m or limpa(cel.get([c for c, p in papel.items() if p == 'habilidade'][0], '')) == '':
                 continue
             codigo, texto = m.group(1), limpa(m.group(2))
+            texto = corrigir_pelo_pdf(codigo, texto)
             atual['habilidade'] = ''  # consome; forward-fill não vale p/ habilidade
 
             dec = decodificar(codigo)
@@ -164,7 +208,7 @@ def extrair_em(pl):
                 catus = None
 
             habilidades.append({
-                'codigo': cod, 'documento': 'bncc-2018', 'texto': limpa(cel.get('C', '')),
+                'codigo': cod, 'documento': 'bncc-2018', 'texto': corrigir_pelo_pdf(cod, limpa(cel.get('C', ''))),
                 'area': area_id, 'componente': 'em-comp-lp' if eh_lp else None,
                 'competencias_especificas': comps, 'campos_atuacao_social': catus or None,
                 'seriacao': None,
