@@ -517,7 +517,7 @@
   "EF03LP11": {
     "status": "ok",
     "pagina_pdf": 121,
-    "nota": "quebras/hifenizacao ambiguas na comparacao",
+    "nota": "conferência visual registrada: hífen de quebra de linha em \"gráfico-visuais\" na camada de texto; página impressa confere com o dataset",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF03LP12": {
@@ -563,7 +563,6 @@
   "EF03LP20": {
     "status": "ok",
     "pagina_pdf": 127,
-    "nota": "quebras/hifenizacao ambiguas na comparacao",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF03LP21": {
@@ -759,7 +758,6 @@
   "EF04LP01": {
     "status": "ok",
     "pagina_pdf": 117,
-    "nota": "quebras/hifenizacao ambiguas na comparacao",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF04LP02": {
@@ -1520,7 +1518,7 @@
   "EF69LP48": {
     "status": "ok",
     "pagina_pdf": 161,
-    "nota": "quebras/hifenizacao ambiguas na comparacao",
+    "nota": "conferência visual registrada: hífen de quebra de linha em \"gráfico-espacial\" na camada de texto; página impressa confere com o dataset",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF69LP49": {
@@ -3184,11 +3182,8 @@
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF02MA06": {
-    "status": "divergente",
+    "status": "ok",
     "pagina_pdf": 285,
-    "prefixo_comum": 188,
-    "trecho_planilha": " ou convencionais.",
-    "trecho_pdf": ". (EF02MA07) Resolver e elaborar problemas de multiplicação (por e ) com a ideia",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF02MA07": {
@@ -3297,11 +3292,8 @@
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF03MA05": {
-    "status": "divergente",
+    "status": "ok",
     "pagina_pdf": 289,
-    "prefixo_comum": 61,
-    "trecho_planilha": " para resolver problemas significativos envolvendo adição e subtração com número",
-    "trecho_pdf": ", inclusive os convencionais, para resolver problemas significativos envolvendo ",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF03MA06": {
@@ -4015,11 +4007,9 @@
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF07MA33": {
-    "status": "divergente",
+    "status": "ok",
     "pagina_pdf": 311,
-    "prefixo_comum": 21,
-    "trecho_planilha": "π como a razão entre a medida de uma circunferência e seu diâmetro, para compree",
-    "trecho_pdf": "como a razão entre a medida de uma circunferência e seu diâmetro, para compreend",
+    "nota": "conferência visual registrada: camada de texto do PDF perde o glifo π; página impressa confere com o dataset (decisão nº 4)",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF07MA34": {
@@ -5050,7 +5040,7 @@
   "EF04GE08": {
     "status": "ok",
     "pagina_pdf": 379,
-    "nota": "quebras/hifenizacao ambiguas na comparacao",
+    "nota": "conferência visual registrada: hífen repetido na quebra de linha (\"matérias- -primas\") na camada de texto; página impressa imprime \"matérias-primas\" e confere com o dataset",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF04GE09": {
@@ -7134,11 +7124,8 @@
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EM13LP35": {
-    "status": "divergente",
+    "status": "ok",
     "pagina_pdf": 520,
-    "prefixo_comum": 309,
-    "trecho_planilha": "texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de tran",
-    "trecho_pdf": "de texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de t",
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EM13LP36": {

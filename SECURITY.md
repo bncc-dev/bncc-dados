@@ -13,7 +13,7 @@ Erro de dado (texto divergente da fonte oficial, código errado, relação incor
 
 ## Versões cobertas
 
-Sempre o `main` e a data-version publicada mais recente (`dados-2026.07`); não há suporte retroativo a versões anteriores.
+Sempre o `main` e a data-version publicada mais recente (`dados-2026.07.1`); não há suporte retroativo a versões anteriores.
 
 ## Como reportar
 

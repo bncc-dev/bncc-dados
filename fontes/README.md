@@ -6,7 +6,7 @@ Matéria-prima canônica do dataset. Todos os registros do dataset são extraíd
 |---|---|---|---|
 | `BNCC_Ensino Fundamental.xlsx` | Exportação oficial da ferramenta do MEC (downloadbncc.mec.gov.br) | 23/06/2023 | `3e823abb2af70d76c6206f1743671315311ec2ef7a472054f67a64400a6ad5ea` |
 | `BNCC_Ensino_Medio.xlsx` | Exportação oficial da ferramenta do MEC | 23/06/2023 | `f89493a6dcc8315a1803e0cbaa5966e582e13733798175fd3c5485c0c0dd4127` |
-| `Base-Nacional-Comum-Curricular-BNCC.pdf` | BNCC completa homologada (601 p., três etapas). PDF canônico de verificação | 09/07/2026 | `81cd44ba5444ff1e8ff7b82d83512a49de9ce54efa72c4d285a452d3321128a4` |
+| `Base-Nacional-Comum-Curricular-BNCC.pdf` | BNCC completa homologada (600 p., três etapas). PDF canônico de verificação | 09/07/2026 | `81cd44ba5444ff1e8ff7b82d83512a49de9ce54efa72c4d285a452d3321128a4` |
 | `anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf` | Anexo ao Parecer CNE/CEB nº 2/2022: Computação, complemento à BNCC (75 p.). **Fonte canônica do módulo computacao-2022** | 11/07/2026 | `b0f021db3c7c2c042b821cec5fab7d77ed1888dbb61590461ce2afef404865b7` |
 | `secedu-pernambuco/COMPUTAÇÃO - EDUCAÇÃO INFANTIL .xlsx` | Planilha de apoio (Sec. de Educação de PE): estrutura dos quadros de EI | 11/07/2026 | `1c3df76a1ead3e2df93ecef9eb931ace8b4756d3f203e66188c41e5b97c8e48d` |
 | `secedu-pernambuco/1º ao 5º ANO - HABILIDADES- BNCC - Computação.xlsx` | Planilha de apoio (PE): EF anos iniciais + bloco EF15 | 11/07/2026 | `78db18845598bb5efa3acf7e29ab6a2e12313c2913e1e4d7ab781070b40da53a` |

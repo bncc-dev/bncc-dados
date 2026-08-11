@@ -4,7 +4,7 @@ Como o dataset evolui quando as fontes oficiais mudam, e o que os consumidores p
 
 ## Duas trilhas de versão
 
-- **Conteúdo**: data-version no formato `dados-AAAA.MM` (patch: `dados-AAAA.MM.N`). Atual: `dados-2026.07`.
+- **Conteúdo**: data-version no formato `dados-AAAA.MM` (patch: `dados-AAAA.MM.N`). Atual: `dados-2026.07.1`.
 - **Formato**: semver dos JSON Schemas. Atual: `schema-v1.0.0`. Mudança aditiva = minor; mudança que quebra consumidores = major.
 
 As duas trilhas respondem perguntas diferentes: a data-version diz **de quando** é o retrato das fontes oficiais; o semver do schema diz **se quebra** quem já consome. Por isso não são colapsadas numa só.
