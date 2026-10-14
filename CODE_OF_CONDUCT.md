@@ -1,3 +1,5 @@
+**Português** · [English](CODE_OF_CONDUCT.en.md)
+
 # Código de Conduta
 
 Adaptado do [Contributor Covenant](https://www.contributor-covenant.org), versão 2.1.
@@ -48,9 +50,17 @@ Casos de comportamento abusivo, de assédio ou de outra forma inaceitável podem
 
 As pessoas mantenedoras têm a obrigação de respeitar a privacidade e a segurança de quem reporta qualquer incidente.
 
+## Crianças e adolescentes
+
+O projeto é voltado a quem trabalha com educação, dados e software, e não a crianças. A participação acontece no GitHub, que exige idade mínima nos próprios termos de uso. Ainda assim, quem participa pode ser menor de idade, e o conteúdo do projeto trata de educação básica. Por isso:
+
+- **Nada de dado de estudante.** Issues, pull requests e discussões não podem conter nome, foto, documento ou qualquer informação que identifique um estudante. Exemplos usam só os códigos e textos oficiais da BNCC.
+- **Prioridade nas denúncias.** Qualquer denúncia que envolva criança ou adolescente, inclusive exposição de dado pessoal, é tratada antes das demais. O conteúdo é ocultado ou removido assim que identificado, e a conta responsável pode ser bloqueada no repositório e reportada ao GitHub.
+- **Canal.** Denúncias vão para **contato@bncc.dev**, sem necessidade de abrir issue pública.
+
 ## Diretrizes de aplicação
 
-As pessoas mantenedoras seguirão estas diretrizes para determinar as consequências de qualquer ação que violem este código:
+As pessoas mantenedoras seguirão estas diretrizes para determinar as consequências de qualquer ação que viole este código:
 
 ### 1. Correção
 
