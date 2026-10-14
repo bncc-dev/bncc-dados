@@ -1,3 +1,5 @@
+**Português** · [English](en/versioning.md)
+
 # Versionamento e ciclo de vida
 
 Como o dataset evolui quando as fontes oficiais mudam, e o que os consumidores podem assumir.
@@ -59,7 +61,7 @@ Convenções de branch: `main` sempre reproduzível (o CI garante); branches de 
 
 ## Onde o dataset está arquivado
 
-O dataset é depositado no [Zenodo](https://doi.org/10.5281/zenodo.21625233), que garante preservação de longo prazo e DOI citável. São dois identificadores, com usos diferentes:
+O dataset é depositado no [Zenodo](https://doi.org/10.5281/zenodo.21625233), que garante preservação de longo prazo e DOI citável. São três identificadores: um de conceito e um por versão.
 
 | DOI | O que aponta | Quando usar |
 |---|---|---|
@@ -67,7 +69,7 @@ O dataset é depositado no [Zenodo](https://doi.org/10.5281/zenodo.21625233), qu
 | `10.5281/zenodo.21881682` | A versão `dados-2026.07.1` | Artigo que precisa fixar exatamente os dados analisados |
 | `10.5281/zenodo.21625234` | A versão `dados-2026.07` | Citação histórica da primeira release |
 
-Ambos ficam registrados no `CITATION.cff`, que o GitHub usa para gerar a citação formatada. O registro é indexado pelo OpenAIRE automaticamente.
+Os três ficam registrados no `CITATION.cff`, que o GitHub usa para gerar a citação formatada. O registro é indexado pelo OpenAIRE automaticamente.
 
 ## Para consumidores
 

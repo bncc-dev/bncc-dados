@@ -18,7 +18,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 4. Competência de componente só em área multi-componente
 - ✅ 5. Sem duplicatas
 - ✅ 6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula vazia
-- ✅ 7. Verificação PDF: 1.576/1.580 ok; 4 divergências conhecidas e documentadas
+- ✅ 7. Verificação PDF: 1.580/1.580 ok (correções e exceções registradas; decisão nº 12)
 - ✅ 8. Vigência coerente
 - ✅ 8b. Marcos legais: 20 registros e relações apontando para entidades do dataset
 - ✅ 8b. Marcos legais: IDs únicos, URL oficial https no gov.br
@@ -36,12 +36,8 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 ## Verificação contra o PDF homologado
 
-- `{'ok': 1576, 'divergente': 4}` · 1576/1580 com página registrada em `fonte.localizador_pdf`
-- Fila de divergências conhecidas (4):
-  - **EM13LP35**: planilha omite "de" ("a quantidade [de] texto e imagem") · PDF prevalece
-  - **EF03MA05**: planilha omite ", inclusive os convencionais," · PDF prevalece
-  - **EF02MA06**: camada de texto do PDF perde glifos na pág. 285 (dígitos e trecho final) · planilha prevalece, conferência visual feita
-  - **EF07MA33**: glifo π ausente da camada de texto do PDF · planilha prevalece
+- `{'ok': 1580}` · 1580/1580 com página registrada em `fonte.localizador_pdf`
+- Divergências abertas: nenhuma. Correções planilha × PDF aplicadas na extração (`CORRECOES_PDF`) e exceções da camada de texto com conferência visual registrada (`CONFERIDOS_VISUALMENTE`); ver decisão nº 12 do DECISOES.md.
 
 ## Completude (varredura de códigos no PDF inteiro)
 
@@ -49,7 +45,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 ## Diff base de regressão (EF + EM completos)
 
-- Faltam na base de regressão: ['EF35LP16']
+- Faltam na base de regressão: nenhum
 - Extras na base de regressão: nenhum
 - Textos divergentes: 0
 
@@ -66,7 +62,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - **C9: EM com competência (área e LP)** → LGG103 → ['em-area-lgg-ce-01']; LP02 → ['em-area-lgg-ce-01']
 - **C10: EJA segmento → recorte** → eja-1→EF anos iniciais · eja-2→EF anos finais · eja-3→EM
 - **C11: cobertura · habilidades de MA do 4º ano** → 28 habilidades
-- **C12: fonte oficial citável** → 1483/1487 com página do PDF homologado
+- **C12: fonte oficial citável** → 1487/1487 com página do PDF homologado
 - **C13: filtro de vigência** → 1487 vigentes; filtro operacional (nenhuma revogada no dado atual)
 - **C14: sugerir adaptação da habilidade** → fora do dado de referência (inteligência do produto) · por desenho
 

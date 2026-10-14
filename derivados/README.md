@@ -1,6 +1,6 @@
 # Derivados · gerados, não editar
 
-Tudo neste diretório é gerado por `pipeline/derivar.py` a partir dos JSONs de `dados/bncc-2018/` (que são a fonte canônica). Edições manuais aqui serão sobrescritas e reprovadas no CI.
+Tudo neste diretório é gerado por `pipeline/derivar.py` a partir dos JSONs de `dados/bncc-2018/` e `dados/computacao-2022/` (que são a fonte canônica). Edições manuais aqui serão sobrescritas e reprovadas no CI.
 
 | Arquivo | O que é |
 |---|---|

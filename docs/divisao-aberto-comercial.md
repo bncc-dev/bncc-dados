@@ -1,3 +1,5 @@
+**Português** · [English](en/open-and-commercial.md)
+
 # Divisão aberto/comercial · compromisso público
 
 Registrado desde o primeiro commit, conforme o plano do projeto.

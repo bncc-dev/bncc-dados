@@ -1,3 +1,5 @@
+**Português** · [English](SECURITY.en.md)
+
 # Política de segurança
 
 ## Escopo
