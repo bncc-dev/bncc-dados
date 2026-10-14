@@ -106,7 +106,7 @@ def gerar_sqlite(caminho):
     checksums = SEP.join(
         f'{unicodedata.normalize("NFC", str(p.relative_to(FONTES)))}:{hashlib.sha256(p.read_bytes()).hexdigest()[:16]}'
         for p in sorted(FONTES.rglob('*'), key=lambda p: unicodedata.normalize('NFC', str(p)))
-        if p.suffix in ('.pdf', '.xlsx'))
+        if p.suffix in ('.pdf', '.xlsx', '.json'))
     c.executemany('INSERT INTO meta VALUES (?,?)', sorted({
         'data_version': DATA_VERSION, 'schema_version': 'schema-v1.0.0',
         'gerado_por': 'pipeline/derivar.py', 'fontes_sha256_16': checksums,

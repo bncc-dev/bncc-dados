@@ -1,3 +1,5 @@
+**Português** · [English (resumo)](docs/en/decisions-summary.md)
+
 # DECISOES.md · decisões de interpretação
 
 Toda inconsistência encontrada nas fontes oficiais vira uma entrada aqui: contexto, decisão e fonte. Correções futuras exigem referência à fonte oficial no PR.
@@ -78,6 +80,8 @@ As planilhas de apoio da Secretaria de Educação de Pernambuco são materiais p
 
 Registrado como risco assumido e não como ausência de risco. A alternativa avaliada — substituir as planilhas por um JSON com o mapa código → eixo → objeto, preservando a reprodutibilidade sem redistribuir os arquivos — permanece disponível caso a situação mude.
 
+**Revista pela decisão 13 (14/10/2026).**
+
 *Fonte: `fontes/README.md` (notas de proveniência) × auditoria de abertura de 27/07/2026.*
 
 ## 12. Auditoria independente de 10/08/2026: 11 correções de texto e reforma da verificação
@@ -94,6 +98,19 @@ As causas, todas de processo:
 **Decisão:** o PDF homologado prevalece nos 11 casos (EF03LP20, EF69LP46, EF69LP34, EF02MA06, EF03MA05, EM13LP35, EF89LP19, EF69AR16, EF03LP11, EF04LP01, EF69LP48), agora aplicados de forma reproduzível pelo mapa `CORRECOES_PDF` em `pipeline/extrair.py`. O verificador passou a comparar a continuação do PDF após o fim do texto (elimina o ponto cego), e o fallback de hifenização não aprova mais sozinho: devolve `requer_conferencia_visual`, sanado apenas por exceção registrada em `CONFERIDOS_VISUALMENTE` com página conferida e motivo (hoje: EF07MA33, EF04GE08, EF03LP11, EF69LP48 — páginas 311, 379, 121 e 161 conferidas visualmente em 10/08/2026). Resultado após as correções: 1.580/1.580 ok.
 
 *Fonte: PDF homologado (páginas 117, 121, 127, 153, 159, 161, 185, 211, 285, 289, 311, 379, 520, conferidas visualmente) × relatório da auditoria independente de 10/08/2026.*
+
+## 13. Computação: mapa de estrutura próprio no lugar das planilhas de Pernambuco
+
+A decisão 11 manteve no repositório as planilhas de apoio da Secretaria de Educação de Pernambuco, sem licença explícita de redistribuição, e registrou isso como risco assumido. O risco deixou de ser aceitável: o dataset vai ser submetido ao registro de Digital Public Goods, cuja regra para dados abertos exige que todo o conteúdo distribuído esteja sob licença aberta ou tenha direito de redistribuição comprovado. A alternativa que a decisão 11 deixou registrada resolve o problema sem perder reprodutibilidade.
+
+**Decisão (14/10/2026):** as planilhas saem do repositório. Em seu lugar entra `fontes/computacao-estrutura.json`, um mapa produzido pelo projeto com eixo, objeto de conhecimento, competência, texto e localizador de origem de cada uma das 141 aprendizagens, além das competências do complemento. O mapa foi gerado uma vez por `pipeline/gerar_mapa_computacao.py` (o código de leitura das planilhas que antes ficava em `extrair_computacao.py`), que confere o SHA-256 de cada planilha antes de ler. `extrair_computacao.py` passa a ler só o mapa e o anexo oficial.
+
+- O mapa não é fonte de verdade. `verificar_computacao.py` continua conferindo cada texto, eixo, objeto e competência caractere a caractere contra o anexo, que sempre prevalece.
+- `dados/computacao-2022/computacao.json` sai idêntico byte a byte. O localizador de cada registro continua apontando para a planilha e a linha de onde a estrutura veio, que seguem descritas com nome e SHA-256 em `fontes/README.md`.
+- A única mudança nos derivados é o metadado `fontes_sha256_16` do SQLite, que passa a listar o mapa no lugar das planilhas. Não há mudança de dado, logo não há nova data-version.
+- Os arquivos continuam no histórico do git e nas versões já arquivadas no Zenodo. Reescrever o histórico quebraria clones e a correspondência entre commits e DOIs, e não foi feito.
+
+*Fonte: decisão 11 × regra de licenciamento de Open Data do DPG Standard (indicador 2) × reprodução completa do pipeline em 14/10/2026 (1.580/1.580 e 141/141 ok, `dados/` sem diferença).*
 
 ## Versões das fontes (contexto das decisões)
 
