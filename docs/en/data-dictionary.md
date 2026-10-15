@@ -279,7 +279,7 @@ The EF skills and the organization contexts they refer to: thematic units, knowl
 | `contextos_organizacao` | array | yes | Organization contexts: the entities that organize the EF tables, pointed to by the skills. 873 items: 775 knowledge objects, 77 thematic units, 9 language practices, 7 fields of action and 5 axes. | `[{"id": "ef-comp-ar-oc-arte-e-tecnologia", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | yes | Identifier: `id` of the component + `-` + `tipo` + `-` + name as a slug. | `"ef-comp-lp-prat-leitura"` |
 | `contextos_organizacao[].tipo` | enum | yes | Kind of context. `ut`: thematic unit (unidade temática). `oc`: knowledge object (objeto de conhecimento). `catu`: field of action (campo de atuação, LP only). `prat`: language practice (prática de linguagem, LP only). `eixo`: axis (LI only). | `"prat"` |
-| `contextos_organizacao[].nome` | string | yes | Name as it appears in the official spreadsheet. | `"Leitura"` |
+| `contextos_organizacao[].nome` | string | yes | Name from the official spreadsheet, with the cell normalized: lines split by a line break are joined, and footnotes and line-break hyphens are dropped (decision 14). | `"Leitura"` |
 | `contextos_organizacao[].componente` | string (`id_slug`) | yes | `id` of the component the context belongs to. | `"ef-comp-lp"` |
 | `contextos_organizacao[].fonte` | object ([`fonte`](#fonte)) | yes | Source: sheet of the official EF spreadsheet, with no row. | `{"arquivo": "BNCC_Ensino Fundamental.xlsx", "localizador": "aba Língua Portuguesa", …}` |
 
@@ -310,7 +310,7 @@ The EM skills, not divided by grade, and the fields of social action of Portugue
 | `contextos_organizacao` | array | yes | Fields of social action of EM Portuguese Language, pointed to by `habilidades[].campos_atuacao_social`. 6 items. | `[{"id": "em-comp-lp-catu-campo-artistico-literario", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | yes | Identifier: `em-comp-lp-catu-` + name as a slug. | `"em-comp-lp-catu-campo-artistico-literario"` |
 | `contextos_organizacao[].tipo` | const `catu` | yes | Always `catu` (field of action). | `"catu"` |
-| `contextos_organizacao[].nome` | string | yes | Name as it appears in the official spreadsheet. | `"Campo artístico-literário"` |
+| `contextos_organizacao[].nome` | string | yes | Name from the official spreadsheet, with the cell normalized: lines split by a line break are joined, and footnotes and line-break hyphens are dropped (decision 14). | `"Campo artístico-literário"` |
 | `contextos_organizacao[].componente` | const `em-comp-lp` | yes | Always `em-comp-lp` (EM Portuguese Language). | `"em-comp-lp"` |
 | `contextos_organizacao[].fonte` | object ([`fonte`](#fonte)) | yes | Source: sheet "Hab. de Língua Portuguesa" of the official EM spreadsheet, with no row. | `{"arquivo": "BNCC_Ensino_Medio.xlsx", "localizador": "aba Hab. de Língua Portuguesa", …}` |
 
@@ -326,7 +326,7 @@ Legal milestones: references to the normative acts that ground the BNCC and basi
 | `marcos_legais[].id` | string (`id_slug`) | yes | Identifier. In the data: kind of act, number and year (e.g. `lei-9394-1996`, `resolucao-cne-cp-2-2017`). | `"lei-13415-2017"` |
 | `marcos_legais[].tipo` | enum | yes | Kind of act. `constituicao`: Federal Constitution. `emenda_constitucional`: constitutional amendment. `lei`: law. `resolucao`: resolution (in the data, all from the CNE). `parecer`: opinion (in the data, all from the CNE). | `"lei"` |
 | `marcos_legais[].titulo` | string (at least 10 characters) | yes | Official title of the act, with number and date. | `"Lei nº 13.415, de 16 de fevereiro de 2017"` |
-| `marcos_legais[].ementa` | string (at least 20 characters) or `null` (nullable) | yes | Official summary (ementa) of the act, transcribed from the official publication (Planalto for laws and the amendment, CNE for resolutions), checked on 15/10/2026. `null` for the Constitution, which has no summary. For the three CNE opinions, which have no summary either, it gives the subject of the opinion. Project commentary goes in `nota`. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
+| `marcos_legais[].ementa` | string (at least 20 characters) or `null` (nullable) | yes | Official summary (ementa) of the act, transcribed from the official publication (Planalto for laws and the amendment, CNE for resolutions), checked on 15/10/2026. `null` for the Constitution, which has no summary. For the three CNE opinions, which have no summary either, it carries the "ASSUNTO" (subject) field from the opinion's header, transcribed literally from the CNE PDF (checked on 15/10/2026). Project commentary goes in `nota`. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
 | `marcos_legais[].url_oficial` | string (pattern `^https://[a-z0-9.-]+\.gov\.br/`) | yes | Official link to the act, always https on a gov.br domain. | `"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13415.htm"` |
 | `marcos_legais[].nota` | string | no | Project commentary: what the act means for basic education and for this dataset (relevant articles and goals, approval, nicknames such as "LDB"). Never normative text. Present in 11 records. | `"As metas 2, 3 e 7 e suas estratégias preveem a base nacional comum curricular."` |
 | `marcos_legais[].relaciona` | array of object | yes | Typed links between the act and entities of the dataset. It can be empty: `lei-8069-1990` and `lei-13146-2015` have no links. 28 links in total. | `[{"entidade": "EM", "natureza": "altera"}, …]` |
@@ -380,10 +380,10 @@ Local types, defined in `$defs` of `schema/computacao.schema.json`:
 
 | Field | Type | Required | Description | Example |
 |---|---|---|---|---|
-| `objetos_conhecimento` | array (at least 1 item) | yes | Knowledge objects of the Computing EF skills. 59 items, 30 of which have a `pai` (parent). 5 objects serve only as parents and are not pointed to directly by any skill. | `[{"id": "co-obj-algoritmos", …}, …]` |
+| `objetos_conhecimento` | array (at least 1 item) | yes | Knowledge objects of the Computing EF skills. 59 items, 30 of which have a `pai` (parent). 4 objects serve only as parents and are not pointed to directly by any skill. | `[{"id": "co-obj-algoritmos", …}, …]` |
 | `objetos_conhecimento[].id` | string (`objeto_ref`) | yes | Identifier: `co-obj-` + name as a slug. | `"co-obj-tipos-de-dados"` |
 | `objetos_conhecimento[].documento` | const `computacao-2022` | yes | Curricular document. | `"computacao-2022"` |
-| `objetos_conhecimento[].nome` | string (at least 3 characters) | yes | Name as it appears in the annex. Two names end in "(cont.)", and their ids end in `-cont`. | `"Tipos de dados"` |
+| `objetos_conhecimento[].nome` | string (at least 3 characters) | yes | Name as it appears in the annex, without the "(cont.)" marker the annex uses to flag a table that continues on the next page (decision 14). | `"Tipos de dados"` |
 | `objetos_conhecimento[].pai` | string (`objeto_ref`) or `null` (nullable) | yes | `id` of the parent object, in the hierarchy of the tables for the final years. `null` when the object has no parent. | `"co-obj-programacao"` |
 
 ### `competencias`

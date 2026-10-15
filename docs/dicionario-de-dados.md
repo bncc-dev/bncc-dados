@@ -277,7 +277,7 @@ As habilidades do EF e os contextos de organização a que elas se referem: unid
 | `contextos_organizacao` | array | sim | Entidades de organização dos quadros do EF, apontadas pelas habilidades. 873 itens: 775 objetos de conhecimento, 77 unidades temáticas, 9 práticas de linguagem, 7 campos de atuação e 5 eixos. | `[{"id": "ef-comp-ar-oc-arte-e-tecnologia", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | sim | Identificador: `id` do componente + `-` + `tipo` + `-` + nome em slug. | `"ef-comp-lp-prat-leitura"` |
 | `contextos_organizacao[].tipo` | enum | sim | Tipo do contexto. `ut`: unidade temática. `oc`: objeto de conhecimento. `catu`: campo de atuação (só LP). `prat`: prática de linguagem (só LP). `eixo`: eixo (só LI). | `"prat"` |
-| `contextos_organizacao[].nome` | string | sim | Nome como aparece na planilha oficial. | `"Leitura"` |
+| `contextos_organizacao[].nome` | string | sim | Nome da planilha oficial, com a célula normalizada: linhas partidas pela quebra de linha são reunidas, nota de rodapé e hífen de quebra são descartados (decisão 14). | `"Leitura"` |
 | `contextos_organizacao[].componente` | string (`id_slug`) | sim | `id` do componente a que o contexto pertence. | `"ef-comp-lp"` |
 | `contextos_organizacao[].fonte` | object ([`fonte`](#fonte)) | sim | Proveniência: aba da planilha oficial do EF, sem linha. | `{"arquivo": "BNCC_Ensino Fundamental.xlsx", "localizador": "aba Língua Portuguesa", …}` |
 
@@ -308,7 +308,7 @@ As habilidades do EM, sem seriação, e os campos de atuação social de Língua
 | `contextos_organizacao` | array | sim | Campos de atuação social de Língua Portuguesa do EM, apontados por `habilidades[].campos_atuacao_social`. 6 itens. | `[{"id": "em-comp-lp-catu-campo-artistico-literario", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | sim | Identificador: `em-comp-lp-catu-` + nome em slug. | `"em-comp-lp-catu-campo-artistico-literario"` |
 | `contextos_organizacao[].tipo` | const `catu` | sim | Sempre `catu` (campo de atuação). | `"catu"` |
-| `contextos_organizacao[].nome` | string | sim | Nome como aparece na planilha oficial. | `"Campo artístico-literário"` |
+| `contextos_organizacao[].nome` | string | sim | Nome da planilha oficial, com a célula normalizada: linhas partidas pela quebra de linha são reunidas, nota de rodapé e hífen de quebra são descartados (decisão 14). | `"Campo artístico-literário"` |
 | `contextos_organizacao[].componente` | const `em-comp-lp` | sim | Sempre `em-comp-lp` (Língua Portuguesa do EM). | `"em-comp-lp"` |
 | `contextos_organizacao[].fonte` | object ([`fonte`](#fonte)) | sim | Proveniência: aba "Hab. de Língua Portuguesa" da planilha oficial do EM, sem linha. | `{"arquivo": "BNCC_Ensino_Medio.xlsx", "localizador": "aba Hab. de Língua Portuguesa", …}` |
 
@@ -324,7 +324,7 @@ Referências aos atos normativos que fundamentam a BNCC e a educação básica: 
 | `marcos_legais[].id` | string (`id_slug`) | sim | Identificador. Nos dados: tipo do ato, número e ano (ex.: `lei-9394-1996`, `resolucao-cne-cp-2-2017`). | `"lei-13415-2017"` |
 | `marcos_legais[].tipo` | enum | sim | Tipo do ato. `constituicao`: Constituição Federal. `emenda_constitucional`: emenda à Constituição. `lei`: lei. `resolucao`: resolução (nos dados, todas do CNE). `parecer`: parecer (nos dados, todos do CNE). | `"lei"` |
 | `marcos_legais[].titulo` | string (mínimo 10 caracteres) | sim | Título oficial do ato, com número e data. | `"Lei nº 13.415, de 16 de fevereiro de 2017"` |
-| `marcos_legais[].ementa` | string (mínimo 20 caracteres) ou `null` (anulável) | sim | Ementa oficial do ato, transcrita da publicação oficial (Planalto para leis e emenda, CNE para resoluções), conferida em 15/10/2026. `null` na Constituição, que não tem ementa. Nos três pareceres do CNE, que também não têm ementa, traz o assunto do parecer. Comentário do projeto fica em `nota`. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
+| `marcos_legais[].ementa` | string (mínimo 20 caracteres) ou `null` (anulável) | sim | Ementa oficial do ato, transcrita da publicação oficial (Planalto para leis e emenda, CNE para resoluções), conferida em 15/10/2026. `null` na Constituição, que não tem ementa. Nos três pareceres do CNE, que também não têm ementa, traz o campo "ASSUNTO" do cabeçalho do parecer, transcrito literalmente do PDF do CNE (conferido em 15/10/2026). Comentário do projeto fica em `nota`. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
 | `marcos_legais[].url_oficial` | string (padrão `^https://[a-z0-9.-]+\.gov\.br/`) | sim | Link oficial do ato, sempre https em domínio gov.br. | `"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13415.htm"` |
 | `marcos_legais[].nota` | string | não | Comentário do projeto: o que o ato significa para a educação básica e para este dataset (artigos e metas relevantes, homologação, apelidos como "LDB"). Nunca é texto normativo. Presente em 11 registros. | `"As metas 2, 3 e 7 e suas estratégias preveem a base nacional comum curricular."` |
 | `marcos_legais[].relaciona` | array de object | sim | Vínculos tipados do ato com entidades do dataset. Pode ser vazia: `lei-8069-1990` e `lei-13146-2015` não têm vínculos. 28 vínculos no total. | `[{"entidade": "EM", "natureza": "altera"}, …]` |
@@ -378,10 +378,10 @@ Tipos locais, definidos em `$defs` de `schema/computacao.schema.json`:
 
 | Campo | Tipo | Obrigatório | Descrição | Exemplo |
 |---|---|---|---|---|
-| `objetos_conhecimento` | array (mínimo 1 item) | sim | Objetos de conhecimento das habilidades do EF de Computação. 59 itens, dos quais 30 têm `pai`. 5 objetos servem só como pai e não são apontados diretamente por habilidades. | `[{"id": "co-obj-algoritmos", …}, …]` |
+| `objetos_conhecimento` | array (mínimo 1 item) | sim | Objetos de conhecimento das habilidades do EF de Computação. 59 itens, dos quais 30 têm `pai`. 4 objetos servem só como pai e não são apontados diretamente por habilidades. | `[{"id": "co-obj-algoritmos", …}, …]` |
 | `objetos_conhecimento[].id` | string (`objeto_ref`) | sim | Identificador: `co-obj-` + nome em slug. | `"co-obj-tipos-de-dados"` |
 | `objetos_conhecimento[].documento` | const `computacao-2022` | sim | Documento curricular. | `"computacao-2022"` |
-| `objetos_conhecimento[].nome` | string (mínimo 3 caracteres) | sim | Nome como aparece no anexo. Dois nomes terminam em "(cont.)", e seus ids terminam em `-cont`. | `"Tipos de dados"` |
+| `objetos_conhecimento[].nome` | string (mínimo 3 caracteres) | sim | Nome como aparece no anexo, sem o marcador "(cont.)" com que o anexo indica a continuação de um quadro na página seguinte (decisão 14). | `"Tipos de dados"` |
 | `objetos_conhecimento[].pai` | string (`objeto_ref`) ou `null` (anulável) | sim | `id` do objeto pai, na hierarquia dos quadros dos anos finais. `null` quando o objeto não tem pai. | `"co-obj-programacao"` |
 
 ### `competencias`

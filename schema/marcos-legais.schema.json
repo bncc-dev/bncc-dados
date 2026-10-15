@@ -14,7 +14,7 @@
           "id": { "$ref": "definicoes.json#/$defs/id_slug" },
           "tipo": { "enum": ["constituicao", "emenda_constitucional", "lei", "resolucao", "parecer"] },
           "titulo": { "type": "string", "minLength": 10 },
-          "ementa": { "type": ["string", "null"], "minLength": 20, "description": "Ementa oficial do ato, transcrita da publicação oficial; null quando o ato não tem ementa (Constituição). Para pareceres do CNE, que não trazem ementa, o assunto do parecer." },
+          "ementa": { "type": ["string", "null"], "minLength": 20, "description": "Ementa oficial do ato, transcrita da publicação oficial; null quando o ato não tem ementa (Constituição). Para pareceres do CNE, que não trazem ementa, o campo ASSUNTO do cabeçalho do parecer, transcrito literalmente." },
           "url_oficial": { "type": "string", "pattern": "^https://[a-z0-9.-]+\\.gov\\.br/" },
           "nota": { "type": "string", "description": "Comentário do projeto: o que o ato significa para a educação básica e para este dataset. Nunca é texto normativo." },
           "relaciona": {

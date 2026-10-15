@@ -11,6 +11,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 2. EI: 93 objetivos (EO 20, CG 15, TS 9, EF 27, ET 22)
 - ✅ 2. Competências: 10 gerais + 105 específicas (84 EF + 21 EM)
 - ✅ 3. Integridade referencial (organização, objetos, competências)
+- ✅ 3b. Contextos de organização: nomes íntegros (sem pedaço de quebra de linha, nota ou hífen de quebra)
 - ✅ 3. Organização por layout: LP=campo_pratica, LI=eixo, demais=unidade_tematica
 - ✅ 4. EM área: competência coerente com o dígito do código
 - ✅ 4. EM LP: 1..n competências da planilha
@@ -21,7 +22,6 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula vazia
 - ✅ 7. Verificação PDF: 1.580 aprendizagens + 115 competências, todas ok (decisões nº 12 e 14)
 - ✅ 7. Verificação PDF: nenhuma página do capítulo "Estrutura" (exemplos ilustrativos) como localizador
-- ✅ 3b. Contextos de organização: nomes íntegros (sem pedaço de quebra de linha, nota ou hífen de quebra)
 - ✅ 8. Vigência coerente
 - ✅ 8b. Marcos legais: 20 registros e relações apontando para entidades do dataset
 - ✅ 8b. Marcos legais: ementa nula só na Constituição; nota nunca repete a ementa

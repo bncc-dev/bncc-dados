@@ -113,7 +113,9 @@ def objetos_da_celula(celula):
     """Objetos de conhecimento de uma célula: um por linha, exceto quando a
     linha é continuação da anterior (começa em minúscula), caso em que a
     planilha quebrou um nome longo ao meio ("Fenômenos naturais (vulcões,
-    terremotos e" + "tsunamis)"). Decisão 14."""
+    terremotos e" + "tsunamis)"). Decisão 14.
+    Heurística, não regra da planilha: um objeto legítimo cujo nome comece em
+    minúscula seria fundido ao anterior; o contrato 3b do validar.py acusaria."""
     objetos = []
     for linha in (celula or '').split('\n'):
         linha = limpa(linha)
@@ -182,7 +184,7 @@ def extrair_ef(pl):
             if 'campos_atuacao' in atual and comp_real == 'ef-comp-lp':
                 org = {'tipo': 'campo_pratica',
                        'campos_atuacao': [contexto('catu', comp_real, nome_contexto(c), aba)
-                                          for c in atual['campos_atuacao'].split('\n') if limpa(c)],
+                                          for c in atual['campos_atuacao'].split('\n') if nome_contexto(c)],
                        'pratica_linguagem': contexto('prat', comp_real, nome_contexto(atual.get('pratica_linguagem', '')), aba)}
             elif 'eixo' in atual and comp_real == 'ef-comp-li':
                 org = {'tipo': 'eixo', 'eixo': contexto('eixo', comp_real, nome_contexto(atual['eixo']), aba),

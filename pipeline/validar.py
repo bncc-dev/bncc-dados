@@ -76,6 +76,13 @@ for h in ef['habilidades']:
 ok_int &= all(all(c in ces for c in h['competencias_especificas']) for h in em['habilidades'])
 ok_int &= all(all(c in ctx_em for c in (h['campos_atuacao_social'] or [])) for h in em['habilidades'])
 check('3. Integridade referencial (organização, objetos, competências)', ok_int)
+# contextos de organização: nomes íntegros (decisão 14): nenhum pedaço de nome
+# partido por quebra de linha, nota de rodapé ou hífen de quebra
+ctx_suspeitos = [c['id'] for c in ef['contextos_organizacao']
+                 if c['nome'][0].islower() or '*' in c['nome'] or re.search(r'\S- \S', c['nome'])]
+check('3b. Contextos de organização: nomes íntegros (sem pedaço de quebra de linha, nota ou hífen de quebra)',
+      not ctx_suspeitos, str(ctx_suspeitos[:5]))
+
 tipos_org = Counter(h['organizacao']['tipo'] for h in ef['habilidades'])
 check('3. Organização por layout: LP=campo_pratica, LI=eixo, demais=unidade_tematica',
       all((h['componente'] == 'ef-comp-lp') == (h['organizacao']['tipo'] == 'campo_pratica') and
@@ -135,13 +142,6 @@ check('7. Verificação PDF: 1.580 aprendizagens + 115 competências, todas ok (
 check('7. Verificação PDF: nenhuma página do capítulo "Estrutura" (exemplos ilustrativos) como localizador',
       not any(PAGINAS_CAPITULO_ESTRUTURA.start <= v.get('pagina_pdf', 0) < PAGINAS_CAPITULO_ESTRUTURA.stop
               for v in verif.values()))
-# contextos de organização: nomes íntegros (decisão 14): nenhum pedaço de nome
-# partido por quebra de linha, nota de rodapé ou hífen de quebra
-ctx_suspeitos = [c['id'] for c in ef['contextos_organizacao']
-                 if c['nome'][0].islower() or '*' in c['nome'] or re.search(r'\S- \S', c['nome'])]
-check('3b. Contextos de organização: nomes íntegros (sem pedaço de quebra de linha, nota ou hífen de quebra)',
-      not ctx_suspeitos, str(ctx_suspeitos[:5]))
-
 # ------------------------------------------------------- 8. vigência coerente
 check('8. Vigência coerente', all(h['vigencia']['status'] == 'vigente'
                                   for h in ef['habilidades'] + em['habilidades'] + ei['objetivos']))

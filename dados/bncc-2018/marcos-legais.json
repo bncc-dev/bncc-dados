@@ -124,9 +124,9 @@
       "id": "parecer-cne-cp-15-2017",
       "tipo": "parecer",
       "titulo": "Parecer CNE/CP nº 15/2017, aprovado em 15 de dezembro de 2017",
-      "ementa": "Analisa e aprova a Base Nacional Comum Curricular da Educação Infantil e do Ensino Fundamental.",
+      "ementa": "Base Nacional Comum Curricular (BNCC)",
       "url_oficial": "https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/cp/2017/pcp015_17.pdf",
-      "nota": "Fundamentou a Resolução CNE/CP nº 2/2017. Homologado pela Portaria MEC nº 1.570/2017.",
+      "nota": "Analisa e aprova a Base Nacional Comum Curricular da Educação Infantil e do Ensino Fundamental. Fundamentou a Resolução CNE/CP nº 2/2017. Homologado pela Portaria MEC nº 1.570/2017.",
       "relaciona": [
         { "entidade": "bncc-2018", "natureza": "fundamenta" }
       ]
@@ -157,9 +157,9 @@
       "id": "parecer-cne-cp-15-2018",
       "tipo": "parecer",
       "titulo": "Parecer CNE/CP nº 15/2018, aprovado em 4 de dezembro de 2018",
-      "ementa": "Trata da instituição da Base Nacional Comum Curricular do Ensino Médio (BNCC-EM) e da orientação aos sistemas de ensino para sua implementação.",
+      "ementa": "Instituição da Base Nacional Comum Curricular do Ensino Médio (BNCC-EM) e orientação aos sistemas de ensino e às instituições e redes escolares para sua implementação, em regime de colaboração entre os sistemas de ensino, nos termos do Art. 211 da Constituição Federal e Art. 8º da Lei nº 9.394/1996 (LDB).",
       "url_oficial": "https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/cp/2018/pcp015_18.pdf",
-      "nota": "Fundamentou a Resolução CNE/CP nº 4/2018. Homologado pela Portaria MEC nº 1.348/2018.",
+      "nota": "Trata da instituição da BNCC do Ensino Médio e da orientação aos sistemas de ensino para sua implementação. Fundamentou a Resolução CNE/CP nº 4/2018. Homologado pela Portaria MEC nº 1.348/2018.",
       "relaciona": [
         { "entidade": "bncc-2018", "natureza": "fundamenta" }
       ]
@@ -189,9 +189,9 @@
       "id": "parecer-cne-ceb-2-2022",
       "tipo": "parecer",
       "titulo": "Parecer CNE/CEB nº 2/2022, aprovado em 17 de fevereiro de 2022",
-      "ementa": "Aprova as Normas sobre Computação na Educação Básica, complemento à Base Nacional Comum Curricular (BNCC).",
+      "ementa": "Normas sobre Computação na Educação Básica – Complemento à Base Nacional Comum Curricular (BNCC).",
       "url_oficial": "https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/ceb/2022/pceb002_22.pdf",
-      "nota": "Homologado por despacho ministerial publicado no D.O.U. de 3/10/2022. O anexo do parecer (objetivos e habilidades de Computação) é o documento-fonte do módulo de Computação deste dataset (documento curricular computacao-2022): https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/ceb/2022/anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+      "nota": "Aprova as Normas sobre Computação na Educação Básica, complemento à BNCC. Homologado por despacho ministerial publicado no D.O.U. de 3/10/2022. O anexo do parecer (objetivos e habilidades de Computação) é o documento-fonte do módulo de Computação deste dataset (documento curricular computacao-2022): https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/ceb/2022/anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
       "relaciona": [
         { "entidade": "bncc-2018", "natureza": "complementa" }
       ]

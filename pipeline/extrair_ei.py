@@ -13,6 +13,8 @@ import re
 import subprocess
 from pathlib import Path
 
+from extrair import PROVENIENCIA_PDF
+
 AQUI = Path(__file__).parent
 PDF = AQUI.parent / 'fontes' / 'Base-Nacional-Comum-Curricular-BNCC.pdf'
 SAIDA = AQUI / 'saida'
@@ -20,7 +22,6 @@ DATASET = AQUI.parent / 'dados' / 'bncc-2018'
 DATA_VERSION = 'dados-2026.07'
 
 GRUPOS = {'01': 'ei-grupo-01', '02': 'ei-grupo-02', '03': 'ei-grupo-03'}
-from extrair import PROVENIENCIA_PDF
 
 FONTE = {'documento': 'bncc-2018', 'arquivo': 'Base-Nacional-Comum-Curricular-BNCC.pdf',
          'proveniencia': PROVENIENCIA_PDF}

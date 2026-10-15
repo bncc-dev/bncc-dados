@@ -24,9 +24,9 @@ Todo registro normativo carrega:
 Regras invioláveis:
 
 1. **Registro publicado nunca é apagado.** Revogação muda `status` para `revogado` e preenche `ate`; o registro permanece consultável. `desde` e `ate` são sempre data-versions, nunca datas do ato: `ate` recebe a data-version em que o registro deixou de valer tal como está (a da revogação, ou a da alteração normativa quando `status` passa a `alterado`). Um patch de correção não muda o `desde` de quem já estava no dataset.
-4. **Id cunhado é imutável depois de publicado**, com uma exceção documentada (decisão 14 do DECISOES.md): id gerado por defeito de extração, que nunca representou uma entidade da BNCC, pode ser removido, com o mapa de substituição publicado no CHANGELOG.
 2. **Código nunca é reutilizado**, nem para substituir habilidade revogada por outra parecida.
 3. Toda mudança de conteúdo referencia a fonte oficial que a motivou.
+4. **Id cunhado é imutável depois de publicado**, com uma exceção documentada (decisão 14 do DECISOES.md): id gerado por defeito de extração, que nunca representou uma entidade da BNCC, pode ser removido, com o mapa de substituição publicado no CHANGELOG.
 
 ## Taxonomia de eventos
 
