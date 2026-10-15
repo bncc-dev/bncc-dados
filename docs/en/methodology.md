@@ -28,7 +28,7 @@ Four official documents, archived in [`fontes/`](../../fontes/README.en.md) with
 Two layers, both with an exit code (they break CI):
 
 - `pipeline/validar_schema.py`: the 7 data files (structure, EI, EF, EM, legal milestones, profiles and Computing) against the [JSON Schemas](../../schema/), with a negative self-test (deliberately corrupted records must be rejected on every run).
-- `pipeline/validar.py`: 29 contract checks, including the grammar of all codes, expected reference counts per component and area (1,304 EF, 183 EM, 93 EI), referential integrity, structural domain rules and **completeness by full scan**: searching for codes across the whole PDF finds exactly the codes in the dataset. Nothing is missing, nothing is extra.
+- `pipeline/validar.py`: 30 contract checks, including the grammar of all codes, expected reference counts per component and area (1,304 EF, 183 EM, 93 EI), referential integrity, structural domain rules and **completeness by full scan**: searching for codes across the whole PDF finds exactly the codes in the dataset. Nothing is missing, nothing is extra.
 
 ## 5. Checked derived files
 

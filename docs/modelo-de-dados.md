@@ -64,7 +64,7 @@ Primeiro documento curricular além da BNCC 2018, provando o desenho multi-docum
 - **Eixos** (3): Pensamento Computacional, Mundo Digital, Cultura Digital (`co-eixo-*`).
 - **Objetos de conhecimento** (`co-obj-*`): campo `pai` (obrigatório, `null` quando o objeto não tem pai) captura a hierarquia dos quadros dos anos finais (ex.: `co-obj-tipos-de-dados` → pai `co-obj-programacao`).
 - **Competências**: 7 gerais do complemento (`computacao-cg-*`) e 7 específicas do EM (`computacao-em-ce-*`), às quais as habilidades do EM se vinculam.
-- **Sequências contínuas**: diferente da BNCC 2018, a numeração de Computação não tem lacunas (contrato no CI).
+- **Sequências contínuas**: como na BNCC 2018, a numeração de Computação vai de 1 a n em cada grupo, sem lacunas (contratos 5b e 8c no CI).
 - Verificação: os 141 textos são conferidos caractere a caractere contra o anexo oficial (`verificar_computacao.py`); decisões de interpretação nas entradas 9, 10 e 13 do `DECISOES.md`.
 - Fora desta versão do módulo: descritores de agrupamento, explicações e exemplos oficiais do anexo (iteração futura).
 

@@ -124,7 +124,7 @@ python3 extrair_computacao.py  # annex of CNE/CEB Opinion 2/2022 → computacao.
 python3 verificar.py           # checks each text against the PDF; records the page
 python3 verificar_computacao.py # checks Computing against the official annex
 python3 validar_schema.py      # JSON Schemas, with a negative self-test
-python3 validar.py             # 29 contract and completeness checks (fails on any divergence)
+python3 validar.py             # 30 contract and completeness checks (fails on any divergence)
 python3 derivar.py             # generates derivados/ (SQLite and CSV) from the JSON files
 ```
 

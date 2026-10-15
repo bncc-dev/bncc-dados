@@ -24,7 +24,7 @@ Disagreeing with the content of the BNCC itself is not a problem for this reposi
 
 - **Automatic verification.** On every change, CI checks each text character by character against the officially approved (homologated) PDF and the official Computing annex. Any discrepancy fails the change.
 - **Full reproduction.** CI rebuilds the entire dataset from the sources. A manual edit in `dados/` fails the change.
-- **Format validation.** Closed JSON Schemas and 29 contract and completeness checks.
+- **Format validation.** Closed JSON Schemas and 30 contract and completeness checks.
 - **Independent audits.** The audit of 10 August 2026 read 100% of the records and resulted in 11 corrections. See decision 12 in the decisions log, [DECISOES.md](../../DECISOES.md) (in Portuguese).
 
 ## How to report

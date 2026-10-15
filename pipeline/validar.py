@@ -100,6 +100,22 @@ check('4. Competência de componente só em área multi-componente',
 # ------------------------------------------------------------- 5. duplicatas
 check('5. Sem duplicatas', len(todos) == len(set(todos)))
 
+# Sequências contínuas: dentro de cada grupo que o código identifica (EI: grupo
+# etário + campo; EF: anos + componente; EM: área + competência, ou LP), as
+# sequências vão de 1 a n sem falta. Nos códigos de EM a centena é a competência
+# (EM13LGG105 → EM13LGG201 não é lacuna). Agrupar por decodificação, não por prefixo.
+grupos_seq = {}
+for c in todos:
+    d = decodificar(c)
+    chave = tuple((k, str(v)) for k, v in sorted(d.items()) if k not in ('codigo', 'sequencia'))
+    grupos_seq.setdefault(chave, []).append(d['sequencia'])
+lacunas = {','.join(f'{a}={b}' for a, b in k if a in ('etapa', 'anos', 'componente', 'area', 'competencia_especifica',
+                                                       'grupo_etario', 'campo_experiencias')):
+           sorted(set(range(1, max(ns) + 1)) - set(ns))
+           for k, ns in grupos_seq.items() if sorted(ns) != list(range(1, len(ns) + 1))}
+check(f'5b. Sequências contínuas: em cada grupo decodificado (etapa, anos ou grupo etário, componente ou área + competência) '
+      f'os códigos vão de 1 a n sem lacuna ({len(grupos_seq)} grupos)', not lacunas, str(lacunas)[:200])
+
 # ---------------------------------------------------------- 6. alinhamentos EI
 incompletos = [a['id'] for a in ei['alinhamentos'] if len(a['objetivos']) != 3]
 check('6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula vazia',
@@ -168,7 +184,7 @@ check('8c. Computação: gramática — todos os códigos decodificam', not erro
 grupos_co = {}
 for c in cods_co:
     grupos_co.setdefault(c[:6], []).append(int(c[6:]))
-check('8c. Computação: sem duplicatas e sequências contínuas (sem lacunas, ao contrário da BNCC 2018)',
+check('8c. Computação: sem duplicatas e sequências contínuas (mesma regra do contrato 5b)',
       len(set(cods_co)) == len(cods_co) and
       all(sorted(ns) == list(range(1, len(ns) + 1)) for ns in grupos_co.values()))
 eixos_co = {e['id'] for e in co['eixos']}

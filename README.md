@@ -120,7 +120,7 @@ python3 extrair_computacao.py  # anexo do Parecer CNE/CEB 2/2022 → computacao.
 python3 verificar.py           # confere cada texto contra o PDF; grava a página
 python3 verificar_computacao.py # confere Computação contra o anexo oficial
 python3 validar_schema.py      # JSON Schemas, com autoteste negativo
-python3 validar.py             # 29 checagens de contrato e completude (falha se algo divergir)
+python3 validar.py             # 30 checagens de contrato e completude (falha se algo divergir)
 python3 derivar.py             # gera derivados/ (SQLite e CSV) a partir dos JSONs
 ```
 

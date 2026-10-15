@@ -17,6 +17,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 4. Agrupamento: área/componente atribuídos = decodificação do código
 - ✅ 4. Competência de componente só em área multi-componente
 - ✅ 5. Sem duplicatas
+- ✅ 5b. Sequências contínuas: em cada grupo decodificado (etapa, anos ou grupo etário, componente ou área + competência) os códigos vão de 1 a n sem lacuna (107 grupos)
 - ✅ 6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula vazia
 - ✅ 7. Verificação PDF: 1.580/1.580 ok (correções e exceções registradas; decisão nº 12)
 - ✅ 8. Vigência coerente
@@ -27,7 +28,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 8c. Computação: 141 aprendizagens (EI03 11 + EF 104 + EM 26)
 - ✅ 8c. Computação: contagem por prefixo de código
 - ✅ 8c. Computação: gramática — todos os códigos decodificam
-- ✅ 8c. Computação: sem duplicatas e sequências contínuas (sem lacunas, ao contrário da BNCC 2018)
+- ✅ 8c. Computação: sem duplicatas e sequências contínuas (mesma regra do contrato 5b)
 - ✅ 8c. Computação: integridade referencial (eixo, objeto/pai, competência, anos=código)
 - ✅ 8c. Computação: verificação contra o anexo oficial — 141/141 idênticos
 - ✅ 8c. Completude: varredura de códigos no anexo == dataset (141)
