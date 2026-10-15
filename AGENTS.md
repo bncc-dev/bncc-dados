@@ -8,7 +8,7 @@ Dataset aberto e verificado da BNCC (Base Nacional Comum Curricular brasileira):
 
 ## Regras que nunca se quebram
 
-1. **Nunca invente códigos ou textos de habilidade.** Se um código não está em `dados/`, ele não existe na BNCC. A numeração tem lacunas legítimas; não interpole.
+1. **Nunca invente códigos ou textos de habilidade.** Um código bem formado que não está em `dados/` não existe na BNCC. Não deduza códigos a partir de vizinhos: a numeração é contínua dentro de cada grupo (contrato 5b do `validar.py`), e nos códigos de EM a centena é a competência, não uma sequência (depois de `EM13LGG105` vem `EM13LGG201`).
 2. **Nunca edite `dados/` ou `derivados/` à mão.** Tudo é gerado pelo pipeline a partir de `fontes/`; o CI reprova edição manual. Para mudar um dado, mude a extração ou registre decisão em DECISOES.md, e sempre com fonte oficial.
 3. **A área ou componente de uma habilidade é a decodificada do código** (`pipeline/codigos.py`), nunca a posição em uma aba ou tabela.
 4. **Textos normativos são imutáveis por nós.** Divergência entre fontes oficiais vira entrada em DECISOES.md, não escolha silenciosa.

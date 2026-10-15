@@ -66,7 +66,7 @@ This is the first curricular document beyond BNCC 2018, and it proves the multi-
 - **Axes** (3): Computational Thinking (Pensamento Computacional), Digital World (Mundo Digital), Digital Culture (Cultura Digital) (`co-eixo-*`).
 - **Knowledge objects** (`co-obj-*`): the field `pai` (parent; required, `null` when the object has no parent) captures the hierarchy of the tables for the final years (e.g. `co-obj-tipos-de-dados` → parent `co-obj-programacao`).
 - **Competencies**: 7 general competencies of the complement (`computacao-cg-*`) and 7 specific EM competencies (`computacao-em-ce-*`), to which the EM skills are linked.
-- **Continuous sequences**: unlike BNCC 2018, the Computing numbering has no gaps (a contract checked in CI).
+- **Continuous sequences**: as in BNCC 2018, the Computing numbering runs from 1 to n within each group, with no gaps (contracts 5b and 8c in CI).
 - Verification: the 141 texts are checked character by character against the official annex (`verificar_computacao.py`). Interpretation decisions are in entries 9, 10 and 13 of `DECISOES.md` (in Portuguese).
 - Not in this version of the module: grouping descriptors, explanations and official examples from the annex (future iteration).
 

@@ -24,7 +24,7 @@ Discordar do conteúdo da BNCC em si não é problema deste repositório. O text
 
 - **Verificação automática.** A cada mudança, o CI confere cada texto caractere a caractere contra o PDF homologado e o anexo oficial de Computação. Qualquer divergência reprova a mudança.
 - **Reprodução completa.** O CI refaz o dataset inteiro a partir das fontes. Edição manual em `dados/` reprova a mudança.
-- **Validação de formato.** JSON Schemas fechados e 29 checagens de contrato e completude.
+- **Validação de formato.** JSON Schemas fechados e 30 checagens de contrato e completude.
 - **Auditorias independentes.** A auditoria de 10/08/2026 leu 100% dos registros e resultou em 11 correções (decisão 12 do [DECISOES.md](../DECISOES.md)).
 
 ## Como reportar

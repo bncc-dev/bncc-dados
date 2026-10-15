@@ -63,7 +63,7 @@ python3 extrair_computacao.py   # Computing annex + structure map → computacao
 python3 verificar.py            # checks each text against the official PDF
 python3 verificar_computacao.py # checks Computing against the official annex
 python3 validar_schema.py       # JSON Schemas, with a negative self-test
-python3 validar.py              # 29 contract and completeness checks (fails on any divergence)
+python3 validar.py              # 30 contract and completeness checks (fails on any divergence)
 python3 derivar.py              # generates SQLite and CSV in derivados/
 ```
 

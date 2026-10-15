@@ -28,7 +28,7 @@ Quatro documentos oficiais, arquivados em [`fontes/`](../fontes/) com checksums 
 Duas camadas, ambas com código de saída (quebram o CI):
 
 - `pipeline/validar_schema.py`: os 7 arquivos de dados (estrutura, EI, EF, EM, marcos legais, perfis e Computação) contra os [JSON Schemas](../schema/), com autoteste negativo (registros corrompidos de propósito precisam ser rejeitados a cada execução).
-- `pipeline/validar.py`: 29 checagens de contrato, incluindo gramática de todos os códigos, contagens-gabarito por componente e área (1.304 EF, 183 EM, 93 EI), integridade referencial, regras estruturais do domínio e **completude por varredura**: a busca de códigos no PDF inteiro encontra exatamente os códigos do dataset. Nada falta, nada sobra.
+- `pipeline/validar.py`: 30 checagens de contrato, incluindo gramática de todos os códigos, contagens-gabarito por componente e área (1.304 EF, 183 EM, 93 EI), integridade referencial, regras estruturais do domínio e **completude por varredura**: a busca de códigos no PDF inteiro encontra exatamente os códigos do dataset. Nada falta, nada sobra.
 
 ## 5. Derivados conferidos
 
