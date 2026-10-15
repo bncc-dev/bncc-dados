@@ -55,19 +55,20 @@ Operational step by step to publish a data-version:
 
    The release version lives in `version` in `CITATION.cff`, from which `derivar.py` reads the SQLite `meta.data_version`. A correction patch uses a suffix: `dados-2026.08.1`. A format change gets its own tag: `schema-v1.1.0`.
 4. **GitHub release**: create the release from the tag, with the CHANGELOG excerpt as the body and the derived files (`bncc.sqlite`, zipped CSVs) as assets. This way, consumers can download versioned artifacts without cloning the repo.
-5. **Archive on Zenodo**: each data-version is deposited on Zenodo, which assigns a DOI and makes it citable in academic publications. The deposits of `dados-2026.07` (2026-07-27) and `dados-2026.07.1` (2026-08-11) were made manually. Until the Zenodo/GitHub integration is turned on, each new release requires repeating the deposit through the web interface.
+5. **Archive on Zenodo**: each data-version is deposited on Zenodo, which assigns a DOI and makes it citable in academic publications. The deposits of `dados-2026.07` (2026-07-27), `dados-2026.07.1` (2026-08-11) and `dados-2026.08` (2026-10-15) were made manually. Until the Zenodo/GitHub integration is turned on, each new release requires repeating the deposit through the web interface.
 6. **Immutability**: a published tag is never moved or deleted. Made a mistake? Create a new patch tag.
 
 Branch conventions: `main` is always reproducible (CI guarantees it); working branches are prefixed by type (`correcao/`, `normativa/`, `schema/`, `docs/`).
 
 ## Where the dataset is archived
 
-The dataset is deposited on [Zenodo](https://doi.org/10.5281/zenodo.21625233), which provides long-term preservation and a citable DOI. There are three identifiers: one concept DOI and one per version.
+The dataset is deposited on [Zenodo](https://doi.org/10.5281/zenodo.21625233), which provides long-term preservation and a citable DOI. There are four identifiers: one concept DOI and one per version.
 
 | DOI | What it points to | When to use it |
 |---|---|---|
 | `10.5281/zenodo.21625233` | Concept: always resolves to the latest version | README, website, generic citation of the project |
-| `10.5281/zenodo.21881682` | The `dados-2026.07.1` version | A paper that needs to pin exactly the data it analyzed |
+| `10.5281/zenodo.23403987` | The `dados-2026.08` version | A paper that needs to pin exactly the data it analyzed |
+| `10.5281/zenodo.21881682` | The `dados-2026.07.1` version | Historical citation |
 | `10.5281/zenodo.21625234` | The `dados-2026.07` version | Historical citation of the first release |
 
 All three are recorded in `CITATION.cff`, which GitHub uses to generate the formatted citation. The record is indexed by OpenAIRE automatically.

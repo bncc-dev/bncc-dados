@@ -35,6 +35,9 @@ identifiers:
     value: "10.5281/zenodo.21625233"
     description: "DOI de conceito: resolve sempre para a versão mais recente do dataset."
   - type: doi
+    value: "10.5281/zenodo.23403987"
+    description: "DOI da versão dados-2026.08."
+  - type: doi
     value: "10.5281/zenodo.21881682"
     description: "DOI da versão dados-2026.07.1."
   - type: doi
