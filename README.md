@@ -56,7 +56,7 @@ Exemplo de registro (Ensino Fundamental):
 }
 ```
 
-**Status: estável.** Primeira release: conteúdo `dados-2026.07`, formato `schema-v1.0.0`. Dados completos, validados e revisados pedagogicamente. Os identificadores e o formato passam a valer sob as garantias de [versionamento](docs/versionamento.md): mudança que quebre consumidores exige nova major do schema.
+**Status: estável.** Release atual: conteúdo `dados-2026.08`, formato `schema-v1.1.0` (primeira release: `dados-2026.07`, `schema-v1.0.0`). Dados completos, validados e revisados pedagogicamente. Os identificadores e o formato passam a valer sob as garantias de [versionamento](docs/versionamento.md): mudança que quebre consumidores exige nova major do schema.
 
 Mantido pela [Profy](https://profy.com.br), que é também sua primeira consumidora.
 

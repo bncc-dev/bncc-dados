@@ -71,6 +71,14 @@ def autoteste_negativo(reg):
     lp['organizacao'] = {'tipo': 'unidade_tematica', 'unidade_tematica': 'ef-comp-lp-ut-x'}
     casos.append(('LP com organização errada', 'ensino-fundamental.schema.json', caso))
 
+    caso = copy.deepcopy(ef)
+    caso['habilidades'][0]['vigencia']['ate'] = '2026-10-15'   # data-version, não data (schema-v1.1.0)
+    casos.append(('vigência com data em vez de data-version', 'ensino-fundamental.schema.json', caso))
+
+    caso = copy.deepcopy(ef)
+    caso['habilidades'][0]['fonte']['url_oficial'] = 'https://x'   # removido na schema-v1.1.0
+    casos.append(('fonte com url_oficial', 'ensino-fundamental.schema.json', caso))
+
     em = json.loads((DATASET / 'ensino-medio.json').read_text())
     caso = copy.deepcopy(em)
     area = next(h for h in caso['habilidades'] if h['componente'] is None)
@@ -81,6 +89,10 @@ def autoteste_negativo(reg):
     caso = copy.deepcopy(ml)
     caso['marcos_legais'][0]['url_oficial'] = 'https://www.jusbrasil.com.br/lei'  # só fonte oficial gov.br
     casos.append(('marco legal com URL fora do gov.br', 'marcos-legais.schema.json', caso))
+
+    caso = copy.deepcopy(ml)
+    caso['marcos_legais'][1]['ementa'] = 'ementa curta'       # ementa oficial tem ≥ 20 caracteres
+    casos.append(('marco legal com ementa curta', 'marcos-legais.schema.json', caso))
 
     co = json.loads((DADOS / 'computacao-2022' / 'computacao.json').read_text())
     caso = copy.deepcopy(co)
@@ -95,7 +107,7 @@ def autoteste_negativo(reg):
     for nome, schema, dados in casos:
         if not validar_arquivo(None, schema, reg, dados=dados):
             falhas.append(nome)
-    return falhas
+    return falhas, len(casos)
 
 
 if __name__ == '__main__':
@@ -109,10 +121,10 @@ if __name__ == '__main__':
             print(f'    - {"/".join(map(str, e.absolute_path))}: {e.message[:120]}')
         total_erros += len(erros)
 
-    frouxos = autoteste_negativo(reg)
+    frouxos, total_casos = autoteste_negativo(reg)
     if frouxos:
         print(f'  AUTOTESTE NEGATIVO FALHOU (schema frouxo): {frouxos}')
     else:
-        print('  autoteste negativo: 7/7 corrupções rejeitadas')
+        print(f'  autoteste negativo: {total_casos}/{total_casos} corrupções rejeitadas')
 
     sys.exit(1 if total_erros or frouxos else 0)

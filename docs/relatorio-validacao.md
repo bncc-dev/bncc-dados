@@ -1,6 +1,6 @@
 # Relatório de validação · dataset completo (bncc.dev, protótipo)
 
-EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 885 contextos de organização · 20 marcos legais · 5 perfis · **141 aprendizagens de Computação** (computacao-2022)
+EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 105 específicas · 879 contextos de organização · 20 marcos legais · 5 perfis · **141 aprendizagens de Computação** (computacao-2022)
 
 ## Contratos
 
@@ -11,6 +11,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 2. EI: 93 objetivos (EO 20, CG 15, TS 9, EF 27, ET 22)
 - ✅ 2. Competências: 10 gerais + 105 específicas (84 EF + 21 EM)
 - ✅ 3. Integridade referencial (organização, objetos, competências)
+- ✅ 3b. Contextos de organização: nomes íntegros (sem pedaço de quebra de linha, nota ou hífen de quebra)
 - ✅ 3. Organização por layout: LP=campo_pratica, LI=eixo, demais=unidade_tematica
 - ✅ 4. EM área: competência coerente com o dígito do código
 - ✅ 4. EM LP: 1..n competências da planilha
@@ -19,9 +20,11 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 - ✅ 5. Sem duplicatas
 - ✅ 5b. Sequências contínuas: em cada grupo decodificado (etapa, anos ou grupo etário, componente ou área + competência) os códigos vão de 1 a n sem lacuna (107 grupos)
 - ✅ 6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula vazia
-- ✅ 7. Verificação PDF: 1.580/1.580 ok (correções e exceções registradas; decisão nº 12)
+- ✅ 7. Verificação PDF: 1.580 aprendizagens + 115 competências, todas ok (decisões nº 12 e 14)
+- ✅ 7. Verificação PDF: nenhuma página do capítulo "Estrutura" (exemplos ilustrativos) como localizador
 - ✅ 8. Vigência coerente
 - ✅ 8b. Marcos legais: 20 registros e relações apontando para entidades do dataset
+- ✅ 8b. Marcos legais: ementa nula só na Constituição; nota nunca repete a ementa
 - ✅ 8b. Marcos legais: IDs únicos, URL oficial https no gov.br
 - ✅ 8b. Perfis: vocabulário mínimo do plano presente
 - ✅ 8c. Documento curricular computacao-2022 na estrutura (complemento de bncc-2018)
@@ -37,7 +40,7 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 ## Verificação contra o PDF homologado
 
-- `{'ok': 1580}` · 1580/1580 com página registrada em `fonte.localizador_pdf`
+- `{'ok': 1695}` · 1695/1695 registros (1.580 aprendizagens + 115 competências) com página registrada em `fonte.localizador_pdf`
 - Divergências abertas: nenhuma. Correções planilha × PDF aplicadas na extração (`CORRECOES_PDF`) e exceções da camada de texto com conferência visual registrada (`CONFERIDOS_VISUALMENTE`); ver decisão nº 12 do DECISOES.md.
 
 ## Completude (varredura de códigos no PDF inteiro)
@@ -54,11 +57,11 @@ EF 1304 + EM 183 + EI 93 = **1580 aprendizagens** · 10 competências gerais · 
 
 - **C1: componentes disponíveis para aluno do 6º ano** → 9: AR, CI, EF, ER, GE, HI, LI, LP, MA
 - **C2: habilidades de LP dos anos 3º–6º (flexibilização PEI)** → 238 habilidades
-- **C3: agrupadas por prática de linguagem** → Análise linguística/semiótica (Ortografização): 49 · Leitura/escuta (compartilhada e autônoma): 37 · Leitura: 37 · Oralidade: 34 · Análise linguística/semiótica: 32 · Produção de textos (escrita compartilhada e autônoma): 23 · Produção de textos: 21 · Oralidade *Considerar todas as habilidades dos eixos leitura e produção que se referem a textos ou produções orais, em áudio ou vídeo: 3 · Escrita (compartilhada e autônoma): 2
+- **C3: agrupadas por prática de linguagem** → Análise linguística/semiótica (Ortografização): 49 · Leitura/escuta (compartilhada e autônoma): 37 · Oralidade: 37 · Leitura: 37 · Análise linguística/semiótica: 32 · Produção de textos (escrita compartilhada e autônoma): 23 · Produção de textos: 21 · Escrita (compartilhada e autônoma): 2
 - **C4: registro completo de EF67LP08** → anos [6, 7], campos ['Campo jornalístico/midiático'], prática Leitura, 1 objetos, fonte: Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167
 - **C5: decodificar código colado ("em13lgg103")** → {"codigo": "EM13LGG103", "etapa": "EM", "seriacao": null, "area": "LGG", "area_nome": "Linguagens e suas Tecnologias", "competencia_especifica": 1, "sequencia": 3}
 - **C6: busca textual "frações" em Matemática** → 9: EF04MA09, EF04MA26, EF05MA03, EF05MA04, EF06MA07, EF06MA09, EF07MA08, EF07MA09…
-- **C7: progressão de EF06MA07 via objetos em anos anteriores** → nenhuma por igualdade de slug · dedução exige curadoria (decisão nº 2 do schema)
+- **C7: progressão de EF06MA07 via objetos em anos anteriores** → nenhuma por igualdade de slug · dedução exige curadoria (decisão 6 do DECISOES.md)
 - **C8: progressão EI entre faixas (campo TS)** → EI01TS01 → EI02TS01 → EI03TS01
 - **C9: EM com competência (área e LP)** → LGG103 → ['em-area-lgg-ce-01']; LP02 → ['em-area-lgg-ce-01']
 - **C10: EJA segmento → recorte** → eja-1→EF anos iniciais · eja-2→EF anos finais · eja-3→EM

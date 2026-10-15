@@ -27,8 +27,8 @@ keywords:
   - dataset
 license: CC-BY-4.0
 license-url: "https://github.com/bncc-dev/bncc-dados/blob/main/dados/LICENSE.md"
-version: "dados-2026.07.1"
-date-released: "2026-08-11"
+version: "dados-2026.08"
+date-released: "2026-10-15"
 doi: "10.5281/zenodo.21625233"
 identifiers:
   - type: doi

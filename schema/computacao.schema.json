@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://bncc.dev/schema/computacao.schema.json",
   "title": "Complemento de Computação (dados/computacao-2022/computacao.json)",
-  "description": "Anexo ao Parecer CNE/CEB 2/2022, instituído pela Resolução CNE/CEB 1/2022: 141 aprendizagens (11 EI, 104 EF, 26 EM) organizadas por eixos e objetos de conhecimento (EI/EF) ou competências específicas (EM). Documento curricular computacao-2022, derivado de bncc-2018.",
+  "description": "Anexo ao Parecer CNE/CEB 2/2022, instituído pela Resolução CNE/CEB 1/2022: 141 aprendizagens (11 EI, 104 EF, 26 EM) organizadas por eixo (EI), por eixo e objetos de conhecimento (EF) ou por competência específica (EM). Documento curricular computacao-2022, derivado de bncc-2018.",
   "type": "object",
   "$defs": {
     "documento": { "const": "computacao-2022" },

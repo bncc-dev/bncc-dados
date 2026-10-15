@@ -1,11 +1,15 @@
 """Verifica cada registro extraído contra o texto do PDF oficial.
 
-Para cada habilidade: localiza o código no PDF (via pdftotext), compara o
+Para cada aprendizagem: localiza o código no PDF (via pdftotext), compara o
 texto da planilha com o texto do PDF (match estrito após normalização) e
-grava a página PDF como `fonte.localizador_pdf`.
+grava a página PDF como `fonte.localizador_pdf`. Para cada competência
+(10 gerais e 105 específicas): procura o texto inteiro no PDF e grava a
+página da mesma forma.
 
-Saída: atualiza os JSONs em saida/ e gera saida/verificacao.json com o
-resultado por registro (ok | divergente | nao_encontrado).
+Saída: atualiza os JSONs em dados/bncc-2018/ e gera
+dados/bncc-2018/verificacao.json com o resultado por registro
+(ok | divergente | requer_conferencia_visual | nao_encontrado), chaveado
+pelo código da aprendizagem ou pelo id da competência.
 """
 import json
 import re
@@ -24,6 +28,13 @@ DATASET = AQUI.parent / 'dados' / 'bncc-2018'
 # contra ele; ver análise de fontes).
 PDF_CANONICO = MEC / 'Base-Nacional-Comum-Curricular-BNCC.pdf'
 PDF_POR_ETAPA = {'EF': PDF_CANONICO, 'EM': PDF_CANONICO}
+
+# Capítulo "Estrutura" do PDF (páginas PDF 25 a 36, impressas 23 a 34): traz
+# exemplos ilustrativos de quadros ("Como é possível observar no exemplo
+# apresentado…") que repetem, palavra por palavra, objetivos da EI (PDF 28) e
+# habilidades de Ciências do 1º ano (PDF 31). A página de verificação deve
+# ser a do quadro normativo da etapa, não a do exemplo (decisão 14).
+PAGINAS_CAPITULO_ESTRUTURA = range(25, 37)
 
 
 def normalizar(t):
@@ -44,7 +55,10 @@ def paginas_pdf(pdf):
     """Texto do PDF por página (1-indexado)."""
     raw = subprocess.run(['pdftotext', '-enc', 'UTF-8', str(pdf), '-'],
                          capture_output=True, check=True).stdout.decode('utf-8')
-    return raw.split('\f')
+    paginas = raw.split('\f')
+    if paginas and not paginas[-1].strip():   # o pdftotext fecha a última página com \f
+        paginas.pop()
+    return paginas
 
 
 # Colunas laterais dos quadros que o pdftotext intercala no meio das células
@@ -95,7 +109,7 @@ def verificar(paginas, codigo, texto_planilha):
     marcador = f'({codigo})'
     primeira_divergencia = None
     for i, pag in enumerate(paginas, start=1):
-        if marcador not in pag:
+        if marcador not in pag or i in PAGINAS_CAPITULO_ESTRUTURA:
             continue
         alvo = alvo_original
         depois = normalizar(pag.split(marcador, 1)[1])
@@ -147,6 +161,25 @@ def verificar(paginas, codigo, texto_planilha):
     return primeira_divergencia or {'status': 'nao_encontrado'}
 
 
+def verificar_competencia(paginas, texto):
+    """Localiza o texto inteiro de uma competência no PDF.
+
+    Competências não têm marcador de código; o texto normalizado é procurado
+    em cada página e, como as colunas dos quadros podem partir o texto entre
+    páginas, também no par página + seguinte. Fora do capítulo "Estrutura".
+    """
+    alvo = normalizar(texto)
+    norm = [normalizar(p) for p in paginas]
+    for i in range(1, len(paginas) + 1):
+        if i in PAGINAS_CAPITULO_ESTRUTURA:
+            continue
+        if alvo in norm[i - 1]:
+            return {'status': 'ok', 'pagina_pdf': i}
+        if i < len(paginas) and alvo not in norm[i] and alvo in f'{norm[i - 1]} {norm[i]}':
+            return {'status': 'ok', 'pagina_pdf': i, 'nota': 'texto atravessa páginas'}
+    return {'status': 'nao_encontrado', 'trecho_planilha': alvo[:80]}
+
+
 if __name__ == '__main__':
     paginas = paginas_pdf(PDF_CANONICO)
     print(f'{PDF_CANONICO.name}: {len(paginas)} páginas de texto extraídas')
@@ -166,6 +199,15 @@ if __name__ == '__main__':
             if r['status'] == 'ok':
                 h['fonte']['localizador_pdf'] = f"{PDF_CANONICO.name}, página PDF {r['pagina_pdf']}"
         (DATASET / arquivo).write_text(json.dumps(dados, ensure_ascii=False, indent=2))
+
+    est = json.loads((DATASET / 'estrutura.json').read_text())
+    for c in est['competencias_gerais'] + est['competencias_especificas']:
+        r = verificar_competencia(paginas, c['texto'])
+        r['arquivo_pdf'] = PDF_CANONICO.name
+        resultados[c['id']] = r
+        if r['status'] == 'ok':
+            c['fonte']['localizador_pdf'] = f"{PDF_CANONICO.name}, página PDF {r['pagina_pdf']}"
+    (DATASET / 'estrutura.json').write_text(json.dumps(est, ensure_ascii=False, indent=2))
 
     (DATASET / 'verificacao.json').write_text(json.dumps(resultados, ensure_ascii=False, indent=2))
     por_status = {}

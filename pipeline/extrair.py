@@ -1,7 +1,7 @@
 """Extrai o dataset completo de EF e EM das planilhas oficiais do MEC,
 mais a espinha estrutural (áreas, componentes, competências, recortes).
 
-Saídas (formato do schema v0.3):
+Saídas (formato dos JSON Schemas em schema/):
   saida/estrutura.json           espinha comum
   saida/ensino-fundamental.json  1.304 habilidades + contextos de organização
   saida/ensino-medio.json        183 habilidades + competências de área
@@ -25,6 +25,7 @@ FONTE_EF = {'documento': 'bncc-2018', 'arquivo': 'BNCC_Ensino Fundamental.xlsx',
             'proveniencia': 'exportada de downloadbncc.mec.gov.br em 23/06/2023'}
 FONTE_EM = {'documento': 'bncc-2018', 'arquivo': 'BNCC_Ensino_Medio.xlsx',
             'proveniencia': 'exportada de downloadbncc.mec.gov.br em 23/06/2023'}
+PROVENIENCIA_PDF = 'BNCC completa homologada (600 p.), obtida em 09/07/2026'
 
 DECISOES = []
 
@@ -55,6 +56,9 @@ CORRECOES_PDF = {
     'EF03LP11': ('recursos gráfico- visuais', 'recursos gráfico-visuais'),
     'EF04LP01': ('fonema--grafema', 'fonema-grafema'),
     'EF69LP48': ('gráfico- espacial', 'gráfico-espacial'),
+    # competências (verificação estendida em 14/10/2026): a planilha cola as
+    # palavras onde o PDF (página PDF 12) tem quebra de linha após a vírgula
+    'cg-09': ('cooperação,fazendo-se', 'cooperação, fazendo-se'),
 }
 
 
@@ -89,7 +93,39 @@ def slug(texto):
 
 
 def limpa(t):
-    return re.sub(r'\s+', ' ', t or '').strip()
+    t = (t or '').replace('ﬁ', 'fi').replace('ﬂ', 'fl')   # ligaduras tipográficas da planilha
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def nome_contexto(celula):
+    """Nome de um contexto de organização a partir da célula da planilha.
+
+    Descarta linhas de nota de rodapé ("*Considerar todas as habilidades…",
+    sob "Oralidade" em LP) e desfaz o hífen de quebra de linha
+    ("pós- escrita" → "pós-escrita"). Verificação de 14/10/2026 (decisão 14).
+    """
+    linhas = [l for l in (celula or '').split('\n') if not l.strip().startswith('*')]
+    nome = limpa('\n'.join(linhas))
+    return re.sub(r'(?<=\w)- (?=\w)', '-', nome)
+
+
+def objetos_da_celula(celula):
+    """Objetos de conhecimento de uma célula: um por linha, exceto quando a
+    linha é continuação da anterior (começa em minúscula), caso em que a
+    planilha quebrou um nome longo ao meio ("Fenômenos naturais (vulcões,
+    terremotos e" + "tsunamis)"). Decisão 14.
+    Heurística, não regra da planilha: um objeto legítimo cujo nome comece em
+    minúscula seria fundido ao anterior; o contrato 3b do validar.py acusaria."""
+    objetos = []
+    for linha in (celula or '').split('\n'):
+        linha = limpa(linha)
+        if not linha:
+            continue
+        if objetos and linha[0].islower():
+            objetos[-1] = f'{objetos[-1]} {linha}'
+        else:
+            objetos.append(linha)
+    return objetos
 
 
 def anos_de(texto):
@@ -147,18 +183,17 @@ def extrair_ef(pl):
 
             if 'campos_atuacao' in atual and comp_real == 'ef-comp-lp':
                 org = {'tipo': 'campo_pratica',
-                       'campos_atuacao': [contexto('catu', comp_real, limpa(c), aba)
-                                          for c in atual['campos_atuacao'].split('\n') if limpa(c)],
-                       'pratica_linguagem': contexto('prat', comp_real, limpa(atual.get('pratica_linguagem', '')), aba)}
+                       'campos_atuacao': [contexto('catu', comp_real, nome_contexto(c), aba)
+                                          for c in atual['campos_atuacao'].split('\n') if nome_contexto(c)],
+                       'pratica_linguagem': contexto('prat', comp_real, nome_contexto(atual.get('pratica_linguagem', '')), aba)}
             elif 'eixo' in atual and comp_real == 'ef-comp-li':
-                org = {'tipo': 'eixo', 'eixo': contexto('eixo', comp_real, limpa(atual['eixo']), aba),
-                       'unidade_tematica': contexto('ut', comp_real, limpa(atual.get('unidade_tematica', '')), aba)}
+                org = {'tipo': 'eixo', 'eixo': contexto('eixo', comp_real, nome_contexto(atual['eixo']), aba),
+                       'unidade_tematica': contexto('ut', comp_real, nome_contexto(atual.get('unidade_tematica', '')), aba)}
             else:
                 org = {'tipo': 'unidade_tematica',
-                       'unidade_tematica': contexto('ut', comp_real, limpa(atual.get('unidade_tematica', '')), aba)}
+                       'unidade_tematica': contexto('ut', comp_real, nome_contexto(atual.get('unidade_tematica', '')), aba)}
 
-            objetos = [contexto('oc', comp_real, limpa(o), aba)
-                       for o in (atual.get('objetos', '') or '').split('\n') if limpa(o)]
+            objetos = [contexto('oc', comp_real, o, aba) for o in objetos_da_celula(atual.get('objetos', ''))]
 
             habilidades.append({
                 'codigo': codigo, 'documento': 'bncc-2018', 'texto': texto,
@@ -233,7 +268,8 @@ def extrair_competencias(pl_ef, pl_em):
             gerais_em.append(t)
     if gerais_ef != gerais_em:
         DECISOES.append('Competências gerais divergem entre as planilhas de EF e EM — comparar e decidir fonte.')
-    gerais = [{'id': f'cg-{i:02d}', 'documento': 'bncc-2018', 'tipo': 'geral', 'numero': i, 'texto': t,
+    gerais = [{'id': f'cg-{i:02d}', 'documento': 'bncc-2018', 'tipo': 'geral', 'numero': i,
+               'texto': corrigir_pelo_pdf(f'cg-{i:02d}', t),
                'fonte': dict(FONTE_EF, localizador='aba Competências gerais')}
               for i, t in enumerate(gerais_ef, 1)]
 
@@ -285,7 +321,7 @@ def espinha(gerais, especificas):
          for s, n in AREAS_EM.items()])
     componentes = [{'id': f'ef-comp-{s.lower()}', 'etapa': 'EF', 'nome': n, 'sigla_codigo': s,
                     'area': f'ef-area-{AREA_POR_COMPONENTE_EF[s]}', 'tem_aprendizagens_proprias': True,
-                    'presenca': {'anos': [6, 7, 8, 9]} if s == 'LI' else None}
+                    'presenca': {'anos': [6, 7, 8, 9] if s == 'LI' else list(range(1, 10))}}
                    for s, n in COMPONENTES_EF.items()]
     componentes += [{'id': 'em-comp-lp', 'etapa': 'EM', 'nome': 'Língua Portuguesa', 'sigla_codigo': 'LP',
                      'area': 'em-area-lgg', 'tem_aprendizagens_proprias': True,
@@ -294,9 +330,13 @@ def espinha(gerais, especificas):
                      'area': 'em-area-mat', 'tem_aprendizagens_proprias': True,
                      'destaque_legal': 'Lei nº 13.415/2017',
                      'nota': 'detalhamento coincide com a área (componente único)'}]
+    # Componentes do EM sem habilidades próprias: a BNCC os nomeia no capítulo
+    # de estrutura (página PDF 35, impressa 33), dentro das áreas.
+    fonte_em_comp = dict(pdf, proveniencia=PROVENIENCIA_PDF, localizador='página PDF 35',
+                         localizador_pdf=f"{pdf['arquivo']}, página PDF 35")
     componentes += [{'id': f'em-comp-{slug(n)}', 'etapa': 'EM', 'nome': n, 'sigla_codigo': None,
                      'area': f'em-area-{a}', 'tem_aprendizagens_proprias': False,
-                     'fonte': dict(pdf, localizador='p. 33 (PDF da estrutura)')}
+                     'fonte': dict(fonte_em_comp)}
                     for n, a in [('Arte', 'lgg'), ('Educação Física', 'lgg'), ('Língua Inglesa', 'lgg'),
                                  ('Biologia', 'cnt'), ('Física', 'cnt'), ('Química', 'cnt'),
                                  ('História', 'chs'), ('Geografia', 'chs'), ('Sociologia', 'chs'), ('Filosofia', 'chs')]]

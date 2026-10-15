@@ -5,7 +5,7 @@
 Este dicionário descreve todos os campos dos arquivos de dados do bncc.dev: os seis arquivos de dados de `dados/bncc-2018/`, o de `dados/computacao-2022/` e os dois relatórios de verificação (`verificacao.json`), descritos ao final. Para cada campo, informa o tipo, se é obrigatório, o significado e um exemplo real.
 
 - Os arquivos JSON em [`dados/`](../dados/) são a fonte canônica. O SQLite e os CSVs de [`derivados/`](../derivados/) são gerados a partir deles.
-- Tipo e obrigatoriedade vêm dos [JSON Schemas](../schema/) (draft 2020-12, formato `schema-v1.0.0`).
+- Tipo e obrigatoriedade vêm dos [JSON Schemas](../schema/) (draft 2020-12, formato `schema-v1.1.0`).
 - Os nomes de campo estão em português e são identificadores estáveis. Não os traduza no código que consome os dados.
 - As entidades e as decisões de modelagem estão explicadas no [Modelo de dados](modelo-de-dados.md). As decisões sobre inconsistências das fontes oficiais estão em [DECISOES.md](../DECISOES.md).
 
@@ -68,16 +68,15 @@ Proveniência do registro: documento oficial e localizadores. É a cadeia de aud
 | `fonte.documento` | string (`documento_ref`) | sim | Documento curricular de origem do registro. | `"bncc-2018"` |
 | `fonte.arquivo` | string | não | Nome do arquivo oficial de origem, arquivado em [`fontes/`](../fontes/). Valores nos dados: `BNCC_Ensino Fundamental.xlsx` e `BNCC_Ensino_Medio.xlsx` (planilhas oficiais do MEC), `Base-Nacional-Comum-Curricular-BNCC.pdf` (PDF homologado da BNCC) e `anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf` (anexo de Computação). | `"BNCC_Ensino Fundamental.xlsx"` |
 | `fonte.proveniencia` | string | não | Como e quando a fonte foi obtida, ou como o registro foi montado. Texto livre. | `"exportada de downloadbncc.mec.gov.br em 23/06/2023"` |
-| `fonte.localizador` | string | não | Onde o registro está no material de onde foi extraído. Formatos nos dados: `aba <nome>, linha <n>` (planilhas do MEC; competências e contextos de organização trazem só a aba); `página PDF <n>` (EI, extraída do PDF homologado); `<planilha> · linha <n>` (computacao-2022: planilha de apoio da Secretaria de Educação de Pernambuco de onde veio a estrutura, que não está mais no repositório, ver decisão 13 do DECISOES.md); `p. 33 (PDF da estrutura)` (componentes do EM sem aprendizagens próprias). | `"aba Língua Portuguesa, linha 229"` |
-| `fonte.localizador_pdf` | string | não | Página do documento oficial em que o texto do registro foi conferido. É a posição da página no arquivo PDF, não o número impresso. BNCC 2018: `Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF <n>`. computacao-2022: `página PDF <n>`, no anexo indicado em `fonte.arquivo`. Presente em todas as aprendizagens. | `"Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167"` |
-| `fonte.url_oficial` | string | não | A confirmar pelos mantenedores. Nenhum registro preenche este campo nesta versão. | nenhum nos dados |
+| `fonte.localizador` | string | não | Onde o registro está no material de onde foi extraído. Formatos nos dados: `aba <nome>, linha <n>` (planilhas do MEC; competências e contextos de organização trazem só a aba); `página PDF <n>` (EI, extraída do PDF homologado, e os 10 componentes do EM sem aprendizagens próprias, nomeados na página PDF 35); `<planilha> · linha <n>` (computacao-2022: planilha de apoio da Secretaria de Educação de Pernambuco de onde veio a estrutura, que não está mais no repositório, ver decisão 13 do DECISOES.md). | `"aba Língua Portuguesa, linha 229"` |
+| `fonte.localizador_pdf` | string | não | Página do documento oficial em que o texto do registro foi conferido. É a posição da página no arquivo PDF, não o número impresso. BNCC 2018: `Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF <n>`. computacao-2022: `página PDF <n>`, no anexo indicado em `fonte.arquivo`. Presente em todas as aprendizagens, nas 115 competências da BNCC 2018 e nos 10 componentes do EM sem aprendizagens próprias. Nunca aponta para o capítulo "Estrutura" do PDF (páginas 25 a 36), que só traz exemplos ilustrativos. | `"Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167"` |
 
 Subcampos de `fonte` preenchidos em cada coleção:
 
 | Arquivo e coleção | Subcampos preenchidos |
 |---|---|
-| `estrutura.json`: `componentes_curriculares` (10 de 21 itens) | `documento`, `arquivo`, `localizador` |
-| `estrutura.json`: `competencias_gerais`, `competencias_especificas` | `documento`, `arquivo`, `proveniencia`, `localizador` |
+| `estrutura.json`: `componentes_curriculares` (10 de 21 itens) | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
+| `estrutura.json`: `competencias_gerais`, `competencias_especificas` | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
 | `educacao-infantil.json`: `objetivos` | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
 | `ensino-fundamental.json` e `ensino-medio.json`: `habilidades` | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
 | `ensino-fundamental.json` e `ensino-medio.json`: `contextos_organizacao` | `documento`, `arquivo`, `proveniencia`, `localizador` |
@@ -92,8 +91,8 @@ Ciclo de vida normativo do registro. Presente, e obrigatório, em todas as apren
 |---|---|---|---|---|
 | `vigencia` | object | sim (em todas as aprendizagens) | Objeto de vigência do registro. | `{"status": "vigente", "desde": "dados-2026.07", "ate": null}` |
 | `vigencia.status` | enum | sim | Situação normativa. `vigente`: em vigor. `alterado`: registro alterado por mudança normativa. `revogado`: revogado; o registro continua no dataset e `ate` é preenchido. Todos os registros desta versão são `vigente`. Use para filtrar: aplicações não deveriam sugerir aprendizagens revogadas. | `"vigente"` |
-| `vigencia.desde` | string | sim | Data-version (versão do conteúdo do dataset, formato `dados-AAAA.MM`) desde a qual o registro consta como vigente. Não é a data do ato normativo: os registros de Computação, de norma de 2022, também trazem `dados-2026.07`. | `"dados-2026.07"` |
-| `vigencia.ate` | string ou `null` (anulável) | sim | Fim da vigência. `null` enquanto o registro está vigente; preenchido quando ele é revogado. Todos os registros desta versão têm `null`. Formato do valor preenchido: a confirmar pelos mantenedores. | `null` |
+| `vigencia.desde` | string (padrão `dados-AAAA.MM` ou `dados-AAAA.MM.N`) | sim | Data-version (versão do conteúdo do dataset) em que o registro entrou no dataset. Não é a data do ato normativo: os registros de Computação, de norma de 2022, também trazem `dados-2026.07`. Um patch de correção não muda o `desde` de quem já estava no dataset. | `"dados-2026.07"` |
+| `vigencia.ate` | string (mesmo padrão de `desde`) ou `null` (anulável) | sim | Fim da vigência. `null` enquanto o registro está vigente. Quando preenchido, é a data-version em que o registro deixou de valer tal como está: a da revogação (`status` = `revogado`) ou a da alteração normativa (`status` = `alterado`); o texto permanece o da última versão vigente. Todos os registros desta versão têm `null`. | `null` |
 
 ## `dados/bncc-2018/estrutura.json`
 
@@ -151,11 +150,11 @@ A espinha estrutural do dataset: documentos curriculares, etapas, modalidades, �
 | `componentes_curriculares[].sigla_codigo` | string ou `null` (anulável) | não | Sigla do componente dentro dos códigos das habilidades (ex.: `LP` em `EF67LP08` e em `EM13LP02`). `null` quando o componente não tem sigla própria nos códigos: todos os do EM, exceto Língua Portuguesa. | `"LI"` |
 | `componentes_curriculares[].area` | string (`id_slug`) | sim | `id` da área do conhecimento (`areas_conhecimento[].id`) a que o componente pertence. | `"ef-area-linguagens"` |
 | `componentes_curriculares[].tem_aprendizagens_proprias` | boolean | sim | `true` quando o componente tem habilidades próprias no dataset. `false` em 10 componentes do EM (Arte, Educação Física, Língua Inglesa, Biologia, Física, Química, História, Geografia, Sociologia e Filosofia): no EM, as habilidades desses componentes são definidas por área (BNCC, página PDF 35). | `false` |
-| `componentes_curriculares[].presenca` | object ou `null` (anulável) | não | Anos do EF em que o componente está presente. Só Língua Inglesa tem valor. Os outros 8 componentes do EF têm `null`, e nos componentes do EM o campo não aparece. Significado de `null`: a confirmar pelos mantenedores. | `{"anos": [6, 7, 8, 9]}` |
+| `componentes_curriculares[].presenca` | object ou `null` (anulável) | não | Anos do EF em que o componente está presente. Presente nos 9 componentes do EF: Língua Inglesa com `[6, 7, 8, 9]` (BNCC, anos finais) e os outros 8 com `[1, 2, 3, 4, 5, 6, 7, 8, 9]`. Nos componentes do EM o campo não aparece, porque o EM não tem seriação. | `{"anos": [6, 7, 8, 9]}` |
 | `componentes_curriculares[].presenca.anos` | array de integer (1 a 9) | sim (dentro de `presenca`) | Anos do EF (1º ao 9º) em que o componente aparece. | `[6, 7, 8, 9]` |
 | `componentes_curriculares[].destaque_legal` | string | não | Ato legal que dá destaque ao componente. Presente em Língua Portuguesa e Matemática do EM: a Lei nº 13.415/2017 torna obrigatórios os estudos e práticas desses componentes nos três anos do EM (registro `lei-13415-2017` em `marcos-legais.json`). | `"Lei nº 13.415/2017"` |
 | `componentes_curriculares[].nota` | string | não | Observação do projeto sobre o componente. Presente só em `em-comp-mat`. | `"detalhamento coincide com a área (componente único)"` |
-| `componentes_curriculares[].fonte` | object ([`fonte`](#fonte)) | não | Proveniência. Presente só nos 10 componentes do EM sem aprendizagens próprias. | `{"documento": "bncc-2018", "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf", "localizador": "p. 33 (PDF da estrutura)"}` |
+| `componentes_curriculares[].fonte` | object ([`fonte`](#fonte)) | não | Proveniência. Presente só nos 10 componentes do EM sem aprendizagens próprias: a página PDF 35 (impressa 33), em que a BNCC nomeia os componentes de cada área do EM. | `{"documento": "bncc-2018", "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf", "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026", "localizador": "página PDF 35", "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"}` |
 
 ### `recortes_temporais`
 
@@ -275,10 +274,10 @@ As habilidades do EF e os contextos de organização a que elas se referem: unid
 
 | Campo | Tipo | Obrigatório | Descrição | Exemplo |
 |---|---|---|---|---|
-| `contextos_organizacao` | array | sim | Entidades de organização dos quadros do EF, apontadas pelas habilidades. 879 itens: 780 objetos de conhecimento, 77 unidades temáticas, 10 práticas de linguagem, 7 campos de atuação e 5 eixos. | `[{"id": "ef-comp-ar-oc-arte-e-tecnologia", …}, …]` |
+| `contextos_organizacao` | array | sim | Entidades de organização dos quadros do EF, apontadas pelas habilidades. 873 itens: 775 objetos de conhecimento, 77 unidades temáticas, 9 práticas de linguagem, 7 campos de atuação e 5 eixos. | `[{"id": "ef-comp-ar-oc-arte-e-tecnologia", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | sim | Identificador: `id` do componente + `-` + `tipo` + `-` + nome em slug. | `"ef-comp-lp-prat-leitura"` |
 | `contextos_organizacao[].tipo` | enum | sim | Tipo do contexto. `ut`: unidade temática. `oc`: objeto de conhecimento. `catu`: campo de atuação (só LP). `prat`: prática de linguagem (só LP). `eixo`: eixo (só LI). | `"prat"` |
-| `contextos_organizacao[].nome` | string | sim | Nome como aparece na planilha oficial. | `"Leitura"` |
+| `contextos_organizacao[].nome` | string | sim | Nome da planilha oficial, com a célula normalizada: linhas partidas pela quebra de linha são reunidas, nota de rodapé e hífen de quebra são descartados (decisão 14). | `"Leitura"` |
 | `contextos_organizacao[].componente` | string (`id_slug`) | sim | `id` do componente a que o contexto pertence. | `"ef-comp-lp"` |
 | `contextos_organizacao[].fonte` | object ([`fonte`](#fonte)) | sim | Proveniência: aba da planilha oficial do EF, sem linha. | `{"arquivo": "BNCC_Ensino Fundamental.xlsx", "localizador": "aba Língua Portuguesa", …}` |
 
@@ -309,7 +308,7 @@ As habilidades do EM, sem seriação, e os campos de atuação social de Língua
 | `contextos_organizacao` | array | sim | Campos de atuação social de Língua Portuguesa do EM, apontados por `habilidades[].campos_atuacao_social`. 6 itens. | `[{"id": "em-comp-lp-catu-campo-artistico-literario", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | sim | Identificador: `em-comp-lp-catu-` + nome em slug. | `"em-comp-lp-catu-campo-artistico-literario"` |
 | `contextos_organizacao[].tipo` | const `catu` | sim | Sempre `catu` (campo de atuação). | `"catu"` |
-| `contextos_organizacao[].nome` | string | sim | Nome como aparece na planilha oficial. | `"Campo artístico-literário"` |
+| `contextos_organizacao[].nome` | string | sim | Nome da planilha oficial, com a célula normalizada: linhas partidas pela quebra de linha são reunidas, nota de rodapé e hífen de quebra são descartados (decisão 14). | `"Campo artístico-literário"` |
 | `contextos_organizacao[].componente` | const `em-comp-lp` | sim | Sempre `em-comp-lp` (Língua Portuguesa do EM). | `"em-comp-lp"` |
 | `contextos_organizacao[].fonte` | object ([`fonte`](#fonte)) | sim | Proveniência: aba "Hab. de Língua Portuguesa" da planilha oficial do EM, sem linha. | `{"arquivo": "BNCC_Ensino_Medio.xlsx", "localizador": "aba Hab. de Língua Portuguesa", …}` |
 
@@ -325,9 +324,9 @@ Referências aos atos normativos que fundamentam a BNCC e a educação básica: 
 | `marcos_legais[].id` | string (`id_slug`) | sim | Identificador. Nos dados: tipo do ato, número e ano (ex.: `lei-9394-1996`, `resolucao-cne-cp-2-2017`). | `"lei-13415-2017"` |
 | `marcos_legais[].tipo` | enum | sim | Tipo do ato. `constituicao`: Constituição Federal. `emenda_constitucional`: emenda à Constituição. `lei`: lei. `resolucao`: resolução (nos dados, todas do CNE). `parecer`: parecer (nos dados, todos do CNE). | `"lei"` |
 | `marcos_legais[].titulo` | string (mínimo 10 caracteres) | sim | Título oficial do ato, com número e data. | `"Lei nº 13.415, de 16 de fevereiro de 2017"` |
-| `marcos_legais[].ementa` | string (mínimo 20 caracteres) | sim | Resumo do conteúdo do ato. Em parte dos registros, o texto junta a ementa oficial e comentário do projeto (artigos ou metas relevantes para a educação básica, homologação); não use o campo como transcrição da ementa oficial. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
+| `marcos_legais[].ementa` | string (mínimo 20 caracteres) ou `null` (anulável) | sim | Ementa oficial do ato, transcrita da publicação oficial (Planalto para leis e emenda, CNE para resoluções), conferida em 15/10/2026. `null` na Constituição, que não tem ementa. Nos três pareceres do CNE, que também não têm ementa, traz o campo "ASSUNTO" do cabeçalho do parecer, transcrito literalmente do PDF do CNE (conferido em 15/10/2026). Comentário do projeto fica em `nota`. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
 | `marcos_legais[].url_oficial` | string (padrão `^https://[a-z0-9.-]+\.gov\.br/`) | sim | Link oficial do ato, sempre https em domínio gov.br. | `"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13415.htm"` |
-| `marcos_legais[].nota` | string | não | Observação do projeto. Presente em 1 registro (`parecer-cne-ceb-2-2022`). | `"O anexo do parecer (objetivos e habilidades de Computação) é o documento-fonte do futuro módulo de Computação: https://…"` |
+| `marcos_legais[].nota` | string | não | Comentário do projeto: o que o ato significa para a educação básica e para este dataset (artigos e metas relevantes, homologação, apelidos como "LDB"). Nunca é texto normativo. Presente em 11 registros. | `"As metas 2, 3 e 7 e suas estratégias preveem a base nacional comum curricular."` |
 | `marcos_legais[].relaciona` | array de object | sim | Vínculos tipados do ato com entidades do dataset. Pode ser vazia: `lei-8069-1990` e `lei-13146-2015` não têm vínculos. 28 vínculos no total. | `[{"entidade": "EM", "natureza": "altera"}, …]` |
 | `marcos_legais[].relaciona[].entidade` | string (`id_slug`) ou enum (`EI`, `EF`, `EM`) | sim | Entidade vinculada: sigla de etapa ou `id` de entidade de `estrutura.json` (documento curricular, modalidade, área, componente ou competência específica). Valores nos dados: `bncc-2018`, `EI`, `EF`, `EM`, `eja`, `em-comp-lp`, `em-comp-mat`. | `"em-comp-lp"` |
 | `marcos_legais[].relaciona[].natureza` | enum | sim | Natureza do vínculo. Valores na lista abaixo. | `"fundamenta_destaque"` |
@@ -379,10 +378,10 @@ Tipos locais, definidos em `$defs` de `schema/computacao.schema.json`:
 
 | Campo | Tipo | Obrigatório | Descrição | Exemplo |
 |---|---|---|---|---|
-| `objetos_conhecimento` | array (mínimo 1 item) | sim | Objetos de conhecimento das habilidades do EF de Computação. 61 itens, dos quais 31 têm `pai`. 5 objetos servem só como pai e não são apontados diretamente por habilidades. | `[{"id": "co-obj-algoritmos", …}, …]` |
+| `objetos_conhecimento` | array (mínimo 1 item) | sim | Objetos de conhecimento das habilidades do EF de Computação. 59 itens, dos quais 30 têm `pai`. 4 objetos servem só como pai e não são apontados diretamente por habilidades. | `[{"id": "co-obj-algoritmos", …}, …]` |
 | `objetos_conhecimento[].id` | string (`objeto_ref`) | sim | Identificador: `co-obj-` + nome em slug. | `"co-obj-tipos-de-dados"` |
 | `objetos_conhecimento[].documento` | const `computacao-2022` | sim | Documento curricular. | `"computacao-2022"` |
-| `objetos_conhecimento[].nome` | string (mínimo 3 caracteres) | sim | Nome como aparece no anexo. Dois nomes terminam em "(cont.)", e seus ids terminam em `-cont`. | `"Tipos de dados"` |
+| `objetos_conhecimento[].nome` | string (mínimo 3 caracteres) | sim | Nome como aparece no anexo, sem o marcador "(cont.)" com que o anexo indica a continuação de um quadro na página seguinte (decisão 14). | `"Tipos de dados"` |
 | `objetos_conhecimento[].pai` | string (`objeto_ref`) ou `null` (anulável) | sim | `id` do objeto pai, na hierarquia dos quadros dos anos finais. `null` quando o objeto não tem pai. | `"co-obj-programacao"` |
 
 ### `competencias`
@@ -438,7 +437,7 @@ Tipos locais, definidos em `$defs` de `schema/computacao.schema.json`:
 
 ## Relatórios de verificação (`verificacao.json`)
 
-`dados/bncc-2018/verificacao.json` (1.580 entradas) e `dados/computacao-2022/verificacao.json` (141 entradas) registram o resultado da conferência de cada texto contra o documento oficial. São gerados por `pipeline/verificar.py` e `pipeline/verificar_computacao.py` a cada execução do pipeline e não têm JSON Schema. Cada arquivo é um objeto cujas chaves são os códigos das aprendizagens.
+`dados/bncc-2018/verificacao.json` (1.695 entradas: 1.580 aprendizagens e 115 competências) e `dados/computacao-2022/verificacao.json` (141 entradas) registram o resultado da conferência de cada texto contra o documento oficial. São gerados por `pipeline/verificar.py` e `pipeline/verificar_computacao.py` a cada execução do pipeline e não têm JSON Schema. Cada arquivo é um objeto cujas chaves são os códigos das aprendizagens ou, na BNCC 2018, os `id` das competências (`cg-01`, `ef-comp-lp-ce-04`).
 
 | Campo | Tipo | Presente | Descrição | Exemplo |
 |---|---|---|---|---|
@@ -449,8 +448,4 @@ Tipos locais, definidos em `$defs` de `schema/computacao.schema.json`:
 
 ## Pendências
 
-Campos cujo significado, total ou parcial, não pôde ser estabelecido pelos schemas, pelos dados, pela documentação ou pelo código do pipeline. Estão marcados com "a confirmar pelos mantenedores" nas tabelas.
-
-1. `fonte.url_oficial` (em todas as coleções que têm `fonte`): o significado não está documentado e nenhum registro preenche o campo.
-2. `componentes_curriculares[].presenca` (`estrutura.json`): o significado de `null` não está documentado. Só Língua Inglesa tem valor; os outros componentes do EF têm `null`, e os do EM não têm o campo.
-3. `vigencia.ate`: o formato do valor preenchido (data-version, como em `desde`, ou data) não está documentado. Hoje todos os registros têm `null`.
+Nenhuma. As três pendências da primeira versão deste dicionário (`fonte.url_oficial` sem uso, `presenca` nula sem significado definido e `vigencia.ate` sem formato) foram resolvidas na `dados-2026.08` / `schema-v1.1.0` (decisão 14 do DECISOES.md).

@@ -300,12 +300,6 @@
       "pai": "co-obj-sistemas-distribuidos-e-internet"
     },
     {
-      "id": "co-obj-seguranca-cibernetica-cont",
-      "documento": "computacao-2022",
-      "nome": "Segurança cibernética (cont.)",
-      "pai": "co-obj-sistemas-distribuidos-e-internet-cont"
-    },
-    {
       "id": "co-obj-seguranca-e-responsabilidade-no-uso-da-tecnologia",
       "documento": "computacao-2022",
       "nome": "Segurança e responsabilidade no uso da tecnologia",
@@ -339,12 +333,6 @@
       "id": "co-obj-sistemas-distribuidos-e-internet",
       "documento": "computacao-2022",
       "nome": "Sistemas distribuídos e internet",
-      "pai": null
-    },
-    {
-      "id": "co-obj-sistemas-distribuidos-e-internet-cont",
-      "documento": "computacao-2022",
-      "nome": "Sistemas distribuídos e internet (cont.)",
       "pai": null
     },
     {
@@ -3196,7 +3184,7 @@
       "texto": "Analisar técnicas de criptografia para armazenamento e transmissão de dados.",
       "eixo": "co-eixo-mundo-digital",
       "objetos_conhecimento": [
-        "co-obj-seguranca-cibernetica-cont"
+        "co-obj-seguranca-cibernetica"
       ],
       "anos": [
         9

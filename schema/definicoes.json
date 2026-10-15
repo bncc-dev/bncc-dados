@@ -52,19 +52,18 @@
         "arquivo": { "type": "string" },
         "proveniencia": { "type": "string" },
         "localizador": { "type": "string" },
-        "localizador_pdf": { "type": "string" },
-        "url_oficial": { "type": "string" }
+        "localizador_pdf": { "type": "string" }
       },
       "required": ["documento"],
       "additionalProperties": false
     },
     "vigencia": {
       "type": "object",
-      "description": "Ciclo de vida normativo do registro (schema doc §10)",
+      "description": "Ciclo de vida normativo do registro (docs/versionamento.md). `desde` e `ate` são data-versions (dados-AAAA.MM ou dados-AAAA.MM.N), nunca datas do ato normativo.",
       "properties": {
         "status": { "enum": ["vigente", "alterado", "revogado"] },
-        "desde": { "type": "string" },
-        "ate": { "type": ["string", "null"] }
+        "desde": { "type": "string", "pattern": "^dados-[0-9]{4}\\.[0-9]{2}(\\.[0-9]+)?$", "description": "Data-version em que o registro entrou no dataset" },
+        "ate": { "type": ["string", "null"], "pattern": "^dados-[0-9]{4}\\.[0-9]{2}(\\.[0-9]+)?$", "description": "null enquanto vigente. Data-version em que o registro deixou de valer tal como está: a da revogação (status revogado) ou a da alteração normativa (status alterado); o texto permanece o da última versão vigente" }
       },
       "required": ["status", "desde", "ate"],
       "additionalProperties": false
