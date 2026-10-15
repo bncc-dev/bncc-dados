@@ -1,3 +1,5 @@
+**Português** · [English](en/installation.md)
+
 # Instalação e primeira execução
 
 Guia rápido para quem quer **usar os dados** ou **reproduzir o pipeline** localmente.
@@ -46,7 +48,7 @@ Ambiente Python:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install "jsonschema>=4.18"
+pip install -r requirements.txt   # jsonschema>=4.18
 ```
 
 ### Executar
@@ -55,11 +57,14 @@ Na ordem, a partir de `pipeline/`:
 
 ```bash
 cd pipeline
-python3 extrair.py      # planilhas oficiais → dados/bncc-2018/*.json
-python3 extrair_ei.py   # PDF homologado → educacao-infantil.json
-python3 verificar.py    # confere cada texto contra o PDF oficial
-python3 validar.py      # schemas + 18 contratos (falha se algo divergir)
-python3 derivar.py      # gera SQLite e CSV em derivados/
+python3 extrair.py              # planilhas oficiais → dados/bncc-2018/*.json
+python3 extrair_ei.py           # PDF homologado → educacao-infantil.json
+python3 extrair_computacao.py   # anexo de Computação + mapa de estrutura → computacao.json
+python3 verificar.py            # confere cada texto contra o PDF oficial
+python3 verificar_computacao.py # confere Computação contra o anexo oficial
+python3 validar_schema.py       # JSON Schemas, com autoteste negativo
+python3 validar.py              # 29 checagens de contrato e completude (falha se algo divergir)
+python3 derivar.py              # gera SQLite e CSV em derivados/
 ```
 
 Se tudo passou e `git diff` está limpo, você reproduziu exatamente o dataset publicado. É a mesma checagem que o CI faz em todo push.

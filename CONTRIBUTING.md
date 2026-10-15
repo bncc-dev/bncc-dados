@@ -1,3 +1,5 @@
+**Português** · [English](CONTRIBUTING.en.md)
+
 # Guia de contribuição
 
 Obrigado pelo interesse em melhorar a fonte de referência da BNCC estruturada.
@@ -17,15 +19,15 @@ Se a divergência for entre duas fontes oficiais (acontece: ver [DECISOES.md](DE
 ## Rodando o pipeline localmente
 
 ```bash
-pip install --upgrade jsonschema   # única dependência (validação de formato)
+pip install -r requirements.txt    # única dependência Python (jsonschema, validação de formato)
 cd pipeline
-python3 extrair.py && python3 extrair_ei.py
-python3 verificar.py
+python3 extrair.py && python3 extrair_ei.py && python3 extrair_computacao.py
+python3 verificar.py && python3 verificar_computacao.py
 python3 validar_schema.py && python3 validar.py
 python3 derivar.py
 ```
 
-Requisitos: Python 3.10+ e `pdftotext` (poppler). O CI executa exatamente essa sequência e confere que o dataset commitado é idêntico ao reproduzido; PRs que alterem `dados/` sem alterar fonte ou pipeline vão falhar por definição.
+Requisitos: Python 3.10+, `pdftotext` (poppler) e `ghostscript` (normalização do anexo de Computação). O CI executa exatamente essa sequência e confere que o dataset commitado é idêntico ao reproduzido; PRs que alterem `dados/` sem alterar fonte ou pipeline vão falhar por definição.
 
 ## O que não aceitamos
 

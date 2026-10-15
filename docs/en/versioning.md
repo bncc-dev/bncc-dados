@@ -1,0 +1,78 @@
+[Português](../versionamento.md) · **English**
+
+# Versioning and lifecycle
+
+How the dataset evolves when the official sources change, and what consumers can rely on.
+
+## Two version tracks
+
+- **Content**: data-version in the format `dados-AAAA.MM` (AAAA = year, MM = month; patch: `dados-AAAA.MM.N`). Current: `dados-2026.07.1`.
+- **Format**: semver of the JSON Schemas. Current: `schema-v1.0.0`. Additive change = minor; change that breaks consumers = major.
+
+The two tracks answer different questions. The data-version says **when** the snapshot of the official sources was taken. The schema semver says **whether it breaks** existing consumers. That is why they are not collapsed into one.
+
+Releases are immutable (git tags). The history of the texts lives in the releases; the current state lives in the record.
+
+## Validity in the record
+
+Every normative record carries:
+
+```json
+"vigencia": {"status": "vigente", "desde": "dados-2026.07", "ate": null}
+```
+
+Rules that are never broken:
+
+1. **A published record is never deleted.** Revocation changes `status` to `revogado` (revoked) and fills in `ate` (until). The record remains available for lookup.
+2. **A code is never reused**, not even to replace a revoked skill with a similar one.
+3. Every content change references the official source that motivated it.
+
+## Event taxonomy
+
+| Event | Example | Handling |
+|---|---|---|
+| Normative change | The National Education Council (CNE) amends or revokes a skill | Update the record and its validity; changelog category `normativa`; new data-version |
+| Official erratum | The Ministry of Education (MEC) corrects the document | Same as a normative change, with the erratum as the source |
+| New act or supplement | Computing (CNE/CEB 2/2022) | New `documento_curricular` linked through `derivado_de`; existing records are not changed |
+| Extraction correction | Our own error relative to the source | Fix the record; changelog category `correcao`; patch data-version |
+| Schema change | New field, renaming | Schema semver |
+
+The distinction between `normativa` (the world changed) and `correcao` (we made a mistake) is mandatory in the changelog.
+
+## Release process in git
+
+Operational step by step to publish a data-version:
+
+1. **Prepare on a branch**: data changes come in through a PR (never directly on `main`), with the official source cited and CI green.
+2. **Update the CHANGELOG**: a categorized entry (`normativa`, `correcao`, `schema`, `editorial`) before the merge.
+3. **Tag on `main`** after the merge:
+
+   ```bash
+   git tag -a dados-2026.08 -m "dados-2026.08: <resumo em uma linha>"
+   git push origin dados-2026.08
+   ```
+
+   A correction patch uses a suffix: `dados-2026.08.1`. A format change gets its own tag: `schema-v1.1.0`.
+4. **GitHub release**: create the release from the tag, with the CHANGELOG excerpt as the body and the derived files (`bncc.sqlite`, zipped CSVs) as assets. This way, consumers can download versioned artifacts without cloning the repo.
+5. **Archive on Zenodo**: each data-version is deposited on Zenodo, which assigns a DOI and makes it citable in academic publications. The deposits of `dados-2026.07` (2026-07-27) and `dados-2026.07.1` (2026-08-11) were made manually. Until the Zenodo/GitHub integration is turned on, each new release requires repeating the deposit through the web interface.
+6. **Immutability**: a published tag is never moved or deleted. Made a mistake? Create a new patch tag.
+
+Branch conventions: `main` is always reproducible (CI guarantees it); working branches are prefixed by type (`correcao/`, `normativa/`, `schema/`, `docs/`).
+
+## Where the dataset is archived
+
+The dataset is deposited on [Zenodo](https://doi.org/10.5281/zenodo.21625233), which provides long-term preservation and a citable DOI. There are three identifiers: one concept DOI and one per version.
+
+| DOI | What it points to | When to use it |
+|---|---|---|
+| `10.5281/zenodo.21625233` | Concept: always resolves to the latest version | README, website, generic citation of the project |
+| `10.5281/zenodo.21881682` | The `dados-2026.07.1` version | A paper that needs to pin exactly the data it analyzed |
+| `10.5281/zenodo.21625234` | The `dados-2026.07` version | Historical citation of the first release |
+
+All three are recorded in `CITATION.cff`, which GitHub uses to generate the formatted citation. The record is indexed by OpenAIRE automatically.
+
+## For consumers
+
+- Pin the data-version you validated. Update deliberately, after reading the changelog.
+- `vigencia.status` exists so you can filter: new applications should not suggest revoked learning objectives.
+- The JSON files are the canonical source. SQLite and CSV are derived files, generated and checked in CI.

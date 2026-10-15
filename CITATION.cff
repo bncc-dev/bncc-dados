@@ -5,7 +5,7 @@ type: dataset
 authors:
   - name: "Profy"
     website: "https://profy.com.br"
-    city: "São Paulo"
+    city: "Brasília"
     country: BR
 repository-code: "https://github.com/bncc-dev/bncc-dados"
 url: "https://bncc.dev"

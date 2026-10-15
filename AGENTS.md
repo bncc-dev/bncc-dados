@@ -4,7 +4,7 @@ Instruções para agentes de código e assistentes trabalhando neste repositóri
 
 ## O que é isto
 
-Dataset aberto e verificado da BNCC (Base Nacional Comum Curricular brasileira): 1.580 aprendizagens das três etapas da educação básica, com proveniência por registro. Os JSONs em `dados/bncc-2018/` são a fonte canônica; SQLite e CSV em `derivados/` são gerados.
+Dataset aberto e verificado da BNCC (Base Nacional Comum Curricular brasileira): 1.721 aprendizagens (1.580 das três etapas da educação básica e 141 do complemento de Computação), com proveniência por registro. Os JSONs em `dados/bncc-2018/` e `dados/computacao-2022/` são a fonte canônica; SQLite e CSV em `derivados/` são gerados.
 
 ## Regras que nunca se quebram
 
@@ -27,6 +27,7 @@ Dataset aberto e verificado da BNCC (Base Nacional Comum Curricular brasileira):
 - Sequência: `extrair.py` → `extrair_ei.py` → `verificar.py` → `validar_schema.py` → `validar.py` → `derivar.py`. Todos precisam terminar com exit 0.
 - Qualquer mudança de shape dos dados exige mudança correspondente em `schema/` (os schemas são fechados por design).
 - Idioma do projeto: português brasileiro, em código e documentação. Em documentos públicos, não use travessão (—); prefira vírgula, dois-pontos ou parênteses.
+- Documentação em inglês: o README, a documentação de `docs/`, as notas de `fontes/` e os arquivos de comunidade (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY) têm versão em inglês (`README.en.md`, `docs/en/`, `fontes/README.en.md`, `*.en.md`), mantida para quem avalia o projeto sem ler português. O português é a versão de referência. Mudou um desses documentos, mude a versão em inglês no mesmo PR. O `DECISOES.md` tem só um resumo em inglês (`docs/en/decisions-summary.md`): decisão nova ganha uma linha lá. Mudança de schema exige atualizar o `docs/dicionario-de-dados.md` e o `docs/en/data-dictionary.md` no mesmo PR.
 
 ## Consumindo os dados
 

@@ -1,0 +1,4 @@
+# Dependência única do pipeline: validação de formato contra os JSON Schemas
+# (pipeline/validar_schema.py). O resto do pipeline usa só a stdlib do Python.
+# Ferramentas de sistema: poppler (pdftotext) e ghostscript; ver docs/instalacao.md.
+jsonschema>=4.18

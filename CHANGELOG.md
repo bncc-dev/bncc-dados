@@ -2,6 +2,17 @@
 
 Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso corrigido) · `schema` (formato) · `editorial` (docs, pipeline, sem mudança de dado).
 
+## [Não lançado]
+
+### Editorial
+- **Planilhas de apoio de Pernambuco fora do repositório** (`editorial`, decisão 13 do DECISOES.md): `fontes/computacao-estrutura.json`, mapa de estrutura produzido pelo projeto, substitui as quatro planilhas da Secretaria de Educação de PE, que não tinham licença explícita de redistribuição. A leitura das planilhas foi para `pipeline/gerar_mapa_computacao.py`, e `pipeline/extrair_computacao.py` passa a ler só o mapa e o anexo oficial. `dados/` sai idêntico; nos derivados muda só o metadado `fontes_sha256_16`, que agora lista o mapa.
+- **Documentação em inglês** (`editorial`): `README.en.md`, `docs/en/` (modelo de dados, metodologia, versionamento, instalação, política de conteúdo, divisão aberto/comercial e resumo das decisões), `fontes/README.en.md` e versões em inglês de CONTRIBUTING, CODE_OF_CONDUCT e SECURITY.
+- **Dicionário de dados** (`editorial`): `docs/dicionario-de-dados.md` e `docs/en/data-dictionary.md` descrevem cada campo de cada arquivo (tipo, obrigatoriedade, significado, valores e exemplo real), cobrindo todos os caminhos dos JSON Schemas. O português segue como versão de referência.
+- **Política de conteúdo** (`editorial`): `docs/politica-de-conteudo.md` descreve o que o dataset distribui, como erros e conteúdo indevido são identificados, reportados e corrigidos, e os prazos-alvo.
+- **Código de conduta** (`editorial`): nova seção sobre crianças e adolescentes (sem dado de estudante em issues, prioridade nas denúncias, canal por e-mail).
+- **Titularidade e dependências** (`editorial`): copyright do `LICENSE` em nome da Profy Tecnologias Educacionais Ltda, titularidade explícita em `dados/LICENSE.md` (agora bilíngue), cidade da sede corrigida no `CITATION.cff`, `requirements.txt` com a dependência do pipeline e seções de dependências, formas de acesso e quem mantém no README.
+- **Números de verificação atualizados** (`editorial`): README, `docs/metodologia.md` e o snapshot `docs/relatorio-validacao.md` ainda traziam 1.576/1.580, de antes da auditoria de 10/08/2026. O resultado vigente é 1.580/1.580.
+
 ## [dados-2026.07.1] — 2026-08-10
 
 ### Dados
