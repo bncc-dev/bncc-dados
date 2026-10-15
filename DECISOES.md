@@ -112,6 +112,39 @@ A decisão 11 manteve no repositório as planilhas de apoio da Secretaria de Edu
 
 *Fonte: decisão 11 × regra de licenciamento de Open Data do DPG Standard (indicador 2) × reprodução completa do pipeline em 14/10/2026 (1.580/1.580 e 141/141 ok, `dados/` sem diferença).*
 
+## 14. Verificação do dicionário de dados (14/10/2026): nomes partidos, páginas de exemplo e campos sem definição
+
+A preparação do dicionário de dados (`docs/dicionario-de-dados.md`) levou a duas verificações independentes, em modo somente leitura, contra os schemas, os dados, o pipeline e os PDFs oficiais. A integridade geral confirmou (schemas, unicidade, referências, varredura de códigos, checksums), mas apareceram defeitos de extração que nunca tinham sido conferidos porque a verificação cobria só o texto das aprendizagens.
+
+**Nomes de contexto partidos por defeito de extração.** `pipeline/extrair.py` dividia a célula de objetos de conhecimento em uma entidade por linha; quatro nomes longos que a planilha quebra ao meio viraram oito objetos ("Fenômenos naturais (vulcões, terremotos e" + "tsunamis)", PDF 348; "Verbos modais: should, must, have to, may e" + "might", PDF 264; dois de LP, PDF 160 e 166). A prática de linguagem "Oralidade" absorveu a nota de rodapé da célula ("*Considerar todas as habilidades…", PDF 144 e 146) em uma variante usada por 3 habilidades. A unidade temática de LI "Estratégias de escrita: escrita e pós-escrita" ficou com o hífen de quebra ("pós- escrita"). Em Computação, o marcador "(cont.)" com que o anexo sinaliza a continuação do quadro do 9º ano (PDF 58: "COMPUTAÇÃO - 9º ANO (CONTINUAÇÃO)") virou dois objetos novos ("Segurança cibernética (cont.)" e seu pai).
+
+**Decisão:** esses ids nunca representaram entidades da BNCC; são artefatos de extração, e corrigi-los é correção de erro nosso, não mudança de modelo. A regra "slug imutável após publicado" do `docs/modelo-de-dados.md` ganha a exceção explícita: um id gerado por defeito de extração pode ser removido, com o mapa de substituição publicado no CHANGELOG e aqui. O extrator passa a juntar linhas de continuação (linha que começa em minúscula), descartar notas de rodapé e desfazer hífens de quebra nos nomes de contexto; o gerador do mapa de Computação remove o marcador "(cont.)". Contratos novos no `validar.py` impedem regressão.
+
+| Id removido | Substituído por |
+|---|---|
+| `ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e`, `ef-comp-ci-oc-tsunamis` | `ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis` |
+| `ef-comp-li-oc-verbos-modais-should-must-have-to-may-e`, `ef-comp-li-oc-might` | `ef-comp-li-oc-verbos-modais-should-must-have-to-may-e-might` |
+| `ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao`, `ef-comp-lp-oc-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao` | `ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao` |
+| `ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos`, `ef-comp-lp-oc-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos` | `ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos` (já existia) |
+| `ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video` | `ef-comp-lp-prat-oralidade` (já existia) |
+| `ef-comp-li-ut-estrategias-de-escrita-escrita-e-pos-escrita` | `ef-comp-li-ut-estrategias-de-escrita-escrita-e-pos-escrita` (id igual; só o `nome` muda) |
+| `co-obj-seguranca-cibernetica-cont` | `co-obj-seguranca-cibernetica` (já existia) |
+| `co-obj-sistemas-distribuidos-e-internet-cont` | `co-obj-sistemas-distribuidos-e-internet` (já existia) |
+
+Os contextos do EF passam de 879 para 873 (objetos de conhecimento de 780 para 775) e os objetos de Computação de 61 para 59. Os ids `ef-comp-li-eixo-eixo-*` (a palavra "eixo" repetida, vinda do nome da planilha "Eixo oralidade") ficam como estão: não são defeito de extração, e sim o nome da planilha, e são referenciados por 88 habilidades.
+
+**Página de verificação no capítulo "Estrutura".** O `verificar.py` devolvia a primeira página em que o texto casava. Para EI01TS01, EI02TS01, EI03TS01 (PDF 28) e EF01CI02 a EF01CI04 (PDF 31) essa página era o exemplo ilustrativo do capítulo "Estrutura" ("Como é possível observar no exemplo apresentado…"), não o quadro normativo (PDF 50 e 335). **Decisão:** o verificador ignora as páginas PDF 25 a 36 (o capítulo), e um contrato garante que nenhum localizador aponte para elas. As habilidades `EM13MAT` que aparecem em duas páginas normativas (listagem por competência e quadro por unidade temática) continuam com a primeira; as duas são oficiais.
+
+**Competências nunca conferidas.** Os 115 textos de competências (10 gerais e 105 específicas) não passavam pelo verificador. Conferidos agora, dois divergiam da planilha para o PDF: `cg-09` trazia "cooperação,fazendo-se" sem espaço (PDF 12, quebra de linha na vírgula) e `ef-comp-lp-ce-04` trazia a ligadura tipográfica U+FB02 em "ﬂuência" (PDF 89), que quebrava buscas por "fluência". **Decisão:** prevalece o PDF; o `cg-09` entra no mapa `CORRECOES_PDF` e as ligaduras são desfeitas na limpeza da planilha. As competências ganham `fonte.localizador_pdf` e entram em `verificacao.json`.
+
+**Proveniência e campos sem definição.** A proveniência da EI dizia "601 p." (o PDF tem 600; off-by-one do `split('\f')`); os 10 componentes do EM sem habilidades próprias traziam `p. 33 (PDF da estrutura)` em página impressa, sem `localizador_pdf` (agora "página PDF 35", a página em que a BNCC nomeia os componentes dentro das áreas); `fonte.url_oficial` existia no schema e nunca foi preenchido (removido); `presenca` era `null` nos 8 componentes do EF presentes em todos os anos (agora explícito, `[1, …, 9]`); `vigencia.ate` não tinha formato definido (data-version, como `desde`, da revogação ou da alteração normativa).
+
+**Ementas dos marcos legais.** Em 11 dos 20 registros, `ementa` misturava a ementa oficial com comentário do projeto (artigos relevantes, homologação, apelido "LDB"). **Decisão:** `ementa` passa a trazer só a ementa oficial, transcrita da publicação no Planalto (conferida em 15/10/2026) ou do CNE; é `null` na Constituição, que não tem ementa, e traz o assunto nos pareceres, que também não têm. O comentário vai para `nota`. Mudança de schema aditiva (`schema-v1.1.0`): `ementa` anulável, `nota` definida, `url_oficial` removido de `fonte`, formato de `vigencia.desde` e `ate` fixado por padrão.
+
+**Afirmação "a numeração tem lacunas legítimas".** Não se sustenta nos dados: agrupando os códigos por decodificação, a sequência é contínua a partir de 01 em todos os 120 grupos (contratos 5b e 8c). O sentido pretendido é outro: nem todo código bem formado existe. A frase correta é "um código bem formado que não está nos dados não existe na BNCC". Os textos deste repositório já usam essa forma; os pacotes, o servidor MCP e o site (25 arquivos) são corrigidos nos repositórios deles.
+
+*Fonte: duas verificações independentes de 14/10/2026 × PDF homologado (páginas 12, 28, 31, 35, 50, 89, 144, 146, 160, 166, 264, 335, 348) × anexo de Computação (páginas 56 e 58) × ementas oficiais no Planalto (15/10/2026). Reprodução completa do pipeline: 1.580 aprendizagens e 115 competências ok, 141/141 em Computação.*
+
 ## Versões das fontes (contexto das decisões)
 
 - Planilhas oficiais: exportadas de downloadbncc.mec.gov.br em 23/06/2023 (a ferramenta de exportação estava fora do ar em 09/07/2026, backend respondendo 503).

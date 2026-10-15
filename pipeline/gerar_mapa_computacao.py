@@ -114,6 +114,14 @@ def extrair_ei(pe):
     return objetivos
 
 
+def sem_continuacao(celula):
+    """Nome de célula sem o marcador "(cont.)" com que o anexo (e as planilhas,
+    que o copiam) sinaliza a continuação de um quadro na página seguinte
+    ("COMPUTAÇÃO - 9º ANO (CONTINUAÇÃO)", PDF 58). Não é um objeto novo:
+    "Segurança cibernética (cont.)" é "Segurança cibernética" (decisão 14)."""
+    return re.sub(r'\s*\(cont\.\)\s*$', '', limpa(celula))
+
+
 def extrair_ef(pe, arquivo, col_objeto_pai, col_objeto, col_hab, objetos):
     celulas, linhas = grade(pe / arquivo)
     habilidades = []
@@ -145,8 +153,8 @@ def extrair_ef(pe, arquivo, col_objeto_pai, col_objeto, col_hab, objetos):
         if eixo_bruto.upper() not in EIXOS:
             raise SystemExit(f'{codigo}: eixo não reconhecido {eixo_bruto!r} (L{lin})')
 
-        nome_pai = limpa(celulas.get((lin, col_objeto_pai), '')) if col_objeto_pai else ''
-        nome_obj = limpa(celulas.get((lin, col_objeto), ''))
+        nome_pai = sem_continuacao(celulas.get((lin, col_objeto_pai), '')) if col_objeto_pai else ''
+        nome_obj = sem_continuacao(celulas.get((lin, col_objeto), ''))
         if not nome_obj and nome_pai:          # grupo sem sub-objeto: o pai é a folha
             nome_obj, nome_pai = nome_pai, ''
         if not nome_obj:

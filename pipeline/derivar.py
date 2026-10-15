@@ -6,6 +6,7 @@ no SQLite. Nada aqui é editado à mão (ver derivados/README.md).
 import csv
 import hashlib
 import json
+import re
 import sqlite3
 from pathlib import Path
 
@@ -23,7 +24,11 @@ ml = json.loads((DATASET / 'marcos-legais.json').read_text())
 pf = json.loads((DATASET / 'perfis.json').read_text())
 co = json.loads((DATASET.parent / 'computacao-2022' / 'computacao.json').read_text())
 
-DATA_VERSION = ef['habilidades'][0]['vigencia']['desde']
+# Versão da release (data-version), lida do CITATION.cff, que é a fonte única
+# dessa informação. Não é o `vigencia.desde` dos registros: um patch muda o
+# dado sem mudar o `desde` de quem já estava lá.
+DATA_VERSION = re.search(r'^version: "([^"]+)"', (AQUI.parent / 'CITATION.cff').read_text(), re.M).group(1)
+SCHEMA_VERSION = 'schema-v1.1.0'
 SEP = ' | '
 
 
@@ -108,7 +113,7 @@ def gerar_sqlite(caminho):
         for p in sorted(FONTES.rglob('*'), key=lambda p: unicodedata.normalize('NFC', str(p)))
         if p.suffix in ('.pdf', '.xlsx', '.json'))
     c.executemany('INSERT INTO meta VALUES (?,?)', sorted({
-        'data_version': DATA_VERSION, 'schema_version': 'schema-v1.0.0',
+        'data_version': DATA_VERSION, 'schema_version': SCHEMA_VERSION,
         'gerado_por': 'pipeline/derivar.py', 'fontes_sha256_16': checksums,
         'licenca_dados': 'CC BY 4.0', 'projeto': 'bncc.dev',
     }.items()))
@@ -125,7 +130,7 @@ def gerar_sqlite(caminho):
     for a in sorted(est['areas_conhecimento'], key=lambda x: x['id']):
         c.execute('INSERT INTO area_conhecimento VALUES (?,?,?,?)', (a['id'], a['etapa'], a['nome'], a.get('documento')))
     for k in sorted(est['componentes_curriculares'], key=lambda x: x['id']):
-        pres = SEP.join(map(str, k['presenca']['anos'])) if k.get('presenca') else None
+        pres = SEP.join(map(str, k['presenca']['anos'])) if k.get('presenca') else None   # EM: sem o campo (não há seriação)
         c.execute('INSERT INTO componente_curricular VALUES (?,?,?,?,?,?,?,?,?)',
                   (k['id'], k['etapa'], k['nome'], k.get('sigla_codigo'), k['area'],
                    int(k['tem_aprendizagens_proprias']), pres, k.get('destaque_legal'), k.get('nota')))
@@ -243,18 +248,22 @@ def gerar_csvs():
               for h in em['habilidades']])
 
     escrever('objetivos-ei',
-             ['codigo', 'campo_experiencias', 'grupo_etario', 'alinhamento', 'texto', 'vigencia_status', 'fonte_localizador'],
+             ['codigo', 'campo_experiencias', 'grupo_etario', 'alinhamento', 'texto', 'vigencia_status',
+              'fonte_localizador', 'fonte_localizador_pdf'],
              [[o['codigo'], o['campo_experiencias'], o['grupo_etario'], o['alinhamento'], o['texto'],
-               o['vigencia']['status'], o['fonte'].get('localizador', '')] for o in ei['objetivos']])
+               o['vigencia']['status'], o['fonte'].get('localizador', ''), o['fonte'].get('localizador_pdf', '')]
+              for o in ei['objetivos']])
 
     escrever('alinhamentos', ['id', 'campo_experiencias', 'objetivos', 'nota'],
              [[a['id'], a['campo_experiencias'], SEP.join(a['objetivos']), a.get('nota', '')] for a in ei['alinhamentos']])
 
-    escrever('competencias-gerais', ['id', 'numero', 'texto'],
-             [[g['id'], g['numero'], g['texto']] for g in est['competencias_gerais']])
+    escrever('competencias-gerais', ['id', 'numero', 'texto', 'fonte_localizador_pdf'],
+             [[g['id'], g['numero'], g['texto'], g['fonte'].get('localizador_pdf', '')]
+              for g in est['competencias_gerais']])
 
-    escrever('competencias-especificas', ['id', 'tipo', 'area', 'componente', 'numero', 'texto'],
-             [[s['id'], s['tipo'], s.get('area', ''), s.get('componente', ''), s['numero'], s['texto']]
+    escrever('competencias-especificas', ['id', 'tipo', 'area', 'componente', 'numero', 'texto', 'fonte_localizador_pdf'],
+             [[s['id'], s['tipo'], s.get('area', ''), s.get('componente', ''), s['numero'], s['texto'],
+               s['fonte'].get('localizador_pdf', '')]
               for s in sorted(est['competencias_especificas'], key=lambda x: x['id'])])
 
     escrever('contextos-organizacao', ['id', 'etapa', 'tipo', 'nome', 'componente'],

@@ -19,7 +19,7 @@ A BNCC tem três taxonomias diferentes, e o dataset as modela como três entidad
 ## Identificadores
 
 - **Código oficial quando existe** (`EF67LP08`): é a chave primária das aprendizagens.
-- **ID cunhado quando não existe** (`cg-04`, `em-area-lgg-ce-01`, `ef-comp-lp-prat-leitura`): slug estável em kebab-case, imutável após publicado. O padrão genérico de slug (`id_slug`) está em `schema/definicoes.json`; os prefixos de cada tipo (ex.: `co-obj-`, `perfil-`) ficam no schema do arquivo correspondente.
+- **ID cunhado quando não existe** (`cg-04`, `em-area-lgg-ce-01`, `ef-comp-lp-prat-leitura`): slug estável em kebab-case, imutável após publicado (única exceção: id gerado por defeito de extração, decisão 14 do DECISOES.md, com mapa de substituição no CHANGELOG). O padrão genérico de slug (`id_slug`) está em `schema/definicoes.json`; os prefixos de cada tipo (ex.: `co-obj-`, `perfil-`) ficam no schema do arquivo correspondente.
 
 ## Anatomia dos códigos
 
@@ -72,7 +72,7 @@ Primeiro documento curricular além da BNCC 2018, provando o desenho multi-docum
 
 Dois vocabulários de referência acompanham o núcleo curricular:
 
-- `marcos_legais` (`marcos-legais.json`, 20 registros): os atos normativos que fundamentam a BNCC e a educação básica, da Constituição de 1988 à Lei nº 14.945/2024. Cada registro traz `id`, `tipo` (constituição, emenda, lei, resolução, parecer), `titulo`, `ementa`, `url_oficial` (sempre domínio gov.br, verificada no ar) e `relaciona` (vínculos tipados com entidades do dataset, ex.: a Lei nº 13.415/2017 `fundamenta_destaque` LP e Matemática no EM). Sem texto integral na v1.0; dispositivos como dados são evolução futura.
+- `marcos_legais` (`marcos-legais.json`, 20 registros): os atos normativos que fundamentam a BNCC e a educação básica, da Constituição de 1988 à Lei nº 14.945/2024. Cada registro traz `id`, `tipo` (constituição, emenda, lei, resolução, parecer), `titulo`, `ementa` (a ementa oficial, transcrita; `null` na Constituição), `nota` (comentário do projeto), `url_oficial` (sempre domínio gov.br, verificada no ar) e `relaciona` (vínculos tipados com entidades do dataset, ex.: a Lei nº 13.415/2017 `fundamenta_destaque` LP e Matemática no EM). Sem texto integral na v1.0; dispositivos como dados são evolução futura.
 - `perfis` (`perfis.json`, 5 registros): vocabulário dos papéis do ecossistema escolar (professor, aluno, gestor, responsável, coordenador), com sinônimos. É referência de nomenclatura para aplicações consumidoras; não carrega lógica de autorização.
 
 Nota de proveniência: os PDFs do CNE migraram do antigo portal.mec.gov.br (fora do ar) para `www.gov.br/mec/pt-br/cne/pdf/`; as URLs registradas seguem esse acervo, conferidas documento a documento (número, data e ementa).

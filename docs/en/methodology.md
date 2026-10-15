@@ -18,9 +18,9 @@ Four official documents, archived in [`fontes/`](../../fontes/README.en.md) with
 
 ## 3. Verification against the homologated document
 
-`pipeline/verificar.py` compares the text of each of the 1,580 records with the homologated PDF, character by character, after typographic normalization (ligatures, line-break hyphenation, interleaved table columns). Current result:
+`pipeline/verificar.py` compares the text of each of the 1,580 records, and of the 115 competencies, with the homologated PDF, character by character, after typographic normalization (ligatures, line-break hyphenation, interleaved table columns). Current result:
 
-- **1,580 of 1,580 identical**, with the PDF page recorded in `fonte.localizador_pdf`.
+- **1,580 of 1,580 identical**, with the PDF page recorded in `fonte.localizador_pdf`. The 115 competencies (10 general and 105 specific) as well: 115 of 115, with the page recorded the same way. The pages of the "Estrutura" chapter (illustrative examples) are skipped when locating texts.
 - **No open divergence.** Cases where the official sources disagree with each other are resolved in the extraction itself and are recorded: corrections of the spreadsheet against the PDF in `CORRECOES_PDF`, and limitations of the PDF text layer, with visual checking, in `CONFERIDOS_VISUALMENTE` (decision 12 in `DECISOES.md`).
 
 ## 4. Structural validation

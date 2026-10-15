@@ -268,10 +268,6 @@
       "pai": "Sistemas distribuídos e internet"
     },
     {
-      "nome": "Segurança cibernética (cont.)",
-      "pai": "Sistemas distribuídos e internet (cont.)"
-    },
-    {
       "nome": "Segurança e responsabilidade no uso da tecnologia",
       "pai": null
     },
@@ -293,10 +289,6 @@
     },
     {
       "nome": "Sistemas distribuídos e internet",
-      "pai": null
-    },
-    {
-      "nome": "Sistemas distribuídos e internet (cont.)",
       "pai": null
     },
     {
@@ -1301,7 +1293,7 @@
       "codigo": "EF09CO05",
       "texto": "Analisar técnicas de criptografia para armazenamento e transmissão de dados.",
       "eixo": "co-eixo-mundo-digital",
-      "objeto": "Segurança cibernética (cont.)",
+      "objeto": "Segurança cibernética",
       "impresso": null,
       "planilha": "6º ao 9º ANO - HABILIDADES - BNCC - Computação .xlsx",
       "linha": 53

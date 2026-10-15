@@ -60,7 +60,7 @@ Sample record (Elementary and Lower Secondary Education):
 
 `codigo` is the official code, `texto` the official text, `anos` the school years, `organizacao` and `objetos_conhecimento` the curricular context, `vigencia` the validity period, and `fonte` the source: the sheet and row of the Ministry of Education spreadsheet and the page of the officially approved (homologated) PDF.
 
-**Status: stable.** First release: content `dados-2026.07`, format `schema-v1.0.0`. The data is complete, validated and pedagogically reviewed. Identifiers and format are covered by the [versioning](docs/en/versioning.md) guarantees: a change that breaks consumers requires a new major version of the schema.
+**Status: stable.** Current release: content `dados-2026.08`, format `schema-v1.1.0` (first release: `dados-2026.07`, `schema-v1.0.0`). The data is complete, validated and pedagogically reviewed. Identifiers and format are covered by the [versioning](docs/en/versioning.md) guarantees: a change that breaks consumers requires a new major version of the schema.
 
 Maintained by [Profy](https://profy.com.br), which is also its first consumer.
 

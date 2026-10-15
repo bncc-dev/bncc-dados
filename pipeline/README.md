@@ -5,9 +5,9 @@ Reproduz o dataset a partir das fontes oficiais em `fontes/`. Qualquer pessoa po
 ```bash
 python3 extrair.py      # planilhas oficiais → estrutura + EF + EM
 python3 extrair_ei.py   # PDF homologado → Educação Infantil
-python3 verificar.py    # confere cada texto contra o PDF; grava a página em fonte.localizador_pdf
+python3 verificar.py    # confere cada aprendizagem e competência contra o PDF; grava a página em fonte.localizador_pdf
 python3 validar_schema.py  # valida os JSONs contra os JSON Schemas (schema/)
-python3 validar.py      # 18 contratos + completude por varredura; sai com erro se algo falhar
+python3 validar.py      # contratos + completude por varredura; sai com erro se algo falhar
 python3 derivar.py      # gera derivados/ (SQLite + CSVs) a partir dos JSONs
 ```
 

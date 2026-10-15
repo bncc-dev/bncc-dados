@@ -117,7 +117,19 @@
       "sigla_codigo": "AR",
       "area": "ef-area-linguagens",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-ci",
@@ -126,7 +138,19 @@
       "sigla_codigo": "CI",
       "area": "ef-area-ciencias-da-natureza",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-ef",
@@ -135,7 +159,19 @@
       "sigla_codigo": "EF",
       "area": "ef-area-linguagens",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-er",
@@ -144,7 +180,19 @@
       "sigla_codigo": "ER",
       "area": "ef-area-ensino-religioso",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-ge",
@@ -153,7 +201,19 @@
       "sigla_codigo": "GE",
       "area": "ef-area-ciencias-humanas",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-hi",
@@ -162,7 +222,19 @@
       "sigla_codigo": "HI",
       "area": "ef-area-ciencias-humanas",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-li",
@@ -187,7 +259,19 @@
       "sigla_codigo": "LP",
       "area": "ef-area-linguagens",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "ef-comp-ma",
@@ -196,7 +280,19 @@
       "sigla_codigo": "MA",
       "area": "ef-area-matematica",
       "tem_aprendizagens_proprias": true,
-      "presenca": null
+      "presenca": {
+        "anos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "em-comp-lp",
@@ -227,7 +323,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -240,7 +338,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -253,7 +353,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -266,7 +368,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -279,7 +383,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -292,7 +398,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -305,7 +413,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -318,7 +428,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -331,7 +443,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     },
     {
@@ -344,7 +458,9 @@
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf",
-        "localizador": "p. 33 (PDF da estrutura)"
+        "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026",
+        "localizador": "página PDF 35",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"
       }
     }
   ],
@@ -510,7 +626,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -523,7 +640,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -536,7 +654,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -549,7 +668,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -562,7 +682,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -575,7 +696,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -588,7 +710,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 11"
       }
     },
     {
@@ -601,7 +724,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 12"
       }
     },
     {
@@ -609,12 +733,13 @@
       "documento": "bncc-2018",
       "tipo": "geral",
       "numero": 9,
-      "texto": "Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação,fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.",
+      "texto": "Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.",
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 12"
       }
     },
     {
@@ -627,7 +752,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Competências gerais"
+        "localizador": "aba Competências gerais",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 12"
       }
     }
   ],
@@ -643,7 +769,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Linguagens"
+        "localizador": "aba Comps. de Linguagens",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 67"
       }
     },
     {
@@ -657,7 +784,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Linguagens"
+        "localizador": "aba Comps. de Linguagens",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 67"
       }
     },
     {
@@ -671,7 +799,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Linguagens"
+        "localizador": "aba Comps. de Linguagens",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 67"
       }
     },
     {
@@ -685,7 +814,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Linguagens"
+        "localizador": "aba Comps. de Linguagens",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 67"
       }
     },
     {
@@ -699,7 +829,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Linguagens"
+        "localizador": "aba Comps. de Linguagens",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 67"
       }
     },
     {
@@ -713,7 +844,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Linguagens"
+        "localizador": "aba Comps. de Linguagens",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 67"
       }
     },
     {
@@ -727,7 +859,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -741,7 +874,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -755,7 +889,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -769,7 +904,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -783,7 +919,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -797,7 +934,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -811,7 +949,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -825,7 +964,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Matemática"
+        "localizador": "aba Comps. de Matemática",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 269"
       }
     },
     {
@@ -839,7 +979,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -853,7 +994,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -867,7 +1009,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -881,7 +1024,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -895,7 +1039,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -909,7 +1054,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -923,7 +1069,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -937,7 +1084,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências da nature"
+        "localizador": "aba Comps. de Ciências da nature",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 326"
       }
     },
     {
@@ -951,7 +1099,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -965,7 +1114,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -979,7 +1129,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -993,7 +1144,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -1007,7 +1159,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -1021,7 +1174,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -1035,7 +1189,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ciências humanas"
+        "localizador": "aba Comps. de Ciências humanas",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 359"
       }
     },
     {
@@ -1049,7 +1204,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ensino religioso"
+        "localizador": "aba Comps. de Ensino religioso",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 439"
       }
     },
     {
@@ -1063,7 +1219,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ensino religioso"
+        "localizador": "aba Comps. de Ensino religioso",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 439"
       }
     },
     {
@@ -1077,7 +1234,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ensino religioso"
+        "localizador": "aba Comps. de Ensino religioso",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 439"
       }
     },
     {
@@ -1091,7 +1249,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ensino religioso"
+        "localizador": "aba Comps. de Ensino religioso",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 439"
       }
     },
     {
@@ -1105,7 +1264,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ensino religioso"
+        "localizador": "aba Comps. de Ensino religioso",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 439"
       }
     },
     {
@@ -1119,7 +1279,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Ensino religioso"
+        "localizador": "aba Comps. de Ensino religioso",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 439"
       }
     },
     {
@@ -1133,7 +1294,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1147,7 +1309,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1161,7 +1324,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1170,12 +1334,13 @@
       "tipo": "especifica_de_componente",
       "componente": "ef-comp-lp",
       "numero": 4,
-      "texto": "Ler, escutar e produzir textos orais, escritos e multissemióticos que circulam em diferentes campos de atuação e mídias, com compreensão, autonomia, ﬂuência e criticidade, de modo a se expressar e partilhar informações, experiências, ideias e sentimentos, e continuar aprendendo.",
+      "texto": "Ler, escutar e produzir textos orais, escritos e multissemióticos que circulam em diferentes campos de atuação e mídias, com compreensão, autonomia, fluência e criticidade, de modo a se expressar e partilhar informações, experiências, ideias e sentimentos, e continuar aprendendo.",
       "fonte": {
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1189,7 +1354,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1203,7 +1369,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1217,7 +1384,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1231,7 +1399,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1245,7 +1414,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1259,7 +1429,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Portuguesa"
+        "localizador": "aba Comps. de Língua Portuguesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 89"
       }
     },
     {
@@ -1273,7 +1444,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1287,7 +1459,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1301,7 +1474,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1315,7 +1489,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1329,7 +1504,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1343,7 +1519,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1357,7 +1534,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1371,7 +1549,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1385,7 +1564,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Arte"
+        "localizador": "aba Comps. de Arte",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 200"
       }
     },
     {
@@ -1399,7 +1579,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1413,7 +1594,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1427,7 +1609,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1441,7 +1624,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1455,7 +1639,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1469,7 +1654,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1483,7 +1669,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1497,7 +1684,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1511,7 +1699,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1525,7 +1714,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Educação Física"
+        "localizador": "aba Comps. de Educação Física",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 225"
       }
     },
     {
@@ -1539,7 +1729,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Inglesa"
+        "localizador": "aba Comps. de Língua Inglesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 248"
       }
     },
     {
@@ -1553,7 +1744,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Inglesa"
+        "localizador": "aba Comps. de Língua Inglesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 248"
       }
     },
     {
@@ -1567,7 +1759,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Inglesa"
+        "localizador": "aba Comps. de Língua Inglesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 248"
       }
     },
     {
@@ -1581,7 +1774,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Inglesa"
+        "localizador": "aba Comps. de Língua Inglesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 248"
       }
     },
     {
@@ -1595,7 +1789,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Inglesa"
+        "localizador": "aba Comps. de Língua Inglesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 248"
       }
     },
     {
@@ -1609,7 +1804,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Língua Inglesa"
+        "localizador": "aba Comps. de Língua Inglesa",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 248"
       }
     },
     {
@@ -1623,7 +1819,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1637,7 +1834,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1651,7 +1849,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1665,7 +1864,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1679,7 +1879,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1693,7 +1894,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1707,7 +1909,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de Geografia"
+        "localizador": "aba Comps. de Geografia",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 368"
       }
     },
     {
@@ -1721,7 +1924,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1735,7 +1939,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1749,7 +1954,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1763,7 +1969,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1777,7 +1984,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1791,7 +1999,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1805,7 +2014,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comps. de História"
+        "localizador": "aba Comps. de História",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 404"
       }
     },
     {
@@ -1819,7 +2029,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1833,7 +2044,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1847,7 +2059,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1861,7 +2074,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1875,7 +2089,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1889,7 +2104,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1903,7 +2119,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Linguagens e suas Tec"
+        "localizador": "aba Comp. de Linguagens e suas Tec",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492"
       }
     },
     {
@@ -1917,7 +2134,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Matemática e suas Te"
+        "localizador": "aba Comp. de Matemática e suas Te",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533"
       }
     },
     {
@@ -1931,7 +2149,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Matemática e suas Te"
+        "localizador": "aba Comp. de Matemática e suas Te",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533"
       }
     },
     {
@@ -1945,7 +2164,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Matemática e suas Te"
+        "localizador": "aba Comp. de Matemática e suas Te",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533"
       }
     },
     {
@@ -1959,7 +2179,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Matemática e suas Te"
+        "localizador": "aba Comp. de Matemática e suas Te",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533"
       }
     },
     {
@@ -1973,7 +2194,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Matemática e suas Te"
+        "localizador": "aba Comp. de Matemática e suas Te",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533"
       }
     },
     {
@@ -1987,7 +2209,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências da Natureza"
+        "localizador": "aba Comp. de Ciências da Natureza",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 555"
       }
     },
     {
@@ -2001,7 +2224,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências da Natureza"
+        "localizador": "aba Comp. de Ciências da Natureza",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 555"
       }
     },
     {
@@ -2015,7 +2239,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências da Natureza"
+        "localizador": "aba Comp. de Ciências da Natureza",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 555"
       }
     },
     {
@@ -2029,7 +2254,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências Humanas e S"
+        "localizador": "aba Comp. de Ciências Humanas e S",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572"
       }
     },
     {
@@ -2043,7 +2269,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências Humanas e S"
+        "localizador": "aba Comp. de Ciências Humanas e S",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572"
       }
     },
     {
@@ -2057,7 +2284,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências Humanas e S"
+        "localizador": "aba Comp. de Ciências Humanas e S",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572"
       }
     },
     {
@@ -2071,7 +2299,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências Humanas e S"
+        "localizador": "aba Comp. de Ciências Humanas e S",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572"
       }
     },
     {
@@ -2085,7 +2314,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências Humanas e S"
+        "localizador": "aba Comp. de Ciências Humanas e S",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572"
       }
     },
     {
@@ -2099,7 +2329,8 @@
         "documento": "bncc-2018",
         "arquivo": "BNCC_Ensino_Medio.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Comp. de Ciências Humanas e S"
+        "localizador": "aba Comp. de Ciências Humanas e S",
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572"
       }
     }
   ]

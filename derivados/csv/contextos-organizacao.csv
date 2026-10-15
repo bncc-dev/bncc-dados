@@ -39,7 +39,7 @@ ef-comp-ci-oc-escalas-de-tempo,EF,oc,Escalas de tempo,ef-comp-ci
 ef-comp-ci-oc-estrutura-da-materia,EF,oc,Estrutura da matéria,ef-comp-ci
 ef-comp-ci-oc-evolucao-estelar,EF,oc,Evolução estelar,ef-comp-ci
 ef-comp-ci-oc-fenomenos-naturais-e-impactos-ambientais,EF,oc,Fenômenos naturais e impactos ambientais,ef-comp-ci
-ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e,EF,oc,"Fenômenos naturais (vulcões, terremotos e",ef-comp-ci
+ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis,EF,oc,"Fenômenos naturais (vulcões, terremotos e tsunamis)",ef-comp-ci
 ef-comp-ci-oc-fontes-e-tipos-de-energia,EF,oc,Fontes e tipos de energia,ef-comp-ci
 ef-comp-ci-oc-forma-estrutura-e-movimentos-da-terra,EF,oc,"Forma, estrutura e movimentos da Terra",ef-comp-ci
 ef-comp-ci-oc-formas-de-propagacao-do-calor,EF,oc,Formas de propagação do calor,ef-comp-ci
@@ -84,7 +84,6 @@ ef-comp-ci-oc-sistema-sol-terra-e-lua,EF,oc,"Sistema Sol, Terra e Lua",ef-comp-c
 ef-comp-ci-oc-transformacao-de-energia,EF,oc,Transformação de energia,ef-comp-ci
 ef-comp-ci-oc-transformacoes-quimicas,EF,oc,Transformações químicas,ef-comp-ci
 ef-comp-ci-oc-transformacoes-reversiveis-e-nao-reversiveis,EF,oc,Transformações reversíveis e não reversíveis,ef-comp-ci
-ef-comp-ci-oc-tsunamis,EF,oc,tsunamis),ef-comp-ci
 ef-comp-ci-oc-uso-consciente-de-energia-eletrica,EF,oc,Uso consciente de energia elétrica,ef-comp-ci
 ef-comp-ci-oc-usos-do-solo,EF,oc,Usos do solo,ef-comp-ci
 ef-comp-ci-oc-vida-humana-fora-da-terra,EF,oc,Vida humana fora da Terra,ef-comp-ci
@@ -432,7 +431,6 @@ ef-comp-li-oc-imperativo,EF,oc,Imperativo,ef-comp-li
 ef-comp-li-oc-informacoes-em-ambientes-virtuais,EF,oc,Informações em ambientes virtuais,ef-comp-li
 ef-comp-li-oc-leitura-de-textos-de-cunho-artistico-literario,EF,oc,Leitura de textos de cunho artístico/literário,ef-comp-li
 ef-comp-li-oc-leitura-de-textos-digitais-para-estudo,EF,oc,Leitura de textos digitais para estudo,ef-comp-li
-ef-comp-li-oc-might,EF,oc,might,ef-comp-li
 ef-comp-li-oc-negociacao-de-sentidos-mal-entendidos-no-uso-da-lingua-inglesa-e-conflito-de-opinioes,EF,oc,Negociação de sentidos (mal-entendidos no uso da língua inglesa e conflito de opiniões),ef-comp-li
 ef-comp-li-oc-objetivos-de-leitura,EF,oc,Objetivos de leitura,ef-comp-li
 ef-comp-li-oc-oracoes-condicionais-tipos-1-e-2,EF,oc,Orações condicionais (tipos 1 e 2),ef-comp-li
@@ -465,7 +463,7 @@ ef-comp-li-oc-usos-de-linguagem-em-meio-digital-internetes,EF,oc,Usos de linguag
 ef-comp-li-oc-usos-de-recursos-linguisticos-e-paralinguisticos-no-intercambio-oral,EF,oc,Usos de recursos linguísticos e paralinguísticos no intercâmbio oral,ef-comp-li
 ef-comp-li-oc-variacao-linguistica,EF,oc,Variação linguística,ef-comp-li
 ef-comp-li-oc-verbo-modal-can-presente-e-passado,EF,oc,Verbo modal can (presente e passado),ef-comp-li
-ef-comp-li-oc-verbos-modais-should-must-have-to-may-e,EF,oc,"Verbos modais: should, must, have to, may e",ef-comp-li
+ef-comp-li-oc-verbos-modais-should-must-have-to-may-e-might,EF,oc,"Verbos modais: should, must, have to, may e might",ef-comp-li
 ef-comp-li-oc-verbos-para-indicar-o-futuro,EF,oc,Verbos para indicar o futuro,ef-comp-li
 ef-comp-li-ut-a-lingua-inglesa-no-cotidiano-da-sociedade-brasileira-comunidade,EF,ut,A língua inglesa no cotidiano da sociedade brasileira/comunidade,ef-comp-li
 ef-comp-li-ut-a-lingua-inglesa-no-mundo,EF,ut,A língua inglesa no mundo,ef-comp-li
@@ -474,7 +472,7 @@ ef-comp-li-ut-avaliacao-dos-textos-lidos,EF,ut,Avaliação dos textos lidos,ef-c
 ef-comp-li-ut-compreensao-oral,EF,ut,Compreensão oral,ef-comp-li
 ef-comp-li-ut-comunicacao-intercultural,EF,ut,Comunicação intercultural,ef-comp-li
 ef-comp-li-ut-estrategias-de-escrita,EF,ut,Estratégias de escrita,ef-comp-li
-ef-comp-li-ut-estrategias-de-escrita-escrita-e-pos-escrita,EF,ut,Estratégias de escrita: escrita e pós- escrita,ef-comp-li
+ef-comp-li-ut-estrategias-de-escrita-escrita-e-pos-escrita,EF,ut,Estratégias de escrita: escrita e pós-escrita,ef-comp-li
 ef-comp-li-ut-estrategias-de-escrita-pre-escrita,EF,ut,Estratégias de escrita: pré-escrita,ef-comp-li
 ef-comp-li-ut-estrategias-de-escrita-pre-escrita-e-escrita,EF,ut,Estratégias de escrita: pré-escrita e escrita,ef-comp-li
 ef-comp-li-ut-estrategias-de-leitura,EF,ut,Estratégias de leitura,ef-comp-li
@@ -495,7 +493,6 @@ ef-comp-lp-catu-campo-das-praticas-de-estudo-e-pesquisa,EF,catu,Campo das práti
 ef-comp-lp-catu-campo-de-atuacao-na-vida-publica,EF,catu,Campo de atuação na vida pública,ef-comp-lp
 ef-comp-lp-catu-campo-jornalistico-midiatico,EF,catu,Campo jornalístico/midiático,ef-comp-lp
 ef-comp-lp-catu-todos-os-campos-de-atuacao,EF,catu,Todos os campos de atuação,ef-comp-lp
-ef-comp-lp-oc-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao,EF,oc,adequação à norma-padrão e o uso adequado de ferramentas de edição,ef-comp-lp
 ef-comp-lp-oc-adequacao-do-texto-as-normas-de-escrita,EF,oc,Adequação do texto às normas de escrita,ef-comp-lp
 ef-comp-lp-oc-adesao-as-praticas-de-leitura,EF,oc,Adesão às práticas de leitura,ef-comp-lp
 ef-comp-lp-oc-analise-de-textos-legais-normativos-propositivos-e-reivindicatorios,EF,oc,"Análise de textos legais/normativos, propositivos e reivindicatórios",ef-comp-lp
@@ -529,7 +526,6 @@ ef-comp-lp-oc-contexto-de-producao-circulacao-e-recepcao-de-textos-e-praticas-re
 ef-comp-lp-oc-conversacao-espontanea,EF,oc,Conversação espontânea,ef-comp-lp
 ef-comp-lp-oc-correspondencia-fonema-grafema,EF,oc,Correspondência fonema-grafema,ef-comp-lp
 ef-comp-lp-oc-curadoria-de-informacao,EF,oc,Curadoria de informação,ef-comp-lp
-ef-comp-lp-oc-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos,EF,oc,de sentidos provocados pelos usos de recursos linguísticos e multissemióticos,ef-comp-lp
 ef-comp-lp-oc-declamacao,EF,oc,Declamação,ef-comp-lp
 ef-comp-lp-oc-decodificacao-fluencia-de-leitura,EF,oc,Decodificação/Fluência de leitura,ef-comp-lp
 ef-comp-lp-oc-discurso-direto-e-indireto,EF,oc,Discurso direto e indireto,ef-comp-lp
@@ -624,7 +620,6 @@ ef-comp-lp-oc-producao-de-textos-orais-oralizacao,EF,oc,Produção de textos ora
 ef-comp-lp-oc-producao-e-edicao-de-textos-publicitarios,EF,oc,Produção e edição de textos publicitários,ef-comp-lp
 ef-comp-lp-oc-protocolos-de-leitura,EF,oc,Protocolos de leitura,ef-comp-lp
 ef-comp-lp-oc-reconstrucao-da-textualidade,EF,oc,Reconstrução da textualidade,ef-comp-lp
-ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos,EF,oc,Reconstrução da textualidade e compreensão dos efeitos,ef-comp-lp
 ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos,EF,oc,Reconstrução da textualidade e compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos,ef-comp-lp
 ef-comp-lp-oc-reconstrucao-das-condicoes-de-producao-circulacao-e-recepcao,EF,oc,"Reconstrução das condições de produção, circulação e recepção",ef-comp-lp
 ef-comp-lp-oc-reconstrucao-das-condicoes-de-producao-e-circulacao-e-adequacao-do-texto-a-construcao-composicional-e-ao-estilo-de-genero,EF,oc,Reconstrução das condições de produção e circulação e adequação do texto à construção composicional e ao estilo de gênero,ef-comp-lp
@@ -653,7 +648,7 @@ ef-comp-lp-oc-textualizacao,EF,oc,Textualização,ef-comp-lp
 ef-comp-lp-oc-textualizacao-de-textos-argumentativos-e-apreciativos,EF,oc,Textualização de textos argumentativos e apreciativos,ef-comp-lp
 ef-comp-lp-oc-textualizacao-progressao-tematica,EF,oc,Textualização Progressão temática,ef-comp-lp
 ef-comp-lp-oc-textualizacao-revisao-e-edicao,EF,oc,"Textualização, revisão e edição",ef-comp-lp
-ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao,EF,oc,"Textualização, tendo em vista suas condições de produção, as características do gênero em questão, o estabelecimento de coesão,",ef-comp-lp
+ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao,EF,oc,"Textualização, tendo em vista suas condições de produção, as características do gênero em questão, o estabelecimento de coesão, adequação à norma-padrão e o uso adequado de ferramentas de edição",ef-comp-lp
 ef-comp-lp-oc-usar-adequadamente-ferramentas-de-apoio-a-apresentacoes-orais,EF,oc,Usar adequadamente ferramentas de apoio a apresentações orais,ef-comp-lp
 ef-comp-lp-oc-utilizacao-de-tecnologia-digital,EF,oc,Utilização de tecnologia digital,ef-comp-lp
 ef-comp-lp-oc-variacao-linguistica,EF,oc,Variação linguística,ef-comp-lp
@@ -664,7 +659,6 @@ ef-comp-lp-prat-escrita-compartilhada-e-autonoma,EF,prat,Escrita (compartilhada 
 ef-comp-lp-prat-leitura,EF,prat,Leitura,ef-comp-lp
 ef-comp-lp-prat-leitura-escuta-compartilhada-e-autonoma,EF,prat,Leitura/escuta (compartilhada e autônoma),ef-comp-lp
 ef-comp-lp-prat-oralidade,EF,prat,Oralidade,ef-comp-lp
-ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video,EF,prat,"Oralidade *Considerar todas as habilidades dos eixos leitura e produção que se referem a textos ou produções orais, em áudio ou vídeo",ef-comp-lp
 ef-comp-lp-prat-producao-de-textos,EF,prat,Produção de textos,ef-comp-lp
 ef-comp-lp-prat-producao-de-textos-escrita-compartilhada-e-autonoma,EF,prat,Produção de textos (escrita compartilhada e autônoma),ef-comp-lp
 ef-comp-ma-oc-a-circunferencia-como-lugar-geometrico,EF,oc,A circunferência como lugar geométrico,ef-comp-ma

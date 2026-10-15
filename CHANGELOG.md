@@ -2,9 +2,22 @@
 
 Categorias: `normativa` (mudança nas normas oficiais) · `correcao` (erro nosso corrigido) · `schema` (formato) · `editorial` (docs, pipeline, sem mudança de dado).
 
-## [Não lançado]
+## [dados-2026.08] — 2026-10-15
+
+### Dados
+- **Nove ids de contexto removidos por defeito de extração** (`correcao`, decisão 14 do DECISOES.md): quatro objetos de conhecimento do EF partidos em dois pela quebra de linha da célula (Ciências EF07CI12 a EF07CI16, Língua Inglesa EF09LI16, Língua Portuguesa EF67LP10, EF69LP47 e EF69LP48), a variante de "Oralidade" com a nota de rodapé no nome (EF69LP10 a EF69LP12) e os dois objetos "(cont.)" de Computação (EF09CO05, marcador de continuação do quadro no anexo). O mapa completo id antigo → id novo está na decisão 14. Contextos do EF: 879 → 873 (objetos 780 → 775); objetos de Computação: 61 → 59. A unidade temática de LI `…-pos-escrita` mantém o id e corrige o nome ("pós- escrita" → "pós-escrita").
+- **Seis páginas de verificação corrigidas** (`correcao`): EI01TS01, EI02TS01 e EI03TS01 apontavam a página PDF 28 e EF01CI02 a EF01CI04 a página 31, exemplos ilustrativos do capítulo "Estrutura"; agora apontam os quadros normativos (50 e 335). O verificador ignora o capítulo.
+- **Competências verificadas contra o PDF** (`correcao`): os 115 textos de competências entram na verificação e ganham `fonte.localizador_pdf`. Dois corrigidos: `cg-09` ("cooperação,fazendo-se" → "cooperação, fazendo-se") e `ef-comp-lp-ce-04` (ligadura "ﬂ" → "fl").
+- **Proveniência** (`correcao`): EI com "600 p." em vez de "601 p."; os 10 componentes do EM sem habilidades próprias com `proveniencia`, `localizador` "página PDF 35" e `localizador_pdf`, em vez de "p. 33 (PDF da estrutura)"; `presenca` explícita (`[1, …, 9]`) nos 8 componentes do EF presentes em todos os anos.
+- **Marcos legais** (`correcao`): `ementa` passa a trazer só a ementa oficial (transcrita do Planalto ou do CNE; `null` na Constituição, que não tem ementa) e o comentário do projeto vai para `nota`, em 11 registros. A nota do Parecer CNE/CEB 2/2022 deixa de falar em "futuro módulo de Computação".
+
+### Schema
+- `schema-v1.1.0` (aditiva): `marcos_legais[].ementa` anulável e `nota` definida como comentário do projeto; `fonte.url_oficial` removido (nunca preenchido); `vigencia.desde` e `vigencia.ate` com padrão `dados-AAAA.MM[.N]`, e `ate` definido como a data-version da revogação ou da alteração normativa.
 
 ### Editorial
+- **Versão no metadado dos derivados** (`editorial`): `meta.data_version` do SQLite vinha do `vigencia.desde` do primeiro registro e dizia `dados-2026.07` mesmo no patch `.07.1`. Agora vem de `version` no `CITATION.cff`, fonte única da versão da release. `schema_version` passa a `schema-v1.1.0`.
+- **Derivados** (`editorial`): `objetivos-ei.csv` ganha `fonte_localizador_pdf`, como os outros CSVs de aprendizagens; os CSVs de competências ganham a mesma coluna. Pendente: a tag `dados-2026.08`, a release no GitHub e o depósito no Zenodo (o DOI da versão entra no `CITATION.cff` depois do depósito).
+- Referências soltas a documentos que não estão no repositório ("schema doc §10", "§7.1", "schema v0.3", "análise de fontes §8.5") removidas de schemas e scripts; docstring do `extrair_ei.py` atualizada (cinco campos, PDF homologado).
 - **Numeração contínua, não "lacunas legítimas"** (`editorial`): o `AGENTS.md` e o modelo de dados afirmavam que a numeração da BNCC 2018 tem lacunas. Não tem: decodificando cada código (etapa, anos ou grupo etário, componente ou área + competência), todos os grupos vão de 1 a n. A impressão de lacuna vem dos códigos de EM, em que a centena é a competência (`EM13LGG105` → `EM13LGG201`). O contrato 5b do `validar.py` passa a provar a continuidade na BNCC 2018, como o 8c já fazia para Computação. Sem mudança de dado.
 - **Planilhas de apoio de Pernambuco fora do repositório** (`editorial`, decisão 13 do DECISOES.md): `fontes/computacao-estrutura.json`, mapa de estrutura produzido pelo projeto, substitui as quatro planilhas da Secretaria de Educação de PE, que não tinham licença explícita de redistribuição. A leitura das planilhas foi para `pipeline/gerar_mapa_computacao.py`, e `pipeline/extrair_computacao.py` passa a ler só o mapa e o anexo oficial. `dados/` sai idêntico; nos derivados muda só o metadado `fontes_sha256_16`, que agora lista o mapa.
 - **Documentação em inglês** (`editorial`): `README.en.md`, `docs/en/` (modelo de dados, metodologia, versionamento, instalação, política de conteúdo, divisão aberto/comercial e resumo das decisões), `fontes/README.en.md` e versões em inglês de CONTRIBUTING, CODE_OF_CONDUCT e SECURITY.

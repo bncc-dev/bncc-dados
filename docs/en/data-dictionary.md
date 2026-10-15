@@ -5,7 +5,7 @@
 This dictionary describes every field in the data files of bncc.dev, the open data version of Brazil's National Common Curricular Base (BNCC): the six data files in `dados/bncc-2018/`, the file in `dados/computacao-2022/` and the two verification reports (`verificacao.json`), described at the end. For each field it gives the type, whether it is required, its meaning and a real example.
 
 - The JSON files in [`dados/`](../../dados/) are canonical. The SQLite database and the CSV files in [`derivados/`](../../derivados/) are generated from them.
-- Types and required fields come from the [JSON Schemas](../../schema/) (draft 2020-12, format `schema-v1.0.0`).
+- Types and required fields come from the [JSON Schemas](../../schema/) (draft 2020-12, format `schema-v1.1.0`).
 - Field names are in Portuguese and are stable identifiers. Do not translate them in code that uses the data. This page explains them in English.
 - The entities and the modeling decisions are explained in the [Data model](data-model.md). Decisions about inconsistencies in the official sources are in [DECISOES.md](../../DECISOES.md) (in Portuguese; English summary in [decisions-summary.md](decisions-summary.md)).
 
@@ -70,16 +70,15 @@ Source (provenance) of the record: official document and locators. It is the aud
 | `fonte.documento` | string (`documento_ref`) | yes | Curricular document the record comes from. | `"bncc-2018"` |
 | `fonte.arquivo` | string | no | File name of the official source, archived in [`fontes/`](../../fontes/). Values in the data: `BNCC_Ensino Fundamental.xlsx` and `BNCC_Ensino_Medio.xlsx` (official MEC spreadsheets), `Base-Nacional-Comum-Curricular-BNCC.pdf` (homologated BNCC PDF) and `anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf` (Computing annex). | `"BNCC_Ensino Fundamental.xlsx"` |
 | `fonte.proveniencia` | string | no | How and when the source was obtained, or how the record was built. Free text. | `"exportada de downloadbncc.mec.gov.br em 23/06/2023"` |
-| `fonte.localizador` | string | no | Where the record is in the material it was extracted from. Formats in the data: `aba <nome>, linha <n>` (sheet and row of the MEC spreadsheets; competencies and organization contexts give only the sheet); `página PDF <n>` (EI, extracted from the homologated PDF); `<planilha> · linha <n>` (computacao-2022: support spreadsheet of the Pernambuco State Department of Education that provided the structure, no longer in the repository, see decision 13 in DECISOES.md); `p. 33 (PDF da estrutura)` (EM components without learning objectives of their own). | `"aba Língua Portuguesa, linha 229"` |
-| `fonte.localizador_pdf` | string | no | Page of the official document where the text of the record was checked. It is the position of the page in the PDF file, not the printed number. BNCC 2018: `Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF <n>`. computacao-2022: `página PDF <n>`, in the annex named in `fonte.arquivo`. Present in every learning objective. | `"Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167"` |
-| `fonte.url_oficial` | string | no | To be confirmed by the maintainers. No record fills this field in this version. | none in the data |
+| `fonte.localizador` | string | no | Where the record is in the material it was extracted from. Formats in the data: `aba <nome>, linha <n>` (sheet and row of the MEC spreadsheets; competencies and organization contexts give only the sheet); `página PDF <n>` (EI, extracted from the homologated PDF, and the 10 EM components without learning objectives of their own, named on PDF page 35); `<planilha> · linha <n>` (computacao-2022: support spreadsheet of the Pernambuco State Department of Education that provided the structure, no longer in the repository, see decision 13 in DECISOES.md). | `"aba Língua Portuguesa, linha 229"` |
+| `fonte.localizador_pdf` | string | no | Page of the official document where the text of the record was checked. It is the position of the page in the PDF file, not the printed number. BNCC 2018: `Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF <n>`. computacao-2022: `página PDF <n>`, in the annex named in `fonte.arquivo`. Present in every learning objective, in the 115 BNCC 2018 competencies and in the 10 EM components without learning objectives of their own. It never points to the "Estrutura" chapter of the PDF (pages 25 to 36), which only has illustrative examples. | `"Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 167"` |
 
 Subfields of `fonte` filled in each collection:
 
 | File and collection | Subfields filled |
 |---|---|
-| `estrutura.json`: `componentes_curriculares` (10 of 21 items) | `documento`, `arquivo`, `localizador` |
-| `estrutura.json`: `competencias_gerais`, `competencias_especificas` | `documento`, `arquivo`, `proveniencia`, `localizador` |
+| `estrutura.json`: `componentes_curriculares` (10 of 21 items) | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
+| `estrutura.json`: `competencias_gerais`, `competencias_especificas` | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
 | `educacao-infantil.json`: `objetivos` | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
 | `ensino-fundamental.json` and `ensino-medio.json`: `habilidades` | `documento`, `arquivo`, `proveniencia`, `localizador`, `localizador_pdf` |
 | `ensino-fundamental.json` and `ensino-medio.json`: `contextos_organizacao` | `documento`, `arquivo`, `proveniencia`, `localizador` |
@@ -94,8 +93,8 @@ Validity: the normative life cycle of the record. Present, and required, in ever
 |---|---|---|---|---|
 | `vigencia` | object | yes (in every learning objective) | Validity object of the record. | `{"status": "vigente", "desde": "dados-2026.07", "ate": null}` |
 | `vigencia.status` | enum | yes | Normative status. `vigente`: in force. `alterado`: record amended by a normative change. `revogado`: revoked; the record stays in the dataset and `ate` is filled. Every record in this version is `vigente`. Use it to filter: applications should not suggest revoked learning objectives. | `"vigente"` |
-| `vigencia.desde` | string | yes | Data-version (version of the dataset content, format `dados-AAAA.MM`, that is, `dados-YYYY.MM`) since which the record is listed as in force. It is not the date of the normative act: the Computing records, from a 2022 standard, also have `dados-2026.07`. | `"dados-2026.07"` |
-| `vigencia.ate` | string or `null` (nullable) | yes | End of validity. `null` while the record is in force; filled when it is revoked. Every record in this version has `null`. Format of the filled value: to be confirmed by the maintainers. | `null` |
+| `vigencia.desde` | string (pattern `dados-AAAA.MM` or `dados-AAAA.MM.N`, that is, `dados-YYYY.MM[.N]`) | yes | Data-version (version of the dataset content) in which the record entered the dataset. It is not the date of the normative act: the Computing records, from a 2022 standard, also have `dados-2026.07`. A correction patch does not change the `desde` of records already in the dataset. | `"dados-2026.07"` |
+| `vigencia.ate` | string (same pattern as `desde`) or `null` (nullable) | yes | End of validity. `null` while the record is in force. When filled, it is the data-version in which the record stopped being valid as it stands: the one of the revocation (`status` = `revogado`) or of the normative change (`status` = `alterado`); the text stays as in the last version in force. Every record in this version has `null`. | `null` |
 
 ## `dados/bncc-2018/estrutura.json`
 
@@ -153,11 +152,11 @@ The structural backbone of the dataset: curricular documents, stages, modalities
 | `componentes_curriculares[].sigla_codigo` | string or `null` (nullable) | no | Code of the component inside skill codes (e.g. `LP` in `EF67LP08` and in `EM13LP02`). `null` when the component has no code of its own in skill codes: every EM component except Portuguese Language. | `"LI"` |
 | `componentes_curriculares[].area` | string (`id_slug`) | yes | `id` of the knowledge area (`areas_conhecimento[].id`) the component belongs to. | `"ef-area-linguagens"` |
 | `componentes_curriculares[].tem_aprendizagens_proprias` | boolean | yes | Has its own learning objectives: `true` when the component has its own skills in the dataset. `false` for 10 EM components (Arts, Physical Education, English Language, Biology, Physics, Chemistry, History, Geography, Sociology and Philosophy): in EM, the skills of these components are defined per area (BNCC, PDF page 35). | `false` |
-| `componentes_curriculares[].presenca` | object or `null` (nullable) | no | Presence: the EF years in which the component is present. Only English Language has a value. The other 8 EF components have `null`, and the field is absent from EM components. Meaning of `null`: to be confirmed by the maintainers. | `{"anos": [6, 7, 8, 9]}` |
+| `componentes_curriculares[].presenca` | object or `null` (nullable) | no | Presence: the EF years in which the component is present. Present in the 9 EF components: English Language with `[6, 7, 8, 9]` (BNCC, final years) and the other 8 with `[1, 2, 3, 4, 5, 6, 7, 8, 9]`. The field is absent from EM components, because EM has no grade seriation. | `{"anos": [6, 7, 8, 9]}` |
 | `componentes_curriculares[].presenca.anos` | array of integer (1 to 9) | yes (inside `presenca`) | EF years (1 to 9) in which the component appears. | `[6, 7, 8, 9]` |
 | `componentes_curriculares[].destaque_legal` | string | no | Legal emphasis: the legal act that gives the component special status. Present in EM Portuguese Language and Mathematics: Law No. 13.415/2017 makes the study of these components mandatory in all three years of EM (record `lei-13415-2017` in `marcos-legais.json`). | `"Lei nº 13.415/2017"` |
 | `componentes_curriculares[].nota` | string | no | Project note on the component. Present only in `em-comp-mat`. | `"detalhamento coincide com a área (componente único)"` |
-| `componentes_curriculares[].fonte` | object ([`fonte`](#fonte)) | no | Source. Present only in the 10 EM components without learning objectives of their own. | `{"documento": "bncc-2018", "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf", "localizador": "p. 33 (PDF da estrutura)"}` |
+| `componentes_curriculares[].fonte` | object ([`fonte`](#fonte)) | no | Source. Present only in the 10 EM components without learning objectives of their own: PDF page 35 (printed 33), where the BNCC names the components of each EM area. | `{"documento": "bncc-2018", "arquivo": "Base-Nacional-Comum-Curricular-BNCC.pdf", "proveniencia": "BNCC completa homologada (600 p.), obtida em 09/07/2026", "localizador": "página PDF 35", "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 35"}` |
 
 ### `recortes_temporais`
 
@@ -277,7 +276,7 @@ The EF skills and the organization contexts they refer to: thematic units, knowl
 
 | Field | Type | Required | Description | Example |
 |---|---|---|---|---|
-| `contextos_organizacao` | array | yes | Organization contexts: the entities that organize the EF tables, pointed to by the skills. 879 items: 780 knowledge objects, 77 thematic units, 10 language practices, 7 fields of action and 5 axes. | `[{"id": "ef-comp-ar-oc-arte-e-tecnologia", …}, …]` |
+| `contextos_organizacao` | array | yes | Organization contexts: the entities that organize the EF tables, pointed to by the skills. 873 items: 775 knowledge objects, 77 thematic units, 9 language practices, 7 fields of action and 5 axes. | `[{"id": "ef-comp-ar-oc-arte-e-tecnologia", …}, …]` |
 | `contextos_organizacao[].id` | string (`id_slug`) | yes | Identifier: `id` of the component + `-` + `tipo` + `-` + name as a slug. | `"ef-comp-lp-prat-leitura"` |
 | `contextos_organizacao[].tipo` | enum | yes | Kind of context. `ut`: thematic unit (unidade temática). `oc`: knowledge object (objeto de conhecimento). `catu`: field of action (campo de atuação, LP only). `prat`: language practice (prática de linguagem, LP only). `eixo`: axis (LI only). | `"prat"` |
 | `contextos_organizacao[].nome` | string | yes | Name as it appears in the official spreadsheet. | `"Leitura"` |
@@ -327,9 +326,9 @@ Legal milestones: references to the normative acts that ground the BNCC and basi
 | `marcos_legais[].id` | string (`id_slug`) | yes | Identifier. In the data: kind of act, number and year (e.g. `lei-9394-1996`, `resolucao-cne-cp-2-2017`). | `"lei-13415-2017"` |
 | `marcos_legais[].tipo` | enum | yes | Kind of act. `constituicao`: Federal Constitution. `emenda_constitucional`: constitutional amendment. `lei`: law. `resolucao`: resolution (in the data, all from the CNE). `parecer`: opinion (in the data, all from the CNE). | `"lei"` |
 | `marcos_legais[].titulo` | string (at least 10 characters) | yes | Official title of the act, with number and date. | `"Lei nº 13.415, de 16 de fevereiro de 2017"` |
-| `marcos_legais[].ementa` | string (at least 20 characters) | yes | Summary (ementa) of the content of the act. In part of the records, the text combines the official summary with project commentary (articles or goals that matter for basic education, approval details); do not use the field as a transcription of the official summary. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
+| `marcos_legais[].ementa` | string (at least 20 characters) or `null` (nullable) | yes | Official summary (ementa) of the act, transcribed from the official publication (Planalto for laws and the amendment, CNE for resolutions), checked on 15/10/2026. `null` for the Constitution, which has no summary. For the three CNE opinions, which have no summary either, it gives the subject of the opinion. Project commentary goes in `nota`. | `"Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências."` |
 | `marcos_legais[].url_oficial` | string (pattern `^https://[a-z0-9.-]+\.gov\.br/`) | yes | Official link to the act, always https on a gov.br domain. | `"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13415.htm"` |
-| `marcos_legais[].nota` | string | no | Project note. Present in 1 record (`parecer-cne-ceb-2-2022`). | `"O anexo do parecer (objetivos e habilidades de Computação) é o documento-fonte do futuro módulo de Computação: https://…"` |
+| `marcos_legais[].nota` | string | no | Project commentary: what the act means for basic education and for this dataset (relevant articles and goals, approval, nicknames such as "LDB"). Never normative text. Present in 11 records. | `"As metas 2, 3 e 7 e suas estratégias preveem a base nacional comum curricular."` |
 | `marcos_legais[].relaciona` | array of object | yes | Typed links between the act and entities of the dataset. It can be empty: `lei-8069-1990` and `lei-13146-2015` have no links. 28 links in total. | `[{"entidade": "EM", "natureza": "altera"}, …]` |
 | `marcos_legais[].relaciona[].entidade` | string (`id_slug`) or enum (`EI`, `EF`, `EM`) | yes | Linked entity: a stage code or the `id` of an entity in `estrutura.json` (curricular document, modality, knowledge area, curricular component or specific competency). Values in the data: `bncc-2018`, `EI`, `EF`, `EM`, `eja`, `em-comp-lp`, `em-comp-mat`. | `"em-comp-lp"` |
 | `marcos_legais[].relaciona[].natureza` | enum | yes | Nature of the link. Values in the list below. | `"fundamenta_destaque"` |
@@ -381,7 +380,7 @@ Local types, defined in `$defs` of `schema/computacao.schema.json`:
 
 | Field | Type | Required | Description | Example |
 |---|---|---|---|---|
-| `objetos_conhecimento` | array (at least 1 item) | yes | Knowledge objects of the Computing EF skills. 61 items, 31 of which have a `pai` (parent). 5 objects serve only as parents and are not pointed to directly by any skill. | `[{"id": "co-obj-algoritmos", …}, …]` |
+| `objetos_conhecimento` | array (at least 1 item) | yes | Knowledge objects of the Computing EF skills. 59 items, 30 of which have a `pai` (parent). 5 objects serve only as parents and are not pointed to directly by any skill. | `[{"id": "co-obj-algoritmos", …}, …]` |
 | `objetos_conhecimento[].id` | string (`objeto_ref`) | yes | Identifier: `co-obj-` + name as a slug. | `"co-obj-tipos-de-dados"` |
 | `objetos_conhecimento[].documento` | const `computacao-2022` | yes | Curricular document. | `"computacao-2022"` |
 | `objetos_conhecimento[].nome` | string (at least 3 characters) | yes | Name as it appears in the annex. Two names end in "(cont.)", and their ids end in `-cont`. | `"Tipos de dados"` |
@@ -440,7 +439,7 @@ Local types, defined in `$defs` of `schema/computacao.schema.json`:
 
 ## Verification reports (`verificacao.json`)
 
-`dados/bncc-2018/verificacao.json` (1,580 entries) and `dados/computacao-2022/verificacao.json` (141 entries) record the result of checking each text against the official document. They are generated by `pipeline/verificar.py` and `pipeline/verificar_computacao.py` on every pipeline run and have no JSON Schema. Each file is an object whose keys are the codes of the learning objectives.
+`dados/bncc-2018/verificacao.json` (1,695 entries: 1,580 learning objectives and 115 competencies) and `dados/computacao-2022/verificacao.json` (141 entries) record the result of checking each text against the official document. They are generated by `pipeline/verificar.py` and `pipeline/verificar_computacao.py` on every pipeline run and have no JSON Schema. Each file is an object whose keys are the codes of the learning objectives or, in BNCC 2018, the `id`s of the competencies (`cg-01`, `ef-comp-lp-ce-04`).
 
 | Field | Type | Present | Description | Example |
 |---|---|---|---|---|
@@ -451,8 +450,4 @@ Local types, defined in `$defs` of `schema/computacao.schema.json`:
 
 ## Open items
 
-Fields whose meaning, in whole or in part, could not be established from the schemas, the data, the documentation or the pipeline code. They are marked "to be confirmed by the maintainers" in the tables.
-
-1. `fonte.url_oficial` (in every collection that has `fonte`): its meaning is not documented and no record fills the field.
-2. `componentes_curriculares[].presenca` (`estrutura.json`): the meaning of `null` is not documented. Only English Language has a value; the other EF components have `null`, and EM components do not have the field.
-3. `vigencia.ate`: the format of the filled value (a data-version, as in `desde`, or a date) is not documented. Today every record has `null`.
+None. The three open items of the first version of this dictionary (`fonte.url_oficial` unused, `presenca` null without a defined meaning and `vigencia.ate` without a format) were resolved in `dados-2026.08` / `schema-v1.1.0` (decision 14 in DECISOES.md).

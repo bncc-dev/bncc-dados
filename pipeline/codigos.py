@@ -1,4 +1,4 @@
-"""Decodificador de códigos da BNCC — as três gramáticas (schema §6) e a
+"""Decodificador de códigos da BNCC — as três gramáticas (docs/modelo-de-dados.md) e a
 gramática do complemento de Computação (anexo ao Parecer CNE/CEB 2/2022).
 
 Entregável da Fase 1 (dado + função). Usado pela extração (realocação de

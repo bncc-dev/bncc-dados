@@ -1,6 +1,6 @@
-"""Extrai os objetivos de aprendizagem da EI (campo 'Traços, sons, cores e formas')
-do PDF oficial de 2017 — a EI não tem planilha disponível (ferramenta do MEC fora
-do ar; ver análise de fontes §8.5).
+"""Extrai os 93 objetivos de aprendizagem da EI (os cinco campos de
+experiências) do PDF homologado — a EI não tem planilha oficial disponível
+(ferramenta de exportação do MEC fora do ar; ver fontes/README.md).
 
 Estratégia: pdftotext em ordem de leitura; cada objetivo começa no marcador
 "(EIggTSnn)" e termina no próximo marcador ou fim de bloco. O alinhamento
@@ -20,8 +20,10 @@ DATASET = AQUI.parent / 'dados' / 'bncc-2018'
 DATA_VERSION = 'dados-2026.07'
 
 GRUPOS = {'01': 'ei-grupo-01', '02': 'ei-grupo-02', '03': 'ei-grupo-03'}
+from extrair import PROVENIENCIA_PDF
+
 FONTE = {'documento': 'bncc-2018', 'arquivo': 'Base-Nacional-Comum-Curricular-BNCC.pdf',
-         'proveniencia': 'BNCC completa homologada (601 p.), obtida em 09/07/2026'}
+         'proveniencia': PROVENIENCIA_PDF}
 
 
 CAMPOS = ['EO', 'CG', 'TS', 'EF', 'ET']

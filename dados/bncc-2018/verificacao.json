@@ -4289,17 +4289,17 @@
   },
   "EF01CI02": {
     "status": "ok",
-    "pagina_pdf": 31,
+    "pagina_pdf": 335,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF01CI03": {
     "status": "ok",
-    "pagina_pdf": 31,
+    "pagina_pdf": 335,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF01CI04": {
     "status": "ok",
-    "pagina_pdf": 31,
+    "pagina_pdf": 335,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EF01CI05": {
@@ -7570,7 +7570,7 @@
   },
   "EI01TS01": {
     "status": "ok",
-    "pagina_pdf": 28,
+    "pagina_pdf": 50,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EI01TS02": {
@@ -7730,7 +7730,7 @@
   },
   "EI02TS01": {
     "status": "ok",
-    "pagina_pdf": 28,
+    "pagina_pdf": 50,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EI02TS02": {
@@ -7890,7 +7890,7 @@
   },
   "EI03TS01": {
     "status": "ok",
-    "pagina_pdf": 28,
+    "pagina_pdf": 50,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   },
   "EI03TS02": {
@@ -7901,6 +7901,581 @@
   "EI03TS03": {
     "status": "ok",
     "pagina_pdf": 50,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-01": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-02": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-03": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-04": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-05": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-06": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-07": {
+    "status": "ok",
+    "pagina_pdf": 11,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-08": {
+    "status": "ok",
+    "pagina_pdf": 12,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-09": {
+    "status": "ok",
+    "pagina_pdf": 12,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "cg-10": {
+    "status": "ok",
+    "pagina_pdf": 12,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-linguagens-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 67,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-linguagens-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 67,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-linguagens-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 67,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-linguagens-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 67,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-linguagens-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 67,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-linguagens-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 67,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-matematica-ce-08": {
+    "status": "ok",
+    "pagina_pdf": 269,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-da-natureza-ce-08": {
+    "status": "ok",
+    "pagina_pdf": 326,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ciencias-humanas-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 359,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ensino-religioso-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 439,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ensino-religioso-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 439,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ensino-religioso-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 439,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ensino-religioso-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 439,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ensino-religioso-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 439,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-area-ensino-religioso-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 439,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-08": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-09": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-lp-ce-10": {
+    "status": "ok",
+    "pagina_pdf": 89,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-08": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ar-ce-09": {
+    "status": "ok",
+    "pagina_pdf": 200,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-08": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-09": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ef-ce-10": {
+    "status": "ok",
+    "pagina_pdf": 225,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-li-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 248,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-li-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 248,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-li-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 248,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-li-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 248,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-li-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 248,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-li-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 248,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-ge-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 368,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "ef-comp-hi-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 404,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-lgg-ce-07": {
+    "status": "ok",
+    "pagina_pdf": 492,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-mat-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 533,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-mat-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 533,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-mat-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 533,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-mat-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 533,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-mat-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 533,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-cnt-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 555,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-cnt-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 555,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-cnt-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 555,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-chs-ce-01": {
+    "status": "ok",
+    "pagina_pdf": 572,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-chs-ce-02": {
+    "status": "ok",
+    "pagina_pdf": 572,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-chs-ce-03": {
+    "status": "ok",
+    "pagina_pdf": 572,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-chs-ce-04": {
+    "status": "ok",
+    "pagina_pdf": 572,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-chs-ce-05": {
+    "status": "ok",
+    "pagina_pdf": 572,
+    "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
+  },
+  "em-area-chs-ce-06": {
+    "status": "ok",
+    "pagina_pdf": 572,
     "arquivo_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf"
   }
 }

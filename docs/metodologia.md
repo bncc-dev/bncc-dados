@@ -18,9 +18,9 @@ Quatro documentos oficiais, arquivados em [`fontes/`](../fontes/) com checksums 
 
 ## 3. Verificação contra o documento homologado
 
-`pipeline/verificar.py` compara o texto de cada um dos 1.580 registros com o PDF homologado, caractere a caractere após normalização tipográfica (ligaduras, hifenização de quebra, colunas intercaladas dos quadros). Resultado atual:
+`pipeline/verificar.py` compara o texto de cada um dos 1.580 registros, e das 115 competências, com o PDF homologado, caractere a caractere após normalização tipográfica (ligaduras, hifenização de quebra, colunas intercaladas dos quadros). Resultado atual:
 
-- **1.580 de 1.580 idênticos**, com a página do PDF gravada em `fonte.localizador_pdf`.
+- **1.580 de 1.580 idênticos**, com a página do PDF gravada em `fonte.localizador_pdf`. As 115 competências (10 gerais e 105 específicas) também: 115 de 115, com a página gravada da mesma forma. As páginas do capítulo "Estrutura" (exemplos ilustrativos) são ignoradas na localização.
 - **Nenhuma divergência aberta.** Os casos em que as fontes oficiais discordam entre si são resolvidos na própria extração e ficam registrados: correções da planilha contra o PDF em `CORRECOES_PDF` e limitações da camada de texto do PDF, com conferência visual, em `CONFERIDOS_VISUALMENTE` (decisão 12 do `DECISOES.md`).
 
 ## 4. Validação estrutural

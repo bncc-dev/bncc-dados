@@ -6,8 +6,8 @@ Como o dataset evolui quando as fontes oficiais mudam, e o que os consumidores p
 
 ## Duas trilhas de versão
 
-- **Conteúdo**: data-version no formato `dados-AAAA.MM` (patch: `dados-AAAA.MM.N`). Atual: `dados-2026.07.1`.
-- **Formato**: semver dos JSON Schemas. Atual: `schema-v1.0.0`. Mudança aditiva = minor; mudança que quebra consumidores = major.
+- **Conteúdo**: data-version no formato `dados-AAAA.MM` (patch: `dados-AAAA.MM.N`). Atual: `dados-2026.08`.
+- **Formato**: semver dos JSON Schemas. Atual: `schema-v1.1.0`. Mudança aditiva = minor; mudança que quebra consumidores = major.
 
 As duas trilhas respondem perguntas diferentes: a data-version diz **de quando** é o retrato das fontes oficiais; o semver do schema diz **se quebra** quem já consome. Por isso não são colapsadas numa só.
 
@@ -23,7 +23,8 @@ Todo registro normativo carrega:
 
 Regras invioláveis:
 
-1. **Registro publicado nunca é apagado.** Revogação muda `status` para `revogado` e preenche `ate`; o registro permanece consultável.
+1. **Registro publicado nunca é apagado.** Revogação muda `status` para `revogado` e preenche `ate`; o registro permanece consultável. `desde` e `ate` são sempre data-versions, nunca datas do ato: `ate` recebe a data-version em que o registro deixou de valer tal como está (a da revogação, ou a da alteração normativa quando `status` passa a `alterado`). Um patch de correção não muda o `desde` de quem já estava no dataset.
+4. **Id cunhado é imutável depois de publicado**, com uma exceção documentada (decisão 14 do DECISOES.md): id gerado por defeito de extração, que nunca representou uma entidade da BNCC, pode ser removido, com o mapa de substituição publicado no CHANGELOG.
 2. **Código nunca é reutilizado**, nem para substituir habilidade revogada por outra parecida.
 3. Toda mudança de conteúdo referencia a fonte oficial que a motivou.
 
@@ -52,7 +53,7 @@ Passo a passo operacional para publicar uma data-version:
    git push origin dados-2026.08
    ```
 
-   Patch de correção usa sufixo: `dados-2026.08.1`. Mudança de formato ganha tag própria: `schema-v1.1.0`.
+   A versão da release fica em `version` no `CITATION.cff`, de onde o `derivar.py` lê o `meta.data_version` do SQLite. Patch de correção usa sufixo: `dados-2026.08.1`. Mudança de formato ganha tag própria: `schema-v1.1.0`.
 4. **Release no GitHub**: criar a release a partir da tag, com o trecho do CHANGELOG como corpo e os derivados (`bncc.sqlite`, CSVs zipados) como assets. Assim consumidores baixam artefatos versionados sem clonar o repo.
 5. **Arquivar no Zenodo**: cada data-version é depositada no Zenodo, que atribui DOI e a torna citável em publicação acadêmica. Os depósitos de `dados-2026.07` (27/07/2026) e `dados-2026.07.1` (11/08/2026) foram feitos manualmente; enquanto a integração Zenodo/GitHub não estiver ligada, cada release nova exige repetir o depósito pela interface.
 6. **Imutabilidade**: tag publicada nunca é movida ou apagada. Errou? Nova tag patch.

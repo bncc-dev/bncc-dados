@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 
 from codigos import decodificar
-from verificar import PDF_CANONICO, normalizar, paginas_pdf
+from verificar import PDF_CANONICO, PAGINAS_CAPITULO_ESTRUTURA, normalizar, paginas_pdf
 
 AQUI = Path(__file__).parent
 SAIDA = AQUI / 'saida'
@@ -129,8 +129,18 @@ check('6. Alinhamentos EI: 32; incompletos só onde o quadro oficial tem célula
 # (CONFERIDOS_VISUALMENTE em verificar.py). Nenhum registro fica divergente.
 vf = Counter(v['status'] for v in verif.values())
 ruins = {k for k, v in verif.items() if v['status'] != 'ok'}
-check('7. Verificação PDF: 1.580/1.580 ok (correções e exceções registradas; decisão nº 12)',
-      not ruins, f'{dict(vf)}; não-ok: {sorted(ruins)}')
+ids_comp = {c['id'] for c in est['competencias_gerais'] + est['competencias_especificas']}
+check('7. Verificação PDF: 1.580 aprendizagens + 115 competências, todas ok (decisões nº 12 e 14)',
+      not ruins and set(verif) == set(todos) | ids_comp, f'{dict(vf)}; não-ok: {sorted(ruins)}')
+check('7. Verificação PDF: nenhuma página do capítulo "Estrutura" (exemplos ilustrativos) como localizador',
+      not any(PAGINAS_CAPITULO_ESTRUTURA.start <= v.get('pagina_pdf', 0) < PAGINAS_CAPITULO_ESTRUTURA.stop
+              for v in verif.values()))
+# contextos de organização: nomes íntegros (decisão 14): nenhum pedaço de nome
+# partido por quebra de linha, nota de rodapé ou hífen de quebra
+ctx_suspeitos = [c['id'] for c in ef['contextos_organizacao']
+                 if c['nome'][0].islower() or '*' in c['nome'] or re.search(r'\S- \S', c['nome'])]
+check('3b. Contextos de organização: nomes íntegros (sem pedaço de quebra de linha, nota ou hífen de quebra)',
+      not ctx_suspeitos, str(ctx_suspeitos[:5]))
 
 # ------------------------------------------------------- 8. vigência coerente
 check('8. Vigência coerente', all(h['vigencia']['status'] == 'vigente'
@@ -146,6 +156,9 @@ rel_quebradas = [(m['id'], r['entidade']) for m in ml['marcos_legais']
                  for r in m['relaciona'] if r['entidade'] not in entidades_conhecidas]
 check('8b. Marcos legais: 20 registros e relações apontando para entidades do dataset',
       len(ml['marcos_legais']) == 20 and not rel_quebradas, f'quebradas: {rel_quebradas[:5]}')
+check('8b. Marcos legais: ementa nula só na Constituição; nota nunca repete a ementa',
+      [m['id'] for m in ml['marcos_legais'] if m['ementa'] is None] == ['constituicao-1988']
+      and all(m.get('nota') != m['ementa'] for m in ml['marcos_legais']))
 check('8b. Marcos legais: IDs únicos, URL oficial https no gov.br',
       len({m['id'] for m in ml['marcos_legais']}) == len(ml['marcos_legais'])
       and all(m['url_oficial'].startswith('https://') and '.gov.br/' in m['url_oficial']
@@ -195,6 +208,7 @@ ok_co &= all(h['eixo'] in eixos_co and all(x in objs_co for x in h['objetos_conh
              for h in co['habilidades_ef'])
 ok_co &= all(h['competencia'] in comps_co for h in co['habilidades_em'])
 ok_co &= all(o['pai'] in objs_co for o in co['objetos_conhecimento'] if o['pai'])
+ok_co &= not any('(cont.)' in o['nome'] for o in co['objetos_conhecimento'])   # marcador de continuação de quadro (decisão 14)
 ok_co &= all(h['anos'] == decodificar(h['codigo'])['anos'] for h in co['habilidades_ef'])
 check('8c. Computação: integridade referencial (eixo, objeto/pai, competência, anos=código)', ok_co)
 vc = Counter(v['status'] for v in verif_co.values())
@@ -260,7 +274,7 @@ alvo = next(h for h in H_EF if h['codigo'] == 'EF06MA07')
 rel = [h['codigo'] for h in H_EF if set(h['objetos_conhecimento']) & set(alvo['objetos_conhecimento'])
        and max(h['anos']) < min(alvo['anos'])]
 consultas.append(('C7: progressão de EF06MA07 via objetos em anos anteriores',
-                  ', '.join(rel) or 'nenhuma por igualdade de slug · dedução exige curadoria (decisão nº 2 do schema)'))
+                  ', '.join(rel) or 'nenhuma por igualdade de slug · dedução exige curadoria (decisão 6 do DECISOES.md)'))
 al = next(a for a in ei['alinhamentos'] if a['id'] == 'ei-align-ts-01')
 consultas.append(('C8: progressão EI entre faixas (campo TS)', ' → '.join(al['objetivos'])))
 em_ex = next(h for h in H_EM if h['codigo'] == 'EM13LGG103')
@@ -334,7 +348,7 @@ linhas = ['# Relatório de validação · dataset completo (bncc.dev, protótipo
           '## Contratos', '']
 linhas += [f"- {'✅' if ok else '❌'} {nome}" + (f' · {det}' if det and not ok else '') for nome, ok, det in checks]
 linhas += ['', '## Verificação contra o PDF homologado', '',
-           f'- `{dict(vf)}` · {vf["ok"]}/{len(verif)} com página registrada em `fonte.localizador_pdf`',
+           f'- `{dict(vf)}` · {vf["ok"]}/{len(verif)} registros (1.580 aprendizagens + 115 competências) com página registrada em `fonte.localizador_pdf`',
            '- Divergências abertas: nenhuma. Correções planilha × PDF aplicadas na extração '
            '(`CORRECOES_PDF`) e exceções da camada de texto com conferência visual registrada '
            '(`CONFERIDOS_VISUALMENTE`); ver decisão nº 12 do DECISOES.md.']

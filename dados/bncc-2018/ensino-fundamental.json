@@ -7230,8 +7230,7 @@
         "pratica_linguagem": "ef-comp-lp-prat-producao-de-textos"
       },
       "objetos_conhecimento": [
-        "ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao",
-        "ef-comp-lp-oc-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao"
+        "ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao"
       ],
       "vigencia": {
         "status": "vigente",
@@ -8468,7 +8467,7 @@
         "campos_atuacao": [
           "ef-comp-lp-catu-campo-jornalistico-midiatico"
         ],
-        "pratica_linguagem": "ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video"
+        "pratica_linguagem": "ef-comp-lp-prat-oralidade"
       },
       "objetos_conhecimento": [
         "ef-comp-lp-oc-producao-de-textos-jornalisticos-orais"
@@ -8502,7 +8501,7 @@
         "campos_atuacao": [
           "ef-comp-lp-catu-campo-jornalistico-midiatico"
         ],
-        "pratica_linguagem": "ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video"
+        "pratica_linguagem": "ef-comp-lp-prat-oralidade"
       },
       "objetos_conhecimento": [
         "ef-comp-lp-oc-producao-de-textos-jornalisticos-orais"
@@ -8536,7 +8535,7 @@
         "campos_atuacao": [
           "ef-comp-lp-catu-campo-jornalistico-midiatico"
         ],
-        "pratica_linguagem": "ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video"
+        "pratica_linguagem": "ef-comp-lp-prat-oralidade"
       },
       "objetos_conhecimento": [
         "ef-comp-lp-oc-planejamento-e-producao-de-textos-jornalisticos-orais"
@@ -9738,8 +9737,7 @@
         "pratica_linguagem": "ef-comp-lp-prat-leitura"
       },
       "objetos_conhecimento": [
-        "ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos",
-        "ef-comp-lp-oc-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos"
+        "ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos"
       ],
       "vigencia": {
         "status": "vigente",
@@ -9773,8 +9771,7 @@
         "pratica_linguagem": "ef-comp-lp-prat-leitura"
       },
       "objetos_conhecimento": [
-        "ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos",
-        "ef-comp-lp-oc-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos"
+        "ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos"
       ],
       "vigencia": {
         "status": "vigente",
@@ -18987,8 +18984,7 @@
         "unidade_tematica": "ef-comp-li-ut-gramatica"
       },
       "objetos_conhecimento": [
-        "ef-comp-li-oc-verbos-modais-should-must-have-to-may-e",
-        "ef-comp-li-oc-might"
+        "ef-comp-li-oc-verbos-modais-should-must-have-to-may-e-might"
       ],
       "vigencia": {
         "status": "vigente",
@@ -26092,7 +26088,7 @@
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
         "localizador": "aba Ciências, linha 5",
-        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 31"
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 335"
       }
     },
     {
@@ -26121,7 +26117,7 @@
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
         "localizador": "aba Ciências, linha 6",
-        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 31"
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 335"
       }
     },
     {
@@ -26150,7 +26146,7 @@
         "arquivo": "BNCC_Ensino Fundamental.xlsx",
         "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
         "localizador": "aba Ciências, linha 7",
-        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 31"
+        "localizador_pdf": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 335"
       }
     },
     {
@@ -28221,8 +28217,7 @@
         "ef-comp-ci-oc-composicao-do-ar",
         "ef-comp-ci-oc-efeito-estufa",
         "ef-comp-ci-oc-camada-de-ozonio",
-        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e",
-        "ef-comp-ci-oc-tsunamis",
+        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis",
         "ef-comp-ci-oc-placas-tectonicas-e-deriva-continental"
       ],
       "vigencia": {
@@ -28254,8 +28249,7 @@
         "ef-comp-ci-oc-composicao-do-ar",
         "ef-comp-ci-oc-efeito-estufa",
         "ef-comp-ci-oc-camada-de-ozonio",
-        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e",
-        "ef-comp-ci-oc-tsunamis",
+        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis",
         "ef-comp-ci-oc-placas-tectonicas-e-deriva-continental"
       ],
       "vigencia": {
@@ -28287,8 +28281,7 @@
         "ef-comp-ci-oc-composicao-do-ar",
         "ef-comp-ci-oc-efeito-estufa",
         "ef-comp-ci-oc-camada-de-ozonio",
-        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e",
-        "ef-comp-ci-oc-tsunamis",
+        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis",
         "ef-comp-ci-oc-placas-tectonicas-e-deriva-continental"
       ],
       "vigencia": {
@@ -28320,8 +28313,7 @@
         "ef-comp-ci-oc-composicao-do-ar",
         "ef-comp-ci-oc-efeito-estufa",
         "ef-comp-ci-oc-camada-de-ozonio",
-        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e",
-        "ef-comp-ci-oc-tsunamis",
+        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis",
         "ef-comp-ci-oc-placas-tectonicas-e-deriva-continental"
       ],
       "vigencia": {
@@ -28353,8 +28345,7 @@
         "ef-comp-ci-oc-composicao-do-ar",
         "ef-comp-ci-oc-efeito-estufa",
         "ef-comp-ci-oc-camada-de-ozonio",
-        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e",
-        "ef-comp-ci-oc-tsunamis",
+        "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis",
         "ef-comp-ci-oc-placas-tectonicas-e-deriva-continental"
       ],
       "vigencia": {
@@ -39429,9 +39420,9 @@
       }
     },
     {
-      "id": "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e",
+      "id": "ef-comp-ci-oc-fenomenos-naturais-vulcoes-terremotos-e-tsunamis",
       "tipo": "oc",
-      "nome": "Fenômenos naturais (vulcões, terremotos e",
+      "nome": "Fenômenos naturais (vulcões, terremotos e tsunamis)",
       "componente": "ef-comp-ci",
       "fonte": {
         "documento": "bncc-2018",
@@ -39960,18 +39951,6 @@
       "id": "ef-comp-ci-oc-transformacoes-reversiveis-e-nao-reversiveis",
       "tipo": "oc",
       "nome": "Transformações reversíveis e não reversíveis",
-      "componente": "ef-comp-ci",
-      "fonte": {
-        "documento": "bncc-2018",
-        "arquivo": "BNCC_Ensino Fundamental.xlsx",
-        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Ciências"
-      }
-    },
-    {
-      "id": "ef-comp-ci-oc-tsunamis",
-      "tipo": "oc",
-      "nome": "tsunamis)",
       "componente": "ef-comp-ci",
       "fonte": {
         "documento": "bncc-2018",
@@ -44145,18 +44124,6 @@
       }
     },
     {
-      "id": "ef-comp-li-oc-might",
-      "tipo": "oc",
-      "nome": "might",
-      "componente": "ef-comp-li",
-      "fonte": {
-        "documento": "bncc-2018",
-        "arquivo": "BNCC_Ensino Fundamental.xlsx",
-        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Língua Inglesa"
-      }
-    },
-    {
       "id": "ef-comp-li-oc-negociacao-de-sentidos-mal-entendidos-no-uso-da-lingua-inglesa-e-conflito-de-opinioes",
       "tipo": "oc",
       "nome": "Negociação de sentidos (mal-entendidos no uso da língua inglesa e conflito de opiniões)",
@@ -44541,9 +44508,9 @@
       }
     },
     {
-      "id": "ef-comp-li-oc-verbos-modais-should-must-have-to-may-e",
+      "id": "ef-comp-li-oc-verbos-modais-should-must-have-to-may-e-might",
       "tipo": "oc",
-      "nome": "Verbos modais: should, must, have to, may e",
+      "nome": "Verbos modais: should, must, have to, may e might",
       "componente": "ef-comp-li",
       "fonte": {
         "documento": "bncc-2018",
@@ -44651,7 +44618,7 @@
     {
       "id": "ef-comp-li-ut-estrategias-de-escrita-escrita-e-pos-escrita",
       "tipo": "ut",
-      "nome": "Estratégias de escrita: escrita e pós- escrita",
+      "nome": "Estratégias de escrita: escrita e pós-escrita",
       "componente": "ef-comp-li",
       "fonte": {
         "documento": "bncc-2018",
@@ -44892,18 +44859,6 @@
       "id": "ef-comp-lp-catu-todos-os-campos-de-atuacao",
       "tipo": "catu",
       "nome": "Todos os campos de atuação",
-      "componente": "ef-comp-lp",
-      "fonte": {
-        "documento": "bncc-2018",
-        "arquivo": "BNCC_Ensino Fundamental.xlsx",
-        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Língua Portuguesa"
-      }
-    },
-    {
-      "id": "ef-comp-lp-oc-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao",
-      "tipo": "oc",
-      "nome": "adequação à norma-padrão e o uso adequado de ferramentas de edição",
       "componente": "ef-comp-lp",
       "fonte": {
         "documento": "bncc-2018",
@@ -45300,18 +45255,6 @@
       "id": "ef-comp-lp-oc-curadoria-de-informacao",
       "tipo": "oc",
       "nome": "Curadoria de informação",
-      "componente": "ef-comp-lp",
-      "fonte": {
-        "documento": "bncc-2018",
-        "arquivo": "BNCC_Ensino Fundamental.xlsx",
-        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Língua Portuguesa"
-      }
-    },
-    {
-      "id": "ef-comp-lp-oc-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos",
-      "tipo": "oc",
-      "nome": "de sentidos provocados pelos usos de recursos linguísticos e multissemióticos",
       "componente": "ef-comp-lp",
       "fonte": {
         "documento": "bncc-2018",
@@ -46449,18 +46392,6 @@
       }
     },
     {
-      "id": "ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos",
-      "tipo": "oc",
-      "nome": "Reconstrução da textualidade e compreensão dos efeitos",
-      "componente": "ef-comp-lp",
-      "fonte": {
-        "documento": "bncc-2018",
-        "arquivo": "BNCC_Ensino Fundamental.xlsx",
-        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Língua Portuguesa"
-      }
-    },
-    {
       "id": "ef-comp-lp-oc-reconstrucao-da-textualidade-e-compreensao-dos-efeitos-de-sentidos-provocados-pelos-usos-de-recursos-linguisticos-e-multissemioticos",
       "tipo": "oc",
       "nome": "Reconstrução da textualidade e compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos",
@@ -46797,9 +46728,9 @@
       }
     },
     {
-      "id": "ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao",
+      "id": "ef-comp-lp-oc-textualizacao-tendo-em-vista-suas-condicoes-de-producao-as-caracteristicas-do-genero-em-questao-o-estabelecimento-de-coesao-adequacao-a-norma-padrao-e-o-uso-adequado-de-ferramentas-de-edicao",
       "tipo": "oc",
-      "nome": "Textualização, tendo em vista suas condições de produção, as características do gênero em questão, o estabelecimento de coesão,",
+      "nome": "Textualização, tendo em vista suas condições de produção, as características do gênero em questão, o estabelecimento de coesão, adequação à norma-padrão e o uso adequado de ferramentas de edição",
       "componente": "ef-comp-lp",
       "fonte": {
         "documento": "bncc-2018",
@@ -46920,18 +46851,6 @@
       "id": "ef-comp-lp-prat-oralidade",
       "tipo": "prat",
       "nome": "Oralidade",
-      "componente": "ef-comp-lp",
-      "fonte": {
-        "documento": "bncc-2018",
-        "arquivo": "BNCC_Ensino Fundamental.xlsx",
-        "proveniencia": "exportada de downloadbncc.mec.gov.br em 23/06/2023",
-        "localizador": "aba Língua Portuguesa"
-      }
-    },
-    {
-      "id": "ef-comp-lp-prat-oralidade-considerar-todas-as-habilidades-dos-eixos-leitura-e-producao-que-se-referem-a-textos-ou-producoes-orais-em-audio-ou-video",
-      "tipo": "prat",
-      "nome": "Oralidade *Considerar todas as habilidades dos eixos leitura e produção que se referem a textos ou produções orais, em áudio ou vídeo",
       "componente": "ef-comp-lp",
       "fonte": {
         "documento": "bncc-2018",
